@@ -1,0 +1,2927 @@
+[
+ {
+  "appendix": "APPENDIX I",
+  "page": 95,
+  "records": [
+   {
+    "type": "heading",
+    "page": 95,
+    "fields": [
+     "The Indo-European Family of Languages"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 95,
+    "fields": [
+     "Languages, like individuals, are related to each other in families. According to one estimate there have been approximately 2796 languages in the world and these may be classified into about 26 families.¹ The family which interests the student of New Testament Greek is that which scholars have named the Indo-European family. Besides Greek this family includes seven other sub-families of languages, the Indo-Iranian, Armenian, Albanian, Italic, Celtic, Germanic, and Balto-Slavic. (See Table I on pp. 96f.)"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 95,
+    "fields": [
+     "What region was the common center, the home of the parent tongue from which these Indo-European languages have developed, has been a notorious subject of discussion.² Earlier investigators were quite confident that it was in Asia — the continent which was the source of the oldest civilization, the traditional site of the Garden of Eden, and the locality where Sanskrit was spoken. But more recently certain scholars have favored the hypothesis that localizes what is popularly called ‘the cradle of the Aryans’ in the region extending north of the Black Sea and Caucasia, and south and west of the Volga River.³"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 95,
+    "fields": [
+     "Beginning about 3000 B.C. it is probable that successive migrations of tribes left the old home and drifted, some south-"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 95,
+    "fields": [
+     "¹ Louis H. Gray, Foundations of Language (New York, 1939), pp. 417f and 303."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 95,
+    "fields": [
+     "² The question has not yet been satisfactorily answered. One of the most recent significant discussions is F. Specht's ‘Sprachliches zur Urheimat der Indogermanen’ in Kuhn's Zeitschrift für vergleichende Sprachforschung, LXVI (1939), pp. 1-74. Further bibliography may be found in Gray, op. cit., pp. 457f."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 95,
+    "fields": [
+     "³ See, e.g., Harold H. Bender, The Home of the Indo-Europeans (Princeton, 1922), and Gray, op. cit., pp. 304-310."
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 96,
+    "fields": [
+     "Table I  The Indo-European Languages"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 96,
+    "fields": [
+     "Extant modern languages are in the last column."
+    ]
+   },
+   {
+    "type": "row",
+    "page": 96,
+    "fields": [
+     "INDO-IRANIAN",
+     "Indic",
+     "Vedic Sanskrit; Classical Sanskrit",
+     "Pāli, Prakrit dialects",
+     "Bengali / Hindi / Marathi / Gujerati / etc."
+    ]
+   },
+   {
+    "type": "row",
+    "page": 96,
+    "fields": [
+     "",
+     "Iranian",
+     "Avestan / Old Persian",
+     "Pahlavi / Sogdian / Sacian",
+     "Mod. Persian / Kurdish / Ossetan / Afghan / Baluchi / etc."
+    ]
+   },
+   {
+    "type": "row",
+    "page": 96,
+    "fields": [
+     "ARMENIAN",
+     "",
+     "",
+     "Old Armenian",
+     "Armenian"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 96,
+    "fields": [
+     "ALBANIAN",
+     "",
+     "",
+     "",
+     "Albanian"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 96,
+    "fields": [
+     "GREEK",
+     "East Greek",
+     "Attic-Ionic / Arcadian-Cyprian / Aeolic: Lesbian, Thessalian, Boeotian",
+     "The koine or Hellenistic Greek",
+     "Mod. Greek"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 96,
+    "fields": [
+     "",
+     "West Greek",
+     "NW Greek: Locrian, Phocian, Elean / Doric: Laconian, Argolic, Corinthian, Cretan, etc",
+     "",
+     "(Tsaconian dialect)"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 96,
+    "fields": [
+     "ITALIC",
+     "Latin-Faliscan",
+     "Latin / Faliscan",
+     "Vulgar Latin",
+     "French / Provençal / Catalan / Spanish / Portuguese / Italian / Rhaeto-Roman / Rumanian"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 96,
+    "fields": [
+     "",
+     "Oscan-Umbrian",
+     "Oscan / Umbrian / Paelignian / Volscian, etc.",
+     "",
+     ""
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 97,
+    "fields": [
+     "Table I, continued"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "CELTIC",
+     "Gaelic",
+     "",
+     "Old Irish",
+     "Irish / Scotch Gaelic / Manx"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "",
+     "Britannic",
+     "",
+     "Old Welsh / Old Cornish / Old Breton",
+     "Welsh / Breton"
+    ],
+    "uncertain": [
+     "Alignment: Welsh is typed level with Old Welsh and Breton level with Old Breton; nothing is typed level with Old Cornish."
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "",
+     "Continental",
+     "Celtic Inscriptions",
+     "",
+     ""
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "GERMANIC",
+     "East Germanic",
+     "",
+     "Gothic",
+     ""
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "",
+     "North Germanic",
+     "",
+     "Old Norse",
+     "Swedish / Danish / Norwegian / Icelandic"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "",
+     "West Germanic",
+     "Anglo-Frisian",
+     "Old English / Old Frisian",
+     "English / Frisian"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "",
+     "",
+     "German- Low / High",
+     "Old Saxon / Old Low Franconian / Old High German",
+     "Dutch / German"
+    ],
+    "uncertain": [
+     "Layout: 'German-' is typed with a bracket to 'Low' (level with Old Saxon / Old Low Franconian / Dutch) and 'High' (level with Old High German / German). A pencilled handwritten note, apparently 'Yiddish', beside 'German' in the last column is a reader's annotation, not typed; omitted."
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "BALTO-SLAVIC",
+     "Baltic",
+     "",
+     "Old Lithuanian / Old Lettic / Old Prussian",
+     "Lithuanian / Lettic"
+    ],
+    "uncertain": [
+     "Alignment: Lithuanian is typed level with Old Lithuanian and Lettic level with Old Lettic; nothing is typed level with Old Prussian."
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "",
+     "Slavic",
+     "South Slavic",
+     "Old Church Slavic",
+     "Bulgarian / Serbo-Croatian / Slovenian"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "",
+     "",
+     "West Slavic",
+     "Polabian",
+     "Bohemian / Slovak / Polish / Wendish"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 97,
+    "fields": [
+     "",
+     "",
+     "East Slavic",
+     "",
+     "Great Russian / White Russian / Ukrainian"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 97,
+    "fields": [
+     "—From Carl D. Buck, Comparative Grammar of Greek and Latin (2nd impression, Chicago, 1937), pp. 3f."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 97,
+    "fields": [
+     "Tocharian and Hittite likewise belong to the Indo-European family but their exact relationships have not yet been fully determined."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 98,
+    "fields": [
+     "east to the Ganges valley, others westward throughout Europe.⁴ No remains of the parent Indo-European tongue are extant, but, by means of comparative linguistics, scholars have been able to reconstruct a large part of its vocabulary and grammar.⁵"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 98,
+    "fields": [
+     "The method and validity of comparative linguistics can be illustrated within one branch of the Indo-European family. The Romance languages are obviously related because it can be observed that, within historic times, they have assumed their present forms in developing from their common source, the Latin language. Thus, for example, the Latin word caballus, meaning ‘a pack-horse, a nag,’ is the origin of all Romance words for ‘horse,’ such as French cheval, Spanish caballo, Italian cavallo, Portuguese cavallo, Rumanian cal, Provençal and Catalan, cavall.⁶ So, too, when various extant Indo-European languages are compared, the hypothetical parent tongue may be reconstructed with a considerable degree of probability. Thus, the fact that the Greek word μήτηρ resembles the Sanskrit mātár-, Avestan (Old Persian) mātā, Old Armenian mair, Latin māter, Old High German muoter (modern German Mutter), Old Irish māthir, Old Slavic mati, etc., renders it highly probable that all these words have come from an Indo-European word *mātér-.⁷"
+    ],
+    "uncertain": [
+     "Transliterations are in bold italic with hand-added marks: Sanskrit mātár- (acute over the second a is heavy, read as á); Avestan mātā (macron on final a faint); Old Slavic mati (no mark visible)."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 98,
+    "fields": [
+     "⁴ Today all of the languages of Europe belong to the Indo-European family except Basque, Esthonian, Finnish, Hungarian, Lapp, and Turkish."
+    ],
+    "uncertain": [
+     "A small handwritten mark (caret?) over 'Hungarian' is a reader's annotation; the typed word is Hungarian."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 98,
+    "fields": [
+     "⁵ The most recent works of this kind are A. Walde and J. Pokorny, Etymologisches Wörterbuch der indogermanischen Sprachen (3 vols., Berlin and Leipzig, 1930-32), A. Meillet, Introduction à l'étude comparative des langues indo-européenes (7th ed., Paris, 1934), and H. Hirt, Indogermanische Grammatik (7 vols., Heidelberg, 1921-37)."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 98,
+    "fields": [
+     "⁶ For still other dialectical forms, see W. Meyer-Lübke, Romanisches etymologisches Wörterbuch (3rd ed., Heidelberg, 1930), s.v. caballus."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 98,
+    "fields": [
+     "⁷ The asterisk signifies that this word does not appear in any historical source. For other derivations from this stem, see Walde-Pokorny, op. cit., s.v., mātér-."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 99,
+    "fields": [
+     "The words for ‘horse’ in the Romance languages, all of which have originated from the same Latin word, are said to be cognate to one another. So, too, besides words in English which are borrowed or derived from Greek (such as the derivatives supplied in Part I), other English words are said to be cognate to words in Greek. Cognate words, as their name indicates,⁸ are words, in different languages, which are ‘related’ to each other because they have descended from the same ancestor. Though Greek and English have been separated from their common parent stock for so many centuries and have become widely different in so many respects, linguists have observed that some of the differences can be accounted for in terms of regular phonetic changes. Thus, because Greek and English are sister languages, it is possible to identify words in each which have descended from the same words in the primitive Indo-European speech. Jacob Grimm (1785-1863) formulated a statement of the mutation of consonants involved in the development of the Teutonic languages.⁹ (In all languages consonants are the skeleton-letters of words, for vowel-sounds are far from being as persistent — a fact which may be observed by noting the differing local pronunciations of the same words in our own language.)¹⁰"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 99,
+    "fields": [
+     "How Grimm's law operates is shown in the following table, which indicates what forms the consonants in the Greek group will assume in the English group, and illustrates them by a few examples. The Greek declensional terminations have, of course,"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 99,
+    "fields": [
+     "⁸ Latin cognatus, ‘related (by blood).’"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 99,
+    "fields": [
+     "⁹ For a most interesting account of the steps by which the present formulation of Grimm's law was attained, see Leonard Bloomfield's book entitled Language (New York, 1933), pp. 14f and 347-359."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 99,
+    "fields": [
+     "¹⁰ E.g., a man wears a ‘doiby’ hat in the Bronx, a ‘darby’ in Great Britain, and a ‘derby’ elsewhere."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 100,
+    "fields": [
+     "no correspondence in the English words. Other words which might be thought to be exceptions to Grimm's law are accounted for by Grassmann's law and Verner's law.¹¹"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 100,
+    "fields": [
+     "The consonants which are involved are those that form the so-called square of mutes:"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 100,
+    "fields": [
+     "",
+     "voiceless",
+     "voiced",
+     "aspirate"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 100,
+    "fields": [
+     "Labials (lip sounds)",
+     "π",
+     "β",
+     "φ"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 100,
+    "fields": [
+     "Dentals (teeth sounds)",
+     "τ",
+     "δ",
+     "θ"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 100,
+    "fields": [
+     "Palatals (palate sounds)",
+     "κ",
+     "γ",
+     "χ"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 100,
+    "fields": [
+     "1. The voiceless stops, π, τ, κ, are represented in cognate English words by f, th, h."
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 100,
+    "fields": [
+     "(a) π and f"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 100,
+    "fields": [
+     "",
+     "",
+     "",
+     "English cognate"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "πατήρ",
+     "",
+     "father",
+     "father"
+    ],
+    "lemma": "πατήρ",
+    "match": "exact",
+    "nt_count": 413,
+    "souter_id": 4000
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "πληγή",
+     "",
+     "stroke, blow",
+     "flick, flog"
+    ],
+    "lemma": "πληγή",
+    "match": "exact",
+    "nt_count": 22,
+    "souter_id": 4170
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "πολύς",
+     "",
+     "much",
+     "full, fill"
+    ],
+    "lemma": "πολύς",
+    "match": "exact",
+    "nt_count": 415,
+    "souter_id": 4264
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "ποῦς",
+     "",
+     "foot",
+     "foot"
+    ],
+    "lemma": "πούς",
+    "match": "accent",
+    "nt_count": 93,
+    "souter_id": 4307
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "πῦρ",
+     "",
+     "fire",
+     "fire"
+    ],
+    "lemma": "πῦρ",
+    "match": "exact",
+    "nt_count": 71,
+    "souter_id": 4524
+   },
+   {
+    "type": "heading",
+    "page": 100,
+    "fields": [
+     "(b) τ and th"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "ὀδούς",
+     "stem ὀδόντ-",
+     "tooth",
+     "tooth"
+    ],
+    "lemma": "ὀδούς",
+    "match": "exact",
+    "nt_count": 12,
+    "souter_id": 3605
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "τρεῖς",
+     "",
+     "three",
+     "three"
+    ],
+    "lemma": "τρεῖς",
+    "match": "exact",
+    "nt_count": 67,
+    "souter_id": 5258
+   },
+   {
+    "type": "heading",
+    "page": 100,
+    "fields": [
+     "(c) κ and h"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "καρδία",
+     "",
+     "heart",
+     "heart"
+    ],
+    "lemma": "καρδία",
+    "match": "exact",
+    "nt_count": 156,
+    "souter_id": 2637
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "καρπός",
+     "",
+     "fruit",
+     "harvest"
+    ],
+    "lemma": "καρπός",
+    "match": "exact",
+    "nt_count": 66,
+    "souter_id": 2639
+   },
+   {
+    "type": "word",
+    "page": 100,
+    "fields": [
+     "κύων",
+     "stem κυν-",
+     "dog",
+     "hound"
+    ],
+    "lemma": "κύων",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 3039
+   },
+   {
+    "type": "note",
+    "page": 100,
+    "fields": [
+     "2. The voiced stops, β, δ, γ, are represented in cognate English words by p, t, k."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 100,
+    "fields": [
+     "¹¹ A succinct statement of these laws may be read in Webster's New International Dictionary, 2nd ed., s.vv."
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 101,
+    "fields": [
+     "(a) β and p"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 101,
+    "fields": [
+     "",
+     "",
+     "",
+     "English cognate"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "βύρσα",
+     "",
+     "a hide",
+     "purse"
+    ],
+    "lemma": null,
+    "match": "none",
+    "nt_count": 0,
+    "souter_id": null
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "κύβος",
+     "",
+     "loin",
+     "hip"
+    ],
+    "lemma": null,
+    "match": "none",
+    "nt_count": 0,
+    "souter_id": null
+   },
+   {
+    "type": "heading",
+    "page": 101,
+    "fields": [
+     "(b) δ and t"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "δρῦς",
+     "",
+     "oak",
+     "tree"
+    ],
+    "lemma": null,
+    "match": "none",
+    "nt_count": 0,
+    "souter_id": null
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "δύο",
+     "",
+     "two",
+     "two"
+    ],
+    "lemma": "δύο",
+    "match": "exact",
+    "nt_count": 135,
+    "souter_id": 1450
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "ὀδόντ-",
+     "",
+     "tooth",
+     "tooth"
+    ],
+    "lemma": null,
+    "match": "none",
+    "nt_count": 0,
+    "souter_id": null
+   },
+   {
+    "type": "heading",
+    "page": 101,
+    "fields": [
+     "(c) γ and k"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "γένος",
+     "",
+     "race, family",
+     "kin"
+    ],
+    "lemma": "γένος",
+    "match": "exact",
+    "nt_count": 20,
+    "souter_id": 1110
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "γόνυ",
+     "",
+     "knee",
+     "knee"
+    ],
+    "lemma": "γόνυ",
+    "match": "exact",
+    "nt_count": 12,
+    "souter_id": 1145
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "γινώσκω",
+     "stem γνω-",
+     "know",
+     "know"
+    ],
+    "lemma": "γινώσκω",
+    "match": "exact",
+    "nt_count": 221,
+    "souter_id": 1123
+   },
+   {
+    "type": "note",
+    "page": 101,
+    "fields": [
+     "3. The aspirated stops, φ, θ, χ, are represented in cognate English words by b, d, g."
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 101,
+    "fields": [
+     "(a) φ and b"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 101,
+    "fields": [
+     "",
+     "",
+     "",
+     "English cognate"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "φέρω",
+     "",
+     "I bear",
+     "bear"
+    ],
+    "lemma": "φέρω",
+    "match": "exact",
+    "nt_count": 66,
+    "souter_id": 5465
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "φράτηρ",
+     "",
+     "a member of a brotherhood",
+     "brother"
+    ],
+    "lemma": null,
+    "match": "none",
+    "nt_count": 0,
+    "souter_id": null
+   },
+   {
+    "type": "heading",
+    "page": 101,
+    "fields": [
+     "(b) θ and d"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "θυγάτηρ",
+     "",
+     "daughter",
+     "daughter"
+    ],
+    "lemma": "θυγάτηρ",
+    "match": "exact",
+    "nt_count": 28,
+    "souter_id": 2413
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "θύρα",
+     "",
+     "door",
+     "door"
+    ],
+    "lemma": "θύρα",
+    "match": "exact",
+    "nt_count": 39,
+    "souter_id": 2423
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "μέθυ",
+     "",
+     "wine",
+     "mead"
+    ],
+    "lemma": null,
+    "match": "none",
+    "nt_count": 0,
+    "souter_id": null
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "τίθημι",
+     "stem θε-",
+     "I put, place",
+     "do"
+    ],
+    "lemma": "τίθημι",
+    "match": "exact",
+    "nt_count": 100,
+    "souter_id": 5204
+   },
+   {
+    "type": "heading",
+    "page": 101,
+    "fields": [
+     "(c) χ and g"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "ὀχέω",
+     "",
+     "I uphold, carry, ride",
+     "weigh"
+    ],
+    "lemma": null,
+    "match": "none",
+    "nt_count": 0,
+    "souter_id": null,
+    "uncertain": [
+     "Breathing on ὀχέω is a heavy blot; read as smooth."
+    ]
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "χήν",
+     "dat. plu. χησί",
+     "goose",
+     "goose"
+    ],
+    "lemma": null,
+    "match": "none",
+    "nt_count": 0,
+    "souter_id": null
+   },
+   {
+    "type": "word",
+    "page": 101,
+    "fields": [
+     "χόρτος",
+     "",
+     "enclosure, grass",
+     "garden"
+    ],
+    "lemma": "χόρτος",
+    "match": "exact",
+    "nt_count": 15,
+    "souter_id": 5651
+   }
+  ]
+ },
+ {
+  "appendix": "APPENDIX II",
+  "page": 102,
+  "records": [
+   {
+    "type": "heading",
+    "page": 102,
+    "fields": [
+     "Prepositions in Composition with Verbs"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 102,
+    "fields": [
+     "Originally a preposition was an auxiliary word which assisted in defining and clarifying the significance of the case of a noun.¹ When a preposition is compounded with a verb its primitive connotation may acquire various other functions and meanings. One of the most important of these is the so-called ‘perfective’ use of the preposition. When used in this way the preposition usually completes or emphasizes the action conveyed by the simple verb. All Indo-European languages employ prepositions in this perfectivizing sense. Compare, for example, the English verbs bring and bring up, burn and burn up, carry and carry off, drink and drink up, eat and eat up, follow and follow up or follow through, go and go away, knock and knock down, make and make over, pluck and pluck out, speak and speak out, wake and wake up, work and work out. In each instance the compound verb intensifies the sense of the simple verb. So too in Greek—although Greek and English do not always use the same preposition to convey the same idea. Compare ἐργάζομαι, I work, with κατεργάζομαι, I work out (literally down to the finish, see Phil. 2:12); καίομαι, I burn, with κατακαίομαι, I burn up, burn completely (see Matt. 3:12); ἐσθίω, I eat, with κατεσθίω, I eat up, devour (see Luke 20:47).²"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 102,
+    "fields": [
+     "¹ See, further, A.T.Robertson, A Grammar of the Greek New Testament in the Light of Historical Research (5th ed., New York, 1931), pp. 553-557. The primary meanings of Greek prepositions used with various cases may be seen in Table II on p. 103."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 102,
+    "fields": [
+     "² For additional information about perfective verbs see J.H.Moulton, A Grammar of New Testament Greek, vol. I, Prolegomena, (3rd ed., Edinburgh, 1908), pp. 111-118."
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 103,
+    "fields": [
+     "Table II Geometric Arrangement of the Greek Prepositions"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "1",
+     "ὑπέρ",
+     "A",
+     "above"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "2",
+     "ἐπί",
+     "G",
+     "upon"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "3",
+     "ὑπό",
+     "A",
+     "under"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "4",
+     "παρά",
+     "D A",
+     "beside"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "5",
+     "ἀμφί-",
+     "",
+     "on both sides of"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "6",
+     "πρός",
+     "A",
+     "towards"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "7",
+     "είς",
+     "A",
+     "into"
+    ],
+    "uncertain": [
+     "είς is typed with an acute only and no visible breathing (standard εἰς); transcribed as typed"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "8",
+     "ἐν",
+     "D",
+     "in"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "9",
+     "ἐκ",
+     "G",
+     "out of"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "10",
+     "ἀπό",
+     "G",
+     "away from"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "11",
+     "περί",
+     "A",
+     "around"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "12",
+     "διά",
+     "G",
+     "through"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "13",
+     "ἀνά",
+     "A",
+     "up"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "14",
+     "κατά",
+     "G",
+     "down"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "15",
+     "ἀντί",
+     "G",
+     "over against"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "16",
+     "πρό",
+     "G",
+     "before"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "17",
+     "ὀπίσω",
+     "G",
+     "behind, after"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "18",
+     "σύν",
+     "D",
+     "with"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "19",
+     "μετά",
+     "G",
+     "with"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 103,
+    "fields": [
+     "",
+     "",
+     "A",
+     "after"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 103,
+    "fields": [
+     "Notes: 1. The symbols G, D, and A should be read: \"with the genitive case means,\" \"with the dative case means,\" and \"with the accusative case means.\" Number 5 appears in the New Testament only in compound words."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 103,
+    "fields": [
+     "2. Only the basic meanings of prepositions with certain cases are given here. For other meanings with other cases, a lexicon should be consulted."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 104,
+    "fields": [
+     "In the following list each preposition is analyzed as to its principal meanings when in composition with verbs. Most of the semantic shifts are perfectly clear. Occasionally, however, the meaning of the compound verb cannot easily be determined from the separate meanings of its component parts. Thus, the force of ἀπό in ἀποκρίνομαι and in ἀποθνήσκω is no longer obvious. Perhaps originally the former verb meant ‘I answer back’ and the latter ‘I die off.’"
+    ]
+   },
+   {
+    "type": "note",
+    "page": 104,
+    "fields": [
+     "It will be remembered that a preposition which ends in a vowel drops that vowel when compounded with a verb which begins with a vowel, as ἀπέρχομαι from ἀπό and ἔρχομαι. The only exceptions to this rule are compounds with περί and πρό, which do not drop their final vowel, as προάγω and περιάγω."
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 104,
+    "fields": [
+     "ἀνά (1) Root meaning upwards"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀναβαίνω",
+     "",
+     "I go up"
+    ],
+    "lemma": "ἀναβαίνω",
+    "match": "exact",
+    "nt_count": 81,
+    "souter_id": 314,
+    "preposition": "ἀνά",
+    "sense": "ἀνά (1) Root meaning upwards"
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀνίστημι",
+     "",
+     "I cause to stand up"
+    ],
+    "lemma": "ἀνίστημι",
+    "match": "exact",
+    "nt_count": 108,
+    "souter_id": 465,
+    "preposition": "ἀνά",
+    "sense": "ἀνά (1) Root meaning upwards"
+   },
+   {
+    "type": "heading",
+    "page": 104,
+    "fields": [
+     "(2) Again, anew, thoroughly"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀναζάω",
+     "",
+     "I live again, revive"
+    ],
+    "lemma": "ἀναζάω",
+    "match": "exact",
+    "nt_count": 2,
+    "souter_id": 337,
+    "preposition": "ἀνά",
+    "sense": "(2) Again, anew, thoroughly"
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀναπαύω",
+     "",
+     "I give rest to (someone) thoroughly, refresh"
+    ],
+    "lemma": "ἀναπαύω",
+    "match": "exact",
+    "nt_count": 12,
+    "souter_id": 386,
+    "preposition": "ἀνά",
+    "sense": "(2) Again, anew, thoroughly"
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀνασταυρόω",
+     "",
+     "I crucify afresh"
+    ],
+    "lemma": "ἀνασταυρόω",
+    "match": "exact",
+    "nt_count": 1,
+    "souter_id": 403,
+    "preposition": "ἀνά",
+    "sense": "(2) Again, anew, thoroughly"
+   },
+   {
+    "type": "heading",
+    "page": 104,
+    "fields": [
+     "(3) Back, backwards, to and fro"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀναστρέφω",
+     "",
+     "I turn upside down, turn back, walk to and fro, conduct myself, live"
+    ],
+    "lemma": "ἀναστρέφω",
+    "match": "exact",
+    "nt_count": 10,
+    "souter_id": 405,
+    "preposition": "ἀνά",
+    "sense": "(3) Back, backwards, to and fro"
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀναστροφή",
+     "",
+     "‘walk,’ conduct"
+    ],
+    "lemma": "ἀναστροφή",
+    "match": "exact",
+    "nt_count": 13,
+    "souter_id": 406,
+    "preposition": "ἀνά",
+    "sense": "(3) Back, backwards, to and fro"
+   },
+   {
+    "type": "heading",
+    "page": 104,
+    "fields": [
+     "ἀντί (1) Root meaning opposite, against, over against"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀντιπαρέρχομαι",
+     "",
+     "I pass by [παρά] on the other side"
+    ],
+    "lemma": "ἀντιπαρέρχομαι",
+    "match": "exact",
+    "nt_count": 2,
+    "souter_id": 507,
+    "preposition": "ἀντί",
+    "sense": "ἀντί (1) Root meaning opposite, against, over against"
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀντιλέγω",
+     "",
+     "I speak against, oppose, resist"
+    ],
+    "lemma": "ἀντιλέγω",
+    "match": "exact",
+    "nt_count": 11,
+    "souter_id": 498,
+    "preposition": "ἀντί",
+    "sense": "ἀντί (1) Root meaning opposite, against, over against"
+   },
+   {
+    "type": "word",
+    "page": 104,
+    "fields": [
+     "ἀντίχριστος",
+     "",
+     "an opponent of Christ, antichrist"
+    ],
+    "lemma": "ἀντίχριστος",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 515,
+    "preposition": "ἀντί",
+    "sense": "ἀντί (1) Root meaning opposite, against, over against"
+   },
+   {
+    "type": "heading",
+    "page": 105,
+    "fields": [
+     "(2) Requital"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀνταποδίδωμι",
+     "",
+     "I give back as an equivalent, recompense or requital (ἀντί expresses the idea of a full, complete return)"
+    ],
+    "lemma": "ἀνταποδίδωμι",
+    "match": "exact",
+    "nt_count": 7,
+    "souter_id": 482,
+    "preposition": "ἀντί",
+    "sense": "(2) Requital"
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀντιμισθία",
+     "",
+     "reward, requital"
+    ],
+    "lemma": "ἀντιμισθία",
+    "match": "exact",
+    "nt_count": 2,
+    "souter_id": 504,
+    "preposition": "ἀντί",
+    "sense": "(2) Requital"
+   },
+   {
+    "type": "heading",
+    "page": 105,
+    "fields": [
+     "(3) Substitution"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀνθύπατος",
+     "(ἀντί and ὕπατος, an alternative form of ὑπέρτατος, supreme)",
+     "a proconsul"
+    ],
+    "lemma": "ἀνθύπατος",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 462,
+    "preposition": "ἀντί",
+    "sense": "(3) Substitution"
+   },
+   {
+    "type": "note",
+    "page": 105,
+    "fields": [
+     "Perhaps ἀντίχριστος should be classified here as ‘one who assumes the guise of Christ (in order to seduce His people)’"
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 105,
+    "fields": [
+     "ἀπό (1) Root meaning away from"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀπέρχομαι",
+     "",
+     "I depart from"
+    ],
+    "lemma": "ἀπέρχομαι",
+    "match": "exact",
+    "nt_count": 117,
+    "souter_id": 579,
+    "preposition": "ἀπό",
+    "sense": "ἀπό (1) Root meaning away from"
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀποκαλύπτω",
+     "",
+     "I withdraw a cover from, uncover, reveal"
+    ],
+    "lemma": "ἀποκαλύπτω",
+    "match": "exact",
+    "nt_count": 26,
+    "souter_id": 614,
+    "preposition": "ἀπό",
+    "sense": "ἀπό (1) Root meaning away from"
+   },
+   {
+    "type": "heading",
+    "page": 105,
+    "fields": [
+     "(2) Back again (like Latin re-)"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀποδίδωμι",
+     "",
+     "I give back, return"
+    ],
+    "lemma": "ἀποδίδωμι",
+    "match": "exact",
+    "nt_count": 48,
+    "souter_id": 604,
+    "preposition": "ἀπό",
+    "sense": "(2) Back again (like Latin re-)"
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀπολαμβάνω",
+     "",
+     "I take back, recover"
+    ],
+    "lemma": "ἀπολαμβάνω",
+    "match": "exact",
+    "nt_count": 10,
+    "souter_id": 631,
+    "preposition": "ἀπό",
+    "sense": "(2) Back again (like Latin re-)"
+   },
+   {
+    "type": "heading",
+    "page": 105,
+    "fields": [
+     "(3) Perfective"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀπέχω",
+     "",
+     "I have fully, have received (in full), see Matt. 6:2, 5, 16; also in sense (1), I am away, distant; middle, I hold myself off from, abstain"
+    ],
+    "lemma": "ἀπέχω",
+    "match": "exact",
+    "nt_count": 19,
+    "souter_id": 580,
+    "preposition": "ἀπό",
+    "sense": "(3) Perfective"
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀπόλλυμι",
+     "",
+     "I destroy utterly; middle, I perish completely"
+    ],
+    "lemma": "ἀπόλλυμι",
+    "match": "exact",
+    "nt_count": 90,
+    "souter_id": 634,
+    "preposition": "ἀπό",
+    "sense": "(3) Perfective"
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "ἀπολούομαι",
+     "",
+     "I wash off myself thoroughly"
+    ],
+    "lemma": "ἀπολούομαι",
+    "match": "exact",
+    "nt_count": 2,
+    "souter_id": 641,
+    "preposition": "ἀπό",
+    "sense": "(3) Perfective"
+   },
+   {
+    "type": "heading",
+    "page": 105,
+    "fields": [
+     "διά (1) Root meaning through"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "διέρχομαι",
+     "",
+     "I go through, pass through"
+    ],
+    "lemma": "διέρχομαι",
+    "match": "exact",
+    "nt_count": 41,
+    "souter_id": 1361,
+    "preposition": "διά",
+    "sense": "διά (1) Root meaning through"
+   },
+   {
+    "type": "heading",
+    "page": 105,
+    "fields": [
+     "(2) Distribution"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "διαγγέλλω",
+     "",
+     "I publish abroad, proclaim"
+    ],
+    "lemma": "διαγγέλλω",
+    "match": "exact",
+    "nt_count": 3,
+    "souter_id": 1256,
+    "preposition": "διά",
+    "sense": "(2) Distribution"
+   },
+   {
+    "type": "word",
+    "page": 105,
+    "fields": [
+     "διαδίδωμι",
+     "",
+     "I distribute"
+    ],
+    "lemma": "διαδίδωμι",
+    "match": "exact",
+    "nt_count": 4,
+    "souter_id": 1265,
+    "preposition": "διά",
+    "sense": "(2) Distribution"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "(3) Transition, change"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "διαβάλλω",
+     "",
+     "I throw across, slander"
+    ],
+    "lemma": "διαβάλλω",
+    "match": "exact",
+    "nt_count": 1,
+    "souter_id": 1252,
+    "preposition": "διά",
+    "sense": "(3) Transition, change"
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "διαλλάσσω",
+     "",
+     "I change (make other [ἄλλος] than), reconcile"
+    ],
+    "lemma": "διαλλάσσομαι",
+    "match": "variant",
+    "nt_count": 1,
+    "souter_id": 1287,
+    "preposition": "διά",
+    "sense": "(3) Transition, change"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "(4) Separation"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "διασπάω",
+     "",
+     "I tear apart"
+    ],
+    "lemma": "διασπάω",
+    "match": "exact",
+    "nt_count": 2,
+    "souter_id": 1317,
+    "preposition": "διά",
+    "sense": "(4) Separation"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "(5) Perfective"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "διαβεβαιόομαι",
+     "",
+     "I assert confidently, emphatically"
+    ],
+    "lemma": "διαβεβαιόομαι",
+    "match": "exact",
+    "nt_count": 2,
+    "souter_id": 1253,
+    "preposition": "διά",
+    "sense": "(5) Perfective"
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "διακαθαρίζω",
+     "",
+     "I cleanse thoroughly"
+    ],
+    "lemma": "διακαθαρίζω",
+    "match": "exact",
+    "nt_count": 1,
+    "souter_id": 1272,
+    "preposition": "διά",
+    "sense": "(5) Perfective"
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "διαφυλάσσω",
+     "",
+     "I guard carefully"
+    ],
+    "lemma": "διαφυλάσσω",
+    "match": "exact",
+    "nt_count": 1,
+    "souter_id": 1343,
+    "preposition": "διά",
+    "sense": "(5) Perfective"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "εἰς Root meaning into"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "εἰσέρχομαι",
+     "",
+     "I go into, enter"
+    ],
+    "lemma": "εἰσέρχομαι",
+    "match": "exact",
+    "nt_count": 193,
+    "souter_id": 1543,
+    "preposition": "διά",
+    "sense": "εἰς Root meaning into"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "ἐκ (1) Root meaning from out of"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "ἐκβάλλω",
+     "",
+     "I cast out"
+    ],
+    "lemma": "ἐκβάλλω",
+    "match": "exact",
+    "nt_count": 81,
+    "souter_id": 1563,
+    "preposition": "ἐκ",
+    "sense": "ἐκ (1) Root meaning from out of"
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "ἐξέρχομαι",
+     "",
+     "I go out"
+    ],
+    "lemma": "ἐξέρχομαι",
+    "match": "exact",
+    "nt_count": 216,
+    "souter_id": 1872,
+    "preposition": "ἐκ",
+    "sense": "ἐκ (1) Root meaning from out of"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "(2) Perfective"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "ἐκπληρόω",
+     "",
+     "I fill completely"
+    ],
+    "lemma": "ἐκπληρόω",
+    "match": "exact",
+    "nt_count": 1,
+    "souter_id": 1624,
+    "preposition": "ἐκ",
+    "sense": "(2) Perfective"
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "ἐξαπορέομαι",
+     "",
+     "I am utterly at a loss"
+    ],
+    "lemma": "ἐξαπορέομαι",
+    "match": "exact",
+    "nt_count": 2,
+    "souter_id": 1862,
+    "preposition": "ἐκ",
+    "sense": "(2) Perfective"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "ἐν (1) Root meaning in"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "ἐνοικέω",
+     "",
+     "I dwell in"
+    ],
+    "lemma": "ἐνοικέω",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 1813,
+    "preposition": "ἐν",
+    "sense": "ἐν (1) Root meaning in"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "(2) Motion into"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "ἐμβαίνω",
+     "",
+     "I step into [a boat], I embark"
+    ],
+    "lemma": "ἐμβαίνω",
+    "match": "exact",
+    "nt_count": 17,
+    "souter_id": 1711,
+    "preposition": "ἐν",
+    "sense": "(2) Motion into"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "ἐπί (1) Root meaning on, upon"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "ἐπιβάλλω",
+     "",
+     "I cast, lay, or put upon"
+    ],
+    "lemma": "ἐπιβάλλω",
+    "match": "exact",
+    "nt_count": 18,
+    "souter_id": 1958,
+    "preposition": "ἐπί",
+    "sense": "ἐπί (1) Root meaning on, upon"
+   },
+   {
+    "type": "word",
+    "page": 106,
+    "fields": [
+     "ἐπιτίθημι",
+     "",
+     "I lay, set, or place upon"
+    ],
+    "lemma": "ἐπιτίθημι",
+    "match": "exact",
+    "nt_count": 39,
+    "souter_id": 2056,
+    "preposition": "ἐπί",
+    "sense": "ἐπί (1) Root meaning on, upon"
+   },
+   {
+    "type": "heading",
+    "page": 106,
+    "fields": [
+     "(2) Motion towards"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "ἐπέρχομαι",
+     "",
+     "I come upon (sometimes with hostility)"
+    ],
+    "lemma": "ἐπέρχομαι",
+    "match": "exact",
+    "nt_count": 9,
+    "souter_id": 1951,
+    "preposition": "ἐπί",
+    "sense": "(2) Motion towards"
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "ἐπιβάλλω",
+     "",
+     "I lay or put upon"
+    ],
+    "lemma": "ἐπιβάλλω",
+    "match": "exact",
+    "nt_count": 18,
+    "souter_id": 1958,
+    "preposition": "ἐπί",
+    "sense": "(2) Motion towards"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "(3) Upwards"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "ἐπαίρω",
+     "",
+     "I lift up, raise"
+    ],
+    "lemma": "ἐπαίρω",
+    "match": "exact",
+    "nt_count": 19,
+    "souter_id": 1913,
+    "preposition": "ἐπί",
+    "sense": "(3) Upwards"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "(4) Superintendence"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "ἐπίσκοπος",
+     "",
+     "one who oversees, a bishop"
+    ],
+    "lemma": "ἐπίσκοπος",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 2033,
+    "preposition": "ἐπί",
+    "sense": "(4) Superintendence"
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "ἐπιστάτης",
+     "",
+     "one who is set over, a master"
+    ],
+    "lemma": "ἐπιστάτης",
+    "match": "exact",
+    "nt_count": 7,
+    "souter_id": 2038,
+    "preposition": "ἐπί",
+    "sense": "(4) Superintendence"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "κατά (1) Root meaning down from, down"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "καταβαίνω",
+     "",
+     "I go down"
+    ],
+    "lemma": "καταβαίνω",
+    "match": "exact",
+    "nt_count": 80,
+    "souter_id": 2657,
+    "preposition": "κατά",
+    "sense": "κατά (1) Root meaning down from, down"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "(2) Opposition"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "κατακρίνω",
+     "",
+     "I give judgment against, condemn"
+    ],
+    "lemma": "κατακρίνω",
+    "match": "exact",
+    "nt_count": 16,
+    "souter_id": 2697,
+    "preposition": "κατά",
+    "sense": "(2) Opposition"
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "καταράομαι",
+     "",
+     "I pray against, curse"
+    ],
+    "lemma": "καταράομαι",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 2734,
+    "preposition": "κατά",
+    "sense": "(2) Opposition"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "(3) In succession, in order"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "καταρτίζω",
+     "",
+     "I set in order, mend"
+    ],
+    "lemma": "καταρτίζω",
+    "match": "exact",
+    "nt_count": 13,
+    "souter_id": 2737,
+    "preposition": "κατά",
+    "sense": "(3) In succession, in order"
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "κατευθύνω",
+     "",
+     "I make straight, guide, direct"
+    ],
+    "lemma": "κατευθύνω",
+    "match": "exact",
+    "nt_count": 3,
+    "souter_id": 2780,
+    "preposition": "κατά",
+    "sense": "(3) In succession, in order"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "(4) After, behind"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "κατακολουθέω",
+     "",
+     "I follow after"
+    ],
+    "lemma": "κατακολουθέω",
+    "match": "exact",
+    "nt_count": 2,
+    "souter_id": 2693,
+    "preposition": "κατά",
+    "sense": "(4) After, behind"
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "καταλείπω",
+     "",
+     "I leave behind, forsake"
+    ],
+    "lemma": "καταλείπω",
+    "match": "exact",
+    "nt_count": 23,
+    "souter_id": 2706,
+    "preposition": "κατά",
+    "sense": "(4) After, behind"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "(5) Perfective"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "κατεργάζομαι",
+     "",
+     "I work out thoroughly, accomplish"
+    ],
+    "lemma": "κατεργάζομαι",
+    "match": "exact",
+    "nt_count": 22,
+    "souter_id": 2777,
+    "preposition": "κατά",
+    "sense": "(5) Perfective"
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "κατεσθίω",
+     "",
+     "I eat up, devour"
+    ],
+    "lemma": "κατεσθίω",
+    "match": "exact",
+    "nt_count": 14,
+    "souter_id": 2779,
+    "preposition": "κατά",
+    "sense": "(5) Perfective"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "μετά (1) Root meaning association with"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "μεταδίδωμι",
+     "",
+     "I share (a thing) with (anyone), impart"
+    ],
+    "lemma": "μεταδίδωμι",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 3305,
+    "preposition": "μετά",
+    "sense": "μετά (1) Root meaning association with"
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "μετέχω",
+     "",
+     "I partake of, share in"
+    ],
+    "lemma": "μετέχω",
+    "match": "exact",
+    "nt_count": 8,
+    "souter_id": 3324,
+    "preposition": "μετά",
+    "sense": "μετά (1) Root meaning association with"
+   },
+   {
+    "type": "heading",
+    "page": 107,
+    "fields": [
+     "(2) Change, alteration"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "μεταβαίνω",
+     "",
+     "I pass from one place to another, depart"
+    ],
+    "lemma": "μεταβαίνω",
+    "match": "exact",
+    "nt_count": 12,
+    "souter_id": 3302,
+    "preposition": "μετά",
+    "sense": "(2) Change, alteration"
+   },
+   {
+    "type": "word",
+    "page": 107,
+    "fields": [
+     "μεταμορφόω",
+     "",
+     "I change to another form, transform, transfigure"
+    ],
+    "lemma": "μεταμορφόομαι",
+    "match": "variant",
+    "nt_count": 4,
+    "souter_id": 3314,
+    "preposition": "μετά",
+    "sense": "(2) Change, alteration"
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "μετανοέω",
+     "",
+     "I change my mind or purpose, repent"
+    ],
+    "lemma": "μετανοέω",
+    "match": "exact",
+    "nt_count": 34,
+    "souter_id": 3315,
+    "preposition": "μετά",
+    "sense": "(2) Change, alteration"
+   },
+   {
+    "type": "heading",
+    "page": 108,
+    "fields": [
+     "(3) After, in search of"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "μεταπέμπω",
+     "",
+     "I send after or for, summon"
+    ],
+    "lemma": "μεταπέμπομαι",
+    "match": "variant",
+    "nt_count": 9,
+    "souter_id": 3318,
+    "preposition": "μετά",
+    "sense": "(3) After, in search of"
+   },
+   {
+    "type": "heading",
+    "page": 108,
+    "fields": [
+     "παρά (1) Root meaning beside, near"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "παραγίνομαι",
+     "",
+     "I am at hand, arrive"
+    ],
+    "lemma": "παραγίνομαι",
+    "match": "exact",
+    "nt_count": 36,
+    "souter_id": 3891,
+    "preposition": "παρά",
+    "sense": "παρά (1) Root meaning beside, near"
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "παρακαλέω",
+     "",
+     "I call to my side, summon, admonish, entreat, encourage, comfort"
+    ],
+    "lemma": "παρακαλέω",
+    "match": "exact",
+    "nt_count": 109,
+    "souter_id": 3906,
+    "preposition": "παρά",
+    "sense": "παρά (1) Root meaning beside, near"
+   },
+   {
+    "type": "heading",
+    "page": 108,
+    "fields": [
+     "(2) Violation, transgression, neglect"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "παραβαίνω",
+     "",
+     "I go by the side of (and beyond), overstep, transgress"
+    ],
+    "lemma": "παραβαίνω",
+    "match": "exact",
+    "nt_count": 3,
+    "souter_id": 3882,
+    "preposition": "παρά",
+    "sense": "(2) Violation, transgression, neglect"
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "παρακούω",
+     "",
+     "I hear amiss, hear without heeding, disobey"
+    ],
+    "lemma": "παρακούω",
+    "match": "exact",
+    "nt_count": 3,
+    "souter_id": 3913,
+    "preposition": "παρά",
+    "sense": "(2) Violation, transgression, neglect"
+   },
+   {
+    "type": "heading",
+    "page": 108,
+    "fields": [
+     "περί (1) Root meaning in a circuit about, around"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "περιβάλλω",
+     "",
+     "I throw around, I clothe"
+    ],
+    "lemma": "περιβάλλω",
+    "match": "exact",
+    "nt_count": 23,
+    "souter_id": 4057,
+    "preposition": "περί",
+    "sense": "περί (1) Root meaning in a circuit about, around"
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "περιπατέω",
+     "",
+     "I walk about, Hebraistically, in an ethical sense, I conduct myself, live"
+    ],
+    "lemma": "περιπατέω",
+    "match": "exact",
+    "nt_count": 95,
+    "souter_id": 4084,
+    "preposition": "περί",
+    "sense": "περί (1) Root meaning in a circuit about, around"
+   },
+   {
+    "type": "heading",
+    "page": 108,
+    "fields": [
+     "(2) Beyond (because that which surrounds a thing does not belong to the thing itself but is beyond it)"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "περισσεύω",
+     "",
+     "I exceed (the ordinary, the necessary), I abound, cause to abound"
+    ],
+    "lemma": "περισσεύω",
+    "match": "exact",
+    "nt_count": 39,
+    "souter_id": 4094,
+    "preposition": "περί",
+    "sense": "(2) Beyond (because that which surrounds a thing does not belong to the thing itself but is beyond it)",
+    "uncertain": [
+     "περισσεύω: a stray mark (dot or opening quote) stands before \"the necessary\"; ignored"
+    ]
+   },
+   {
+    "type": "heading",
+    "page": 108,
+    "fields": [
+     "πρό Root meaning before (of place or time), forth"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "προάγω",
+     "",
+     "I lead forth, go before"
+    ],
+    "lemma": "προάγω",
+    "match": "exact",
+    "nt_count": 20,
+    "souter_id": 4331,
+    "preposition": "περί",
+    "sense": "πρό Root meaning before (of place or time), forth"
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "προγινώσκω",
+     "",
+     "I know beforehand, foreknow"
+    ],
+    "lemma": "προγινώσκω",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 4345,
+    "preposition": "περί",
+    "sense": "πρό Root meaning before (of place or time), forth"
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "προφητεύω",
+     "",
+     "I foretell, speak forth, prophesy"
+    ],
+    "lemma": "προφητεύω",
+    "match": "exact",
+    "nt_count": 28,
+    "souter_id": 4476,
+    "preposition": "περί",
+    "sense": "πρό Root meaning before (of place or time), forth"
+   },
+   {
+    "type": "heading",
+    "page": 108,
+    "fields": [
+     "πρός (1) Root meaning to, towards"
+    ],
+    "uncertain": [
+     "the R of \"Root\" is broken in the typing and looks like P (here and in περί (1)); read as \"Root\""
+    ]
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "προσέρχομαι",
+     "",
+     "I come to, approach"
+    ],
+    "lemma": "προσέρχομαι",
+    "match": "exact",
+    "nt_count": 86,
+    "souter_id": 4415,
+    "preposition": "πρός",
+    "sense": "πρός (1) Root meaning to, towards"
+   },
+   {
+    "type": "word",
+    "page": 108,
+    "fields": [
+     "προσέχω",
+     "",
+     "I bring to; with τὸν νοῦν, I turn the mind to, attend to, give heed to myself, beware"
+    ],
+    "lemma": "προσέχω",
+    "match": "exact",
+    "nt_count": 24,
+    "souter_id": 4418,
+    "preposition": "πρός",
+    "sense": "πρός (1) Root meaning to, towards"
+   },
+   {
+    "type": "note",
+    "page": 108,
+    "fields": [
+     "The entry προσέχω runs onto p. 109 (\"attend to, give heed to myself, beware\"); recorded whole here."
+    ]
+   },
+   {
+    "type": "note",
+    "page": 109,
+    "fields": [
+     "The first line (\"attend to, give heed to myself, beware\") completes the entry προσέχω, recorded on p. 108."
+    ]
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "προσκυνέω",
+     "",
+     "I kiss the hand to (towards) one (in token of reverence), fall down before, worship"
+    ],
+    "lemma": "προσκυνέω",
+    "match": "exact",
+    "nt_count": 60,
+    "souter_id": 4434,
+    "preposition": "πρός",
+    "sense": "πρός (1) Root meaning to, towards"
+   },
+   {
+    "type": "heading",
+    "page": 109,
+    "fields": [
+     "(2) On, at"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "προσκόπτω",
+     "",
+     "I strike (the hand or foot) against, stumble at"
+    ],
+    "lemma": "προσκόπτω",
+    "match": "exact",
+    "nt_count": 8,
+    "souter_id": 4432,
+    "preposition": "πρός",
+    "sense": "(2) On, at"
+   },
+   {
+    "type": "heading",
+    "page": 109,
+    "fields": [
+     "σύν (1) Root meaning together with"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "συνάγω",
+     "",
+     "I gather together"
+    ],
+    "lemma": "συνάγω",
+    "match": "exact",
+    "nt_count": 59,
+    "souter_id": 4916,
+    "preposition": "σύν",
+    "sense": "σύν (1) Root meaning together with"
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "συνεργέω",
+     "",
+     "I work together"
+    ],
+    "lemma": "συνεργέω",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 4961,
+    "preposition": "σύν",
+    "sense": "σύν (1) Root meaning together with"
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "συνίημι",
+     "",
+     "(I bring together in the mind), I understand"
+    ],
+    "lemma": "συνίημι",
+    "match": "exact",
+    "nt_count": 26,
+    "souter_id": 4985,
+    "preposition": "σύν",
+    "sense": "σύν (1) Root meaning together with"
+   },
+   {
+    "type": "heading",
+    "page": 109,
+    "fields": [
+     "(2) Perfective"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "συνθρύπτω",
+     "",
+     "I break in pieces, crush utterly"
+    ],
+    "lemma": "συνθρύπτω",
+    "match": "exact",
+    "nt_count": 1,
+    "souter_id": 4984,
+    "preposition": "σύν",
+    "sense": "(2) Perfective"
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "συνκαλύπτω",
+     "",
+     "I veil (cover) completely"
+    ],
+    "lemma": "συγκαλύπτω",
+    "match": "variant",
+    "nt_count": 1,
+    "souter_id": 4992,
+    "preposition": "σύν",
+    "sense": "(2) Perfective"
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "συντηρέω",
+     "",
+     "I keep safe"
+    ],
+    "lemma": "συντηρέω",
+    "match": "exact",
+    "nt_count": 3,
+    "souter_id": 5051,
+    "preposition": "σύν",
+    "sense": "(2) Perfective"
+   },
+   {
+    "type": "heading",
+    "page": 109,
+    "fields": [
+     "ὑπέρ Root meaning over, above"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "ὑπερβάλλω",
+     "",
+     "(I throw over or beyond), I exceed, surpass"
+    ],
+    "lemma": "ὑπερβάλλω",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 5353,
+    "preposition": "σύν",
+    "sense": "ὑπέρ Root meaning over, above"
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "ὑπερέχω",
+     "",
+     "(I have or hold over), I am superior, excel"
+    ],
+    "lemma": "ὑπερέχω",
+    "match": "exact",
+    "nt_count": 5,
+    "souter_id": 5362,
+    "preposition": "σύν",
+    "sense": "ὑπέρ Root meaning over, above"
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "ὑπερνικάω",
+     "",
+     "I am more than a conqueror"
+    ],
+    "lemma": "ὑπερνικάω",
+    "match": "exact",
+    "nt_count": 1,
+    "souter_id": 5366,
+    "preposition": "σύν",
+    "sense": "ὑπέρ Root meaning over, above"
+   },
+   {
+    "type": "heading",
+    "page": 109,
+    "fields": [
+     "ὑπό Root meaning under, hence of subjection and compliance"
+    ]
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "ὑποδέομαι",
+     "",
+     "I bind under (the foot)"
+    ],
+    "lemma": "ὑποδέομαι",
+    "match": "exact",
+    "nt_count": 3,
+    "souter_id": null,
+    "preposition": "σύν",
+    "sense": "ὑπό Root meaning under, hence of subjection and compliance"
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "ὑπομένω",
+     "",
+     "(I remain under), I remain, persevere, endure"
+    ],
+    "lemma": "ὑπομένω",
+    "match": "exact",
+    "nt_count": 17,
+    "souter_id": 5400,
+    "preposition": "σύν",
+    "sense": "ὑπό Root meaning under, hence of subjection and compliance"
+   },
+   {
+    "type": "word",
+    "page": 109,
+    "fields": [
+     "ὑπάγω",
+     "",
+     "(I lead under), I withdraw myself, depart"
+    ],
+    "lemma": "ὑπάγω",
+    "match": "exact",
+    "nt_count": 79,
+    "souter_id": 5335,
+    "preposition": "σύν",
+    "sense": "ὑπό Root meaning under, hence of subjection and compliance"
+   }
+  ]
+ },
+ {
+  "appendix": "Appendix III Table of Correlative Pronouns and Adverbs",
+  "page": 110,
+  "records": [
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "",
+     "Demonstrative",
+     "Interrogative",
+     "Indefinite",
+     "Relative and/or Indefinite Relative"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "Simple",
+     "ὅδε, this (here) / οὗτος, this (near) / ἐκεῖνος, that (yonder)",
+     "τίς; who? which? what?",
+     "τις, someone, anyone",
+     "ὅς, who, which / ὅστις, whoever, whichever"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "Place",
+     "αὐτοῦ, there, here / ὧδε, hither, here",
+     "ποῦ; where?",
+     "πού, somewhere",
+     "οὗ, where, whither / ὅπου, where, whither"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "",
+     "ἐντεῦθεν, hence / ἐκεῖθεν, thence",
+     "πόθεν; whence?",
+     "",
+     "ὅθεν, whence"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "",
+     "ἐκεῖ, there / ἐνθάδε, here, hither",
+     "",
+     "",
+     ""
+    ],
+    "uncertain": [
+     "Place, third sub-row: the Relative cell holds only a stray dot; treated as empty"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "Manner",
+     "οὕτως, thus, so",
+     "πῶς; how?",
+     "πώς, at all, somehow, in any way",
+     "ὡς, as, about"
+    ],
+    "uncertain": [
+     "ὡς: the rough breathing is clear; no accent is visible (it may be hidden in the breathing stroke)"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "Time",
+     "νῦν and νυνί, now / τότε, then",
+     "πότε; when?",
+     "ποτέ, at some time, once, ever",
+     "ὅτε, when / ὅταν, whenever, when"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "Quantity",
+     "τοσοῦτος, so great, so much",
+     "πόσος; how great? how much?",
+     "",
+     "ὅσος, as great as, as much as"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "Quality",
+     "τοιοῦτος, of such a kind, such",
+     "ποῖος; of what sort? what?",
+     "",
+     "οἷος, such as / ὁποῖος, of what sort"
+    ],
+    "uncertain": [
+     "ὁποῖος: the mark over the initial ο looks like an acute, with no clear breathing; read as the rough breathing of ὁποῖος. οἷος: only the circumflex is clear; the breathing under it is assumed"
+    ]
+   },
+   {
+    "type": "row",
+    "page": 110,
+    "fields": [
+     "Size",
+     "τηλικοῦτος, so large, so great",
+     "πηλίκος; how large? how great?",
+     "",
+     "ἡλίκος, what size of"
+    ]
+   }
+  ]
+ }
+]
