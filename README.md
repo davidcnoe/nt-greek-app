@@ -29,7 +29,9 @@ Data and code for a New Testament Greek vocabulary app: words taught by root fam
   Coverage: 5,233 of the 5,461 SBLGNT lemmas, and 1,095 of the 1,125 that occur 10+ times, are matched to an entry.
   `xref: true` marks cross-reference entries ("see …", "another spelling of …").
 
-The entry text is still raw OCR. The English has systematic errors to clean: italic *I* read as `7`, `J`, or `1`; *to* as `fo` or `lo`; *the* as `lhe` or `ihe`; *t* as `!`.
+- `data/souter/entries.clean.jsonl` the same entries with a `text_clean` field from `scripts/clean_english.py`, which corrects Tesseract's systematic misreadings of Souter's italic English: *I* read as `7`, `J`, `1`, or `£` (2,621 glosses), *to* as `fo` or `lo`, *the* as `lhe`, *a* as `@`, and about 1,150 other single-letter confusions checked against an English word list. Latin in parentheses and Greek citations are left alone. Every word changed is listed in `data/souter/english_fixes.tsv`.
+
+Still to do in the English: two-letter errors (`unieltered` for *unlettered*), mangled scripture references (`Johniv 5`), and Latin outside parentheses.
 
 ## Reproducing the OCR
 
