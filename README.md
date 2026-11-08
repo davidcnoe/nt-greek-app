@@ -17,12 +17,16 @@ Data and code for a New Testament Greek vocabulary app: words taught by root fam
 
 - `data/metzger/ocr/page-NNN.txt` raw OCR of the Metzger pages (Tesseract grc+eng, psm 4). Part I (frequency lists) is pages 1–51, Part II (words by root) pages 53–94, appendices pages 95–110.
 - `data/nt/lemmas.tsv` every lemma in the SBLGNT with its part of speech, NT count, and rank (5,461 lemmas; 1,125 occur 10+ times). Counted from [MorphGNT](https://github.com/morphgnt/sblgnt) (morphology CC BY-SA 3.0; SBLGNT text CC BY 4.0) by `scripts/build_lemmas.py`.
-- `data/souter/entries.jsonl` Souter split into entries by `scripts/segment_souter.py`. Each entry records the headword as OCR read it, the PDF page, the raw entry text, and how the headword matched a MorphGNT lemma:
+- `data/souter/tsv/page-NNN.tsv` Tesseract word positions for each lexicon page.
+- `data/souter/entries.jsonl` Souter split into 5,716 entries by `scripts/segment_souter.py`. Entries are split at the hanging indent: each page's flush-left edge is fitted as a slanted line (the scan is skewed), and every line starting at that edge begins an entry. Each entry records the headword as OCR read it, the PDF page, the raw entry text, and how the headword matched a MorphGNT lemma:
     - `exact`: matched as read
-    - `ocr-fix`: matched after a known OCR correction (ξ→ζ, ϑ→θ, δ→ὁ/ὑ, Latin capitals→Greek)
+    - `ocr-fix`: matched after a known OCR correction (ξ→ζ, ϑ→θ, δ→ὁ/ὑ, Latin capitals→Greek) or an SBLGNT optional-letter spelling (οὕτως for οὕτω(ς))
     - `accent`: matched ignoring accents and breathings
     - `fuzzy`: one letter off a single lemma; usually a Westcott–Hort spelling or an OCR slip, sometimes a wrong pairing; needs review
-    - `none`: no match; SBLGNT lemmatizes differently, the headword is damaged, or the block is a fragment
+    - `position`: headword unreadable (often read as Latin letters, e.g. "ydp" for γάρ), assigned the only unused lemma that fits its alphabetical slot; needs review
+    - `none`: no match; SBLGNT lemmatizes differently, the headword is damaged, or the line was split off a long entry
+
+  Coverage: 5,233 of the 5,461 SBLGNT lemmas, and 1,095 of the 1,125 that occur 10+ times, are matched to an entry.
   `xref: true` marks cross-reference entries ("see …", "another spelling of …").
 
 The entry text is still raw OCR. The English has systematic errors to clean: italic *I* read as `7`, `J`, or `1`; *to* as `fo` or `lo`; *the* as `lhe` or `ihe`; *t* as `!`.
