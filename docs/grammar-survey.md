@@ -31,7 +31,7 @@ Extracts made for v1 are in `data/grammars/` (list at the end).
 1. **pp. 25–27, "The Greek of the New Testament," with the six differences from Attic, plus § 51 (p. 50) on αὐτός** → a "From Moss to the New Testament" primer screen. This is the clearest short statement of what changes for an Attic-trained reader. **Extracted.**
 2. **pp. 130–134, Classes of Verbs** (about 70 of the commonest N.T. verbs, six principal parts plus meaning, grouped by how the present stem is built) → principal-parts panel on verb cards; a "stem class" tag for each verb; drills. **Extracted.**
 3. **§§ 1–7, pp. 28–31, prepositions table (root meaning in capitals, uses by case)** and **Appendix, pp. 31–36, Prepositions in Composition** (each preposition's root meaning shown inside 80-odd compound verbs and nouns, plus a note on "perfective" prepositions) → preposition cards, and the explanation layer for compound verbs in Metzger's root families (ἔρχομαι → ἀπ-, δι-, εἰσ-, ἐξ-, προσ-). **Extracted.**
-4. **Appendix II** (pp. 4–36): extra-biblical Koine readings with grammar notes and glosses → a later "beyond the N.T." reading module; vocabulary-coverage tests against the app's word list. Greek in the text layer would need full proofreading. Not extracted.
+4. **Appendix II** (pp. 4–36): extra-biblical Koine readings with grammar notes and glosses → a later "beyond the N.T." reading module. **Extracted** to data/readings/nunn-appendix-ii/ (proofread, with coverage figures).
 5. **Scattered "Classical vs N.T." notes** that extend the six differences (each is a short paragraph): neuter plural subject with plural verb, p. 37 (§ 10); genitive of definition "not in Classical Greek," p. 43 (§ 31); reflexive rule broken in N.T., p. 46; οὐ μή, p. 82 (§ 123); ἵνα clauses replacing the infinitive, pp. 88, 104–108 (§§ 186–192, several marked "Not Classical"); ὅπως + future in Classical vs N.T. infinitive, p. 100; subjunctive without ἄν for Classical optative, p. 113; οὐ in protases, pp. 116, 126; potential ἄν rare in the N.T., p. 128 → each can become a one-line "Attic vs Koine" tip linked from the primer screen. Not extracted (short; easy to add later).
 6. **§§ 77–112, pp. 61–79, the verb (mood, voice, tense)** → grammar tips. Clear and simple, but Burton covers tense better for this app.
 7. **The Particle ἄν, pp. 128–129** → a card for ἄν/ἐάν/ὅταν.
@@ -120,7 +120,7 @@ Extracts made for v1 are in `data/grammars/` (list at the end).
 | 5 | Blass § 26, particles in and absent from the N.T. | pp. 60–61 | particle list; "Attic particles you won't meet" tip | `data/grammars/blass-particles.md` |
 | 6 | Burton, tense essentials (§§ 5–7, 16, 35, 47, 56–57, 74–77, 95–96, 98) | pp. 6–7, 10, 16–17, 22, 30–31, 37–38, 46–47 | aspect tip on verb cards; verb-specific notes (ἥκω, ἀπέθανον, πέποιθα, οἶδα-type perfects) | `data/grammars/burton-tense-essentials.md` |
 
-**Next in line (v1.1/v2), not yet transcribed:** Blass § 24 Table of noteworthy verbs (pp. 52–58); the scattered Nunn "Classical vs N.T." notes listed under Nunn item 5; Nunn Appendix II readings; Blass § 28 composition and § 2 loanwords; Burton §§ 160–184 (prohibitions) and §§ 188–227 (ἵνα).
+**Next in line (v1.1/v2), not yet transcribed:** Blass § 24 Table of noteworthy verbs (pp. 52–58); the scattered Nunn "Classical vs N.T." notes listed under Nunn item 5; Blass § 28 composition and § 2 loanwords; Burton §§ 160–184 (prohibitions) and §§ 188–227 (ἵνα).
 
 ## Problems found
 
