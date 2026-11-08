@@ -35,10 +35,16 @@ class Matcher:
         for line in (ROOT / "data/metzger/lemma_overrides.tsv").read_text(encoding="utf-8").splitlines()[1:]:
             m, lemma, _why = line.split("\t")
             self.overrides[nfc(m)] = lemma
+        # For each lemma, the Souter entry with the strongest headword match (then the longest);
+        # a stray fragment that happens to start with the word must not win over the real entry.
+        rank = {"exact": 0, "reviewed": 0, "ocr-fix": 1, "accent": 2, "position": 3, "fuzzy": 4}
         self.souter: dict[str, dict] = {}
         for line in (ROOT / "data/souter/entries.clean.jsonl").read_text(encoding="utf-8").splitlines():
             e = json.loads(line)
-            if e["lemma"] and e["lemma"] not in self.souter:
+            if not e["lemma"]:
+                continue
+            old = self.souter.get(e["lemma"])
+            if old is None or (rank.get(e["match"], 9), -len(e["text"])) < (rank.get(old["match"], 9), -len(old["text"])):
                 self.souter[e["lemma"]] = e
 
     @staticmethod

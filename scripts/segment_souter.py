@@ -21,7 +21,7 @@ FIRST_PAGE, LAST_PAGE = 8, 297
 GREEK = re.compile(r"[Ͱ-Ͽἀ-῿]")
 # A headword: a run of Greek letters, combining marks and the koronis/psili signs,
 # optionally preceded by a detached breathing (᾿ or ῾) the OCR separates out.
-HEAD = re.compile(r"^\s*([᾿῾ʼ']?\s*[Ͱ-Ͽἀ-῿̀-ͯ]+)")
+HEAD = re.compile(r"^\s*(?:[.·,]\s*)?([᾿῾ʼ']?\s*[Ͱ-Ͽἀ-῿̀-ͯ]+)")
 
 
 def strip_accents(s: str) -> str:
@@ -180,6 +180,8 @@ def ocr_candidates(h: str) -> list[str]:
     """Plausible corrections for known Tesseract confusions in Souter's typeface."""
     base = unicodedata.normalize("NFC", h.replace("ϑ", "θ").translate(LATIN_TO_GREEK))
     cands = [base]
+    if "ϑ" in h:  # Tesseract reads Souter's δ as ϑ about as often as it reads θ that way
+        cands.append(unicodedata.normalize("NFC", h.replace("ϑ", "δ").translate(LATIN_TO_GREEK)))
     if "ξ" in base:
         cands.append(base.replace("ξ", "ζ"))
         cands.append(base.replace("ξζ", "ζ").replace("ζξ", "ζ"))
@@ -216,6 +218,66 @@ def match(h: str, exact: dict[str, int], loose: dict[str, list[str]], by_first: 
     if len(near) == 1:
         return "fuzzy", near[0]
     return "none", None
+
+
+def apply_entry_overrides(entries: list[dict], exact: dict[str, int]) -> None:
+    """data/souter/entry_overrides.tsv: entries whose lemma was decided by hand.
+    Each row gives the start of the entry's raw text (enough to identify it) and the lemma
+    (empty = no NT lemma, e.g. a form like εἶδα that Souter enters separately)."""
+    path = ROOT / "data/souter/entry_overrides.tsv"
+    if not path.exists():
+        return
+    for line in path.read_text(encoding="utf-8").splitlines()[1:]:
+        prefix, lemma, _why = line.split("\t")
+        for e in entries:
+            if e["text"].startswith(prefix):
+                e.update(match="reviewed" if lemma else "none", lemma=lemma or None,
+                         nt_count=exact.get(lemma, 0) if lemma else 0)
+                break
+        else:
+            print(f"  entry override not found: {prefix!r}")
+
+
+INNER_HEAD = re.compile(
+    r"(?<=[.;)\]])\s+(?:[A-Za-z]{2,8}\s+)?([Ͱ-Ͽἀ-῿][Ͱ-Ͽἀ-῿̀-ͯ]+)(?=,|\s\()")
+
+
+def split_merged(entries: list[dict], exact: dict[str, int]) -> list[dict]:
+    """Split entries that swallowed later entries (consecutive entries the OCR set flush together).
+
+    Inside an entry, a new entry is recognized where a sentence ends and an NT headword follows
+    with its comma or parenthesis ("… gain. καπνός, smoke. … καρδία (Lat. cor …"), provided the
+    headword sorts after this entry's headword (Souter is alphabetical)."""
+    out: list[dict] = []
+    prev = ""
+    for e in entries:
+        text, page = e["text"], e["page"]
+        head = ALIAS.get(e["headword"], e["headword"])
+        known = head in exact
+        here = sort_key(head) if head else ""
+        if not known and here < prev:  # garbled headword: start from the last real headword
+            here = prev
+        cuts = []
+        for m in INNER_HEAD.finditer(text):
+            w = unicodedata.normalize("NFC", m.group(1))
+            w = ALIAS.get(w, w)
+            if w in exact and sort_key(w)[:1] == here[:1] and sort_key(w) > here and m.start(1) > 15:
+                cuts.append(m.start(1))
+                here = sort_key(w)
+        if known or cuts:
+            prev = here
+        if not cuts:
+            out.append(e)
+            continue
+        bounds = [0] + cuts + [len(text)]
+        for a, b in zip(bounds, bounds[1:]):
+            piece = text[a:b].strip()
+            hm = HEAD.match(piece)
+            out.append({"id": 0, "headword": clean_head(hm.group(1)) if hm and a else e["headword"],
+                        "page": page, "text": piece, "split_from_merge": a > 0})
+    for i, e in enumerate(out, 1):
+        e["id"] = i
+    return out
 
 
 def sort_key(s: str) -> str:
@@ -256,7 +318,56 @@ def recover_by_position(entries: list[dict], exact: dict[str, int]) -> None:
                 e = open_slots[0]
                 e.update(match="position", lemma=cands[0], nt_count=exact[cands[0]])
                 used.add(cands[0])
+            elif cands and open_slots and len(cands) <= 40:
+                # Cross-references ("ἐθέλω, see θέλω") and English fragments are not headword slots.
+                open_slots = [e for e in open_slots
+                              if not re.search(r",\s*s[ce]e\b", e["text"][:40]) and not re.match(r"[a-z]{4,}\s", e["text"])]
+                for e, lemma in align_gap(open_slots, cands):
+                    e.update(match="position", lemma=lemma, nt_count=exact[lemma])
+                    used.add(lemma)
         i = j
+
+
+# How Tesseract renders Souter's Greek letters when it falls back to Latin ("ydp" = γάρ, "Ldw" = ζάω).
+LOOKALIKE = str.maketrans({
+    "a": "α", "b": "β", "d": "α", "e": "ε", "g": "γ", "h": "η", "i": "ι", "k": "κ", "l": "ι",
+    "m": "μ", "n": "η", "o": "ο", "p": "ρ", "r": "γ", "s": "σ", "t": "τ", "u": "υ", "v": "ν",
+    "w": "ω", "x": "χ", "y": "γ", "z": "ζ", "L": "ζ", "A": "α", "B": "β", "E": "ε", "Z": "ζ",
+    "H": "η", "I": "ι", "K": "κ", "M": "μ", "N": "ν", "O": "ο", "P": "ρ", "T": "τ", "Y": "υ",
+    "X": "χ", "W": "ω", "D": "δ", "G": "γ", "S": "σ", "C": "σ", "c": "σ", "f": "φ", "j": "ι",
+})
+
+
+def ocr_shape(text: str) -> str:
+    """The first word of an entry, mapped from Latin lookalikes to Greek and stripped of accents."""
+    first = re.split(r"[\s,(]", text.strip(), maxsplit=1)[0]
+    return strip_accents(first.translate(LOOKALIKE))
+
+
+def align_gap(slots: list[dict], cands: list[str]) -> list[tuple[dict, str]]:
+    """Pair unreadable entries with candidate lemmas in alphabetical order (both lists are
+    ordered), maximizing headword-shape similarity; keep only pairs that look alike."""
+    import difflib
+    sim = [[difflib.SequenceMatcher(None, ocr_shape(s["text"]), sort_key(c)).ratio()
+            for c in cands] for s in slots]
+    n, m = len(slots), len(cands)
+    best = [[0.0] * (m + 1) for _ in range(n + 1)]
+    take = [[False] * (m + 1) for _ in range(n + 1)]
+    for i in range(n - 1, -1, -1):
+        for j in range(m - 1, -1, -1):
+            skip = max(best[i + 1][j], best[i][j + 1])
+            pair = sim[i][j] + best[i + 1][j + 1] if sim[i][j] >= 0.6 else -1
+            best[i][j], take[i][j] = (pair, True) if pair > skip else (skip, False)
+    out, i, j = [], 0, 0
+    while i < n and j < m:
+        if take[i][j]:
+            out.append((slots[i], cands[j]))
+            i, j = i + 1, j + 1
+        elif best[i + 1][j] >= best[i][j + 1]:
+            i += 1
+        else:
+            j += 1
+    return out
 
 
 def main() -> None:
@@ -278,14 +389,18 @@ def main() -> None:
     entries = [e for i, e in enumerate(entries)
                if not (i + 1 < len(entries) and e["text"].strip() == e["headword"]
                        and entries[i + 1]["headword"] == e["headword"])]
-    for i, e in enumerate(entries, 1):
-        e["id"] = i
+    entries = split_merged(entries, exact)
     stats: dict[str, int] = {}
     for e in entries:
         kind, lemma = match(e["headword"], exact, loose, by_first) if e["headword"] else ("none", None)
         e.update(match=kind, lemma=lemma, nt_count=exact.get(lemma, 0) if lemma else 0)
-        e["xref"] = bool(re.match(r"^[^,]*,\s*(another spelling of|see)\b", e["text"]))
+        e["xref"] = bool(re.match(r"^[^,]*,\s*(another spelling of|s[ce]e)\b", e["text"]))
+    strong = {e["lemma"] for e in entries if e["match"] in ("exact", "ocr-fix", "accent")}
+    for e in entries:
+        if e["match"] == "fuzzy" and e["lemma"] in strong:
+            e.update(match="none", lemma=None, nt_count=0)
     recover_by_position(entries, exact)
+    apply_entry_overrides(entries, exact)
     for e in entries:
         stats[e["match"]] = stats.get(e["match"], 0) + 1
     out = ROOT / "data/souter/entries.jsonl"

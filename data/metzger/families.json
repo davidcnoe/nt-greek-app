@@ -52,7 +52,7 @@
     "lemma": "εἰσάγω",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 1532,
+    "souter_id": 1539,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -64,7 +64,7 @@
     "lemma": "ἐξάγω",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 1841,
+    "souter_id": 1848,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -76,7 +76,7 @@
     "lemma": "παράγω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 3872,
+    "souter_id": 3892,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -88,7 +88,7 @@
     "lemma": "περιάγω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 4033,
+    "souter_id": 4053,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -100,7 +100,7 @@
     "lemma": "προάγω",
     "match": "exact",
     "nt_count": 20,
-    "souter_id": 4310,
+    "souter_id": 4331,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -112,7 +112,7 @@
     "lemma": "συνάγω",
     "match": "exact",
     "nt_count": 59,
-    "souter_id": 4894,
+    "souter_id": 4916,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -124,7 +124,7 @@
     "lemma": "συναγωγή",
     "match": "exact",
     "nt_count": 56,
-    "souter_id": 4895,
+    "souter_id": 4917,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -148,7 +148,7 @@
     "lemma": "ἐπισυνάγω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 2039,
+    "souter_id": 2046,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -160,7 +160,7 @@
     "lemma": "ὑπάγω",
     "match": "exact",
     "nt_count": 79,
-    "souter_id": 5305,
+    "souter_id": 5335,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -184,7 +184,7 @@
     "lemma": "ἡγέομαι",
     "match": "exact",
     "nt_count": 28,
-    "souter_id": 2280,
+    "souter_id": 2288,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -196,7 +196,7 @@
     "lemma": "ἡγεμών",
     "match": "exact",
     "nt_count": 20,
-    "souter_id": 2279,
+    "souter_id": 2287,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -430,7 +430,7 @@
     "lemma": "ἐπαγγελία",
     "match": "exact",
     "nt_count": 52,
-    "souter_id": 1897,
+    "souter_id": 1904,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -442,7 +442,7 @@
     "lemma": "ἐπαγγέλλομαι",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 1898,
+    "souter_id": 1905,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -454,7 +454,7 @@
     "lemma": "εὐαγγελίζω",
     "match": "exact",
     "nt_count": 54,
-    "souter_id": 2136,
+    "souter_id": 2144,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -466,7 +466,7 @@
     "lemma": "εὐαγγέλιον",
     "match": "exact",
     "nt_count": 75,
-    "souter_id": 2137,
+    "souter_id": 2145,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -478,7 +478,7 @@
     "lemma": "καταγγέλλω",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 2654,
+    "souter_id": 2666,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -490,7 +490,7 @@
     "lemma": "παραγγέλλω",
     "match": "exact",
     "nt_count": 32,
-    "souter_id": 3870,
+    "souter_id": 3890,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -502,7 +502,7 @@
     "lemma": "παραγγελία",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3869,
+    "souter_id": 3889,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -551,7 +551,7 @@
     "lemma": "παραιτέομαι",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 3884,
+    "souter_id": 3904,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -588,7 +588,7 @@
     "lemma": "εἰσακούω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1533,
+    "souter_id": 1540,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -600,7 +600,7 @@
     "lemma": "ὑπακούω",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 5307,
+    "souter_id": 5337,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -624,7 +624,7 @@
     "lemma": "ὑπακοή",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 5306,
+    "souter_id": 5336,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -698,7 +698,7 @@
     "lemma": "καταλλάσσω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 2697,
+    "souter_id": 2709,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -844,7 +844,7 @@
     "lemma": "ὑπάρχω",
     "match": "exact",
     "nt_count": 60,
-    "souter_id": 5312,
+    "souter_id": 5342,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -894,7 +894,7 @@
     "lemma": "ἐμβαίνω",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 1704,
+    "souter_id": 1711,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -906,7 +906,7 @@
     "lemma": "ἐπιβαίνω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 1950,
+    "souter_id": 1957,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -918,7 +918,7 @@
     "lemma": "καταβαίνω",
     "match": "exact",
     "nt_count": 80,
-    "souter_id": 2645,
+    "souter_id": 2657,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -930,7 +930,7 @@
     "lemma": "μεταβαίνω",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 3289,
+    "souter_id": 3302,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -942,7 +942,7 @@
     "lemma": "παράβασις",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 3864,
+    "souter_id": 3884,
     "ocr_agrees": false,
     "uncertain": [
      "παράβασις: a faint grave-like mark or speck sits over the first alpha (πὰ-); taken as noise, accent read as παράβασις"
@@ -956,7 +956,7 @@
     "lemma": "παραβάτης",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3865,
+    "souter_id": 3885,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -968,7 +968,7 @@
     "lemma": "προβαίνω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4316,
+    "souter_id": 4337,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -980,7 +980,7 @@
     "lemma": "πρόβατον",
     "match": "exact",
     "nt_count": 39,
-    "souter_id": 4319,
+    "souter_id": 4341,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -992,7 +992,7 @@
     "lemma": "συμβαίνω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 4871,
+    "souter_id": 4893,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1004,7 +1004,7 @@
     "lemma": "βῆμα",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 990,
+    "souter_id": 991,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1016,7 +1016,7 @@
     "lemma": "βέβαιος",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 968,
+    "souter_id": 969,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1028,7 +1028,7 @@
     "lemma": "βεβαιόω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 969,
+    "souter_id": 970,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -1040,7 +1040,7 @@
     "lemma": "βέβηλος",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 971,
+    "souter_id": 972,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1065,7 +1065,7 @@
     "lemma": "βάλλω",
     "match": "exact",
     "nt_count": 121,
-    "souter_id": 927,
+    "souter_id": 928,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1077,7 +1077,7 @@
     "lemma": "ἐκβάλλω",
     "match": "exact",
     "nt_count": 81,
-    "souter_id": 1556,
+    "souter_id": 1563,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1089,7 +1089,7 @@
     "lemma": "ἐπιβάλλω",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 1951,
+    "souter_id": 1958,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1101,7 +1101,7 @@
     "lemma": "λιθοβολέω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 3098,
+    "souter_id": 3111,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1113,7 +1113,7 @@
     "lemma": "περιβάλλω",
     "match": "exact",
     "nt_count": 23,
-    "souter_id": 4037,
+    "souter_id": 4057,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1125,7 +1125,7 @@
     "lemma": "συμβάλλω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 4917,
+    "souter_id": 4939,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1137,7 +1137,7 @@
     "lemma": "ὑπερβάλλω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5323,
+    "souter_id": 5353,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -1149,7 +1149,7 @@
     "lemma": "διάβολος",
     "match": "exact",
     "nt_count": 35,
-    "souter_id": 1254,
+    "souter_id": 1255,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1161,7 +1161,7 @@
     "lemma": "καταβολή",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 2651,
+    "souter_id": 2663,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1173,7 +1173,7 @@
     "lemma": "παραβολή",
     "match": "exact",
     "nt_count": 50,
-    "souter_id": 3868,
+    "souter_id": 3888,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1185,7 +1185,7 @@
     "lemma": "παρεμβολή",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 3942,
+    "souter_id": 3962,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1197,7 +1197,7 @@
     "lemma": "ὑπερβολή",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 5324,
+    "souter_id": 5354,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1223,7 +1223,7 @@
     "lemma": "βασιλεύς",
     "match": "exact",
     "nt_count": 115,
-    "souter_id": 954,
+    "souter_id": 955,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1235,7 +1235,7 @@
     "lemma": "βασιλεύω",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 955,
+    "souter_id": 956,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1247,7 +1247,7 @@
     "lemma": "βασιλεία",
     "match": "exact",
     "nt_count": 162,
-    "souter_id": 952,
+    "souter_id": 953,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1259,7 +1259,7 @@
     "lemma": "βασιλικός",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 956,
+    "souter_id": 957,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1284,7 +1284,7 @@
     "lemma": "βαπτίζω",
     "match": "exact",
     "nt_count": 77,
-    "souter_id": 928,
+    "souter_id": 929,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -1296,7 +1296,7 @@
     "lemma": "βάπτισμα",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 929,
+    "souter_id": 930,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1308,7 +1308,7 @@
     "lemma": "βαπτιστής",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 931,
+    "souter_id": 932,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1333,7 +1333,7 @@
     "lemma": "βλέπω",
     "match": "exact",
     "nt_count": 133,
-    "souter_id": 1013,
+    "souter_id": 1014,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1357,7 +1357,7 @@
     "lemma": "ἐμβλέπω",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 1709,
+    "souter_id": 1716,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1369,7 +1369,7 @@
     "lemma": "περιβλέπομαι",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 4038,
+    "souter_id": 4058,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1394,7 +1394,7 @@
     "lemma": "γίνομαι",
     "match": "exact",
     "nt_count": 667,
-    "souter_id": 1121,
+    "souter_id": 1122,
     "ocr_agrees": true,
     "uncertain": [
      "γίνομαι: the small raised mark between \"=\" and \"γι-γέν-ομαι\" is read as an asterisk (hypothetical form); it is a blob in the scan"
@@ -1408,7 +1408,7 @@
     "lemma": "παραγίνομαι",
     "match": "exact",
     "nt_count": 36,
-    "souter_id": 3871,
+    "souter_id": 3891,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1420,7 +1420,7 @@
     "lemma": "γονεύς",
     "match": "exact",
     "nt_count": 20,
-    "souter_id": 1143,
+    "souter_id": 1144,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1432,7 +1432,7 @@
     "lemma": "γένος",
     "match": "exact",
     "nt_count": 20,
-    "souter_id": 1109,
+    "souter_id": 1110,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1444,7 +1444,7 @@
     "lemma": "μονογενής",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 3410,
+    "souter_id": 3424,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1456,7 +1456,7 @@
     "lemma": "συγγενής",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 4851,
+    "souter_id": 4873,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1468,7 +1468,7 @@
     "lemma": "γενεά",
     "match": "exact",
     "nt_count": 43,
-    "souter_id": 1098,
+    "souter_id": 1099,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1480,7 +1480,7 @@
     "lemma": "γένεσις",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1102,
+    "souter_id": 1103,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1492,7 +1492,7 @@
     "lemma": "γένημα",
     "match": "exact",
     "nt_count": 4,
-    "souter_id": 1104,
+    "souter_id": 1105,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1504,7 +1504,7 @@
     "lemma": "γεννάω",
     "match": "exact",
     "nt_count": 97,
-    "souter_id": 1105,
+    "souter_id": 1106,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1516,7 +1516,7 @@
     "lemma": "γυνή",
     "match": "exact",
     "nt_count": 212,
-    "souter_id": 1160,
+    "souter_id": 1161,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -1528,7 +1528,7 @@
     "lemma": "γαμέω",
     "match": "exact",
     "nt_count": 29,
-    "souter_id": 1083,
+    "souter_id": 1084,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1540,7 +1540,7 @@
     "lemma": "γάμος",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 1086,
+    "souter_id": 1087,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1565,7 +1565,7 @@
     "lemma": "γινώσκω",
     "match": "exact",
     "nt_count": 221,
-    "souter_id": 1122,
+    "souter_id": 1123,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1589,7 +1589,7 @@
     "lemma": "ἐπιγινώσκω",
     "match": "exact",
     "nt_count": 44,
-    "souter_id": 1960,
+    "souter_id": 1967,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -1601,7 +1601,7 @@
     "lemma": "γνῶσις",
     "match": "exact",
     "nt_count": 29,
-    "souter_id": 1133,
+    "souter_id": 1134,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1613,7 +1613,7 @@
     "lemma": "ἐπίγνωσις",
     "match": "exact",
     "nt_count": 20,
-    "souter_id": 1961,
+    "souter_id": 1968,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1625,7 +1625,7 @@
     "lemma": "προγινώσκω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4324,
+    "souter_id": 4345,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1637,7 +1637,7 @@
     "lemma": "γνωρίζω",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": 1132,
+    "souter_id": 1133,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1649,7 +1649,7 @@
     "lemma": "γνωστός",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 1135,
+    "souter_id": 1136,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1661,7 +1661,7 @@
     "lemma": "γνώμη",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 1131,
+    "souter_id": 1132,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1698,7 +1698,7 @@
     "lemma": "γράφω",
     "match": "exact",
     "nt_count": 190,
-    "souter_id": 1150,
+    "souter_id": 1151,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1710,7 +1710,7 @@
     "lemma": "γραφή",
     "match": "exact",
     "nt_count": 49,
-    "souter_id": 1149,
+    "souter_id": 1150,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1722,7 +1722,7 @@
     "lemma": "ἐπιγράφω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1963,
+    "souter_id": 1970,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1734,7 +1734,7 @@
     "lemma": "ἐπιγραφή",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1962,
+    "souter_id": 1969,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1746,7 +1746,7 @@
     "lemma": "γράμμα",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 1146,
+    "souter_id": 1147,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1758,7 +1758,7 @@
     "lemma": "γραμματεύς",
     "match": "exact",
     "nt_count": 62,
-    "souter_id": 1147,
+    "souter_id": 1148,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1783,7 +1783,7 @@
     "lemma": "δέω",
     "match": "exact",
     "nt_count": 154,
-    "souter_id": 1235,
+    "souter_id": 1236,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1795,7 +1795,7 @@
     "lemma": "δέω",
     "match": "override",
     "nt_count": 154,
-    "souter_id": 1235,
+    "souter_id": 1236,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1807,7 +1807,7 @@
     "lemma": "δέσμιος",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 1223,
+    "souter_id": 1224,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1819,7 +1819,7 @@
     "lemma": "δεσμός",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 1224,
+    "souter_id": 1225,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1831,7 +1831,7 @@
     "lemma": "ὑπόδημα",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 5357,
+    "souter_id": 5387,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1857,7 +1857,7 @@
     "lemma": "δείκνυμι",
     "match": "exact",
     "nt_count": 33,
-    "souter_id": 1191,
+    "souter_id": 1192,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1869,7 +1869,7 @@
     "lemma": "ἐνδείκνυμι",
     "match": "override",
     "nt_count": 11,
-    "souter_id": 1751,
+    "souter_id": 1758,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -1881,7 +1881,7 @@
     "lemma": "ἐπιδείκνυμι",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1964,
+    "souter_id": 1971,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1893,7 +1893,7 @@
     "lemma": "ὑποδείκνυμι",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5354,
+    "souter_id": 5384,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1905,7 +1905,7 @@
     "lemma": "ὑπόδειγμα",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5353,
+    "souter_id": 5383,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -1930,7 +1930,7 @@
     "lemma": "δέχομαι",
     "match": "exact",
     "nt_count": 56,
-    "souter_id": 1234,
+    "souter_id": 1235,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1954,7 +1954,7 @@
     "lemma": "ἐκδέχομαι",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 1561,
+    "souter_id": 1568,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1978,7 +1978,7 @@
     "lemma": "παραδέχομαι",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3875,
+    "souter_id": 3895,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -1990,7 +1990,7 @@
     "lemma": "προσδέχομαι",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 4388,
+    "souter_id": 4409,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2002,7 +2002,7 @@
     "lemma": "εὐπρόσδεκτος",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 2187,
+    "souter_id": 2195,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2014,7 +2014,7 @@
     "lemma": "προσδοκάω",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 4389,
+    "souter_id": 4410,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2026,7 +2026,7 @@
     "lemma": "δεξιός",
     "match": "exact",
     "nt_count": 54,
-    "souter_id": 1212,
+    "souter_id": 1213,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2051,7 +2051,7 @@
     "lemma": "διάκονος",
     "match": "exact",
     "nt_count": 29,
-    "souter_id": 1275,
+    "souter_id": 1276,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2063,7 +2063,7 @@
     "lemma": "διακονέω",
     "match": "exact",
     "nt_count": 37,
-    "souter_id": 1273,
+    "souter_id": 1274,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2075,7 +2075,7 @@
     "lemma": "διακονία",
     "match": "exact",
     "nt_count": 34,
-    "souter_id": 1274,
+    "souter_id": 1275,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2100,7 +2100,7 @@
     "lemma": "διδάσκω",
     "match": "exact",
     "nt_count": 96,
-    "souter_id": 1350,
+    "souter_id": 1351,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2112,7 +2112,7 @@
     "lemma": "διδάσκαλος",
     "match": "exact",
     "nt_count": 58,
-    "souter_id": 1349,
+    "souter_id": 1350,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2124,7 +2124,7 @@
     "lemma": "διδασκαλία",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 1348,
+    "souter_id": 1349,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2136,7 +2136,7 @@
     "lemma": "διδαχή",
     "match": "exact",
     "nt_count": 30,
-    "souter_id": 1351,
+    "souter_id": 1352,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2162,7 +2162,7 @@
     "lemma": "δίκαιος",
     "match": "exact",
     "nt_count": 79,
-    "souter_id": 1372,
+    "souter_id": 1373,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2174,7 +2174,7 @@
     "lemma": "δικαιόω",
     "match": "exact",
     "nt_count": 39,
-    "souter_id": 1374,
+    "souter_id": 1375,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2186,7 +2186,7 @@
     "lemma": "δικαιοσύνη",
     "match": "exact",
     "nt_count": 91,
-    "souter_id": 1373,
+    "souter_id": 1374,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2198,7 +2198,7 @@
     "lemma": "δικαίωμα",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 1375,
+    "souter_id": 1376,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2210,7 +2210,7 @@
     "lemma": "δικαίως",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1376,
+    "souter_id": 1377,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2222,7 +2222,7 @@
     "lemma": "ἐκδικέω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 1566,
+    "souter_id": 1573,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2282,7 +2282,7 @@
     "lemma": "ἐκδίκησις",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 1567,
+    "souter_id": 1574,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2307,7 +2307,7 @@
     "lemma": "δίδωμι",
     "match": "exact",
     "nt_count": 415,
-    "souter_id": 1354,
+    "souter_id": 1355,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2343,7 +2343,7 @@
     "lemma": "ἐπιδίδωμι",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 1968,
+    "souter_id": 1975,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2355,7 +2355,7 @@
     "lemma": "μεταδίδωμι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3292,
+    "souter_id": 3305,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2367,7 +2367,7 @@
     "lemma": "παραδίδωμι",
     "match": "exact",
     "nt_count": 119,
-    "souter_id": 3876,
+    "souter_id": 3896,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2379,7 +2379,7 @@
     "lemma": "παράδοσις",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 3878,
+    "souter_id": 3898,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2391,7 +2391,7 @@
     "lemma": "δωρεά",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 1457,
+    "souter_id": 1464,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2403,7 +2403,7 @@
     "lemma": "δωρεάν",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 1458,
+    "souter_id": 1465,
     "ocr_agrees": true,
     "uncertain": [
      "δωρεάν: the comma after \"gift-wise)\" is a small blob joined to the parenthesis; read as a comma"
@@ -2417,7 +2417,7 @@
     "lemma": "δῶρον",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 1461,
+    "souter_id": 1468,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2443,7 +2443,7 @@
     "lemma": "δοκέω",
     "match": "exact",
     "nt_count": 62,
-    "souter_id": 1406,
+    "souter_id": 1413,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2455,7 +2455,7 @@
     "lemma": "εὐδοκέω",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 2146,
+    "souter_id": 2154,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2467,7 +2467,7 @@
     "lemma": "εὐδοκία",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 2147,
+    "souter_id": 2155,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2479,7 +2479,7 @@
     "lemma": "συνευδοκέω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 4945,
+    "souter_id": 4967,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2491,7 +2491,7 @@
     "lemma": "δοξάζω",
     "match": "exact",
     "nt_count": 61,
-    "souter_id": 1419,
+    "souter_id": 1426,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2503,7 +2503,7 @@
     "lemma": "δοκιμάζω",
     "match": "exact",
     "nt_count": 22,
-    "souter_id": 1407,
+    "souter_id": 1414,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2527,7 +2527,7 @@
     "lemma": "δοκιμή",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1409,
+    "souter_id": 1416,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2539,7 +2539,7 @@
     "lemma": "δόκιμος",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1411,
+    "souter_id": 1418,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2563,7 +2563,7 @@
     "lemma": "δόγμα",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1404,
+    "souter_id": 1411,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2588,7 +2588,7 @@
     "lemma": "δοῦλος",
     "match": "exact",
     "nt_count": 126,
-    "souter_id": 1427,
+    "souter_id": 1434,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2600,7 +2600,7 @@
     "lemma": "σύνδουλος",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 4924,
+    "souter_id": 4946,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2612,7 +2612,7 @@
     "lemma": "δουλεία",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1424,
+    "souter_id": 1431,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2624,7 +2624,7 @@
     "lemma": "δουλεύω",
     "match": "exact",
     "nt_count": 26,
-    "souter_id": 1425,
+    "souter_id": 1432,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -2636,7 +2636,7 @@
     "lemma": "δουλόω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1428,
+    "souter_id": 1435,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2661,7 +2661,7 @@
     "lemma": "δύναμαι",
     "match": "exact",
     "nt_count": 209,
-    "souter_id": 1436,
+    "souter_id": 1443,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2673,7 +2673,7 @@
     "lemma": "ἐνδυναμόω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1762,
+    "souter_id": 1769,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2685,7 +2685,7 @@
     "lemma": "δυνατός",
     "match": "accent",
     "nt_count": 32,
-    "souter_id": 1441,
+    "souter_id": 1448,
     "ocr_agrees": true,
     "uncertain": [
      "δύνατος: transcribed as typed, with the acute clearly on the upsilon and unaccented \"-η\" followed by a period; the standard form is δυνατός, -ή, -όν"
@@ -2711,7 +2711,7 @@
     "lemma": "δύναμις",
     "match": "exact",
     "nt_count": 119,
-    "souter_id": 1437,
+    "souter_id": 1444,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2736,7 +2736,7 @@
     "lemma": "ἔλεος",
     "match": "exact",
     "nt_count": 27,
-    "souter_id": 1674,
+    "souter_id": 1681,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2748,7 +2748,7 @@
     "lemma": "ἐλεάω",
     "match": "override",
     "nt_count": 32,
-    "souter_id": 1670,
+    "souter_id": 1677,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2760,7 +2760,7 @@
     "lemma": "ἐλεημοσύνη",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 1671,
+    "souter_id": 1678,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2786,7 +2786,7 @@
     "lemma": "ἔρχομαι",
     "match": "exact",
     "nt_count": 631,
-    "souter_id": 2106,
+    "souter_id": 2114,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2810,7 +2810,7 @@
     "lemma": "διέρχομαι",
     "match": "exact",
     "nt_count": 41,
-    "souter_id": 1360,
+    "souter_id": 1361,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2822,7 +2822,7 @@
     "lemma": "εἰσέρχομαι",
     "match": "exact",
     "nt_count": 193,
-    "souter_id": 1536,
+    "souter_id": 1543,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2834,7 +2834,7 @@
     "lemma": "ἐξέρχομαι",
     "match": "exact",
     "nt_count": 216,
-    "souter_id": 1865,
+    "souter_id": 1872,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2846,7 +2846,7 @@
     "lemma": "ἐπέρχομαι",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 1944,
+    "souter_id": 1951,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2858,7 +2858,7 @@
     "lemma": "κατέρχομαι",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 2766,
+    "souter_id": 2778,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2870,7 +2870,7 @@
     "lemma": "παρέρχομαι",
     "match": "exact",
     "nt_count": 29,
-    "souter_id": 3945,
+    "souter_id": 3965,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2882,7 +2882,7 @@
     "lemma": "προέρχομαι",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 4337,
+    "souter_id": 4358,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2894,7 +2894,7 @@
     "lemma": "προσέρχομαι",
     "match": "exact",
     "nt_count": 86,
-    "souter_id": 4394,
+    "souter_id": 4415,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2906,7 +2906,7 @@
     "lemma": "συνέρχομαι",
     "match": "exact",
     "nt_count": 30,
-    "souter_id": 4941,
+    "souter_id": 4963,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -2931,7 +2931,7 @@
     "lemma": "εἰμί",
     "match": "exact",
     "nt_count": 2456,
-    "souter_id": 1520,
+    "souter_id": 1527,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2943,7 +2943,7 @@
     "lemma": "ἄπειμι",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 562,
+    "souter_id": 563,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2955,7 +2955,7 @@
     "lemma": "πάρειμι",
     "match": "exact",
     "nt_count": 25,
-    "souter_id": 3934,
+    "souter_id": 3954,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2967,7 +2967,7 @@
     "lemma": "παρουσία",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": 3969,
+    "souter_id": 3989,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2979,7 +2979,7 @@
     "lemma": "ἔξεστι(ν)",
     "match": "exact",
     "nt_count": 31,
-    "souter_id": 1866,
+    "souter_id": 1873,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -2991,7 +2991,7 @@
     "lemma": "ἐξουσία",
     "match": "exact",
     "nt_count": 102,
-    "souter_id": 1885,
+    "souter_id": 1892,
     "ocr_agrees": false,
     "uncertain": []
    }
@@ -3016,7 +3016,7 @@
     "lemma": "ἔχω",
     "match": "exact",
     "nt_count": 706,
-    "souter_id": 2235,
+    "souter_id": 2243,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3064,7 +3064,7 @@
     "lemma": "ἐπέχω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1947,
+    "souter_id": 1954,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3076,7 +3076,7 @@
     "lemma": "μετέχω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 3311,
+    "souter_id": 3324,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3088,7 +3088,7 @@
     "lemma": "μέτοχος",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3316,
+    "souter_id": 3329,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3100,7 +3100,7 @@
     "lemma": "παρέχω",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 3947,
+    "souter_id": 3967,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3112,7 +3112,7 @@
     "lemma": "προσέχω",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": 4397,
+    "souter_id": 4418,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3124,7 +3124,7 @@
     "lemma": "συνέχω",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 4948,
+    "souter_id": 4970,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3136,7 +3136,7 @@
     "lemma": "ὑπερέχω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5332,
+    "souter_id": 5362,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3148,7 +3148,7 @@
     "lemma": "ἔνοχος",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 1810,
+    "souter_id": 1817,
     "ocr_agrees": true,
     "uncertain": [
      "ἔνοχος: the gloss clearly reads \"ἐνερχόμενος\" (with rho), transcribed as typed; presumably a slip for ἐνεχόμενος"
@@ -3162,7 +3162,7 @@
     "lemma": "εὐσχήμων",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 2200,
+    "souter_id": 2208,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3174,7 +3174,7 @@
     "lemma": "μετασχηματίζω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3307,
+    "souter_id": 3320,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -3200,7 +3200,7 @@
     "lemma": "λέγω",
     "match": "override",
     "nt_count": 2345,
-    "souter_id": 3065,
+    "souter_id": 3078,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3212,7 +3212,7 @@
     "lemma": "ῥῆμα",
     "match": "exact",
     "nt_count": 67,
-    "souter_id": 4548,
+    "souter_id": 4569,
     "ocr_agrees": true,
     "uncertain": [
      "a lone stray acute mark sits below the ῥῆμα line at the foot of the page, with no typed text under it; ignored as not part of an entry"
@@ -3226,7 +3226,7 @@
     "lemma": "παρρησία",
     "match": "exact",
     "nt_count": 31,
-    "souter_id": 3971,
+    "souter_id": 3991,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3238,7 +3238,7 @@
     "lemma": "παρρησιάζομαι",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 3972,
+    "souter_id": 3992,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -3263,7 +3263,7 @@
     "lemma": "ἔργον",
     "match": "exact",
     "nt_count": 169,
-    "souter_id": 2084,
+    "souter_id": 2092,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3275,7 +3275,7 @@
     "lemma": "ἐργάτης",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 2083,
+    "souter_id": 2091,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3287,7 +3287,7 @@
     "lemma": "ἐνεργέω",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 1775,
+    "souter_id": 1782,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3299,7 +3299,7 @@
     "lemma": "συνεργέω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4939,
+    "souter_id": 4961,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3311,7 +3311,7 @@
     "lemma": "συνεργός",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 4940,
+    "souter_id": 4962,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3323,7 +3323,7 @@
     "lemma": "ἐργάζομαι",
     "match": "exact",
     "nt_count": 41,
-    "souter_id": 2081,
+    "souter_id": 2088,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3335,7 +3335,7 @@
     "lemma": "ἐργασία",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 2082,
+    "souter_id": 2090,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3347,7 +3347,7 @@
     "lemma": "κατεργάζομαι",
     "match": "exact",
     "nt_count": 22,
-    "souter_id": 2765,
+    "souter_id": 2777,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3359,7 +3359,7 @@
     "lemma": "γεωργός",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 1117,
+    "souter_id": 1118,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3371,7 +3371,7 @@
     "lemma": "λειτουργός",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3072,
+    "souter_id": 3085,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3383,7 +3383,7 @@
     "lemma": "πανουργία",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3850,
+    "souter_id": 3870,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3407,7 +3407,7 @@
     "lemma": "καταργέω",
     "match": "exact",
     "nt_count": 27,
-    "souter_id": 2723,
+    "souter_id": 2735,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -3432,7 +3432,7 @@
     "lemma": "ὁράω",
     "match": "override",
     "nt_count": 476,
-    "souter_id": 3707,
+    "souter_id": 3722,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3444,7 +3444,7 @@
     "lemma": "εἶδος",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1507,
+    "souter_id": 1514,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3456,7 +3456,7 @@
     "lemma": "εἴδωλον",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 1512,
+    "souter_id": 1519,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3468,7 +3468,7 @@
     "lemma": "εἰδωλολάτρης",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1511,
+    "souter_id": 1518,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3480,7 +3480,7 @@
     "lemma": "οἶδα",
     "match": "exact",
     "nt_count": 296,
-    "souter_id": 3599,
+    "souter_id": 3614,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3517,7 +3517,7 @@
     "lemma": "ζάω",
     "match": "exact",
     "nt_count": 140,
-    "souter_id": null,
+    "souter_id": 2252,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3529,7 +3529,7 @@
     "lemma": "ζωή",
     "match": "exact",
     "nt_count": 135,
-    "souter_id": 2270,
+    "souter_id": 2278,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -3541,7 +3541,7 @@
     "lemma": "ζῷον",
     "match": "accent",
     "nt_count": 23,
-    "souter_id": 2274,
+    "souter_id": 2282,
     "ocr_agrees": true,
     "uncertain": [
      "ζῶον: no iota subscript visible under the omega (standard spelling ζῷον); transcribed as typed"
@@ -3568,7 +3568,7 @@
     "lemma": "ζητέω",
     "match": "exact",
     "nt_count": 117,
-    "souter_id": 2259,
+    "souter_id": 2267,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3580,7 +3580,7 @@
     "lemma": "ἐκζητέω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1577,
+    "souter_id": 1584,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3592,7 +3592,7 @@
     "lemma": "ἐπιζητέω",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 1973,
+    "souter_id": 1980,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3604,7 +3604,7 @@
     "lemma": "συζητέω",
     "match": "variant",
     "nt_count": 10,
-    "souter_id": 4951,
+    "souter_id": 4973,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3616,7 +3616,7 @@
     "lemma": "ζήτημα",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 2260,
+    "souter_id": 2268,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3628,7 +3628,7 @@
     "lemma": "ζήτησις",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 2261,
+    "souter_id": 2269,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -3653,7 +3653,7 @@
     "lemma": "θνῄσκω",
     "match": "accent",
     "nt_count": 9,
-    "souter_id": 2389,
+    "souter_id": 2397,
     "ocr_agrees": true,
     "uncertain": [
      "θνήσκω: no iota subscript visible (θνῄσκω); transcribed as typed"
@@ -3667,7 +3667,7 @@
     "lemma": "θνητός",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 2390,
+    "souter_id": 2398,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3693,7 +3693,7 @@
     "lemma": "θάνατος",
     "match": "exact",
     "nt_count": 120,
-    "souter_id": 2330,
+    "souter_id": 2338,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3705,7 +3705,7 @@
     "lemma": "θανατόω",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 2331,
+    "souter_id": 2339,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -3731,7 +3731,7 @@
     "lemma": "τίθημι",
     "match": "exact",
     "nt_count": 100,
-    "souter_id": 5175,
+    "souter_id": 5204,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3755,7 +3755,7 @@
     "lemma": "διατίθεμαι",
     "match": "override",
     "nt_count": 7,
-    "souter_id": 1331,
+    "souter_id": 1332,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3767,7 +3767,7 @@
     "lemma": "ἐπιτίθημι",
     "match": "exact",
     "nt_count": 39,
-    "souter_id": 2049,
+    "souter_id": 2056,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3779,7 +3779,7 @@
     "lemma": "μετατίθημι",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3308,
+    "souter_id": 3321,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3791,7 +3791,7 @@
     "lemma": "παρατίθημι",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 3923,
+    "souter_id": 3943,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3803,7 +3803,7 @@
     "lemma": "περιτίθημι",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 4080,
+    "souter_id": 4100,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3815,7 +3815,7 @@
     "lemma": "προστίθημι",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 4430,
+    "souter_id": 4451,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3839,7 +3839,7 @@
     "lemma": "θεμέλιος",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 2352,
+    "souter_id": 2360,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3851,7 +3851,7 @@
     "lemma": "θεμελιόω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 2353,
+    "souter_id": 2361,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3863,7 +3863,7 @@
     "lemma": "θησαυρός",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 2385,
+    "souter_id": 2393,
     "ocr_agrees": true,
     "uncertain": [
      "θησαυρός: genitive ending typed \"οῦ\" without the usual hyphen; transcribed as typed"
@@ -3877,7 +3877,7 @@
     "lemma": "θησαυρίζω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 2384,
+    "souter_id": 2392,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3901,7 +3901,7 @@
     "lemma": "διαθήκη",
     "match": "exact",
     "nt_count": 33,
-    "souter_id": 1267,
+    "souter_id": 1268,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -3938,7 +3938,7 @@
     "lemma": "θύω",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 2421,
+    "souter_id": 2429,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3950,7 +3950,7 @@
     "lemma": "θυμίαμα",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 2409,
+    "souter_id": 2417,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3962,7 +3962,7 @@
     "lemma": "θυσία",
     "match": "exact",
     "nt_count": 28,
-    "souter_id": 2419,
+    "souter_id": 2427,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -3974,7 +3974,7 @@
     "lemma": "θυσιαστήριον",
     "match": "exact",
     "nt_count": 23,
-    "souter_id": 2420,
+    "souter_id": 2428,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -3999,7 +3999,7 @@
     "lemma": "θυμός",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 2414,
+    "souter_id": 2422,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4011,7 +4011,7 @@
     "lemma": "ἐπιθυμέω",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 1976,
+    "souter_id": 1983,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4023,7 +4023,7 @@
     "lemma": "ἐπιθυμία",
     "match": "exact",
     "nt_count": 38,
-    "souter_id": 1978,
+    "souter_id": 1985,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4035,7 +4035,7 @@
     "lemma": "μακροθυμέω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 3179,
+    "souter_id": 3192,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4047,7 +4047,7 @@
     "lemma": "μακροθυμία",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 3180,
+    "souter_id": 3193,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4059,7 +4059,7 @@
     "lemma": "ὁμοθυμαδόν",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 3660,
+    "souter_id": 3675,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4071,7 +4071,7 @@
     "lemma": "προθυμία",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4345,
+    "souter_id": 4366,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -4108,7 +4108,7 @@
     "lemma": "ἀφίημι",
     "match": "exact",
     "nt_count": 143,
-    "souter_id": 882,
+    "souter_id": 883,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4120,7 +4120,7 @@
     "lemma": "ἄφεσις",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 876,
+    "souter_id": 877,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4132,7 +4132,7 @@
     "lemma": "συνίημι",
     "match": "exact",
     "nt_count": 26,
-    "souter_id": 4963,
+    "souter_id": 4985,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4144,7 +4144,7 @@
     "lemma": "σύνεσις",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 4943,
+    "souter_id": 4965,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4181,7 +4181,7 @@
     "lemma": "ἰσχύς",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 2519,
+    "souter_id": 2527,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4193,7 +4193,7 @@
     "lemma": "ἰσχυρός",
     "match": "exact",
     "nt_count": 29,
-    "souter_id": 2518,
+    "souter_id": 2526,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4205,7 +4205,7 @@
     "lemma": "ἰσχύω",
     "match": "exact",
     "nt_count": 28,
-    "souter_id": 2520,
+    "souter_id": 2528,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -4230,7 +4230,7 @@
     "lemma": "καθαρός",
     "match": "exact",
     "nt_count": 26,
-    "souter_id": 2555,
+    "souter_id": 2564,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4242,7 +4242,7 @@
     "lemma": "καθαρίζω",
     "match": "exact",
     "nt_count": 31,
-    "souter_id": 2553,
+    "souter_id": 2562,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4254,7 +4254,7 @@
     "lemma": "καθαρισμός",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 2554,
+    "souter_id": 2563,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4303,7 +4303,7 @@
     "lemma": "καλέω",
     "match": "exact",
     "nt_count": 148,
-    "souter_id": 2606,
+    "souter_id": 2615,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4315,7 +4315,7 @@
     "lemma": "κλητός",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 2877,
+    "souter_id": 2890,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4327,7 +4327,7 @@
     "lemma": "κλῆσις",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 2876,
+    "souter_id": 2889,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4339,7 +4339,7 @@
     "lemma": "ἐγκαλέω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1481,
+    "souter_id": 1488,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4363,7 +4363,7 @@
     "lemma": "ἐκκλησία",
     "match": "exact",
     "nt_count": 114,
-    "souter_id": 1588,
+    "souter_id": 1595,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4375,7 +4375,7 @@
     "lemma": "ἐπικαλέω",
     "match": "variant",
     "nt_count": 30,
-    "souter_id": 1980,
+    "souter_id": 1987,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4387,7 +4387,7 @@
     "lemma": "παρακαλέω",
     "match": "exact",
     "nt_count": 109,
-    "souter_id": 3886,
+    "souter_id": 3906,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4399,7 +4399,7 @@
     "lemma": "παράκλησις",
     "match": "exact",
     "nt_count": 29,
-    "souter_id": 3889,
+    "souter_id": 3909,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4411,7 +4411,7 @@
     "lemma": "παράκλητος",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3890,
+    "souter_id": 3910,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4423,7 +4423,7 @@
     "lemma": "προσκαλέομαι",
     "match": "exact",
     "nt_count": 29,
-    "souter_id": 4401,
+    "souter_id": 4422,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4435,7 +4435,7 @@
     "lemma": "συγκαλέω",
     "match": "variant",
     "nt_count": 8,
-    "souter_id": 4969,
+    "souter_id": 4991,
     "ocr_agrees": false,
     "uncertain": []
    }
@@ -4460,7 +4460,7 @@
     "lemma": "καυχάομαι",
     "match": "exact",
     "nt_count": 36,
-    "souter_id": 2795,
+    "souter_id": 2808,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4472,7 +4472,7 @@
     "lemma": "καύχημα",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 2796,
+    "souter_id": 2809,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4484,7 +4484,7 @@
     "lemma": "καύχησις",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 2797,
+    "souter_id": 2810,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -4510,7 +4510,7 @@
     "lemma": "κεῖμαι",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": 2800,
+    "souter_id": 2813,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4546,7 +4546,7 @@
     "lemma": "ἐπίκειμαι",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1984,
+    "souter_id": 1991,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4558,7 +4558,7 @@
     "lemma": "κατάκειμαι",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 2674,
+    "souter_id": 2686,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4570,7 +4570,7 @@
     "lemma": "περίκειμαι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4050,
+    "souter_id": 4070,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4582,7 +4582,7 @@
     "lemma": "πρόκειμαι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4353,
+    "souter_id": 4374,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4594,7 +4594,7 @@
     "lemma": "συνανάκειμαι",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 4905,
+    "souter_id": 4927,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4606,7 +4606,7 @@
     "lemma": "κοιμάομαι",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 2893,
+    "souter_id": 2906,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4618,7 +4618,7 @@
     "lemma": "κώμη",
     "match": "accent",
     "nt_count": 27,
-    "souter_id": 3029,
+    "souter_id": 3042,
     "ocr_agrees": false,
     "uncertain": [
      "κωμή, -ῆς: accent clearly typed/added on the final syllable (acute on η, circumflex on -ῆς), against the standard κώμη, -ης; transcribed as typed"
@@ -4645,7 +4645,7 @@
     "lemma": "κλῆρος",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 2874,
+    "souter_id": 2887,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4657,7 +4657,7 @@
     "lemma": "κληρονόμος",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 2873,
+    "souter_id": 2886,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4669,7 +4669,7 @@
     "lemma": "κληρονομέω",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 2871,
+    "souter_id": 2884,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4681,7 +4681,7 @@
     "lemma": "κληρονομία",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 2872,
+    "souter_id": 2885,
     "ocr_agrees": true,
     "uncertain": [
      "κληρονομία: genitive typed \"-ης\" (standard -ας); transcribed as typed"
@@ -4708,7 +4708,7 @@
     "lemma": "κοινός",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 2895,
+    "souter_id": 2908,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4720,7 +4720,7 @@
     "lemma": "κοινόω",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 2896,
+    "souter_id": 2909,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4732,7 +4732,7 @@
     "lemma": "κοινωνέω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 2897,
+    "souter_id": 2910,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4744,7 +4744,7 @@
     "lemma": "κοινωνία",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 2898,
+    "souter_id": 2911,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4756,7 +4756,7 @@
     "lemma": "κοινωνός",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 2900,
+    "souter_id": 2913,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -4782,7 +4782,7 @@
     "lemma": "κόπτω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 2932,
+    "souter_id": 2945,
     "ocr_agrees": true,
     "uncertain": [
      "κόπτω gloss: no closing parenthesis typed after \"lamentation\" (line wraps \"lamenta-/tion\"); transcribed as typed"
@@ -4808,7 +4808,7 @@
     "lemma": "ἐκκόπτω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 1593,
+    "souter_id": 1600,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4820,7 +4820,7 @@
     "lemma": "ἐγκόπτω",
     "match": "variant",
     "nt_count": 5,
-    "souter_id": 1798,
+    "souter_id": 1805,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4832,7 +4832,7 @@
     "lemma": "προσκόπτω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 4411,
+    "souter_id": 4432,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4856,7 +4856,7 @@
     "lemma": "κόπος",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 2929,
+    "souter_id": 2942,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -4868,7 +4868,7 @@
     "lemma": "εὐκοπώτερος",
     "match": "override",
     "nt_count": 7,
-    "souter_id": 2165,
+    "souter_id": 2173,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4880,7 +4880,7 @@
     "lemma": "κοπιάω",
     "match": "exact",
     "nt_count": 23,
-    "souter_id": 2928,
+    "souter_id": 2941,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -4905,7 +4905,7 @@
     "lemma": "κράτος",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 2963,
+    "souter_id": 2976,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4917,7 +4917,7 @@
     "lemma": "κρατέω",
     "match": "exact",
     "nt_count": 47,
-    "souter_id": 2961,
+    "souter_id": 2974,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4929,7 +4929,7 @@
     "lemma": "κρείττων",
     "match": "override",
     "nt_count": 19,
-    "souter_id": 2967,
+    "souter_id": 2980,
     "ocr_agrees": true,
     "uncertain": [
      "κρείσσων: the parenthetical \"(or κρείττων)\" stands between the headword and the genitive ending; placed in the grammatical-info field"
@@ -4943,7 +4943,7 @@
     "lemma": "προσκαρτερέω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 4402,
+    "souter_id": 4423,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -4955,7 +4955,7 @@
     "lemma": "παντοκράτωρ",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 3858,
+    "souter_id": 3878,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -4980,7 +4980,7 @@
     "lemma": "κρίνω",
     "match": "exact",
     "nt_count": 114,
-    "souter_id": 2978,
+    "souter_id": 2991,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5016,7 +5016,7 @@
     "lemma": "διακρίνω",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 1278,
+    "souter_id": 1279,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5028,7 +5028,7 @@
     "lemma": "κατακρίνω",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 2685,
+    "souter_id": 2697,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -5040,7 +5040,7 @@
     "lemma": "κρίμα",
     "match": "exact",
     "nt_count": 27,
-    "souter_id": 2976,
+    "souter_id": 2989,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -5052,7 +5052,7 @@
     "lemma": "κρίσις",
     "match": "exact",
     "nt_count": 47,
-    "souter_id": 2979,
+    "souter_id": 2992,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5064,7 +5064,7 @@
     "lemma": "κριτής",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 2982,
+    "souter_id": 2995,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5076,7 +5076,7 @@
     "lemma": "ὑποκριτής",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 5364,
+    "souter_id": 5394,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5088,7 +5088,7 @@
     "lemma": "ὑπόκρισις",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5363,
+    "souter_id": 5393,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5126,7 +5126,7 @@
     "lemma": "λαμβάνω",
     "match": "exact",
     "nt_count": 258,
-    "souter_id": 3044,
+    "souter_id": 3057,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5150,7 +5150,7 @@
     "lemma": "ἐπιλαμβάνομαι",
     "match": "override",
     "nt_count": 19,
-    "souter_id": 1989,
+    "souter_id": 1996,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5162,7 +5162,7 @@
     "lemma": "καταλαμβάνω",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 2692,
+    "souter_id": 2704,
     "ocr_agrees": true,
     "uncertain": [
      "καταλαμβάνω gloss: the first word reads \"undertake\" (one might expect \"overtake\"); faint letters, transcribed as it appears"
@@ -5176,7 +5176,7 @@
     "lemma": "μεταλαμβάνω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 3297,
+    "souter_id": 3310,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5188,7 +5188,7 @@
     "lemma": "παραλαμβάνω",
     "match": "exact",
     "nt_count": 49,
-    "souter_id": 3895,
+    "souter_id": 3915,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -5200,7 +5200,7 @@
     "lemma": "προσλαμβάνομαι",
     "match": "override",
     "nt_count": 12,
-    "souter_id": 4416,
+    "souter_id": 4437,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5212,7 +5212,7 @@
     "lemma": "συλλαμβάνω",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 4867,
+    "souter_id": 4889,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5224,7 +5224,7 @@
     "lemma": "ὑπολαμβάνω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5365,
+    "souter_id": 5395,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -5249,7 +5249,7 @@
     "lemma": "λανθάνω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3051,
+    "souter_id": 3064,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5261,7 +5261,7 @@
     "lemma": "ἐπιλανθάνομαι",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 1990,
+    "souter_id": 1997,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5336,7 +5336,7 @@
     "lemma": "διαλέγομαι",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 1282,
+    "souter_id": 1283,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5348,7 +5348,7 @@
     "lemma": "διάλεκτος",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 1284,
+    "souter_id": 1285,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5360,7 +5360,7 @@
     "lemma": "ἐκλέγομαι",
     "match": "exact",
     "nt_count": 22,
-    "souter_id": 1598,
+    "souter_id": 1605,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5372,7 +5372,7 @@
     "lemma": "ἐκλεκτός",
     "match": "exact",
     "nt_count": 23,
-    "souter_id": 1600,
+    "souter_id": 1607,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5384,7 +5384,7 @@
     "lemma": "ἐκλογή",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1601,
+    "souter_id": 1608,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5396,7 +5396,7 @@
     "lemma": "διαλογίζομαι",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 1287,
+    "souter_id": 1288,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -5422,7 +5422,7 @@
     "lemma": "λέγω",
     "match": "exact",
     "nt_count": 2345,
-    "souter_id": 3065,
+    "souter_id": 3078,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5434,7 +5434,7 @@
     "lemma": "λόγος",
     "match": "exact",
     "nt_count": 330,
-    "souter_id": 3119,
+    "souter_id": 3132,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5446,7 +5446,7 @@
     "lemma": "εὐλογέω",
     "match": "exact",
     "nt_count": 41,
-    "souter_id": 2169,
+    "souter_id": 2177,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5458,7 +5458,7 @@
     "lemma": "εὐλογητός",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 2170,
+    "souter_id": 2178,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -5470,7 +5470,7 @@
     "lemma": "εὐλογία",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 2171,
+    "souter_id": 2179,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5506,7 +5506,7 @@
     "lemma": "λογίζομαι",
     "match": "exact",
     "nt_count": 40,
-    "souter_id": 3112,
+    "souter_id": 3125,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5518,7 +5518,7 @@
     "lemma": "διαλογίζομαι",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 1287,
+    "souter_id": 1288,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5530,7 +5530,7 @@
     "lemma": "διαλογισμός",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 1288,
+    "souter_id": 1289,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -5555,7 +5555,7 @@
     "lemma": "λύω",
     "match": "exact",
     "nt_count": 42,
-    "souter_id": 3150,
+    "souter_id": 3163,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5567,7 +5567,7 @@
     "lemma": "ἀπολύω",
     "match": "exact",
     "nt_count": 67,
-    "souter_id": 641,
+    "souter_id": 643,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5591,7 +5591,7 @@
     "lemma": "ἐκλύομαι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1602,
+    "souter_id": 1609,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5603,7 +5603,7 @@
     "lemma": "καταλύω",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 2700,
+    "souter_id": 2712,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -5627,7 +5627,7 @@
     "lemma": "παραλυτικός",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 3900,
+    "souter_id": 3920,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -5652,7 +5652,7 @@
     "lemma": "μένω",
     "match": "exact",
     "nt_count": 118,
-    "souter_id": 3267,
+    "souter_id": 3280,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5664,7 +5664,7 @@
     "lemma": "διαμένω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1292,
+    "souter_id": 1293,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5676,7 +5676,7 @@
     "lemma": "ἐπιμένω",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 2002,
+    "souter_id": 2009,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5688,7 +5688,7 @@
     "lemma": "προσμένω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 4418,
+    "souter_id": 4439,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5700,7 +5700,7 @@
     "lemma": "ὑπομένω",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 5370,
+    "souter_id": 5400,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5712,7 +5712,7 @@
     "lemma": "ὑπομονή",
     "match": "exact",
     "nt_count": 32,
-    "souter_id": 5373,
+    "souter_id": 5403,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5724,7 +5724,7 @@
     "lemma": "μιμητής",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3374,
+    "souter_id": 3388,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5736,7 +5736,7 @@
     "lemma": "μιμνῄσκομαι",
     "match": "accent",
     "nt_count": 23,
-    "souter_id": 3375,
+    "souter_id": 3389,
     "ocr_agrees": true,
     "uncertain": [
      "μιμνήσκομαι: no iota subscript visible (μιμνῄσκομαι); transcribed as typed"
@@ -5764,7 +5764,7 @@
     "lemma": "ὑπομιμνῄσκω",
     "match": "accent",
     "nt_count": 7,
-    "souter_id": 5371,
+    "souter_id": 5401,
     "ocr_agrees": true,
     "uncertain": [
      "ὑπομιμνήσκω: no iota subscript visible; transcribed as typed"
@@ -5778,7 +5778,7 @@
     "lemma": "μνεία",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 3389,
+    "souter_id": 3403,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5790,7 +5790,7 @@
     "lemma": "μνῆμα",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 3390,
+    "souter_id": 3404,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5802,7 +5802,7 @@
     "lemma": "μνημεῖον",
     "match": "exact",
     "nt_count": 40,
-    "souter_id": 3391,
+    "souter_id": 3405,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5814,7 +5814,7 @@
     "lemma": "μνημονεύω",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 3393,
+    "souter_id": 3407,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -5839,7 +5839,7 @@
     "lemma": "μάρτυς",
     "match": "exact",
     "nt_count": 35,
-    "souter_id": 3210,
+    "souter_id": 3223,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5851,7 +5851,7 @@
     "lemma": "μαρτυρέω",
     "match": "exact",
     "nt_count": 76,
-    "souter_id": 3206,
+    "souter_id": 3219,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5863,7 +5863,7 @@
     "lemma": "μαρτυρία",
     "match": "exact",
     "nt_count": 37,
-    "souter_id": 3207,
+    "souter_id": 3220,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5875,7 +5875,7 @@
     "lemma": "μαρτύριον",
     "match": "exact",
     "nt_count": 20,
-    "souter_id": 3208,
+    "souter_id": 3221,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5887,7 +5887,7 @@
     "lemma": "διαμαρτύρομαι",
     "match": "override",
     "nt_count": 15,
-    "souter_id": 1290,
+    "souter_id": 1291,
     "ocr_agrees": true,
     "uncertain": [
      "διαμαρτυρέομαι: clearly typed with -ρέομαι (standard NT form διαμαρτύρομαι); transcribed as typed"
@@ -5914,7 +5914,7 @@
     "lemma": "μέρος",
     "match": "exact",
     "nt_count": 42,
-    "souter_id": 3274,
+    "souter_id": 3287,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5926,7 +5926,7 @@
     "lemma": "μερίζω",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 3268,
+    "souter_id": 3281,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -5938,7 +5938,7 @@
     "lemma": "διαμερίζω",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 1293,
+    "souter_id": 1294,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6013,7 +6013,7 @@
     "lemma": "νόμος",
     "match": "exact",
     "nt_count": 193,
-    "souter_id": 2635,
+    "souter_id": 3536,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6037,7 +6037,7 @@
     "lemma": "νομίζω",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 3513,
+    "souter_id": 3528,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6049,7 +6049,7 @@
     "lemma": "νομικός",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 3514,
+    "souter_id": 3529,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6075,7 +6075,7 @@
     "lemma": "νοέω",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 3509,
+    "souter_id": 3524,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6087,7 +6087,7 @@
     "lemma": "νόημα",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3510,
+    "souter_id": 3525,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6099,7 +6099,7 @@
     "lemma": "διάνοια",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 1298,
+    "souter_id": 1299,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6111,7 +6111,7 @@
     "lemma": "κατανοέω",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 2707,
+    "souter_id": 2719,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6123,7 +6123,7 @@
     "lemma": "μετανοέω",
     "match": "exact",
     "nt_count": 34,
-    "souter_id": 3302,
+    "souter_id": 3315,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6135,7 +6135,7 @@
     "lemma": "μετάνοια",
     "match": "exact",
     "nt_count": 22,
-    "souter_id": 3303,
+    "souter_id": 3316,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6147,7 +6147,7 @@
     "lemma": "νοῦς",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": 3534,
+    "souter_id": 3549,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6159,7 +6159,7 @@
     "lemma": "νουθετέω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 3531,
+    "souter_id": 3546,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6184,7 +6184,7 @@
     "lemma": "οἶκος",
     "match": "exact",
     "nt_count": 112,
-    "souter_id": 3616,
+    "souter_id": 3631,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6196,7 +6196,7 @@
     "lemma": "οἰκοδεσπότης",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 3609,
+    "souter_id": 3624,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6208,7 +6208,7 @@
     "lemma": "οἰκοδομέω",
     "match": "exact",
     "nt_count": 40,
-    "souter_id": 3610,
+    "souter_id": 3625,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6220,7 +6220,7 @@
     "lemma": "οἰκοδομή",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 3611,
+    "souter_id": 3626,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6232,7 +6232,7 @@
     "lemma": "ἐποικοδομέω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 2069,
+    "souter_id": 2076,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6244,7 +6244,7 @@
     "lemma": "οἰκονόμος",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 3615,
+    "souter_id": 3630,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6256,7 +6256,7 @@
     "lemma": "οἰκέω",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 3603,
+    "souter_id": 3618,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6268,7 +6268,7 @@
     "lemma": "ἐνοικέω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1806,
+    "souter_id": 1813,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6280,7 +6280,7 @@
     "lemma": "κατοικέω",
     "match": "exact",
     "nt_count": 44,
-    "souter_id": 2780,
+    "souter_id": 2792,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6292,7 +6292,7 @@
     "lemma": "οἰκονομία",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 3614,
+    "souter_id": 3629,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6304,7 +6304,7 @@
     "lemma": "οἰκουμένη",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 3617,
+    "souter_id": 3632,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6316,7 +6316,7 @@
     "lemma": "οἰκία",
     "match": "exact",
     "nt_count": 93,
-    "souter_id": 3606,
+    "souter_id": 3621,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6341,7 +6341,7 @@
     "lemma": "ὅμοιος",
     "match": "exact",
     "nt_count": 45,
-    "souter_id": 3663,
+    "souter_id": 3678,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -6353,7 +6353,7 @@
     "lemma": "ὁμοιόω",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 3665,
+    "souter_id": 3680,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6365,7 +6365,7 @@
     "lemma": "ὁμοίωμα",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3666,
+    "souter_id": 3681,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6377,7 +6377,7 @@
     "lemma": "ὁμολογέω",
     "match": "exact",
     "nt_count": 26,
-    "souter_id": 3669,
+    "souter_id": 3684,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6389,7 +6389,7 @@
     "lemma": "ἐξομολογέω",
     "match": "variant",
     "nt_count": 10,
-    "souter_id": 1877,
+    "souter_id": 1884,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6401,7 +6401,7 @@
     "lemma": "ὁμολογία",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3670,
+    "souter_id": 3685,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6426,7 +6426,7 @@
     "lemma": "ὁράω",
     "match": "override",
     "nt_count": 476,
-    "souter_id": 3707,
+    "souter_id": 3722,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6438,7 +6438,7 @@
     "lemma": "ὀφθαλμός",
     "match": "exact",
     "nt_count": 100,
-    "souter_id": 3804,
+    "souter_id": 3824,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6474,7 +6474,7 @@
     "lemma": "μέτωπον",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 3322,
+    "souter_id": 3335,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6486,7 +6486,7 @@
     "lemma": "πρόσωπον",
     "match": "exact",
     "nt_count": 76,
-    "souter_id": 4444,
+    "souter_id": 4465,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6511,7 +6511,7 @@
     "lemma": "πάσχω",
     "match": "exact",
     "nt_count": 42,
-    "souter_id": 3975,
+    "souter_id": 3995,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6523,7 +6523,7 @@
     "lemma": "πάθημα",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 3822,
+    "souter_id": 3842,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6535,7 +6535,7 @@
     "lemma": "πενθέω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 4016,
+    "souter_id": 4036,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6560,7 +6560,7 @@
     "lemma": "παῖς",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": 3835,
+    "souter_id": 3855,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6572,7 +6572,7 @@
     "lemma": "παιδεύω",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 3829,
+    "souter_id": 3849,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6584,7 +6584,7 @@
     "lemma": "παιδεία",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 3827,
+    "souter_id": 3847,
     "ocr_agrees": true,
     "uncertain": [
      "the δ of παιδεία is malformed (looks like ζ/ϛ overstrike); read as δ"
@@ -6598,7 +6598,7 @@
     "lemma": "παιδίον",
     "match": "exact",
     "nt_count": 52,
-    "souter_id": 3832,
+    "souter_id": 3852,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6610,7 +6610,7 @@
     "lemma": "παιδίσκη",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 3833,
+    "souter_id": 3853,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6622,7 +6622,7 @@
     "lemma": "ἐμπαίζω",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 1721,
+    "souter_id": 1728,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6647,7 +6647,7 @@
     "lemma": "πᾶς",
     "match": "exact",
     "nt_count": 1244,
-    "souter_id": 3973,
+    "souter_id": 3993,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6673,7 +6673,7 @@
     "lemma": "πανταχοῦ",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 3854,
+    "souter_id": 3874,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6685,7 +6685,7 @@
     "lemma": "πάντως",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 3860,
+    "souter_id": 3880,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6697,7 +6697,7 @@
     "lemma": "παντοκράτωρ",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 3858,
+    "souter_id": 3878,
     "ocr_agrees": false,
     "uncertain": []
    }
@@ -6722,7 +6722,7 @@
     "lemma": "πορεύομαι",
     "match": "exact",
     "nt_count": 150,
-    "souter_id": 4257,
+    "souter_id": 4278,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6734,7 +6734,7 @@
     "lemma": "διαπορεύομαι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1307,
+    "souter_id": 1308,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6746,7 +6746,7 @@
     "lemma": "εἰσπορεύομαι",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 1540,
+    "souter_id": 1547,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6758,7 +6758,7 @@
     "lemma": "ἐκπορεύομαι",
     "match": "exact",
     "nt_count": 33,
-    "souter_id": 1621,
+    "souter_id": 1628,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6770,7 +6770,7 @@
     "lemma": "παραπορεύομαι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3914,
+    "souter_id": 3934,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6782,7 +6782,7 @@
     "lemma": "ἔμπορος",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1731,
+    "souter_id": 1738,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6794,7 +6794,7 @@
     "lemma": "πέραν",
     "match": "exact",
     "nt_count": 23,
-    "souter_id": 4028,
+    "souter_id": 4048,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6806,7 +6806,7 @@
     "lemma": "διαπεράω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 1304,
+    "souter_id": 1305,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6832,7 +6832,7 @@
     "lemma": "πειράζω",
     "match": "exact",
     "nt_count": 37,
-    "souter_id": 4005,
+    "souter_id": 4025,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6844,7 +6844,7 @@
     "lemma": "πειρασμός",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 4007,
+    "souter_id": 4027,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6869,7 +6869,7 @@
     "lemma": "πιπράσκω",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 4118,
+    "souter_id": 4139,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6881,7 +6881,7 @@
     "lemma": "πορνεύω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 4262,
+    "souter_id": 4283,
     "ocr_agrees": false,
     "uncertain": [
      "punctuation after \"imagery\" looks like a period (followed by lowercase \"the\"); could be a comma"
@@ -6895,7 +6895,7 @@
     "lemma": "πορνεία",
     "match": "exact",
     "nt_count": 25,
-    "souter_id": 4261,
+    "souter_id": 4282,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6907,7 +6907,7 @@
     "lemma": "πόρνη",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 4263,
+    "souter_id": 4284,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6919,7 +6919,7 @@
     "lemma": "πόρνος",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 4264,
+    "souter_id": 4285,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -6944,7 +6944,7 @@
     "lemma": "πέτομαι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4092,
+    "souter_id": 4113,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6956,7 +6956,7 @@
     "lemma": "πετεινόν",
     "match": "override",
     "nt_count": 14,
-    "souter_id": 4091,
+    "souter_id": 4112,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6968,7 +6968,7 @@
     "lemma": "καταπέτασμα",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 2715,
+    "souter_id": 2727,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -6980,7 +6980,7 @@
     "lemma": "πίπτω",
     "match": "exact",
     "nt_count": 90,
-    "souter_id": 4119,
+    "souter_id": 4140,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7004,7 +7004,7 @@
     "lemma": "ἐκπίπτω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 1615,
+    "souter_id": 1622,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7016,7 +7016,7 @@
     "lemma": "ἐμπίπτω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1725,
+    "souter_id": 1732,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7028,7 +7028,7 @@
     "lemma": "ἐπιπίπτω",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 2008,
+    "souter_id": 2016,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7040,7 +7040,7 @@
     "lemma": "προσπίπτω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 4424,
+    "souter_id": 4445,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7052,7 +7052,7 @@
     "lemma": "πτέρυξ",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4481,
+    "souter_id": 4502,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7064,7 +7064,7 @@
     "lemma": "πτῶμα",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 4491,
+    "souter_id": 4512,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7076,7 +7076,7 @@
     "lemma": "παράπτωμα",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 3915,
+    "souter_id": 3935,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -7101,7 +7101,7 @@
     "lemma": "πίνω",
     "match": "exact",
     "nt_count": 72,
-    "souter_id": 4116,
+    "souter_id": 4137,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7113,7 +7113,7 @@
     "lemma": "καταπίνω",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 2716,
+    "souter_id": 2728,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7125,7 +7125,7 @@
     "lemma": "ποτήριον",
     "match": "exact",
     "nt_count": 31,
-    "souter_id": 4279,
+    "souter_id": 4300,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7137,7 +7137,7 @@
     "lemma": "ποτίζω",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 4280,
+    "souter_id": 4301,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -7162,7 +7162,7 @@
     "lemma": "πείθω",
     "match": "exact",
     "nt_count": 52,
-    "souter_id": 4001,
+    "souter_id": 4021,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7210,7 +7210,7 @@
     "lemma": "πεποίθησις",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 4026,
+    "souter_id": 4046,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7222,7 +7222,7 @@
     "lemma": "πίστις",
     "match": "exact",
     "nt_count": 242,
-    "souter_id": 4124,
+    "souter_id": 4145,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7234,7 +7234,7 @@
     "lemma": "πιστός",
     "match": "exact",
     "nt_count": 67,
-    "souter_id": 4125,
+    "souter_id": 4146,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7270,7 +7270,7 @@
     "lemma": "ὀλιγόπιστος",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3637,
+    "souter_id": 3652,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7282,7 +7282,7 @@
     "lemma": "πιστεύω",
     "match": "exact",
     "nt_count": 241,
-    "souter_id": 4122,
+    "souter_id": 4143,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7320,7 +7320,7 @@
     "lemma": "πίμπλημι",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": 4112,
+    "souter_id": 4133,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7346,7 +7346,7 @@
     "lemma": "πλήρης",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 4156,
+    "souter_id": 4177,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7358,7 +7358,7 @@
     "lemma": "πληρόω",
     "match": "exact",
     "nt_count": 86,
-    "souter_id": 4159,
+    "souter_id": 4180,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7382,7 +7382,7 @@
     "lemma": "πλήρωμα",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 4160,
+    "souter_id": 4181,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7394,7 +7394,7 @@
     "lemma": "πλῆθος",
     "match": "exact",
     "nt_count": 31,
-    "souter_id": 4150,
+    "souter_id": 4171,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7406,7 +7406,7 @@
     "lemma": "πληθύνω",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 4151,
+    "souter_id": 4172,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7418,7 +7418,7 @@
     "lemma": "πλοῦτος",
     "match": "exact",
     "nt_count": 22,
-    "souter_id": 4171,
+    "souter_id": 4192,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7430,7 +7430,7 @@
     "lemma": "πλούσιος",
     "match": "exact",
     "nt_count": 28,
-    "souter_id": 4167,
+    "souter_id": 4188,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7442,7 +7442,7 @@
     "lemma": "πλουτέω",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 4169,
+    "souter_id": 4190,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7454,7 +7454,7 @@
     "lemma": "πλήν",
     "match": "exact",
     "nt_count": 31,
-    "souter_id": 4155,
+    "souter_id": 4176,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7466,7 +7466,7 @@
     "lemma": "πολύς",
     "match": "exact",
     "nt_count": 415,
-    "souter_id": 4232,
+    "souter_id": 4264,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7478,7 +7478,7 @@
     "lemma": "πολύς",
     "match": "override",
     "nt_count": 415,
-    "souter_id": 4232,
+    "souter_id": 4264,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7490,7 +7490,7 @@
     "lemma": "πλεονάζω",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 4143,
+    "souter_id": 4164,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7502,7 +7502,7 @@
     "lemma": "πλεονεκτέω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4144,
+    "souter_id": 4165,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7514,7 +7514,7 @@
     "lemma": "πλεονεξία",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 4146,
+    "souter_id": 4167,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -7539,7 +7539,7 @@
     "lemma": "σῴζω",
     "match": "accent",
     "nt_count": 106,
-    "souter_id": 5078,
+    "souter_id": 5100,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7551,7 +7551,7 @@
     "lemma": "διασῴζω",
     "match": "accent",
     "nt_count": 8,
-    "souter_id": 1323,
+    "souter_id": 1324,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7563,7 +7563,7 @@
     "lemma": "σωτήρ",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": null,
+    "souter_id": 5109,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7575,7 +7575,7 @@
     "lemma": "σωτηρία",
     "match": "exact",
     "nt_count": 46,
-    "souter_id": null,
+    "souter_id": 5110,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7587,7 +7587,7 @@
     "lemma": "σωφρονέω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5084,
+    "souter_id": 5113,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -7675,7 +7675,7 @@
     "lemma": "σκηνή",
     "match": "exact",
     "nt_count": 20,
-    "souter_id": 4714,
+    "souter_id": 4736,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7687,7 +7687,7 @@
     "lemma": "σκηνόω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 4718,
+    "souter_id": 4740,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7699,7 +7699,7 @@
     "lemma": "σκιά",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 4720,
+    "souter_id": 4742,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7711,7 +7711,7 @@
     "lemma": "ἐπισκιάζω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 2023,
+    "souter_id": 2030,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7723,7 +7723,7 @@
     "lemma": "σκότος",
     "match": "exact",
     "nt_count": 30,
-    "souter_id": 4736,
+    "souter_id": 4758,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7735,7 +7735,7 @@
     "lemma": "σκοτία",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 4734,
+    "souter_id": 4756,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7773,7 +7773,7 @@
     "lemma": "ἵστημι",
     "match": "exact",
     "nt_count": 153,
-    "souter_id": null,
+    "souter_id": 2524,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7809,7 +7809,7 @@
     "lemma": "ἀφίσταμαι",
     "match": "override",
     "nt_count": 14,
-    "souter_id": 887,
+    "souter_id": 888,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7821,7 +7821,7 @@
     "lemma": "ἐνίστημι",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1788,
+    "souter_id": 1795,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7833,7 +7833,7 @@
     "lemma": "ἐξίστημι",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 1873,
+    "souter_id": 1880,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7845,7 +7845,7 @@
     "lemma": "ἐφίστημι",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 2227,
+    "souter_id": 2235,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7857,7 +7857,7 @@
     "lemma": "ἐπιστάτης",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 2031,
+    "souter_id": 2038,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7869,7 +7869,7 @@
     "lemma": "ἐπίσταμαι",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 2029,
+    "souter_id": 2036,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7881,7 +7881,7 @@
     "lemma": "καθίστημι",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 2567,
+    "souter_id": 2576,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7905,7 +7905,7 @@
     "lemma": "μεθίστημι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 3241,
+    "souter_id": 3254,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7917,7 +7917,7 @@
     "lemma": "παρίστημι",
     "match": "exact",
     "nt_count": 41,
-    "souter_id": 3953,
+    "souter_id": 3973,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7929,7 +7929,7 @@
     "lemma": "προΐστημι",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 4349,
+    "souter_id": 4370,
     "ocr_agrees": true,
     "uncertain": [
      "προΐστημι: the mark over ι is a diaeresis with an acute (ΐ); the dots are faint"
@@ -7943,7 +7943,7 @@
     "lemma": "συνίστημι",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 4964,
+    "souter_id": 4986,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7955,7 +7955,7 @@
     "lemma": "στάσις",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 4790,
+    "souter_id": 4812,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7979,7 +7979,7 @@
     "lemma": "ἔκστασις",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 1625,
+    "souter_id": 1632,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -7991,7 +7991,7 @@
     "lemma": "ὑπόστασις",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5379,
+    "souter_id": 5409,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8028,7 +8028,7 @@
     "lemma": "σταυρός",
     "match": "exact",
     "nt_count": 27,
-    "souter_id": 4792,
+    "souter_id": 4814,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8040,7 +8040,7 @@
     "lemma": "σταυρόω",
     "match": "exact",
     "nt_count": 46,
-    "souter_id": 4793,
+    "souter_id": 4815,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8052,7 +8052,7 @@
     "lemma": "συσταυρόομαι",
     "match": "override",
     "nt_count": 5,
-    "souter_id": null,
+    "souter_id": 5039,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -8101,7 +8101,7 @@
     "lemma": "διαστέλλομαι",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 1319,
+    "souter_id": 1320,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8113,7 +8113,7 @@
     "lemma": "ἐξαποστέλλω",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 1856,
+    "souter_id": 1863,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8125,7 +8125,7 @@
     "lemma": "ἐπιστολή",
     "match": "exact",
     "nt_count": 24,
-    "souter_id": 2035,
+    "souter_id": 2042,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8137,7 +8137,7 @@
     "lemma": "στολή",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 4826,
+    "souter_id": 4848,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -8162,7 +8162,7 @@
     "lemma": "στρέφω",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 4839,
+    "souter_id": 4861,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8198,7 +8198,7 @@
     "lemma": "ἐπιστρέφω",
     "match": "exact",
     "nt_count": 36,
-    "souter_id": 2037,
+    "souter_id": 2044,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8210,7 +8210,7 @@
     "lemma": "ὑποστρέφω",
     "match": "exact",
     "nt_count": 35,
-    "souter_id": 5382,
+    "souter_id": 5412,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -8235,7 +8235,7 @@
     "lemma": "τάσσω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 5113,
+    "souter_id": 5142,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8271,7 +8271,7 @@
     "lemma": "διατάσσω",
     "match": "exact",
     "nt_count": 16,
-    "souter_id": 1327,
+    "souter_id": 1328,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8283,7 +8283,7 @@
     "lemma": "ἐπιτάσσω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 2046,
+    "souter_id": 2053,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8295,7 +8295,7 @@
     "lemma": "ἐπιταγή",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 2045,
+    "souter_id": 2052,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8307,7 +8307,7 @@
     "lemma": "ὑποτάσσω",
     "match": "exact",
     "nt_count": 38,
-    "souter_id": 5385,
+    "souter_id": 5415,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8319,7 +8319,7 @@
     "lemma": "τάξις",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 5101,
+    "souter_id": 5130,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -8344,7 +8344,7 @@
     "lemma": "τέλος",
     "match": "exact",
     "nt_count": 40,
-    "souter_id": 5144,
+    "souter_id": 5173,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8356,7 +8356,7 @@
     "lemma": "τελέω",
     "match": "exact",
     "nt_count": 28,
-    "souter_id": 5143,
+    "souter_id": 5172,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8368,7 +8368,7 @@
     "lemma": "ἐπιτελέω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 2047,
+    "souter_id": 2054,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8380,7 +8380,7 @@
     "lemma": "συντελέω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5027,
+    "souter_id": 5049,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8392,7 +8392,7 @@
     "lemma": "συντέλεια",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5026,
+    "souter_id": 5048,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8404,7 +8404,7 @@
     "lemma": "τέλειος",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 5134,
+    "souter_id": 5163,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8416,7 +8416,7 @@
     "lemma": "τελειόω",
     "match": "exact",
     "nt_count": 23,
-    "souter_id": 5136,
+    "souter_id": 5165,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8428,7 +8428,7 @@
     "lemma": "τελευτάω",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 5141,
+    "souter_id": 5170,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -8453,7 +8453,7 @@
     "lemma": "τέσσαρες",
     "match": "exact",
     "nt_count": 40,
-    "souter_id": 5152,
+    "souter_id": 5181,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8465,7 +8465,7 @@
     "lemma": "δεκατέσσαρες",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1204,
+    "souter_id": 1205,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8477,7 +8477,7 @@
     "lemma": "τεσσεράκοντα",
     "match": "override",
     "nt_count": 22,
-    "souter_id": 5150,
+    "souter_id": 5179,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8489,7 +8489,7 @@
     "lemma": "τέταρτος",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 5155,
+    "souter_id": 5184,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8501,7 +8501,7 @@
     "lemma": "τράπεζα",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 5220,
+    "souter_id": 5250,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -8526,7 +8526,7 @@
     "lemma": "τιμή",
     "match": "exact",
     "nt_count": 41,
-    "souter_id": 5178,
+    "souter_id": 5208,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8538,7 +8538,7 @@
     "lemma": "τιμάω",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 5177,
+    "souter_id": 5207,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8550,7 +8550,7 @@
     "lemma": "ἐπιτιμάω",
     "match": "exact",
     "nt_count": 29,
-    "souter_id": 2050,
+    "souter_id": 2057,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8562,7 +8562,7 @@
     "lemma": "τίμιος",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 5179,
+    "souter_id": 5209,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8598,7 +8598,7 @@
     "lemma": "ἔντιμος",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 1819,
+    "souter_id": 1826,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -8623,7 +8623,7 @@
     "lemma": "τρεῖς",
     "match": "exact",
     "nt_count": 67,
-    "souter_id": 5228,
+    "souter_id": 5258,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8635,7 +8635,7 @@
     "lemma": "τριάκοντα",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 5233,
+    "souter_id": 5263,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8647,7 +8647,7 @@
     "lemma": "τρίτος",
     "match": "exact",
     "nt_count": 55,
-    "souter_id": 5244,
+    "souter_id": 5274,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8659,7 +8659,7 @@
     "lemma": "τρίς",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 5240,
+    "souter_id": 5270,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -8684,7 +8684,7 @@
     "lemma": "ὑψηλός",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 5402,
+    "souter_id": 5432,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8696,7 +8696,7 @@
     "lemma": "ὕψιστος",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 5404,
+    "souter_id": 5434,
     "ocr_agrees": true,
     "uncertain": [
      "ὕψιστος: the breathing and accent over υ are blotted together; read as rough breathing with acute"
@@ -8710,7 +8710,7 @@
     "lemma": "ὕψος",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5405,
+    "souter_id": 5435,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8722,7 +8722,7 @@
     "lemma": "ὑψόω",
     "match": "exact",
     "nt_count": 20,
-    "souter_id": 5406,
+    "souter_id": 5436,
     "ocr_agrees": false,
     "uncertain": []
    }
@@ -8748,7 +8748,7 @@
     "lemma": "φαίνω",
     "match": "exact",
     "nt_count": 31,
-    "souter_id": 5409,
+    "souter_id": 5439,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8760,7 +8760,7 @@
     "lemma": "ἐπιφάνεια",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 2058,
+    "souter_id": 2065,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8772,7 +8772,7 @@
     "lemma": "ἀφανίζω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 870,
+    "souter_id": 871,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8784,7 +8784,7 @@
     "lemma": "ἐμφανίζω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 1736,
+    "souter_id": 1743,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -8796,7 +8796,7 @@
     "lemma": "φανερός",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 5411,
+    "souter_id": 5441,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8808,7 +8808,7 @@
     "lemma": "φανερόω",
     "match": "exact",
     "nt_count": 48,
-    "souter_id": 5412,
+    "souter_id": 5442,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8820,7 +8820,7 @@
     "lemma": "ὑπερήφανος",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5334,
+    "souter_id": 5364,
     "ocr_agrees": true,
     "uncertain": [
      "\"disdainful\" is hyphenated across the line break in the typescript (\"dis-\" / \"dainful\"); joined without the hyphen"
@@ -8834,7 +8834,7 @@
     "lemma": "φημί",
     "match": "exact",
     "nt_count": 65,
-    "souter_id": 5439,
+    "souter_id": 5469,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -8846,7 +8846,7 @@
     "lemma": "προφητεύω",
     "match": "exact",
     "nt_count": 28,
-    "souter_id": 4455,
+    "souter_id": 4476,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8858,7 +8858,7 @@
     "lemma": "προφητεία",
     "match": "exact",
     "nt_count": 19,
-    "souter_id": 4454,
+    "souter_id": 4475,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8870,7 +8870,7 @@
     "lemma": "προφήτης",
     "match": "exact",
     "nt_count": 144,
-    "souter_id": 4456,
+    "souter_id": 4477,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8882,7 +8882,7 @@
     "lemma": "φωνή",
     "match": "exact",
     "nt_count": 139,
-    "souter_id": 5549,
+    "souter_id": 5579,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8894,7 +8894,7 @@
     "lemma": "φωνέω",
     "match": "exact",
     "nt_count": 43,
-    "souter_id": 5548,
+    "souter_id": 5578,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8906,7 +8906,7 @@
     "lemma": "συμφωνέω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 4887,
+    "souter_id": 4909,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8918,7 +8918,7 @@
     "lemma": "βλασφημέω",
     "match": "exact",
     "nt_count": 34,
-    "souter_id": 1009,
+    "souter_id": 1010,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8930,7 +8930,7 @@
     "lemma": "βλασφημία",
     "match": "exact",
     "nt_count": 18,
-    "souter_id": 1010,
+    "souter_id": 1011,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8942,7 +8942,7 @@
     "lemma": "πρόφασις",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 4452,
+    "souter_id": 4473,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8954,7 +8954,7 @@
     "lemma": "φῶς",
     "match": "exact",
     "nt_count": 72,
-    "souter_id": 5550,
+    "souter_id": 5580,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8966,7 +8966,7 @@
     "lemma": "φωτεινός",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5553,
+    "souter_id": 5583,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -8978,7 +8978,7 @@
     "lemma": "φωτίζω",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 5554,
+    "souter_id": 5584,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9003,7 +9003,7 @@
     "lemma": "φέρω",
     "match": "exact",
     "nt_count": 66,
-    "souter_id": 5435,
+    "souter_id": 5465,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9027,7 +9027,7 @@
     "lemma": "διαφέρω",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 1336,
+    "souter_id": 1337,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9039,7 +9039,7 @@
     "lemma": "εἰσφέρω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 1542,
+    "souter_id": 1549,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9051,7 +9051,7 @@
     "lemma": "ἐκφέρω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 1642,
+    "souter_id": 1649,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -9063,7 +9063,7 @@
     "lemma": "προσφέρω",
     "match": "exact",
     "nt_count": 47,
-    "souter_id": 4435,
+    "souter_id": 4456,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9075,7 +9075,7 @@
     "lemma": "προσφορά",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 4437,
+    "souter_id": 4458,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9087,7 +9087,7 @@
     "lemma": "συμφέρω",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 4883,
+    "souter_id": 4905,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9099,7 +9099,7 @@
     "lemma": "φορέω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5503,
+    "souter_id": 5533,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9111,7 +9111,7 @@
     "lemma": "καρποφορέω",
     "match": "exact",
     "nt_count": 8,
-    "souter_id": 2629,
+    "souter_id": 2641,
     "ocr_agrees": false,
     "uncertain": []
    },
@@ -9123,7 +9123,7 @@
     "lemma": "πληροφορέω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 4157,
+    "souter_id": 4178,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9135,7 +9135,7 @@
     "lemma": "φορτίον",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5507,
+    "souter_id": 5537,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9161,7 +9161,7 @@
     "lemma": "φρονέω",
     "match": "exact",
     "nt_count": 26,
-    "souter_id": 5519,
+    "souter_id": 5549,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9173,7 +9173,7 @@
     "lemma": "καταφρονέω",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 2755,
+    "souter_id": 2767,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9185,7 +9185,7 @@
     "lemma": "σωφρονέω",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5084,
+    "souter_id": 5113,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9197,7 +9197,7 @@
     "lemma": "ταπεινοφροσύνη",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 5103,
+    "souter_id": 5132,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9209,7 +9209,7 @@
     "lemma": "φρόνιμος",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 5522,
+    "souter_id": 5552,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9221,7 +9221,7 @@
     "lemma": "ἄφρων",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 897,
+    "souter_id": 898,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9233,7 +9233,7 @@
     "lemma": "εὐφραίνω",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 2207,
+    "souter_id": 2215,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9258,7 +9258,7 @@
     "lemma": "φυλή",
     "match": "exact",
     "nt_count": 31,
-    "souter_id": 5536,
+    "souter_id": 5566,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9270,7 +9270,7 @@
     "lemma": "φύλλον",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5537,
+    "souter_id": 5567,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9282,7 +9282,7 @@
     "lemma": "φύσις",
     "match": "exact",
     "nt_count": 14,
-    "souter_id": 5542,
+    "souter_id": 5572,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9294,7 +9294,7 @@
     "lemma": "φυτεύω",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 5545,
+    "souter_id": 5575,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9319,7 +9319,7 @@
     "lemma": "χαίρω",
     "match": "exact",
     "nt_count": 74,
-    "souter_id": 5556,
+    "souter_id": 5586,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9343,7 +9343,7 @@
     "lemma": "χαρά",
     "match": "exact",
     "nt_count": 59,
-    "souter_id": 5572,
+    "souter_id": 5602,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9355,7 +9355,7 @@
     "lemma": "χάρις",
     "match": "exact",
     "nt_count": 155,
-    "souter_id": 5578,
+    "souter_id": 5609,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9367,7 +9367,7 @@
     "lemma": "χάριν",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 5577,
+    "souter_id": 5607,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9379,7 +9379,7 @@
     "lemma": "χαρίζομαι",
     "match": "exact",
     "nt_count": 23,
-    "souter_id": 5576,
+    "souter_id": 5606,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9391,7 +9391,7 @@
     "lemma": "χάρισμα",
     "match": "exact",
     "nt_count": 17,
-    "souter_id": 5579,
+    "souter_id": 5610,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9403,7 +9403,7 @@
     "lemma": "εὐχαριστέω",
     "match": "exact",
     "nt_count": 38,
-    "souter_id": 2210,
+    "souter_id": 2218,
     "ocr_agrees": true,
     "uncertain": [
      "εὐχαριστέω: the mark over υ is slanted like an acute; read as smooth breathing"
@@ -9417,7 +9417,7 @@
     "lemma": "εὐχαριστία",
     "match": "exact",
     "nt_count": 15,
-    "souter_id": 2211,
+    "souter_id": 2219,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9442,7 +9442,7 @@
     "lemma": "χιλιάς",
     "match": "exact",
     "nt_count": 23,
-    "souter_id": 5598,
+    "souter_id": 5629,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9454,7 +9454,7 @@
     "lemma": "χίλιοι",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 5599,
+    "souter_id": 5630,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9466,7 +9466,7 @@
     "lemma": "χιλίαρχος",
     "match": "exact",
     "nt_count": 21,
-    "souter_id": 5597,
+    "souter_id": 5628,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9478,7 +9478,7 @@
     "lemma": "τετρακισχίλιοι",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5160,
+    "souter_id": 5189,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9490,7 +9490,7 @@
     "lemma": "πεντακισχίλιοι",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 4020,
+    "souter_id": 4040,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9516,7 +9516,7 @@
     "lemma": "χράομαι",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 5623,
+    "souter_id": 5654,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9528,7 +9528,7 @@
     "lemma": "χρεία",
     "match": "exact",
     "nt_count": 49,
-    "souter_id": 5625,
+    "souter_id": 5656,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9540,7 +9540,7 @@
     "lemma": "χρηστός",
     "match": "exact",
     "nt_count": 7,
-    "souter_id": 5636,
+    "souter_id": 5667,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9552,7 +9552,7 @@
     "lemma": "χρηστότης",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 5637,
+    "souter_id": 5668,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9564,7 +9564,7 @@
     "lemma": "χρῄζω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5628,
+    "souter_id": 5659,
     "ocr_agrees": true,
     "uncertain": [
      "χρῄζω: acute over η is clear; the mark under η is read as iota subscript (it looks like a small dotted ι)"
@@ -9578,7 +9578,7 @@
     "lemma": "χρῆμα",
     "match": "exact",
     "nt_count": 6,
-    "souter_id": 5629,
+    "souter_id": 5660,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9590,7 +9590,7 @@
     "lemma": "χρηματίζω",
     "match": "exact",
     "nt_count": 9,
-    "souter_id": 5630,
+    "souter_id": 5661,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9615,7 +9615,7 @@
     "lemma": "χρυσός",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 5650,
+    "souter_id": 5681,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9627,7 +9627,7 @@
     "lemma": "χρυσίον",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 5646,
+    "souter_id": 5677,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9639,7 +9639,7 @@
     "lemma": "χρυσοῦς",
     "match": "override",
     "nt_count": 17,
-    "souter_id": 5645,
+    "souter_id": 5676,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9664,7 +9664,7 @@
     "lemma": "χώρα",
     "match": "exact",
     "nt_count": 28,
-    "souter_id": 5654,
+    "souter_id": 5685,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9676,7 +9676,7 @@
     "lemma": "χωρίον",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 5657,
+    "souter_id": 5688,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9688,7 +9688,7 @@
     "lemma": "χωρέω",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 5655,
+    "souter_id": 5686,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9712,7 +9712,7 @@
     "lemma": "χωρίζω",
     "match": "exact",
     "nt_count": 13,
-    "souter_id": 5656,
+    "souter_id": 5687,
     "ocr_agrees": true,
     "uncertain": []
    }
@@ -9737,7 +9737,7 @@
     "lemma": "ψεύδομαι",
     "match": "exact",
     "nt_count": 12,
-    "souter_id": 5667,
+    "souter_id": 5698,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9749,7 +9749,7 @@
     "lemma": "ψευδομαρτυρέω",
     "match": "exact",
     "nt_count": 5,
-    "souter_id": 5668,
+    "souter_id": 5699,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9761,7 +9761,7 @@
     "lemma": "ψευδοπροφήτης",
     "match": "exact",
     "nt_count": 11,
-    "souter_id": 5671,
+    "souter_id": 5702,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9773,7 +9773,7 @@
     "lemma": "ψεῦδος",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 5672,
+    "souter_id": 5703,
     "ocr_agrees": true,
     "uncertain": []
    },
@@ -9785,7 +9785,7 @@
     "lemma": "ψεύστης",
     "match": "exact",
     "nt_count": 10,
-    "souter_id": 5676,
+    "souter_id": 5707,
     "ocr_agrees": false,
     "uncertain": []
    }

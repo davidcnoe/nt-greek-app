@@ -18,17 +18,16 @@ Data and code for a New Testament Greek vocabulary app: words taught by root fam
 - `data/metzger/ocr/page-NNN.txt` raw OCR of the Metzger pages (Tesseract grc+eng, psm 4). Part I (frequency lists) is pages 1–51, Part II (words by root) pages 53–94, appendices pages 95–110.
 - `data/nt/lemmas.tsv` every lemma in the SBLGNT with its part of speech, NT count, and rank (5,461 lemmas; 1,125 occur 10+ times). Counted from [MorphGNT](https://github.com/morphgnt/sblgnt) (morphology CC BY-SA 3.0; SBLGNT text CC BY 4.0) by `scripts/build_lemmas.py`.
 - `data/souter/tsv/page-NNN.tsv` Tesseract word positions for each lexicon page.
-- `data/souter/entries.jsonl` Souter split into 5,716 entries by `scripts/segment_souter.py`. Entries are split at the hanging indent: each page's flush-left edge is fitted as a slanted line (the scan is skewed), and every line starting at that edge begins an entry. Each entry records the headword as OCR read it, the PDF page, the raw entry text, and how the headword matched a MorphGNT lemma:
+- `data/souter/entries.jsonl` Souter split into 5,747 entries by `scripts/segment_souter.py`. Entries are split at the hanging indent (each page's flush-left edge is fitted as a slanted line, since the scan is skewed); entries the OCR ran together are then split where a sentence ends and a later NT headword follows ("… gain. καπνός, smoke. … καρδία (Lat. cor …"), marked `split_from_merge`. Each entry records the headword as OCR read it, the PDF page, the raw text, and how the headword matched a MorphGNT lemma:
     - `exact`: matched as read
-    - `ocr-fix`: matched after a known OCR correction (ξ→ζ, ϑ→θ, δ→ὁ/ὑ, Latin capitals→Greek) or an SBLGNT optional-letter spelling (οὕτως for οὕτω(ς))
+    - `ocr-fix`: matched after a known OCR correction (ξ→ζ, ϑ→θ or δ, δ→ὁ/ὑ, Latin capitals→Greek) or an SBLGNT optional-letter spelling (οὕτως for οὕτω(ς))
     - `accent`: matched ignoring accents and breathings
-    - `fuzzy`: one letter off a single lemma; usually a Westcott–Hort spelling or an OCR slip, sometimes a wrong pairing; needs review
-    - `position`: headword unreadable (often read as Latin letters, e.g. "ydp" for γάρ), assigned the only unused lemma that fits its alphabetical slot; needs review
-    - `none`: no match; SBLGNT lemmatizes differently, the headword is damaged, or the line was split off a long entry
+    - `fuzzy`: one letter off a single lemma that no other entry matched outright; usually a Westcott–Hort spelling (ἐνκ- for ἐγκ-); needs review
+    - `position`: headword unreadable (often read as Latin letters: "ydp" γάρ, "Ldw" ζάω, "pita" ῥίζα), assigned the lemma that fits its alphabetical slot and resembles its shape; needs review
+    - `reviewed`: decided by hand in `data/souter/entry_overrides.tsv`
+    - `none`: no NT lemma (Souter includes variant-reading words), or a fragment
 
-  Coverage: 5,233 of the 5,461 SBLGNT lemmas, and 1,095 of the 1,125 that occur 10+ times, are matched to an entry.
-  `xref: true` marks cross-reference entries ("see …", "another spelling of …").
-
+  Coverage: 5,348 of the 5,461 SBLGNT lemmas, and 1,122 of the 1,125 that occur 10+ times. Every word in Metzger's Part I links to its Souter entry. Where several entries carry the same lemma, links go to the strongest match (then the longest entry).
 - `data/souter/entries.clean.jsonl` the same entries with a `text_clean` field from `scripts/clean_english.py`, which corrects Tesseract's systematic misreadings of Souter's italic English: *I* read as `7`, `J`, `1`, or `£` (2,621 glosses), *to* as `fo` or `lo`, *the* as `lhe`, *a* as `@`, and about 1,150 other single-letter confusions checked against an English word list. Latin in parentheses and Greek citations are left alone. Every word changed is listed in `data/souter/english_fixes.tsv`.
 
 Still to do in the English: two-letter errors (`unieltered` for *unlettered*), mangled scripture references (`Johniv 5`), and Latin outside parentheses.
