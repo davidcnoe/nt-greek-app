@@ -7,7 +7,7 @@ Data and code for a New Testament Greek vocabulary app: words taught by root fam
 | File | What it is | Status |
 | --- | --- | --- |
 | `source/souter-pocket-lexicon-1917-textkit.pdf` | Alexander Souter, *A Pocket Lexicon to the Greek New Testament* (Oxford, 1916; 1917 printing), Textkit scan, 297 pages, 200 dpi black and white | Public domain (US: pre-1929; UK/EU: author d. 1949) |
-| `source/metzger-1946/` | Bruce M. Metzger, *Lexical Aids for Students of New Testament Greek* (Princeton: the author, 1946), typescript. Page images from the HathiTrust full view of the University of Michigan copy (Google-digitized), HathiTrust record 001181348. `page-NNN.png` is the printed page number; `epigraph.png` is the unnumbered epigraph page. Page 52 (probably blank) and page 64 are missing and still to be downloaded. | US public domain: no renewal in the NYPL or Stanford renewal records, and open at HathiTrust. The text cites Thayer's count of 5,594 words, not Morgenthaler's, confirming it predates the 1969 edition. Do not use material from the 1969 or 1998 editions. |
+| `source/metzger-1946/` | Bruce M. Metzger, *Lexical Aids for Students of New Testament Greek* (Princeton: the author, 1946), typescript. Page images from the HathiTrust full view of the University of Michigan copy (Google-digitized), HathiTrust record 001181348. `page-NNN.png` is the printed page number; `epigraph.png` is the unnumbered epigraph page. Pages 52 and 64 are blank in the original and are not included. | US public domain: no renewal in the NYPL or Stanford renewal records, and open at HathiTrust. The text cites Thayer's count of 5,594 words, not Morgenthaler's, confirming it predates the 1969 edition. Do not use material from the 1969 or 1998 editions. |
 
 ## Layout
 

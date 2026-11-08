@@ -1,6 +1,6 @@
 # Metzger 1946, Part II transcription
 
-`page-NNN.tsv` transcribes Part II ("Words classified according to their root") page by page from the page images in `source/metzger-1946/`. Pages 65–94 are done; page 64 is still missing from the scans.
+`page-NNN.tsv` transcribes Part II ("Words classified according to their root") page by page from the page images in `source/metzger-1946/`. Part II runs from page 65 to page 94 and is complete; page 64 is blank in the original.
 
 The pages were transcribed by reading the images directly (the typescript's hand-added accents defeat OCR), then checked two ways: every headword against the SBLGNT lemma list, and against Tesseract's independent OCR of the same page. All 705 headwords match an NT lemma except σθένος, which Metzger himself marks "not in the New Testament". Where the OCR disagreed with the transcription (46 words), the transcription matched a real lemma exactly in every case.
 
