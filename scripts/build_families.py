@@ -25,69 +25,12 @@ import unicodedata
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
-from segment_souter import ALIAS, lev1, load_lemmas, strip_accents  # noqa: E402
+from segment_souter import strip_accents  # noqa: E402
+from metzger_match import Matcher  # noqa: E402
 
 
 def main() -> None:
-    exact, loose = load_lemmas()
-    by_first: dict[str, list[str]] = {}
-    for l in exact:
-        by_first.setdefault(strip_accents(l)[:1], []).append(l)
-
-    souter: dict[str, dict] = {}
-    for line in (ROOT / "data/souter/entries.clean.jsonl").read_text(encoding="utf-8").splitlines():
-        e = json.loads(line)
-        if e["lemma"] and e["lemma"] not in souter:
-            souter[e["lemma"]] = e
-
-    def variants(word: str) -> list[str]:
-        """Spellings to try for a Metzger headword, in order: as typed, then the other half of
-        "X and Y", then assimilated prefixes (συνκαλέω -> συγκαλέω), then the active of a middle."""
-        w = unicodedata.normalize("NFC", word)
-        out = [w] + [p.strip() for p in w.split(" and ")[1:]] if " and " in w else [w]
-        if " and " in w:
-            out[0] = w.split(" and ")[0].strip()
-        more = []
-        for v in out:
-            for pre, opts in (("συν", ("συγ", "συλ", "συμ", "συσ", "συ")), ("ἐν", ("ἐγ", "ἐμ", "ἐλ"))):
-                i = v.find(pre)
-                if i in (0, 2, 3, 4) and (i == 0 or v[:i] in ("ἀπο", "ἐπι", "κατ", "ἐξ", "δι", "προ")):
-                    more += [v[:i] + o + v[i + len(pre):] for o in opts]
-            if v.endswith("ομαι"):
-                more.append(v[:-4] + "ω")
-            if v.endswith("εμαι"):
-                more.append(v[:-4] + "ημι")
-            if v.endswith("αμαι"):
-                more.append(v[:-4] + "ημι")
-        return out + [unicodedata.normalize("NFC", m) for m in more]
-
-    overrides = {}
-    for line in (ROOT / "data/metzger/lemma_overrides.tsv").read_text(encoding="utf-8").splitlines()[1:]:
-        m, lemma, _why = line.split("\t")
-        overrides[unicodedata.normalize("NFC", m)] = lemma
-
-    def match(word: str) -> tuple[str, str | None]:
-        w0 = unicodedata.normalize("NFC", word)
-        if w0 in overrides:
-            return "override", overrides[w0]
-        for v in variants(word):
-            how, lemma = match_one(v)
-            if how in ("exact", "accent"):
-                return ("exact" if v == unicodedata.normalize("NFC", word) else "variant") if how == "exact" else how, lemma
-        return match_one(unicodedata.normalize("NFC", word))
-
-    def match_one(word: str) -> tuple[str, str | None]:
-        w = unicodedata.normalize("NFC", word)
-        w = ALIAS.get(w, w)
-        if w in exact:
-            return "exact", w
-        k = strip_accents(w)
-        if k in loose:
-            return "accent", max(loose[k], key=lambda x: exact[x])
-        near = [l for l in by_first.get(k[:1], []) if lev1(k, strip_accents(l))]
-        if len(near) == 1:
-            return "fuzzy", near[0]
-        return "none", None
+    M = Matcher()
 
     pages = sorted((ROOT / "data/metzger/part2").glob("page-*.tsv"))
     families: list[dict] = []
@@ -128,11 +71,8 @@ def main() -> None:
                 if first and cur["words"] and cur["words"][-1]["greek"] == head:
                     first = False
                     continue  # word typed again at the top of the next page (διαλογίζομαι, pp. 81-82)
-                how, lemma = match(head)
                 w = {"greek": head, "grammar": r[2] if len(r) > 2 else "",
-                     "gloss": r[3] if len(r) > 3 else "", "page": page,
-                     "lemma": lemma, "match": how, "nt_count": exact.get(lemma, 0) if lemma else 0,
-                     "souter_id": souter[lemma]["id"] if lemma in souter else None,
+                     "gloss": r[3] if len(r) > 3 else "", "page": page, **M.link(head),
                      "ocr_agrees": strip_accents(head) in ocr_keys, "uncertain": []}
                 cur["words"].append(w)
             elif kind == "NOTE":
