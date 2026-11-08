@@ -45,7 +45,9 @@ The script renders each page at 300 dpi and skips pages already done.
 
 ## App data
 
-- `data/app/lexicon.json` one record per lemma (1,363: every lemma occurring 10+ times in the NT plus every word in Metzger), built by `scripts/build_spine.py` from all of the above: NT count and rank; Metzger's 1946 tier, gloss, grammar, and English derivative; his root family (root, gloss, members); the Appendix II preposition and sense for compound verbs; the Souter entry (cleaned text); and a `review` list of reasons a person should check the record (153 records). Of the 1,125 lemmas at 10+, 1,029 are in Metzger's Part I (the rest are mostly proper names, which he excluded), 470 are in a root family, and 1,122 have a Souter entry.
+- `data/moss/moss_lexicon.json` the Vocabulary of C. M. Moss, *A First Greek Reader* (1893), 2,123 entries, as prepared for the MossMethod app (see April's notes for the format). Used to mark NT words a MossMethod student already knows: 568 of the 1,125 NT lemmas occurring 10+ times are in Moss, about 78% of NT word tokens.
+
+- `data/app/lexicon.json` one record per lemma (1,363: every lemma occurring 10+ times in the NT plus every word in Metzger), built by `scripts/build_spine.py` from all of the above: NT count and rank; Metzger's 1946 tier, gloss, grammar, and English derivative; his root family (root, gloss, members); the Appendix II preposition and sense for compound verbs; the Souter entry (cleaned text); whether the word is in Moss (`moss`) and which members of its family are (`family.moss_known`), and a `review` list of reasons a person should check the record (153 records). Of the 1,125 lemmas at 10+, 1,029 are in Metzger's Part I (the rest are mostly proper names, which he excluded), 470 are in a root family, and 1,122 have a Souter entry.
 
 Rebuild everything after a change, in order:
 

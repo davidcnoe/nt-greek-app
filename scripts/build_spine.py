@@ -80,6 +80,27 @@ def main() -> None:
             if e["match"] in ("fuzzy", "position"):
                 rec["review"].append(f"Souter entry identified by {e['match']} (headword unreadable or spelled differently)")
 
+    # MossMethod: which NT words a Moss student has met (data/moss/moss_lexicon.json, Moss's
+    # First Greek Reader vocabulary). Match on lemma as typed, then ignoring accents.
+    from segment_souter import strip_accents
+    moss = json.loads((ROOT / "data/moss/moss_lexicon.json").read_text(encoding="utf-8"))["entries"]
+    moss_by_lemma: dict[str, dict] = {}
+    moss_by_key: dict[str, dict] = {}
+    for m in moss:
+        if m.get("type") != "lemma" or m.get("is_stem"):
+            continue
+        moss_by_lemma.setdefault(m["lemma"], m)
+        moss_by_key.setdefault(strip_accents(m["lemma"]), m)
+    for lemma, rec in lemmas.items():
+        m = moss_by_lemma.get(lemma) or moss_by_key.get(strip_accents(lemma))
+        rec["moss"] = {"id": m["id"], "meaning": m["meaning"]} if m else None
+    for f in families:
+        known = [w["lemma"] for w in f["words"] if w["lemma"] in lemmas and lemmas[w["lemma"]]["moss"]]
+        for w in f["words"]:
+            rec = lemmas.get(w["lemma"])
+            if rec and rec["family"] and rec["family"]["id"] == f["id"]:
+                rec["family"]["moss_known"] = known
+
     keep = [r for r in lemmas.values() if r["nt_count"] >= 10 or r["metzger"] or r["family"]]
     keep.sort(key=lambda r: r["nt_rank"])
     out = ROOT / "data/app/lexicon.json"
@@ -92,6 +113,8 @@ def main() -> None:
     print(f"  in a Metzger root family: {sum(1 for r in keep if r['family'])}")
     print(f"  listed as a prepositional compound: {sum(1 for r in keep if r['compound_of'])}")
     print(f"  with a Souter entry: {sum(1 for r in keep if r['souter'])}")
+    print(f"  known from Moss: {sum(1 for r in keep if r['moss'])}; "
+          f"in a family with a Moss word: {sum(1 for r in keep if r['family'] and r['family'].get('moss_known'))}")
     print(f"  flagged for review: {sum(1 for r in keep if r['review'])}")
     freq = [r for r in keep if r["nt_count"] >= 10]
     print(f"  of the {len(freq)} lemmas at 10+: {sum(1 for r in freq if r['metzger'])} in Metzger Part I, "
