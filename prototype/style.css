@@ -61,13 +61,14 @@ main { flex: 1; width: 100%; max-width: 720px; margin: 0 auto; padding: 24px 16p
    at the foot of the screen. */
 .home { max-width: 320px; margin: 0 auto; padding: 0 8px; display: flex; flex-direction: column;
         min-height: calc(100dvh - 210px - env(safe-area-inset-bottom)); }
-/* David, 2026-11-03: the tag phrases more prominent, the button smaller. */
-.home-logo { display: block; width: 132px; height: auto; margin: 4px auto 18px; }
-.home-verse { font: 400 16px/1.45 var(--greek); text-align: center; text-wrap: balance; color: var(--ink); margin: 0 0 20px; }
-.home-verse b { font-weight: 600; color: var(--accent); }
-.home-verse cite { display: block; font: 400 12px/1.4 var(--ui); font-style: normal; color: var(--muted); margin-top: 4px; }
-.home-title { font: 500 24px/1.25 var(--greek); text-wrap: balance; /* longer than Telamon's: may take two lines */ color: var(--accent); text-align: center; margin: 0 0 22px; }
-.home-title small { display: block; font-size: 18px; font-weight: 400; font-style: italic; color: var(--muted); margin-top: 4px; }
+/* David, 2026-11-09: less cluttered. Logo, then the title on one line, then the verse below as an
+   epigraph in smaller, quieter type. */
+.home-logo { display: block; width: 108px; height: auto; margin: 8px auto 18px; }
+.home-title { font: 500 clamp(19px, 5.6vw, 21px)/1.25 var(--greek); text-wrap: balance; color: var(--accent); text-align: center; margin: 0; }
+.home-title small { display: block; font-size: 15px; font-weight: 400; font-style: italic; color: var(--muted); margin-top: 4px; }
+.home-verse { font: 400 15px/1.45 var(--greek); text-align: center; text-wrap: balance; color: var(--muted); margin: 30px 6px 0; }
+.home-verse b { font-weight: 600; color: var(--ink); }
+.home-verse cite { display: block; font: 400 11px/1.4 var(--ui); font-style: normal; color: var(--muted); margin-top: 4px; }
 /* The title stays at the top; Start, progress and the tagline sit together at the foot,
    and the space above them stretches. */
 .home-progress { display: flex; justify-content: space-between; font-size: 12px; margin: 20px 0 5px; }.home-progress span + span { color: var(--muted); }
