@@ -250,7 +250,7 @@ function unitLabel(w) {
 // Why there is nothing to start: shown on Home under the button once it is pressed, with the way out.
 function caughtUpWhy() {
   if (state.settings.direction === "eg" && !learnedIds().length)
-    return `English → Greek practises only words you have mastered, and none is mastered yet. Choose Greek → English or Both in <a href="#" data-go="settings">Settings → Direction</a> to keep learning.`;
+    return `English → Greek practises only words you have mastered, and none are mastered yet. Choose Greek → English or Both in <a href="#" data-go="settings">Settings → Direction</a> to keep learning.`;
   if (state.settings.direction === "eg")
     return `Every mastered word has had its English → Greek practice for now. Choose Greek → English or Both in <a href="#" data-go="settings">Settings → Direction</a> to learn new words.`;
   return "Every word is mastered, and no spot check is due yet. Come back later.";
