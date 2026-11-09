@@ -101,6 +101,7 @@ tr.flag td {{ background: #f9eeda; }}
 <h1>Tertius audio: recording script</h1>
 <div>All {len(words):,} words in learning order, as the app shows them, in {len(takes)} takes of up to {TAKE}.</div>
 <ol class="how">
+<li>Pronunciation: restored Attic, as in MossMethod (David, 2026-11-09).</li>
 <li>As for Telamon: a quiet room, about a hand's width from the microphone, mono WAV.</li>
 <li>Aim for the loudest words near −12 dBFS.</li>
 <li>Start each take with 2 seconds of silence. Say each word once, then pause about 1½ seconds. Don't say the numbers.</li>
