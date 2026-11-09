@@ -53,7 +53,7 @@ export default function UnitScreen() {
           ) : (
             <Text style={S.body}>
               {unit.kind === 'frequency'
-                ? `Common words from Metzger's list (${unit.subtitle}). Read each one aloud and connect it to its English cousin.`
+                ? `Common words from Metzger's list (${unit.subtitle}). Read each one aloud and connect it to its English cognate.`
                 : unit.subtitle}
             </Text>
           )}
