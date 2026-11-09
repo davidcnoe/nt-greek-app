@@ -920,7 +920,7 @@ function renderAbout() {
         covers as much of the text as possible.</p>
       <p><b>Then by root families.</b> Metzger's second part groups words by their roots. Here the families are
         woven into the frequency lists: when a common word comes up, its relatives follow, so a new word is learned
-        alongside the words it is built from.</p>
+        alongside the words from which it is built.</p>
       <p><b>With an English cousin.</b> Where Metzger gives one, an English derivative or memory aid comes with
         the meaning ("Cf. apostasy").</p>
       <p><b>Recall, not rereading.</b> After a first look at a new word, you are asked for its meaning
