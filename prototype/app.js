@@ -688,13 +688,27 @@ function finishSession() {
 
 async function renderTools() {
   session = null;
+  acc = null;
   app.innerHTML = `<h1 class="tools-title">Tools</h1>${lexiconHtml()}
+    <section class="about dialect-page tool" id="tool-accents">
+      <h2>Accents that change meaning</h2>
+      <p class="lex-source">Words spelled alike except for an accent or breathing. Each card shows a verse of the
+        New Testament: choose what the underlined word means. (An acute on the last syllable is written as a grave
+        when another word follows: <span lang="grc">ἀλλά, ἀλλὰ</span>.)</p>
+      <button class="primary" id="acc-quiz">Quiz</button>
+      <div id="acc-list"></div>
+    </section>
     <section class="about tool" id="tool-readings">
       <h2>Readings</h2>
       <p class="lex-source">Early Christian Greek beyond the New Testament, with H. P. V. Nunn's notes (1920), easiest first.</p>
       <div id="read-list"><p class="lex-more">Loading readings…</p></div>
     </section>`;
   wireLexicon();
+  document.getElementById("acc-quiz").onclick = startAccentQuiz;
+  loadAccents().then(() => {
+    const el = document.getElementById("acc-list");
+    if (el) el.innerHTML = accentListHtml();
+  }).catch(() => {});
   try {
     await loadReadings();
     document.getElementById("read-list").innerHTML = readingsListHtml();
@@ -884,7 +898,7 @@ async function renderReading(slug) {
       <p class="read-head">${esc(r.author)}${r.date ? ` · ${esc(r.date)}` : ""} · Nunn, pp. ${r.pages[0]}–${r.pages[1]}</p>
       <h1 class="tools-title">${esc(r.title)}</h1>
       ${r.intro.map(t => `<p class="intro">${esc(t)}</p>`).join("")}
-      <div class="legend"><span class="known">mastered</span><span class="learning">in the app, not yet mastered</span><span class="out">not in the app</span></div>
+      <p class="legend">Colour key: <span class="known">mastered</span> · <span class="learning">in your course, not yet mastered</span> · <span class="out">not in Metzger's list</span>. Tap any word for its meaning.</p>
       ${body}
       <p class="lex-source">Text and notes: H. P. V. Nunn, <i>A Short Syntax of New Testament Greek</i> (1920). Numbers in the notes refer to sections of his Syntax.</p>
     </section>`;
@@ -926,6 +940,113 @@ function openReadingWord(surface, raw) {
 }
 
 // ---------- About ----------
+
+// ---------- Accents that change meaning (Tools) ----------
+// Sets of words spelled alike but for accent or breathing (data/accents.json, built from MorphGNT by
+// scripts/build_accents.py). The quiz shows a real NT verse with one member underlined; the choices are
+// the meanings of the set's members. 20 cards; every set and member comes up, rare ones included.
+const ACC_LENGTH = 20;
+let accents = null, acc = null;
+async function loadAccents() {
+  if (!accents) accents = await fetch("data/accents.json").then(r => r.json());
+  return accents;
+}
+const verseHtml = ex => ex.w.map((t, i) => i === ex.i ? `<strong>${esc(t)}</strong>` : esc(t)).join(" ");
+function accentListHtml() {
+  return `<details class="dia-all">
+      <summary>Browse all ${accents.length} sets</summary>
+      <div class="dia-list">${accents.map(a => `
+        <details>
+          <summary lang="grc">${esc(a.title)}</summary>
+          <div class="dia-card">
+            <p class="dia-body">${esc(a.note)}</p>
+            <table class="dia-pairs"><tr><th>Word</th><th>Meaning</th><th>In the NT</th></tr>
+              ${a.members.map(m => `<tr><td lang="grc">${esc(m.g)}</td><td class="ui">${esc(m.m)}</td><td class="ui">${times(m.count)}</td></tr>`).join("")}</table>
+            ${a.members.filter(m => m.ex.length).map(m => `<p class="passage acc-ex" lang="grc">${verseHtml(m.ex[0])}</p>
+              <p class="passage-ref">${esc(m.ex[0].ref)} · <span lang="grc">${esc(m.g)}</span>, ${esc(m.m)}</p>`).join("")}
+          </div>
+        </details>`).join("")}</div>
+      <p class="lex-source">Verses: SBL Greek New Testament, parsed by MorphGNT (CC BY-SA).</p>
+    </details>`;
+}
+async function startAccentQuiz() {
+  await loadAccents();
+  const deck = [], used = new Set();
+  // Each round goes through every set once in random order, so all sets come up.
+  while (deck.length < ACC_LENGTH) {
+    for (const a of shuffle(accents.slice())) {
+      if (deck.length >= ACC_LENGTH) break;
+      const members = a.members.filter(m => m.ex.length);
+      const m = members[Math.floor(Math.random() * members.length)];
+      const fresh = m.ex.filter(e => !used.has(e.ref + e.i));
+      const ex = (fresh.length ? fresh : m.ex)[Math.floor(Math.random() * (fresh.length || m.ex.length))];
+      used.add(ex.ref + ex.i);
+      deck.push({ set: a, member: m, ex });
+    }
+  }
+  acc = { deck, n: 0, right: 0, answered: false };
+  renderAccentCard();
+}
+function renderAccentCard() {
+  const q = acc.deck[acc.n];
+  acc.answered = false;
+  acc.choices = q.set.members.filter(m => m.ex.length);
+  app.innerHTML = `
+    <div class="progress"><span>Accents · ${acc.n + 1} of ${acc.deck.length}</span><span>${acc.right} correct</span></div>
+    <article class="card acc-card">
+      <div class="meta">What does the underlined word mean here?</div>
+      <p class="passage acc-verse" lang="grc">${verseHtml(q.ex)}</p>
+      <p class="passage-ref">${esc(q.ex.ref)}</p>
+      <div id="acc-back"></div>
+    </article>
+    <div id="controls"><div class="choices">${acc.choices.map((m, i) =>
+      `<button class="choice" data-i="${i}"><small class="note">${i + 1}</small><span>${esc(m.m)}</span></button>`).join("")}</div></div>
+    <div class="keys note">1–${acc.choices.length} to choose · Space to continue</div>`;
+  for (const b of document.querySelectorAll(".choice")) b.onclick = () => chooseAccent(+b.dataset.i);
+}
+function chooseAccent(i) {
+  if (!acc || acc.answered) return;
+  acc.answered = true;
+  const q = acc.deck[acc.n];
+  const right = acc.choices[i] === q.member;
+  if (right) acc.right++;
+  document.querySelectorAll(".choice").forEach((b, j) => {
+    b.disabled = true;
+    if (acc.choices[j] === q.member) b.classList.add("right");
+    else if (j === i) b.classList.add("wrong");
+  });
+  document.getElementById("acc-back").innerHTML = `<div class="answer">
+      <p class="verdict ${right ? "right" : "wrong"}">${right ? "✓ Correct" : "✗ Incorrect"}</p>
+      <p class="english"><span lang="grc" class="answer-greek">${esc(q.member.g)}</span>, ${esc(q.member.m)}</p>
+      <p class="dia-body">${esc(q.set.note)}</p>
+    </div>`;
+  document.querySelector(".progress span:last-child").textContent = `${acc.right} correct`;
+  document.getElementById("controls").insertAdjacentHTML("beforeend",
+    `<div class="actions single"><button class="primary" id="continue">Continue</button></div>`);
+  document.getElementById("continue").onclick = nextAccent;
+  document.getElementById("continue").focus();
+}
+function nextAccent() {
+  if (!acc || !acc.answered) return;
+  acc.n++;
+  if (acc.n < acc.deck.length) return renderAccentCard();
+  const { right, deck } = acc;
+  acc = null;
+  app.innerHTML = `<div class="done">
+      <h2>Quiz complete</h2>
+      <p>${right} of ${deck.length} correct.</p>
+      <div class="row" style="justify-content:center">
+        <button class="primary" id="acc-again">Another quiz</button>
+        <button class="quiet" data-go="tools">Back to Tools</button>
+      </div>
+    </div>`;
+  document.getElementById("acc-again").onclick = startAccentQuiz;
+}
+document.addEventListener("keydown", e => {
+  if (!acc || e.target.closest?.("input, select, textarea") || document.getElementById("entry")?.open) return;
+  if (!acc.answered && /^[1-9]$/.test(e.key) && +e.key <= acc.choices.length) chooseAccent(+e.key - 1);
+  else if (acc.answered && (e.key === " " || e.key === "Enter")) { e.preventDefault(); nextAccent(); }
+});
 
 function renderAbout() {
   session = null;
@@ -1003,6 +1124,7 @@ document.addEventListener("click", e => {
   if (!go) return;
   setTab(go);
   reading = null;
+  acc = null;
   if (go === "home") renderHome();
   else if (go === "about") renderAbout();
   else if (go === "settings") renderSettings();
