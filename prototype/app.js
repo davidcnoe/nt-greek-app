@@ -254,6 +254,8 @@ function renderHome() {
   const fresh = plan.newIds.length;
   const paused = pausedSession();
   const cov = coverage();
+  const fam = familiarShare(); // Settings → MossMethod → Studied
+  const w = x => Math.min(100, x * 100 / maxCoverage);
   app.innerHTML = `
     <section class="home">
       <img class="home-logo" src="icons/mark.svg" alt="Tertius" width="132" height="116">
@@ -263,8 +265,9 @@ function renderHome() {
         ? `resume session ${paused.number} · ${paused.passed.length} of ${paused.total} done`
         : review + fresh ? `start session ${plan.number}` : "all caught up"}</button>
       <div class="home-progress"><span>${pct(cov)}%</span><span>${learnedIds().length} mastered</span></div>
-      <div class="meter" role="img" aria-label="${pct(cov)} percent of the words in the New Testament; the bar is full at ${pct(maxCoverage)} percent, all ${words.length.toLocaleString()} words">
-        <i style="width:${Math.min(100, cov * 100 / maxCoverage)}%"></i></div>
+      <div class="meter" role="img" aria-label="${pct(cov)} percent of the words in the New Testament mastered${fam ? `, another ${pct(fam)} percent familiar from MossMethod` : ""}; the bar is full at ${pct(maxCoverage)} percent, all ${words.length.toLocaleString()} words">
+        <i style="width:${w(cov)}%"></i>${fam ? `<i class="fam" style="width:${Math.min(100 - w(cov), w(fam))}%"></i>` : ""}</div>
+      ${fam ? `<p class="home-fam">+ ${pct(fam)}% familiar from MossMethod</p>` : ""}
       <p class="home-tagline">Metzger's New Testament vocabulary, most frequent first, with root families and Souter's lexicon. <a class="home-from" href="https://latinperdiem.com/" target="_blank" rel="noopener">From LatinPerDiem, LLC.</a></p>
     </section>`;
   document.getElementById("start").onclick = paused ? resumeSession : startSession;
@@ -309,7 +312,7 @@ function progressHtml() {
     <div class="coverage progress-card">
       <div class="big">${mastered.toLocaleString()} <small>of ${words.length.toLocaleString()} words mastered</small></div>
       <div class="meter" role="img" aria-label="${pct(mastered / words.length)} percent of the words">
-        <i style="width:${mastered / words.length * 100}%"></i></div>
+        <i style="width:${mastered / words.length * 100}%"></i>${fam ? `<i class="fam" style="width:${words.filter(x => x.m && !isLearned(x.id)).length / words.length * 100}%"></i>` : ""}</div>
       <p style="margin:8px 0 0;font-size:13px">${pct(mastered / words.length)}% of Metzger's words ·
         ${pct(coverage())}% of the words in the New Testament</p>
       ${fam ? `<p style="margin:4px 0 0;font-size:13px">Another ${pct(fam)}% of the New Testament is familiar from MossMethod.</p>` : ""}
