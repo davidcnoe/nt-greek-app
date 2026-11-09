@@ -315,7 +315,7 @@ function progressHtml() {
         <i style="width:${mastered / words.length * 100}%"></i>${fam ? `<i class="fam" style="width:${words.filter(x => x.m && !isLearned(x.id)).length / words.length * 100}%"></i>` : ""}</div>
       <p style="margin:8px 0 0;font-size:13px">${pct(mastered / words.length)}% of Metzger's words ·
         ${pct(coverage())}% of the words in the New Testament</p>
-      ${fam ? `<p style="margin:4px 0 0;font-size:13px">Another ${pct(fam)}% of the New Testament is familiar from MossMethod.</p>` : ""}
+      ${fam ? `<p style="margin:4px 0 0;font-size:13px">Words you know from MossMethod but haven't yet mastered here make up another ${pct(fam)}% of the New Testament text.</p>` : ""}
       <p style="margin:4px 0 0;font-size:12px">Mastering all ${words.length.toLocaleString()} words covers about ${pct(maxCoverage)}% of the New Testament; the bar on the home page shows your progress toward that goal.</p>
     </div>
     <div class="stats">
