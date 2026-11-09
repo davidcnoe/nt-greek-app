@@ -622,7 +622,7 @@ function renderCard() {
     <div class="progress"><span>${session.phase === "review" ? "Review" : "New words"}</span><span>${session.passed.size} of ${session.total} correct</span></div>
     <article class="card">
       ${rev ? "" : audioButton(w.id)}
-      <div class="meta">${esc(unitLabel(w))}${rev ? ' · <span class="flag">English → Greek</span>' : ""}${badge ? ` · <span class="flag">${badge}</span>` : ""}</div>
+      <div class="meta">${[rev ? '<span class="flag">English → Greek</span>' : "", badge ? `<span class="flag">${badge}</span>` : ""].filter(Boolean).join(" · ")}</div>
       ${rev ? `<div class="prompt-en">${esc(w.g)}</div>` : `<div class="greek">${greekHtml(w)}</div>`}
       <div id="back"></div>
     </article>
@@ -650,7 +650,7 @@ function showBack() {
     <div class="answer">
       ${isRev(session.current) ? `<p class="english answer-greek">${greekHtml(w)}</p>` : `<p class="english">${esc(w.g)}</p>`}
       ${w.d ? `<p class="cf">Cf. ${esc(w.d)}</p>` : ""}
-      ${moss ? `<p class="moss-gloss"><b>Moss:</b> ${esc(w.mg)}</p>` : ""}
+      ${moss ? `<p class="moss-gloss"><b>Moss</b> ${esc(w.mg)}</p>` : ""}
       <div class="count">${w.c.toLocaleString()}× in NT${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""} · <button class="link" id="lexlink">Lexicon</button></div>
     </div>`;
   document.getElementById("lexlink").onclick = () => openWord(id);

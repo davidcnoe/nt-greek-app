@@ -348,3 +348,10 @@ dialog#entry .quiet.go { margin-right: 8px; }
 .play svg { width: 18px; height: 18px; }
 .play:hover, .play:focus-visible { opacity: 1; }
 .play.playing { color: var(--accent); opacity: 1; }
+
+/* Answer card, layout D (David, 2026-11-09): no frequency band above the Greek; Cf. and Moss quieter,
+   with a small MOSS tag, so Metzger's meaning stands out. */
+.card .meta:empty { min-height: 14px; }
+.answer .cf, .answer .moss-gloss { font-size: 13px; color: var(--muted); }
+.answer .moss-gloss b { font: 600 10px/1 var(--ui); letter-spacing: .06em; text-transform: uppercase; color: var(--accent);
+  border: 1px solid var(--accent); border-radius: 4px; padding: 2px 4px; margin-right: 4px; }
