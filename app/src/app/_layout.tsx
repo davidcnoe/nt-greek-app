@@ -22,6 +22,8 @@ export default function Layout() {
         <Stack.Screen name="review" options={{ title: 'Review' }} />
         <Stack.Screen name="search" options={{ title: 'Lexicon' }} />
         <Stack.Screen name="word/[form]" options={{ title: 'Entry' }} />
+        <Stack.Screen name="readings" options={{ title: 'Readings' }} />
+        <Stack.Screen name="reading/[slug]" options={{ title: 'Reading' }} />
         <Stack.Screen name="settings" options={{ title: 'Settings and sources' }} />
       </Stack>
     </ProgressProvider>

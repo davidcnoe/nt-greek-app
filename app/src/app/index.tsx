@@ -50,6 +50,7 @@ export default function Home() {
 
       <View style={[S.row, { flexWrap: 'wrap' }]}>
         <View style={{ flex: 1, minWidth: 140 }}><Button ghost title="The path" onPress={() => router.push('/path')} /></View>
+        <View style={{ flex: 1, minWidth: 140 }}><Button ghost title="Readings" onPress={() => router.push('/readings')} /></View>
         <View style={{ flex: 1, minWidth: 140 }}><Button ghost title="Lexicon" onPress={() => router.push('/search')} /></View>
         <View style={{ flex: 1, minWidth: 140 }}><Button ghost title="Settings" onPress={() => router.push('/settings')} /></View>
       </View>

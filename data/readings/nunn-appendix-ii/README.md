@@ -10,3 +10,7 @@ Twelve graded readings from early Christian Greek (plus Socrates' last words), w
 Rebuild: `python scripts/build_nunn_readings.py` (needs MorphGNT SBLGNT in /home/claude/morphgnt).
 
 Nunn's note numbers restart with each passage, sometimes mid-page, and a few markers point back to a note on an earlier page (p. 14 [26] → p. 13; p. 32 [6] → p. 31). The build script resolves these; see its docstring.
+
+## In the app
+
+`scripts/build_app_readings.py` writes `app/assets/data/readings.json`, linking each word to an app card. Lemmas come from the NT form (SBLGNT), else from `data/readings/form_lemmas.tsv` (built by `scripts/build_form_lemmas.py` from G. Celano's Morpheus-lemmatized corpus, CC BY-SA 4.0), else from a guess by shared NT stems, which the app labels "probably".
