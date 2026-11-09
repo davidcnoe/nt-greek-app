@@ -1,0 +1,101 @@
+n,id,greek,english
+801,T0801,ἀναστροφή,conduct
+802,T0802,ἐπιστρέφω,"turn to, return"
+803,T0803,ὑποστρέφω,I return
+804,T0804,ὥσπερ,"just as, even as"
+805,T0805,ἀρνέομαι,I deny
+806,T0806,βιβλίον,a book
+807,T0807,δεικνύω or δείκνυμι,I show
+808,T0808,δυνατός,"powerful, possible"
+809,T0809,ἐγγύς,near
+810,T0810,ἐχθρός,"hating; as a noun, an enemy"
+811,T0811,ἥλιος,the sun
+812,T0812,ἱερεύς,a priest
+813,T0813,μέλος,a member
+814,T0814,μήτε,"neither, nor"
+815,T0815,οἶνος,wine
+816,T0816,νοέω,I understand
+817,T0817,νόημα,"a thought, a design"
+818,T0818,διάνοια,"the mind, understanding, a thought"
+819,T0819,κατανοέω,I observe
+820,T0820,μετανοέω,I repent
+821,T0821,μετάνοια,repentance
+822,T0822,νοῦς,the mind
+823,T0823,νουθετέω,"(I put in mind), I admonish, warn, exhort"
+824,T0824,ἀσθενής,weak
+825,T0825,ἀσθενέω,I am weak
+826,T0826,ἀσθένεια,weakness
+827,T0827,δείκνυμι and δεικνύω,I show
+828,T0828,ἐνδείκνυμαι,I show forth
+829,T0829,ἐπιδείκνυμι,"I show, prove"
+830,T0830,ὑποδείκνυμι,"(I show by placing under [the eyes]), I warn"
+831,T0831,ὑπόδειγμα,"an example, copy"
+832,T0832,θεμελιόω,"I lay the foundation of, make stable"
+833,T0833,θησαυρός,"a storehouse, treasure"
+834,T0834,θησαυρίζω,"I store up, treasure up"
+835,T0835,ἀποθήκη,"a place in which anything is laid by, a storehouse, granary, barn"
+836,T0836,διαθήκη,a covenant
+837,T0837,ἀνάθεμα,"(a thing laid by or set up; a thing devoted to the vengeance of God), a curse, a man accursed"
+838,T0838,ποῖος,what sort of? what?
+839,T0839,φυλάσσω,I guard
+840,T0840,ἀγοράζω,I buy
+841,T0841,ἄνεμος,a wind
+842,T0842,ἀρνίον,a lamb
+843,T0843,γε,"indeed, at least, really, even"
+844,T0844,ἐλπίζω,I hope
+845,T0845,ἐπικαλέω,"I call, name; middle, I invoke, appeal to"
+846,T0846,ναί,"yea, truly, yes"
+847,T0847,ὁμοίως,likewise
+848,T0848,σκανδαλίζω,I cause to stumble
+849,T0849,συνείδησις,conscience
+850,T0850,ἔλεος,"pity, mercy"
+851,T0851,ἐλεέω,I have mercy
+852,T0852,ἐλεημοσύνη,alms
+853,T0853,καθαρός,clean
+854,T0854,καθαρίζω,I cleanse
+855,T0855,καθαρισμός,"a cleansing, purification"
+856,T0856,ἀκαθαρσία,uncleanness
+857,T0857,ἀκάθαρτος,unclean
+858,T0858,φυλή,a tribe
+859,T0859,φύλλον,a leaf
+860,T0860,φύσις,nature
+861,T0861,φυτεύω,I plant
+862,T0862,συνέρχομαι,I come together
+863,T0863,σκηνή,"a tent, tabernacle"
+864,T0864,σκηνόω,"I dwell in a tent, encamp"
+865,T0865,σκιά,a shadow
+866,T0866,ἐπισκιάζω,"I overshadow, envelop"
+867,T0867,σκότος,darkness
+868,T0868,σκοτία,darkness
+869,T0869,σκοτίζομαι,"I am covered with darkness, darkened"
+870,T0870,ἰσχύς,strength
+871,T0871,ἰσχυρός,strong
+872,T0872,ἰσχύω,I am strong
+873,T0873,προσκαλέομαι,I summon
+874,T0874,συνκαλέω,"I call together, assemble"
+875,T0875,φεύγω,I flee
+876,T0876,ἐνδύω,"I put on, clothe"
+877,T0877,ἐπεί,"when, since"
+878,T0878,μάχαιρα,a sword
+879,T0879,μισθός,"wages, reward"
+880,T0880,μυστήριον,a mystery
+881,T0881,οὔπω,not yet
+882,T0882,πάσχα,a passover
+883,T0883,πόθεν,whence?
+884,T0884,ποτέ,"at some time, once, ever"
+885,T0885,φίλος,"loving; as a noun, a friend"
+886,T0886,ἀδελφή,a sister
+887,T0887,θύω,"I sacrifice, kill"
+888,T0888,θυμίαμα,incense
+889,T0889,θυσία,a sacrifice
+890,T0890,θυσιαστήριον,an altar
+891,T0891,χώρα,a country
+892,T0892,χωρίον,"a place, field"
+893,T0893,χωρέω,"I make room, hold"
+894,T0894,ἀναχωρέω,I depart
+895,T0895,χωρίζω,"I separate, depart"
+896,T0896,ἀποκαλύπτω,I reveal
+897,T0897,βαστάζω,"I bear, carry"
+898,T0898,ἐκεῖθεν,"thence, from that place"
+899,T0899,ἑορτή,a feast
+900,T0900,ἥκω,I am come

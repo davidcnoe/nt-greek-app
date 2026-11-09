@@ -1,0 +1,101 @@
+n,id,greek,english
+1,T0001,ἵνα,"in order that, that"
+2,T0002,καί,"and, even"
+3,T0003,κατά,"with the gen., down from, against; with the acc., according to, throughout, during"
+4,T0004,κύριος,"a lord, the Lord"
+5,T0005,μή,"not, lest"
+6,T0006,ὁ,the
+7,T0007,ὅς,"who, which"
+8,T0008,οὗτος,"this; he, her, it"
+9,T0009,ὅτι,"that, because"
+10,T0010,"οὐ, οὐκ, οὐχ",not
+11,T0011,ποιέω,"I do, make"
+12,T0012,πρός,"with the acc., to, towards, with"
+13,T0013,ἀπό,"with the gen., from"
+14,T0014,αὐτός,"himself, herself, itself, same; he, she, it"
+15,T0015,γάρ,for
+16,T0016,δέ,"but, and"
+17,T0017,διά,"with the gen., through; with the acc., on account of"
+18,T0018,ἐγώ,I
+19,T0019,εἶπον,I said
+20,T0020,εἰς,"with the acc., into"
+21,T0021,"ἐκ, ἐξ","with the gen., out of, from"
+22,T0022,ἐν,"with the dat., in"
+23,T0023,ἐπί,"with the gen., over, on, at the time of; with the dat., on the basis of, at; with the acc., on, to, against"
+24,T0024,θεός,"a god, God"
+25,T0025,σύ,thou
+26,T0026,τίς,who? what? which? why?
+27,T0027,τις,"someone, something, a certain one, a certain thing, anyone, anything"
+28,T0028,ὡς,"as, that, how, about"
+29,T0029,ἀδελφός,brother
+30,T0030,ἀνήρ,a man
+31,T0031,γῆ,the earth
+32,T0032,ἐάν,if
+33,T0033,ἑαυτοῦ,of himself
+34,T0034,εἰ,if
+35,T0035,εἷς,one
+36,T0036,ἐκεῖνος,that
+37,T0037,εἰμί,I am
+38,T0038,ἄπειμι,I am absent
+39,T0039,πάρειμι,I am present; I have arrived
+40,T0040,παρουσία,"presence, coming (especially Christ's [second] coming in glory)"
+41,T0041,ἔξεστι,it is lawful
+42,T0042,ἐξουσία,authority
+43,T0043,ἐρῶ,I shall say
+44,T0044,ῥῆμα,a word
+45,T0045,παρρησία,"boldness (of speech), confidence"
+46,T0046,παρρησιάζομαι,I speak boldly
+47,T0047,λέγω,"I say, speak"
+48,T0048,λόγος,"a word, the Word"
+49,T0049,εὐλογέω,I bless
+50,T0050,εὐλογητός,blessed
+51,T0051,εὐλογία,a blessing
+52,T0052,ἀπολογέομαι,I defend myself
+53,T0053,ἀπολογία,a defense (especially in a law court)
+54,T0054,λογίζομαι,"I account, reckon"
+55,T0055,διαλογίζομαι,I debate
+56,T0056,διαλογισμός,"a reasoning, questioning"
+57,T0057,πᾶς,"every, all"
+58,T0058,ἅπας,all
+59,T0059,πανταχοῦ,everywhere
+60,T0060,πάντως,"entirely, assuredly"
+61,T0061,παντοκράτωρ,"a ruler of all, the Almighty"
+62,T0062,ἔχω,"I have, hold"
+63,T0063,ἀνέχομαι,I endure
+64,T0064,ἀνεκτός,"bearable, tolerable"
+65,T0065,ἀπέχω,I have received (payment); I am distant
+66,T0066,ἐπέχω,"I hold out, give attention to"
+67,T0067,μετέχω,"I have a share in, partake of"
+68,T0068,μέτοχος,"sharing in; as a noun, a partner"
+69,T0069,παρέχω,"I offer, afford"
+70,T0070,προσέχω,"I attend to, give heed to"
+71,T0071,συνέχω,"I hold fast, oppress"
+72,T0072,γίνομαι,"I become, am"
+73,T0073,παραγίνομαι,"I come, arrive"
+74,T0074,γονεύς,a parent
+75,T0075,γένος,"race, kind"
+76,T0076,μονογενής,"only-begotten, only"
+77,T0077,συγγενής,"kindred; as a noun, a relative, kinsman"
+78,T0078,γενεά,a generation
+79,T0079,γένεσις,"birth, origin"
+80,T0080,γένημα,"fruit, produce"
+81,T0081,γεννάω,I beget
+82,T0082,ἄλλος,"other, another"
+83,T0083,ἀλλήλων,of one another
+84,T0084,ἀλλά,"but, except"
+85,T0085,ἀλλάσσω,"(I make other than it is), I change, alter"
+86,T0086,καταλλάσσω,"I change (from enmity to friendship), reconcile"
+87,T0087,ἔρχομαι,"I come, go"
+88,T0088,ἀπέρχομαι,I depart
+89,T0089,διέρχομαι,I pass through
+90,T0090,εἰσέρχομαι,"I go or come in or into, enter"
+91,T0091,ἐξέρχομαι,I go out
+92,T0092,ἐπέρχομαι,I come upon (sometimes with hostility)
+93,T0093,κατέρχομαι,"I come down, go down"
+94,T0094,παρέρχομαι,"I pass by, pass away; I arrive"
+95,T0095,προέρχομαι,"I go in front, precede"
+96,T0096,προσέρχομαι,I come to
+97,T0097,ὄψομαι,"(ὄπ-σο-μαι), I shall see"
+98,T0098,ὀφθαλμός,an eye
+99,T0099,ἄνθρωπος,a man
+100,T0100,ἀνθρώπινος,human

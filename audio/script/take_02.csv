@@ -1,0 +1,101 @@
+n,id,greek,english
+101,T0101,μέτωπον,forehead
+102,T0102,πρόσωπον,face
+103,T0103,θέλω,"I will, wish, desire"
+104,T0104,ἤ,or
+105,T0105,ἡμέρα,a day
+106,T0106,λαλέω,I speak
+107,T0107,μαθητής,a disciple
+108,T0108,μετά,"with the gen., with; with the acc., after"
+109,T0109,ὄνομα,a name
+110,T0110,οὐδείς,"no one, none, nothing, no"
+111,T0111,οὖν,"therefore, then, accordingly"
+112,T0112,οὐρανός,heaven
+113,T0113,οὕτως,thus
+114,T0114,πατήρ,father
+115,T0115,εἶδον,I saw
+116,T0116,εἶδος,"visible form, shape"
+117,T0117,εἴδωλον,"an image, idol"
+118,T0118,εἰδωλολάτρης,an idolater
+119,T0119,οἶδα,I know
+120,T0120,ᾅδης,Hades
+121,T0121,ἀγαθός,good
+122,T0122,ἴδιος,one's own
+123,T0123,μέλλω,I am about to
+124,T0124,ὁδός,"a way, road, journey"
+125,T0125,ὅλος,whole
+126,T0126,ὁράω,I see
+127,T0127,ὅσος,"as great as, as many as"
+128,T0128,ὅτε,when
+129,T0129,πῶς,how?
+130,T0130,ψυχή,"soul, life, self"
+131,T0131,ὥρα,an hour
+132,T0132,αἷμα,blood
+133,T0133,ἀκούω,I hear
+134,T0134,εἰσακούω,"I hearken to, assent to"
+135,T0135,ὑπακούω,I obey
+136,T0136,ἀκοή,hearing; a report
+137,T0137,ὑπακοή,obedience
+138,T0138,δίδωμι,I give
+139,T0139,ἀποδίδωμι,"I give back, pay; middle, I sell"
+140,T0140,ἀνταποδίδωμι,I give back (in return)
+141,T0141,ἐπιδίδωμι,I give to
+142,T0142,μεταδίδωμι,"I share with, impart"
+143,T0143,παραδίδωμι,"I hand over, betray"
+144,T0144,παράδοσις,a tradition
+145,T0145,δωρεά,a gift
+146,T0146,δωρεάν,"(accusative of the noun, used adverbially: as a gift, gift-wise), freely"
+147,T0147,δῶρον,a gift
+148,T0148,πλουτέω,I am rich
+149,T0149,πλήν,"however, but, only; with the gen., except"
+150,T0150,πολύς,"much; plural, many"
+151,T0151,πλείων,"larger, more"
+152,T0152,πλεονάζω,"I abound in, make to abound"
+153,T0153,πλεονεκτέω,"(I have more), I gain the advantage of, defraud"
+154,T0154,πλεονεξία,covetousness
+155,T0155,περί,"with the gen., concerning, about; with the acc., around"
+156,T0156,πνεῦμα,"a spirit, the Spirit"
+157,T0157,υἱός,a son
+158,T0158,ὑπό,"with the gen., by; with the acc., under"
+159,T0159,ἄν,"an untranslatable word, the effect of which is to make a statement contingent which would otherwise be definite)"
+160,T0160,δόξα,glory
+161,T0161,ἔθνος,"a nation; plural, the Gentiles"
+162,T0162,ἐσθίω,I eat
+163,T0163,εὑρίσκω,I find
+164,T0164,καθώς,"as, even as"
+165,T0165,καρδία,the heart
+166,T0166,κόσμος,the world
+167,T0167,μήν,a month
+168,T0168,μήτι,"interrogative particle, expecting a negative answer"
+169,T0169,παράχρημα,immediately
+170,T0170,πυλών,"a vestibule, gateway"
+171,T0171,στέφανος,a crown
+172,T0172,ταράσσω,I trouble
+173,T0173,τίκτω,I give birth to
+174,T0174,αὐτοῦ,of himself
+175,T0175,βρῶμα,food
+176,T0176,ἑκατόν,one hundred
+177,T0177,ἐπαύριον,on the morrow
+178,T0178,ἵππος,a horse
+179,T0179,λαμβάνω,"I take, receive"
+180,T0180,ἀναλαμβάνω,I take up
+181,T0181,ἐπιλαμβάνω,I take hold of
+182,T0182,καταλαμβάνω,"I overtake, apprehend"
+183,T0183,μεταλαμβάνω,"I have a share of, partake of, get"
+184,T0184,παραλαμβάνω,I receive
+185,T0185,προσλαμβάνω,I receive
+186,T0186,συλλαμβάνω,"I take, conceive"
+187,T0187,ὑπολαμβάνω,I take up (by supporting beneath); I welcome; I catch up (in speech); I suppose
+188,T0188,πείθω,I persuade
+189,T0189,ἀπειθέω,"I disbelieve, disobey"
+190,T0190,ἀπείθεια,"disobedience, rebellion"
+191,T0191,ἀπειθής,disobedient
+192,T0192,πεποίθησις,"trust, confidence"
+193,T0193,πίστις,"faith, belief, trust"
+194,T0194,πιστός,"faithful, believing"
+195,T0195,ἄπιστος,"unbelieving, faithless"
+196,T0196,ἀπιστία,unbelief
+197,T0197,ὀλιγόπιστος,of little faith
+198,T0198,πιστεύω,"I have faith (in), believe"
+199,T0199,ἀπιστέω,"I am unfaithful, disbelieve"
+200,T0200,μέγας,"large, great"

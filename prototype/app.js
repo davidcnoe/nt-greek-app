@@ -92,7 +92,7 @@ function load() {
   s.studyDays = s.studyDays || [];
   s.sessions = s.sessions ?? 0;
   // moss: "studied" = the learner has done MossMethod (the Expo app's mossGraduate).
-  s.settings = { mode: "recall", direction: "ge", pace: "standard", theme: "system", labels: "en", labelCase: "normal", advance: "standard", moss: "no", ...s.settings };
+  s.settings = { mode: "recall", direction: "ge", pace: "standard", theme: "system", labels: "en", labelCase: "normal", advance: "standard", moss: "no", autoplay: "off", ...s.settings };
   // tally[id]: {correct: sessions in a row counted toward mastery, last: last such session, day: its
   // date, since: session the word entered the active set, retired: true while out on spot-check rotation}.
   s.tally = s.tally || {};
@@ -409,6 +409,13 @@ function renderSettings() {
         }).join("")}
       </fieldset>`)}
 
+      ${section("Audio", `
+      <fieldset>
+        <legend class="sr-only">Audio</legend>
+        ${option("autoplay", "off", "Tap to hear", "The word plays only when you tap the speaker.")}
+        ${option("autoplay", "on", "Play automatically", "Each word plays as its card appears. On English → Greek cards it plays after you answer.")}
+      </fieldset>`)}
+
       ${section("Appearance", `
       <fieldset>
         <legend class="sr-only">Theme</legend>
@@ -517,6 +524,7 @@ function introHtml(w, id) {
   const count = `${w.c.toLocaleString()}× in NT${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""}`;
   return `
     <article class="card intro">
+      ${audioButton(w.id)}
       <div class="greek">${greekHtml(w)}</div>
       <p class="intro-gloss">${esc(w.g)}</p>
       ${w.d ? `<p class="intro-cf">Cf. ${esc(w.d)}</p>` : ""}
@@ -536,6 +544,7 @@ function renderIntro(id) {
   document.getElementById("lexlink").onclick = () => openWord(id);
   document.getElementById("continue").onclick = nextCard;
   document.getElementById("continue").focus();
+  autoplay();
 }
 
 function nextCard() {
@@ -555,6 +564,36 @@ function nextCard() {
   renderCard();
 }
 
+// ---------- Pronunciation (David's recordings, as in Telamon) ----------
+// audio/<key>.mp3 for each word in data/audio.json ({word id: clip key}, scripts/audio_bundle.py).
+// Words not yet recorded get the same button as a dummy that does nothing. A small speaker in the
+// card's top right corner on Greek -> English and meet-the-word cards; on English -> Greek it appears
+// only with the answer, which it would otherwise give away. P plays it; Settings -> Audio can play it
+// automatically as the Greek appears.
+let recorded = {};
+let player = null;
+const SPEAKER = `<svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 9h4l5-4v14l-5-4H4z" fill="currentColor"/><path d="M16.5 8.5a5 5 0 0 1 0 7M19 6a8.5 8.5 0 0 1 0 12" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>`;
+const audioButton = id => `<button class="play" data-audio="${esc(id)}" aria-label="Hear the word" title="Hear the word (P)">${SPEAKER}</button>`;
+function autoplay() {
+  const b = state.settings.autoplay === "on" && app.querySelector(".play[data-audio]");
+  if (b) playWord(b);
+}
+function playWord(btn) {
+  const key = recorded[btn.dataset.audio];
+  if (!key) return; // dummy until the word is recorded
+  if (player) { player.pause(); document.querySelector(".play.playing")?.classList.remove("playing"); }
+  player = new Audio(`audio/${key}.mp3`);
+  btn.classList.add("playing");
+  const done = () => btn.classList.remove("playing");
+  player.onended = done;
+  player.onerror = done;
+  player.play().catch(done);
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest?.(".play[data-audio]");
+  if (b) playWord(b);
+});
+
 function renderCard() {
   const key = session.current;
   const rev = isRev(key);
@@ -566,6 +605,7 @@ function renderCard() {
   app.innerHTML = `
     <div class="progress"><span>${session.phase === "review" ? "Review" : "New words"}</span><span>${session.passed.size} of ${session.total} correct</span></div>
     <article class="card">
+      ${rev ? "" : audioButton(w.id)}
       <div class="meta">${esc(unitLabel(w))}${rev ? ' · <span class="flag">English → Greek</span>' : ""}${badge ? ` · <span class="flag">${badge}</span>` : ""}</div>
       ${rev ? `<div class="prompt-en">${esc(w.g)}</div>` : `<div class="greek">${greekHtml(w)}</div>`}
       <div id="back"></div>
@@ -581,6 +621,7 @@ function renderCard() {
     controls.innerHTML = `<div class="actions single"><button class="primary" id="reveal">Show answer</button></div>`;
     document.getElementById("reveal").onclick = reveal;
   }
+  if (!rev) autoplay();
 }
 
 // The answer: Metzger's gloss, his English derivative ("Cf. …"), Moss's gloss (Settings → MossMethod),
@@ -598,6 +639,10 @@ function showBack() {
       <button class="quiet translate" id="lexlink">Lexicon entry</button>
     </div>`;
   document.getElementById("lexlink").onclick = () => openWord(id);
+  if (isRev(session.current)) {
+    document.querySelector(".card").insertAdjacentHTML("afterbegin", audioButton(id));
+    autoplay();
+  }
 }
 
 function reveal() {
@@ -1187,6 +1232,11 @@ document.addEventListener("click", e => {
 
 document.addEventListener("keydown", e => {
   if (!session || e.target.closest?.("input, select, textarea") || document.getElementById("entry")?.open) return;
+  if (e.key === "p" || e.key === "P") {
+    const b = app.querySelector(".play[data-audio]");
+    if (b) { e.preventDefault(); playWord(b); }
+    return;
+  }
   if (session.info) {
     if (e.key === " " || e.key === "Enter") { e.preventDefault(); nextCard(); }
     return;
@@ -1207,7 +1257,11 @@ navigator.storage?.persist?.().catch(() => {});
 
 (async () => {
   try {
-    const lex = await fetch("data/lexicon.json").then(r => r.json());
+    const [lex, audio] = await Promise.all([
+      fetch("data/lexicon.json").then(r => r.json()),
+      fetch("data/audio.json").then(r => r.ok ? r.json() : {}).catch(() => ({})),
+    ]);
+    recorded = audio;
     meta = lex.meta;
     for (const f of lex.families) families[f.id] = f;
     // The path: units in order, each word once, where it first appears.

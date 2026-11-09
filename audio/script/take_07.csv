@@ -1,0 +1,101 @@
+n,id,greek,english
+601,T0601,λύω,I loose
+602,T0602,ἀπολύω,I release
+603,T0603,ἀπολύτρωσις,redemption
+604,T0604,ἐκλύομαι,"I am unstrung, grow weary, become faint-hearted"
+605,T0605,καταλύω,I destroy; I lodge
+606,T0606,παραλύομαι,"(I am unstrung), I am a paralytic"
+607,T0607,παραλυτικός,a paralytic
+608,T0608,τρεῖς,three
+609,T0609,τριάκοντα,thirty
+610,T0610,τρίτος,third
+611,T0611,τρίς,thrice
+612,T0612,φέρω,"I carry, bear, lead"
+613,T0613,ἀποφέρω,"I carry off, bear away"
+614,T0614,διαφέρω,I differ
+615,T0615,εἰσφέρω,"I bring in, into"
+616,T0616,ἐκφέρω,"I carry out, bring out"
+617,T0617,προσφέρω,"I bring to, offer"
+618,T0618,προσφορά,"an offering, a sacrifice"
+619,T0619,συμφέρω,"I bring together; impersonally, it is profitable"
+620,T0620,φορέω,"I bear, carry, wear"
+621,T0621,καρποφορέω,I bear fruit
+622,T0622,φαίνω,"I shine, appear"
+623,T0623,ἐπιφάνεια,"an appearing, manifestation (of Christ in glory)"
+624,T0624,ἀφανίζω,"(I make unseen), I destroy; passive, I vanish"
+625,T0625,ἐμφανίζω,I manifest
+626,T0626,φανερός,manifest
+627,T0627,φανερόω,I make manifest
+628,T0628,ὑπερήφανος,"(showing oneself above others), haughty, disdainful"
+629,T0629,φημί,I say
+630,T0630,προφητεύω,I prophesy
+631,T0631,προφητεία,a prophecy
+632,T0632,δοκέω,I think; seem
+633,T0633,εὐδοκέω,"I think it good, am well pleased with"
+634,T0634,εὐδοκία,"good will, favor, pleasure, approval"
+635,T0635,συνευδοκέω,"I entirely approve of, agree with"
+636,T0636,δοξάζω,I glorify
+637,T0637,δοκιμάζω,"I prove, approve"
+638,T0638,ἀποδοκιμάζω,I reject (after testing)
+639,T0639,δοκιμή,"a proving, approvedness, character"
+640,T0640,δόκιμος,"tested, approved"
+641,T0641,ἀδόκιμος,"(failing to pass the test), unapproved, counterfeit"
+642,T0642,κράζω,I cry out
+643,T0643,λοιπός,"remaining; as a noun, the rest; as an adverb, for the rest, henceforth"
+644,T0644,μέσος,"middle, in the midst"
+645,T0645,οὐχί,"(strengthened form of οὐ), not"
+646,T0646,προσκυνέω,I worship
+647,T0647,τοιοῦτος,such
+648,T0648,ἄχρι,"with the gen., as far as, up to; as a conjunction, until"
+649,T0649,γλῶσσα,"a tongue, language"
+650,T0650,διό,wherefore
+651,T0651,ἐλπίς,hope
+652,T0652,ἔσχατος,last
+653,T0653,εὐθύς,"straightway, immediately"
+654,T0654,δέχομαι,I receive
+655,T0655,ἀποδέχομαι,"I accept from, receive, welcome"
+656,T0656,ἐκδέχομαι,"I expect, wait for"
+657,T0657,ἀπεκδέχομαι,I wait for eagerly
+658,T0658,παραδέχομαι,"I accept, receive"
+659,T0659,προσδέχομαι,"I receive, wait for"
+660,T0660,εὐπρόσδεκτος,"well-received, acceptable"
+661,T0661,προσδοκάω,I wait for
+662,T0662,δεξιός,right (opp. left)
+663,T0663,παῖς,"a boy, girl, child, servant"
+664,T0664,παιδεύω,"I teach, chastise"
+665,T0665,παιδεία,"discipline, chastisement"
+666,T0666,παιδίον,"an infant, child"
+667,T0667,παιδίσκη,a maid servant
+668,T0668,ἐμπαίζω,I mock
+669,T0669,καθίζω,"I seat, sit"
+670,T0670,κακός,"bad, evil"
+671,T0671,μικρός,"small, little"
+672,T0672,οὐκέτι,no longer
+673,T0673,ποῦ,where? whither?
+674,T0674,πρό,"with the gen., before"
+675,T0675,σπείρω,I sow
+676,T0676,τυφλός,blind
+677,T0677,φόβος,"fear, terror"
+678,T0678,φυλακή,"a guard, a prison, a watch"
+679,T0679,δεύτερος,second
+680,T0680,διώκω,"I pursue, persecute"
+681,T0681,χράομαι,I use
+682,T0682,χρεία,a need
+683,T0683,χρηστός,"(useful, good), mild, comfortable, gracious"
+684,T0684,χρηστότης,"goodness, kindness"
+685,T0685,χρῄζω,I have need of
+686,T0686,χρῆμα,"(whatever one uses, a thing), money; plural, riches"
+687,T0687,χρηματίζω,"(I transact business, hence, consult, deliberate), I make answer (in an oracle), I warn; passive, I am warned by God; I receive a name (from my business), am called"
+688,T0688,κράτος,"power, dominion"
+689,T0689,κρατέω,I grasp
+690,T0690,κρείσσων,better
+691,T0691,προσκαρτερέω,I continue in or with
+692,T0692,σταυρός,a cross
+693,T0693,σταυρόω,I crucify
+694,T0694,συνσταυρόω,I crucify along with
+695,T0695,ἐγγίζω,I come near
+696,T0696,ἐπιγνώσκω,"I come to know, recognize"
+697,T0697,θαυμάζω,"I marvel, wonder at"
+698,T0698,θεραπεύω,I heal
+699,T0699,θηρίον,a wild beast
+700,T0700,θλῖψις,tribulation

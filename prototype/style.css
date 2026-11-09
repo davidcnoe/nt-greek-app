@@ -336,3 +336,13 @@ dialog#entry .quiet.go { margin-right: 8px; }
 
 /* About: the app's name in the theme colour (David, 2026-11-09). */
 .about-name { color: var(--accent); }
+
+/* Pronunciation: a small, quiet speaker in the card's top right corner (as Telamon);
+   a dummy for words not yet recorded. Theme colour while it plays. */
+.card { position: relative; }
+.play { position: absolute; top: 0; right: 2px; width: 34px; height: 28px; border: 0; border-radius: 10px;
+        background: none; color: var(--muted); opacity: .6; padding: 0; cursor: pointer;
+        display: inline-flex; align-items: center; justify-content: center; }
+.play svg { width: 18px; height: 18px; }
+.play:hover, .play:focus-visible { opacity: 1; }
+.play.playing { color: var(--accent); opacity: 1; }

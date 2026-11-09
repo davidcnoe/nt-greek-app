@@ -1,0 +1,101 @@
+n,id,greek,english
+201,T0201,μέν,"postpositive particle, on the one hand, indeed (often it is better left untranslated and its presence shown by stress of the voice and by translating a following δέ by ‘but’)"
+202,T0202,νεκρός,"dead; as a noun, a dead body, a corpse"
+203,T0203,ὅστις,"whoever, whichever, whatever"
+204,T0204,ὄχλος,"a crowd, multitude"
+205,T0205,παρά,"with the gen., from; with the dat., beside, in the presence of; with the acc., alongside of"
+206,T0206,πόλις,a city
+207,T0207,τε,"(an enclitic connective particle, weaker in force than καί) and"
+208,T0208,τότε,"then, at that time"
+209,T0209,ὑπέρ,"with the gen., in behalf of; with the acc., above"
+210,T0210,χείρ,a hand
+211,T0211,αἰών,an age
+212,T0212,ἅγιος,"holy; plural as a noun, the saints"
+213,T0213,ἁγιάζω,I sanctify
+214,T0214,ἁγιασμός,sanctification
+215,T0215,ἁγνός,"(in a condition prepared for worship), pure (ethically, ritually, or ceremonially), chaste"
+216,T0216,ἁγνίζω,I make pure
+217,T0217,κρίνω,"I judge, decide"
+218,T0218,ἀνακρίνω,I examine
+219,T0219,ἀποκρίνομαι,I answer
+220,T0220,διακρίνω,"I discriminate; middle, I doubt"
+221,T0221,κατακρίνω,I condemn
+222,T0222,κρίμα,judgment
+223,T0223,κρίσις,judgment
+224,T0224,κριτής,a judge
+225,T0225,ὑποκριτής,a hypocrite
+226,T0226,ὑπόκρισις,"(acting a part), hypocrisy"
+227,T0227,γινώσκω,"I come to know, learn, know, realize"
+228,T0228,ἀναγινώσκω,I read
+229,T0229,ἐπιγινώσκω,"I come to know, recognize"
+230,T0230,γνῶσις,wisdom
+231,T0231,ἐπίγνωσις,knowledge
+232,T0232,προγινώσκω,"I know beforehand, foreknow"
+233,T0233,γνωρίζω,I make known
+234,T0234,γνωστός,known
+235,T0235,γνώμη,"opinion, counsel"
+236,T0236,ἀγνοέω,I do not know
+237,T0237,γυνή,"a woman, wife"
+238,T0238,γαμέω,I marry
+239,T0239,γάμος,"a marriage, wedding"
+240,T0240,δύναμαι,"I am powerful, able"
+241,T0241,ἐνδυναμόω,"I endue with power, make strong"
+242,T0242,δύνατος,"powerful, possible"
+243,T0243,ἀδύνατος,"incapable, impossible"
+244,T0244,δύναμις,power
+245,T0245,νόμος,"a law, the Law"
+246,T0246,ἀνομία,lawlessness
+247,T0247,νομίζω,I suppose
+248,T0248,νομικός,"pertaining to the law; as a noun, one skilled in the Mosaic law, a lawyer"
+249,T0249,γράφω,I write
+250,T0250,γραφή,"a writing, Scripture"
+251,T0251,ἐπιγράφω,"I write upon, inscribe"
+252,T0252,ἐπιγραφή,an inscription
+253,T0253,γράμμα,"a letter (of the alphabet); plural, writings"
+254,T0254,γραμματεύς,a scribe
+255,T0255,ἄγγελος,"a messenger, an angel"
+256,T0256,ἀναγγέλλω,"I announce, report"
+257,T0257,ἀπαγγέλλω,"I announce, report"
+258,T0258,ἐπαγγελία,a promise
+259,T0259,ἐπαγγέλλομαι,I promise
+260,T0260,εὐαγγελίζω,"I bring good news, preach good tidings (the Gospel)"
+261,T0261,εὐαγγέλιον,"the good news (of the coming of the Messiah), the Gospel"
+262,T0262,καταγγέλλω,I proclaim
+263,T0263,παραγγέλλω,"I command, charge"
+264,T0264,παραγγελία,"a charge, command"
+265,T0265,μέρος,a part
+266,T0266,μερίζω,I divide
+267,T0267,διαμερίζω,"I divide, distribute"
+268,T0268,ἁμαρτάνω,I sin
+269,T0269,ἁμάρτημα,"a sin, evil deed"
+270,T0270,ἁμαρτία,"a sin, sin"
+271,T0271,ἁμαρτωλός,"sinful; as a noun, a sinner"
+272,T0272,ἔργον,work
+273,T0273,ἐργάτης,a workman
+274,T0274,ἐνεργέω,"I work, effect"
+275,T0275,συνεργέω,"I work along with, co-operate with"
+276,T0276,συνεργός,a fellow worker
+277,T0277,ἐργάζομαι,I work
+278,T0278,ἐργασία,"work, business, profit"
+279,T0279,κατεργάζομαι,I work out
+280,T0280,γεωργός,a farmer
+281,T0281,λειτουργός,"(a public [λαός] minister), a servant"
+282,T0282,βασιλεύς,a king
+283,T0283,βασιλεύω,I reign
+284,T0284,βασιλεία,a kingdom
+285,T0285,βασιλικός,"kingly, royal"
+286,T0286,χαίρω,I rejoice
+287,T0287,συνχαίρω,I rejoice with
+288,T0288,χαρά,"joy, delight"
+289,T0289,χάρις,grace
+290,T0290,χάριν,"(accusative of the noun χάρις used absolutely, in favor of, for the pleasure of), preposition with the gen., on account of, for the sake of"
+291,T0291,χαρίζομαι,"I give freely, forgive"
+292,T0292,χάρισμα,a free (gracious) gift
+293,T0293,εὐχαριστέω,I give thanks
+294,T0294,εὐχαριστία,thanksgiving
+295,T0295,δέω,I bind
+296,T0296,δεῖ,it is necessary
+297,T0297,δέσμιος,a prisoner
+298,T0298,δεσμός,"a fetter, bond"
+299,T0299,ὑπόδημα,"a sandal, shoe"
+300,T0300,ἵστημι,"I cause to stand, I stand"

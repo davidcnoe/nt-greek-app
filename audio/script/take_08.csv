@@ -1,0 +1,101 @@
+n,id,greek,english
+701,T0701,ναός,a temple
+702,T0702,σεαυτοῦ,of thyself
+703,T0703,σήμερον,today
+704,T0704,σπέρμα,a seed
+705,T0705,ἅπτομαι,I touch
+706,T0706,ἑτοιμάζω,I prepare
+707,T0707,θύρα,a door
+708,T0708,ἱκανός,"sufficient, able, considerable"
+709,T0709,καινός,new
+710,T0710,κλαίω,I weep
+711,T0711,μισέω,I hate
+712,T0712,ὀλίγος,"little, few"
+713,T0713,οὐαί,woe! alas!
+714,T0714,πάντοτε,always
+715,T0715,περισσεύω,I abound
+716,T0716,πλανάω,I lead astray
+717,T0717,πράσσω,"I do, perform"
+718,T0718,χωρίς,"with the gen., without, apart from"
+719,T0719,ὅμοιος,like
+720,T0720,ὁμοιόω,"I make like, liken"
+721,T0721,ὁμοίωμα,"a likeness, image"
+722,T0722,ὁμολογέω,"I confess, profess"
+723,T0723,ἐξομολογέομαι,"I confess, profess"
+724,T0724,ὁμολογία,"a confession, profession"
+725,T0725,πάσχω,I suffer
+726,T0726,πάθημα,suffering
+727,T0727,πενθέω,I mourn
+728,T0728,ἀποκαθίστημι and ἀποκαθιστάνω,"I set up again, restore to its former state"
+729,T0729,μεθίστημι and μεθιστάνω,"I transfer, remove"
+730,T0730,παρίστημι,"I am present, stand by"
+731,T0731,προΐστημι,"I stand in front, lead, rule, practice"
+732,T0732,συνίστημι and συνιστάνω,"I commend; I stand with, consist"
+733,T0733,στάσις,a standing; an insurrection
+734,T0734,ἀνάστασις,resurrection
+735,T0735,ἔκστασις,"(standing outside oneself), bewilderment, a trance"
+736,T0736,ὑπόστασις,"(a standing under), substance, confidence"
+737,T0737,ἀκαταστασία,"instability, disturbance, revolution"
+738,T0738,τιμή,"honor, price"
+739,T0739,τιμάω,I honor
+740,T0740,ἐπιτιμάω,"I rebuke, warn"
+741,T0741,τίμιος,"precious, honorable"
+742,T0742,ἀτιμάζω,"I dishonor, insult"
+743,T0743,ἀτιμία,"dishonor, disgrace"
+744,T0744,ἔντιμος,"held in honor, precious, prized"
+745,T0745,μνεία,"remembrance, mention"
+746,T0746,μνῆμα,"(something that brings to remembrance), a sepulcher, tomb, monument"
+747,T0747,μνημεῖον,"a tomb, monument"
+748,T0748,μνημονεύω,I remember
+749,T0749,τέλος,end
+750,T0750,τελέω,"I finish, fulfill"
+751,T0751,ἐπιτελέω,"I complete, perform"
+752,T0752,συντελέω,"I finish, accomplish"
+753,T0753,συντέλεια,"completion, consummation"
+754,T0754,τέλειος,"complete, perfect, mature"
+755,T0755,τελειόω,"I fulfill, make perfect"
+756,T0756,τελευτάω,I die
+757,T0757,τέσσαρες,four
+758,T0758,δεκατέσσαρες,fourteen
+759,T0759,τεσσαράκοντα,forty
+760,T0760,τέταρτος,fourth
+761,T0761,τράπεζα,a table
+762,T0762,θυμός,wrath
+763,T0763,ἐπιθυμέω,I desire
+764,T0764,ἐπιθυμία,"eager desire, passion"
+765,T0765,μακροθυμέω,I am patient
+766,T0766,μακροθυμία,"long-suffering, patience, forbearance"
+767,T0767,ὁμοθυμαδόν,with one accord
+768,T0768,προθυμία,"eagerness, enthusiasm"
+769,T0769,τάσσω,"I arrange, appoint, order"
+770,T0770,ἀντιτάσσομαι,"I range in battle against, resist"
+771,T0771,ἀποτάσσομαι,"I separate myself, take leave of, forsake"
+772,T0772,διατάσσω,I command
+773,T0773,ἐπιτάσσω,I command
+774,T0774,ἐπιταγή,"a command, order, authority"
+775,T0775,ὑποτάσσω,"I subject, put in subjection"
+776,T0776,τάξις,"an arrangement, order, right order, office"
+777,T0777,βούλομαι,"I wish, determine"
+778,T0778,ἐμαυτοῦ,of myself
+779,T0779,εὐθέως,immediately
+780,T0780,καλῶς,well
+781,T0781,ὀπίσω,"behind, after; with the gen., behind, after"
+782,T0782,ὀργή,anger
+783,T0783,οὖς,an ear
+784,T0784,ὀφείλω,"I owe, ought"
+785,T0785,πέντε,five
+786,T0786,περιτομή,circumcision
+787,T0787,προσευχή,prayer
+788,T0788,πτωχός,"poor; as a noun, a poor man"
+789,T0789,διάκονος,"a servant, administrator, deacon"
+790,T0790,διακονέω,"I wait upon (especially at table), serve (generally), minister"
+791,T0791,διακονία,"waiting at table, (in a wider sense) service, ministry"
+792,T0792,καυχάομαι,I boast
+793,T0793,καύχημα,"a boasting, ground of boasting"
+794,T0794,καύχησις,boasting
+795,T0795,ἀρέσκω,I please
+796,T0796,ἀριθμός,a number
+797,T0797,ἄρτι,"now, just now"
+798,T0798,ἀρετή,"(moral fitness), virtue, excellence"
+799,T0799,στρέφω,I turn
+800,T0800,ἀναστρέφω,I return; I live

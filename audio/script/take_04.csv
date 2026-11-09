@@ -1,0 +1,101 @@
+n,id,greek,english
+301,T0301,ἀνθίστημι,I resist
+302,T0302,ἀνίστημι,I cause to rise; I arise
+303,T0303,ἀφίστημι,"I withdraw, depart"
+304,T0304,ἐνίστημι,"I am at hand, am present"
+305,T0305,ἐξίστημι,"I amaze, am amazed"
+306,T0306,ἐφίστημι,"I stand over, come upon"
+307,T0307,ἐπιστάτης,"(one standing over another), a master (found only in Luke, used of Jesus)"
+308,T0308,ἐπίσταμαι,I understand
+309,T0309,καθίστημι,"I set, constitute"
+310,T0310,αἴρω,"I take up, take away"
+311,T0311,ἄρτος,"bread, a loaf"
+312,T0312,εἰρήνη,peace
+313,T0313,ἐκεῖ,there
+314,T0314,ἕτερος,"other, another, different"
+315,T0315,ἕτοιμος,"ready, prepared"
+316,T0316,θάλασσα,the sea
+317,T0317,καλός,"beautiful, good"
+318,T0318,περιπατέω,I walk; I live
+319,T0319,πούς,a foot
+320,T0320,πρῶτος,first
+321,T0321,τέκνον,a child
+322,T0322,πορεύομαι,"I go, proceed"
+323,T0323,διαπορεύομαι,I go through
+324,T0324,εἰσπορεύομαι,I enter
+325,T0325,ἐκπορεύομαι,I go out
+326,T0326,παραπορεύομαι,"I go past, pass by"
+327,T0327,ἔμπορος,"(one on a journey, especially for business), a merchant"
+328,T0328,πέραν,"with the gen., beyond"
+329,T0329,διαπεράω,I cross over
+330,T0330,ἀπορέω,"(I lose the way), I am in doubt, perplexed"
+331,T0331,πειράζω,"I test, tempt, attempt"
+332,T0332,καλέω,I call
+333,T0333,κλητός,called
+334,T0334,κλῆσις,"a (divine) call, invitation, summons"
+335,T0335,ἐγκαλέω,"I call to account, accuse"
+336,T0336,ἀνέγκλητος,"not to be called to account, unreprovable, blameless"
+337,T0337,ἐκκλησία,"a community, congregation, church"
+338,T0338,ἐπικαλέομαι,"I call, name; middle, I invoke, appeal to"
+339,T0339,παρακαλέω,"I beseech, exhort, console"
+340,T0340,παράκλησις,"an exhortation, consolation"
+341,T0341,παράκλητος,"an intercessor, helper, Paraclete"
+342,T0342,ἀμήν,"verily, truly, amen"
+343,T0343,δύο,two
+344,T0344,ἐγείρω,I raise up
+345,T0345,ἕως,"until; with the gen., as far as"
+346,T0346,λαός,a people
+347,T0347,νῦν,now
+348,T0348,ὅταν,whenever
+349,T0349,οὐδέ,"and not, not even, neither, nor"
+350,T0350,πάλιν,again
+351,T0351,σάρξ,flesh
+352,T0352,σύν,"with the dat., with"
+353,T0353,σῶμα,a body
+354,T0354,προφήτης,a prophet
+355,T0355,φωνή,"a sound, voice"
+356,T0356,φωνέω,I call
+357,T0357,συμφωνέω,"I am in accord, agree with"
+358,T0358,βλασφημέω,"I revile, blaspheme"
+359,T0359,βλασφημία,"reproach, blasphemy"
+360,T0360,πρόφασις,"a pretense, pretext"
+361,T0361,φῶς,light
+362,T0362,φωτεινός,"shining, brilliant"
+363,T0363,φωτίζω,"I give light, enlighten"
+364,T0364,ἀγαπάω,I love
+365,T0365,ἀγάπη,love
+366,T0366,ἀγαπητός,beloved
+367,T0367,ἄνεσις,"a loosening; relief, rest"
+368,T0368,ἀφίημι,"I let go, permit, forgive"
+369,T0369,ἄφεσις,"a sending away, remission"
+370,T0370,συνίημι,I understand
+371,T0371,σύνεσις,understanding
+372,T0372,ἀσύνετος,"without understanding, stupid"
+373,T0373,ζάω,I live
+374,T0374,ζωή,life
+375,T0375,ζῶον,"a living creature, an animal"
+376,T0376,βλέπω,I see
+377,T0377,ἀναβλέπω,"I look up, receive sight"
+378,T0378,ἐμβλέπω,I look at
+379,T0379,περιβλέπομαι,"I look around, survey"
+380,T0380,ἀποστέλλω,I send (with a commission)
+381,T0381,ἀπόστολος,an Apostle
+382,T0382,διαστέλλομαι,"I command, charge expressly"
+383,T0383,ἐξαποστέλλω,I send forth
+384,T0384,ἐπιστολή,a letter
+385,T0385,στολή,"(a piece of equipment, especially of clothes, apparel), a long robe, a festal robe"
+386,T0386,δοῦλος,a slave
+387,T0387,σύνδουλος,a fellow slave
+388,T0388,δουλεία,slavery
+389,T0389,δουλεύω,I serve
+390,T0390,δουλόω,I enslave
+391,T0391,ἄρχω,"I rule; in the New Testament almost always middle, I begin"
+392,T0392,ἄρχων,a ruler
+393,T0393,ἀρχή,a beginning
+394,T0394,ἀρχαῖος,"old, ancient"
+395,T0395,ἀρχιερεύς,"chief priest, high priest"
+396,T0396,ὑπάρχω,"I am, exist; τὰ ὑπάρχοντα, one's belongings"
+397,T0397,ἀπαρχή,first fruits
+398,T0398,βάλλω,"I throw, put"
+399,T0399,ἐκβάλλω,I cast out
+400,T0400,ἐπιβάλλω,I lay upon
