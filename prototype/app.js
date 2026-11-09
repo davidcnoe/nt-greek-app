@@ -247,6 +247,15 @@ function unitLabel(w) {
 
 // ---------- screens ----------
 
+// Why there is nothing to start: said on Home under the disabled button, with the way out.
+function caughtUpWhy() {
+  if (state.settings.direction === "eg" && !learnedIds().length)
+    return `English → Greek practises only words you have mastered, and none is mastered yet. Choose Greek → English or Both in <a href="#" data-go="settings">Settings → Direction</a> to keep learning.`;
+  if (state.settings.direction === "eg")
+    return `Every mastered word has had its English → Greek practice for now. Choose Greek → English or Both in <a href="#" data-go="settings">Settings → Direction</a> to learn new words.`;
+  return "Every word is mastered, and no spot check is due yet. Come back later.";
+}
+
 function renderHome() {
   session = null;
   const plan = sessionPlan();
@@ -264,6 +273,7 @@ function renderHome() {
       <button class="primary" id="start" ${paused || review + fresh ? "" : "disabled"}>${paused
         ? `resume session ${paused.number} · ${paused.passed.length} of ${paused.total} done`
         : review + fresh ? `start session ${plan.number}` : "all caught up"}</button>
+      ${!paused && !review && !fresh ? `<p class="home-why">${caughtUpWhy()}</p>` : ""}
       <div class="home-progress"><span>${pct(cov)}%</span><span>${learnedIds().length} mastered</span></div>
       <div class="meter" role="img" aria-label="${pct(cov)} percent of the words in the New Testament mastered${fam ? `, another ${pct(fam)} percent familiar from MossMethod` : ""}; the bar is full at ${pct(maxCoverage)} percent, all ${words.length.toLocaleString()} words">
         <i style="width:${w(cov)}%"></i>${fam ? `<i class="fam" style="width:${Math.min(100 - w(cov), w(fam))}%"></i>` : ""}</div>
@@ -1221,6 +1231,7 @@ function setTab(go) {
 document.addEventListener("click", e => {
   const go = e.target.closest("[data-go]")?.dataset.go;
   if (!go) return;
+  e.preventDefault();
   setTab(go);
   reading = null;
   acc = null;
