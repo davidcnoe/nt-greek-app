@@ -323,9 +323,9 @@ dialog#entry .quiet.go { margin-right: 8px; }
 .reading .translate[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }
 
 /* "Meet the word" card (renderIntro): minimal layout, chosen 2026-11-09. */
-.intro { justify-content: center; }
-.intro .greek { margin: 8px 0 18px; font-size: 56px; }
-.intro .intro-gloss { font: 600 22px/1.35 var(--ui); margin: 0 0 6px; }
-.intro .intro-cf { font: italic 16px/1.5 var(--greek); color: var(--muted); margin: 0 0 6px; }
-.intro .intro-foot { font-size: 12.5px; color: var(--muted); margin: 26px 0 0; line-height: 1.6; text-wrap: balance; }
-.intro .intro-foot .link { font-size: inherit; font-weight: 600; text-decoration: none; }
+.card.intro { justify-content: center; }
+.card.intro .greek { margin: 8px 0 18px; font-size: 56px; }
+.card.intro .intro-gloss { font: 600 22px/1.35 var(--ui); margin: 0 0 6px; }
+.card.intro .intro-cf { font: italic 16px/1.5 var(--greek); color: var(--muted); margin: 0 0 6px; }
+.card.intro .intro-foot { font-size: 12.5px; color: var(--muted); margin: 26px 0 0; line-height: 1.6; text-wrap: balance; }
+.card.intro .intro-foot .link { font-size: inherit; font-weight: 600; text-decoration: none; }
