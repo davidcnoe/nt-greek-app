@@ -1,0 +1,1225 @@
+{
+ "116": [
+  {
+   "entry_id": 2341,
+   "lemma": "Θάρα",
+   "headword_ocr": "",
+   "current_text": "©apd (Uebr.), Zhara, Tirah, the father of Abraham.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2342,
+   "lemma": "θαρρέω",
+   "headword_ocr": "θαρρέω",
+   "current_text": "θαρρέω, I am courageous, I am of good cheer, a by-form of θαρσέω.",
+   "nt_count": 6
+  },
+  {
+   "entry_id": 2343,
+   "lemma": "θαρσέω",
+   "headword_ocr": "θαρσέω",
+   "current_text": "θαρσέω, only in the imperative, de of good cheer, a byform of θαρρέω.",
+   "nt_count": 7
+  },
+  {
+   "entry_id": 2344,
+   "lemma": "θάρσος",
+   "headword_ocr": "θάρσος",
+   "current_text": "θάρσος, courage,",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2345,
+   "lemma": "θαῦμα",
+   "headword_ocr": "θαῦμα",
+   "current_text": "θαῦμα, (a) concr., a marvel, a wonder ; (Ὁ) abstr, wonder,",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2347,
+   "lemma": "θαυμάσιος",
+   "headword_ocr": "θαυμάσιος",
+   "current_text": "θαυμάσιος, wonderful.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2348,
+   "lemma": "θαυμαστός",
+   "headword_ocr": "θαυμαστός",
+   "current_text": "θαυμαστός, to be wondered af, wonderful.",
+   "nt_count": 6
+  },
+  {
+   "entry_id": 2349,
+   "lemma": "θεά",
+   "headword_ocr": "θεά",
+   "current_text": "θεά, a goddess.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2351,
+   "lemma": "θεατρίζω",
+   "headword_ocr": "θεατρίξω",
+   "current_text": "θεατρίξω, I makea public show of, I expose to public shame.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2352,
+   "lemma": "θέατρον",
+   "headword_ocr": "θέατρον",
+   "current_text": "θέατρον, (a) a theatre, a semi-circular stone building, generally open to the sky; (0) a spectacle, 1 Cor. iv g.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2353,
+   "lemma": "θεῖον",
+   "headword_ocr": "θεῖον",
+   "current_text": "θεῖον, brimstone, sulphur.",
+   "nt_count": 7
+  },
+  {
+   "entry_id": 2354,
+   "lemma": "θεῖος",
+   "headword_ocr": "θεῖος",
+   "current_text": "θεῖος, divine; τὸ θεῖον, the divine, the divine mature, Ac. xvii 29.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2355,
+   "lemma": "θειότης",
+   "headword_ocr": "θειότης",
+   "current_text": "θειότης (dininitas), divzniy.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2356,
+   "lemma": "θειώδης",
+   "headword_ocr": "θειώϑης",
+   "current_text": "θειώϑης, of brimstone, sulphurous.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2358,
+   "lemma": "θέλησις",
+   "headword_ocr": "θέλησις",
+   "current_text": "θέλησις, willing, will.",
+   "nt_count": 1
+  }
+ ],
+ "117": [
+  {
+   "entry_id": 2362,
+   "lemma": "θεοδίδακτος",
+   "headword_ocr": "θεοδίδακτος",
+   "current_text": "θεοδίδακτος, laught by the god.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2363,
+   "lemma": "θεομάχος",
+   "headword_ocr": "θεομάχος",
+   "current_text": "θεομάχος, fighting against the god.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2364,
+   "lemma": "θεόπνευστος",
+   "headword_ocr": "θεόπνευστος",
+   "current_text": "θεόπνευστος, inspired by the god, due to the inspiration of the god.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2366,
+   "lemma": "θεοσέβεια",
+   "headword_ocr": "θεοσέβεια",
+   "current_text": "θεοσέβεια, reverence jor the god.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2367,
+   "lemma": "θεοσεβής",
+   "headword_ocr": "θεοσεβής",
+   "current_text": "θεοσεβής, devout, religious.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2368,
+   "lemma": "θεοστυγής",
+   "headword_ocr": "θεοστυγής",
+   "current_text": "θεοστυγής, hating the god.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2369,
+   "lemma": "θεότης",
+   "headword_ocr": "θεότης",
+   "current_text": "θεότης (deitas), daly, godhead.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2370,
+   "lemma": "Θεόφιλος",
+   "headword_ocr": "Θεόφιλος",
+   "current_text": "Θεόφιλος, Theophilus, a friend of Luke of equestrian rank, to whom the Gospel and Acts are dedicated.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2371,
+   "lemma": "θεραπεία",
+   "headword_ocr": "θεραπεία",
+   "current_text": "θεραπεία, care, attention (Lk. xii 42), especially medical attention (treatment) (Lk.ix 11); hence almost Aealing (Rev. xxii 2). In Lk. xii 42 may, however, be taken as abstr. for concer. (cf. seruitia), 226 slaves.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2373,
+   "lemma": "θεράπων",
+   "headword_ocr": "θεράπων",
+   "current_text": "θεράπων, a servant, slave.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2376,
+   "lemma": "θεριστής",
+   "headword_ocr": "θεριστής",
+   "current_text": "θεριστής, a reaper, harvester.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2377,
+   "lemma": "θερμαίνομαι",
+   "headword_ocr": "ϑερμαίνομαι",
+   "current_text": "ϑερμαίνομαι, I warm myself.",
+   "nt_count": 6
+  },
+  {
+   "entry_id": 2378,
+   "lemma": "θέρμη",
+   "headword_ocr": "θέρμη",
+   "current_text": "θέρμη, heat.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2379,
+   "lemma": "θέρος",
+   "headword_ocr": "θέρος",
+   "current_text": "θέρος, summer,",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2380,
+   "lemma": "Θεσσαλονικεύς",
+   "headword_ocr": "Θεσσαλονικεύς",
+   "current_text": "Θεσσαλονικεύς, a man of Thessalonica.",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2381,
+   "lemma": "Θεσσαλονίκη",
+   "headword_ocr": "Θεσσαλονίκη",
+   "current_text": "Θεσσαλονίκη, Thessalonica (modern Salonikz), an important city of the Roman province Macedonia.",
+   "nt_count": 5
+  },
+  {
+   "entry_id": 2382,
+   "lemma": "Θευδᾶς",
+   "headword_ocr": "Θευδᾶς",
+   "current_text": "Θευδᾶς, Thendas, a Jewish pretender of date about 4 B.C., otherwise unknown.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2384,
+   "lemma": "θεωρία",
+   "headword_ocr": "θεωρία",
+   "current_text": "θεωρία (spectaculum), a sight.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2385,
+   "lemma": "θήκη",
+   "headword_ocr": "θήκη",
+   "current_text": "θήκη, a scabbard, a sheath.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2386,
+   "lemma": "θηλάζω",
+   "headword_ocr": "θελάζω",
+   "current_text": "θελάζω, (2) I give suck; (Ὁ) 2 suck.",
+   "nt_count": 5
+  }
+ ],
+ "118": [
+  {
+   "entry_id": 2387,
+   "lemma": "θῆλυς",
+   "headword_ocr": "θῆλυς",
+   "current_text": "θῆλυς, female.",
+   "nt_count": 5
+  },
+  {
+   "entry_id": 2388,
+   "lemma": "θήρα",
+   "headword_ocr": "θήρα",
+   "current_text": "θήρα, δηγίη,, enlrapping.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2389,
+   "lemma": "θηρεύω",
+   "headword_ocr": "θηρεύω",
+   "current_text": "θηρεύω, I hunt, I seek to catch or entrap.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2390,
+   "lemma": "θηριομαχέω",
+   "headword_ocr": "θηριομαχέω",
+   "current_text": "θηριομαχέω, I fight with wild beasts (1. 6. wild Deasts in human form).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2394,
+   "lemma": "θιγγάνω",
+   "headword_ocr": "θιγγάνω",
+   "current_text": "θιγγάνω, 4 touch.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2399,
+   "lemma": "θορυβάζω",
+   "headword_ocr": "θορυβάξω",
+   "current_text": "θορυβάξω, I disturb greatly.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2400,
+   "lemma": "θορυβέω",
+   "headword_ocr": "θορυβέω",
+   "current_text": "θορυβέω, I disturl greatly, I terrify, I strike with panic,",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2401,
+   "lemma": "θόρυβος",
+   "headword_ocr": "θόρυβος",
+   "current_text": "θόρυβος, (a) din, hubbub, confused noise, Ac. xxi3z4, οἵ Mk. v 38; (b) riot, disturbance.",
+   "nt_count": 7
+  },
+  {
+   "entry_id": 2402,
+   "lemma": "θραύω",
+   "headword_ocr": "θραύω",
+   "current_text": "θραύω, I crush.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2403,
+   "lemma": "θρέμμα",
+   "headword_ocr": "θρέμμα",
+   "current_text": "θρέμμα, (lit. a mursling, hence probably) plur. cattle (rather than household, staves).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2404,
+   "lemma": "θρηνέω",
+   "headword_ocr": "θρηνέω",
+   "current_text": "θρηνέω, I lament.",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2405,
+   "lemma": "θρησκεία",
+   "headword_ocr": "θρησκεία",
+   "current_text": "θρησκεία (underlying sense, reverence or worship of the gods), worship as expressed in ritual acts, religion.",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2406,
+   "lemma": "θρησκός",
+   "headword_ocr": "θρῆσκος",
+   "current_text": "θρῆσκος (religiosus) (refers probably to a careful observance of religious restrictions), reigzous (probably in a limited sense), famesi 26.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2407,
+   "lemma": "θριαμβεύω",
+   "headword_ocr": "θριαμβεύω",
+   "current_text": "θριαμβεύω, (properly, I lead one as my prisoner I a friumphal procession, hence) I lead around, I make a show (spectacle) of.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2409,
+   "lemma": "θροέομαι",
+   "headword_ocr": "θροέω",
+   "current_text": "θροέω, I disturb, agilate.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2410,
+   "lemma": "θρόμβος",
+   "headword_ocr": "θρόμβος",
+   "current_text": "θρόμβος, a clot.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2412,
+   "lemma": "Θυάτειρα",
+   "headword_ocr": "Θυάτειρα",
+   "current_text": "Θυάτειρα, Zhyalira, a city of the old district Lydia, in the Roman province Asia.",
+   "nt_count": 4
+  }
+ ],
+ "119": [
+  {
+   "entry_id": 2414,
+   "lemma": "θυγάτριον",
+   "headword_ocr": "θυγάτριον",
+   "current_text": "θυγάτριον, a lille (young) daughter.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2415,
+   "lemma": "θύελλα",
+   "headword_ocr": "θύελλα",
+   "current_text": "θύελλα (procella), a storm, tempest.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2416,
+   "lemma": "θύϊνος",
+   "headword_ocr": "",
+   "current_text": "8dives, of the sandarack (so-called citron) free.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2418,
+   "lemma": "θυμιατήριον",
+   "headword_ocr": "θυμιατήριον",
+   "current_text": "θυμιατήριον, (ordinarily censer, but) either the ellar of incense (Exod. xxx 1-10), or the shovel, on which the high-priest poured the coals, when he entered the Holy of Holies on the Day of Atonement (Lev. xvi",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2419,
+   "lemma": "θυμιάω",
+   "headword_ocr": "θυμιάω",
+   "current_text": "θυμιάω, I burn incense.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2420,
+   "lemma": "θυμομαχέω",
+   "headword_ocr": "θυμομαχέω",
+   "current_text": "θυμομαχέω, (lit. I fight desperately, hence) I am furiously angry with.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2421,
+   "lemma": "θυμόομαι",
+   "headword_ocr": "θυμόομαι",
+   "current_text": "θυμόομαι, I am full of angry passion.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2424,
+   "lemma": "θυρεός",
+   "headword_ocr": "",
+   "current_text": "- θυρεός (scutum), the heavy oblong Roman sZz/d.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2425,
+   "lemma": "θυρίς",
+   "headword_ocr": "θυρίς",
+   "current_text": "θυρίς, α window-stll.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2426,
+   "lemma": "θυρωρός",
+   "headword_ocr": "θυρωρός",
+   "current_text": "θυρωρός (ostiarius), door-keeper, porter.",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2431,
+   "lemma": "θώραξ",
+   "headword_ocr": "θώραξ",
+   "current_text": "θώραξ, a breastplate, corslet, cuirass.",
+   "nt_count": 5
+  },
+  {
+   "entry_id": 2432,
+   "lemma": "Ἰάϊρος",
+   "headword_ocr": "Ἰάευιρος",
+   "current_text": "Ἰάευιρος, Jairus, a Jewish ruler of the synagogue.",
+   "nt_count": 2
+  }
+ ],
+ "120": [
+  {
+   "entry_id": 2435,
+   "lemma": "ἴαμα",
+   "headword_ocr": "ἴαμα",
+   "current_text": "ἴαμα, a healing, a curing.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2436,
+   "lemma": "Ἰαμβρῆς",
+   "headword_ocr": "Ἰ᾿αμβρῆς",
+   "current_text": "Ἰ᾿αμβρῆς, Jambres, a sorcerer at the court of the Pharaoh (z. 2. MapBpis).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2437,
+   "lemma": "Ἰανναί",
+   "headword_ocr": "Ἴανναί",
+   "current_text": "Ἴανναί (Hebr.), Jannar, an ancestor of Jesus, son of Joseph, and father of Melchi.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2438,
+   "lemma": "Ἰάννης",
+   "headword_ocr": "ἸΙαννῆς",
+   "current_text": "ἸΙαννῆς, fannes, a sorcerer at the court of the Pharach (2. ἃ Lapis).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2440,
+   "lemma": "Ἰάρετ",
+   "headword_ocr": "",
+   "current_text": "“ldper (Hebr.), Jareth, son of Maleleel and father of Enoch.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2441,
+   "lemma": "ἴασις",
+   "headword_ocr": "ἴασις",
+   "current_text": "ἴασις, healing.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2442,
+   "lemma": "ἴασπις",
+   "headword_ocr": "ἴασπις",
+   "current_text": "ἴασπις, jasper.",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2443,
+   "lemma": "Ἰάσων",
+   "headword_ocr": "Ἰάσων",
+   "current_text": "᾿Ιάσων, Jason, a Christian of Thessalonica, perhaps the same as the ‘relative’ of St. Paul in Rom. xvi 21.",
+   "nt_count": 5
+  },
+  {
+   "entry_id": 2444,
+   "lemma": "ἰατρός",
+   "headword_ocr": "ἰατρός",
+   "current_text": "ἰατρός, a physician.",
+   "nt_count": 7
+  },
+  {
+   "entry_id": 2447,
+   "lemma": "ἰδιώτης",
+   "headword_ocr": "ἰδιώτης",
+   "current_text": "ἰδιώτης, (privatus, unofficial, hence) an amateur, an unProfessional man, a layman,",
+   "nt_count": 5
+  },
+  {
+   "entry_id": 2449,
+   "lemma": "Ἰδουμαία",
+   "headword_ocr": "Ἰδουμαία",
+   "current_text": "᾿Ιδουμαία, Idumaea, Ldom, a district of Arabia, immediately 8. of Judaea. 1423 I13 I",
+   "nt_count": 1
+  }
+ ],
+ "121": [
+  {
+   "entry_id": 2450,
+   "lemma": "ἱδρώς",
+   "headword_ocr": "ἱδρώς",
+   "current_text": "ἱδρώς, sweat, perspiration.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2451,
+   "lemma": "Ἰεζάβελ",
+   "headword_ocr": "Ἰεζάβελ",
+   "current_text": "Ἰεζάβελ (Zczabel, Old Latin and Armenian), Jezebel, name given to a false prophetess of Thyatira, possibly borrowed from the name of Abab’s wife, queen of Israel (x Kings xvi 31, &c.).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2452,
+   "lemma": "Ἱεράπολις",
+   "headword_ocr": "Ἱεράπολις",
+   "current_text": "Ἱεράπολις, Hierapolis, a city of the Lycus valley in Phrygia, near Laodicea and Colossae.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2453,
+   "lemma": "ἱερατεία",
+   "headword_ocr": "",
+   "current_text": "tepavela, the duty (office) of a priest.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2454,
+   "lemma": "ἱεράτευμα",
+   "headword_ocr": "ἱεράτευμα",
+   "current_text": "ἱεράτευμα, act or office of priesthood.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2455,
+   "lemma": "ἱερατεύω",
+   "headword_ocr": "ἱερατεύω",
+   "current_text": "ἱερατεύω, I serve as priest,",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2456,
+   "lemma": "Ἰεριχώ",
+   "headword_ocr": "Ἰερειχώ",
+   "current_text": "Ἰερειχώ (Ἱερειχώ), Jericho, Hiericus, a city 2 little north of the Dead Sea,",
+   "nt_count": 7
+  },
+  {
+   "entry_id": 2457,
+   "lemma": "Ἰερεμίας",
+   "headword_ocr": "Ἱερεμίας",
+   "current_text": "Ἱερεμίας (Hebr.), Jeremiah, Old Testament prophet (wrote about 603-536 8. ο.).",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2459,
+   "lemma": "ἱερόθυτος",
+   "headword_ocr": "ἱερόθυτος",
+   "current_text": "ἱερόθυτος, slain as sacred, slain in sacrifice.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2461,
+   "lemma": "ἱεροπρεπής",
+   "headword_ocr": "ἱεροπρεπής",
+   "current_text": "ἱεροπρεπής, like those employed in sacred service.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2464,
+   "lemma": "Ἱεροσολυμίτης",
+   "headword_ocr": "Ἱεροσολυμείτης",
+   "current_text": "Ἱεροσολυμείτης, an inhabitant of Jerusalem, see ‘lepouσαλήμ.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2465,
+   "lemma": "ἱεροσυλέω",
+   "headword_ocr": "ἱεροσυλέω",
+   "current_text": "ἱεροσυλέω, 7 γοῦ temples,",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2466,
+   "lemma": "ἱερόσυλος",
+   "headword_ocr": "ἱερόσυλος",
+   "current_text": "ἱερόσυλος, a robber of temples, but possibly simply sacrilegious.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2467,
+   "lemma": "ἱερουργέω",
+   "headword_ocr": "",
+   "current_text": "tepoupyéw, I sacrifice.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2469,
+   "lemma": "ἱερωσύνη",
+   "headword_ocr": "ἱερωσύνη",
+   "current_text": "ἱερωσύνη (earlier ἱερεωσύνη, from iepeds), the abstract notion of the priestly office.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2470,
+   "lemma": "Ἰεσσαί",
+   "headword_ocr": "Ἴεσσαί",
+   "current_text": "Ἴεσσαί (Hebr), Jesse, son of Obed (Iobed), and father of King David,",
+   "nt_count": 5
+  },
+  {
+   "entry_id": 2471,
+   "lemma": "Ἰεφθάε",
+   "headword_ocr": "Ἰεφθάε",
+   "current_text": "Ἰεφθάε (Hebr.), Jephthah, onc of the Judges of Israel. ἱλαστήριον",
+   "nt_count": 1
+  }
+ ],
+ "122": [
+  {
+   "entry_id": 2472,
+   "lemma": "Ἰεχονίας",
+   "headword_ocr": "Ἰεχονίας",
+   "current_text": "᾿Ιεχονίας (Hebr.), Jechoniah, son of Josiah and father of Salathiel,",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2476,
+   "lemma": "ἱκανότης",
+   "headword_ocr": "ἱκανότης",
+   "current_text": "ἱκανότης, sufficiency, ability, power.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2477,
+   "lemma": "ἱκανόω",
+   "headword_ocr": "ἱκανόω",
+   "current_text": "ἱκανόω, I make sufficient, I make fil.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2478,
+   "lemma": "ἱκετηρία",
+   "headword_ocr": "ἱκετηρία",
+   "current_text": "ἱκετηρία (originally i ῥάβδος, the olive branch held in the hand of the suppliant), supplication, entreay.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2479,
+   "lemma": "ἰκμάς",
+   "headword_ocr": "",
+   "current_text": "ikpds, moisture.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2480,
+   "lemma": "Ἰκόνιον",
+   "headword_ocr": "κ̓όνιον",
+   "current_text": "᾿κόνιον, Jeonium, a Phrygian city of the Roman province Galatia (mod. Konia).",
+   "nt_count": 6
+  },
+  {
+   "entry_id": 2481,
+   "lemma": "ἱλαρός",
+   "headword_ocr": "ἰλαρός",
+   "current_text": "ἰλαρός, cheerful.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2482,
+   "lemma": "ἱλαρότης",
+   "headword_ocr": "ἱλαρότης",
+   "current_text": "ἱλαρότης, cheerfulness.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2483,
+   "lemma": "ἱλάσκομαι",
+   "headword_ocr": "ἱλάσκομαι",
+   "current_text": "ἱλάσκομαι, (a) ¢. dat. I have mercy on, I show favour to; (b) tr. with obj. of sins, I forgzve.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2484,
+   "lemma": "ἱλασμός",
+   "headword_ocr": "ἱλασμός",
+   "current_text": "ἱλασμός, a propitiation (of an angry god).",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2485,
+   "lemma": "ἱλαστήριον",
+   "headword_ocr": "ἱλαστήριον",
+   "current_text": "ἱλαστήριον (original idea, propitiation of an angry god), (2) a sin offering, by which the wrath of the deity 115 ‘12 shall be appeased, a means of propitiation, Rom.iii 25; (b) the covering of the ark, which was sprinkled with the atoning blood on the Day of Atonement (Hcbr. Kappéreth), Heb. ix 5.",
+   "nt_count": 2
+  }
+ ],
+ "123": [
+  {
+   "entry_id": 2486,
+   "lemma": "ἵλεως",
+   "headword_ocr": "ἵλεως",
+   "current_text": "ἵλεως, propitrous, forgiving, Ieb. viii 12: Meds σοι = ἵλεως εἴη σοι ὁ θεός, may the god be favourable to you, God be merciful to yon, may God help you, God forbid] Mt. χνὶ 22.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2487,
+   "lemma": "Ἰλλυρικόν",
+   "headword_ocr": "Ἰλλυρικόν",
+   "current_text": "Ἰλλυρικόν, Πνγέρει, a Roman province, afterwards called Dalmatia, bounded by Pannonia on the N., Macedonia on the S., Moesia on the E., and the Adriatic Sea on the W.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2488,
+   "lemma": "ἱμάς",
+   "headword_ocr": "ἱμάς",
+   "current_text": "ἱμάς, a thong, strap, (a) for binding a man who is to be flogged, Ac. xxiizg ; (0) for fastening a sandal or shoe,",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2489,
+   "lemma": "ἱματίζω",
+   "headword_ocr": "ἱματίξω",
+   "current_text": "ἱματίξω, I clothe, I provide clothing for.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2491,
+   "lemma": "ἱματισμός",
+   "headword_ocr": "ἱματισμός",
+   "current_text": "ἱματισμός, a collective word, raiment, clothing.",
+   "nt_count": 5
+  },
+  {
+   "entry_id": 2495,
+   "lemma": "ἰός",
+   "headword_ocr": "ἰός",
+   "current_text": "ἰός (cognate with Latin uirus), podson; hence rust, James v 3.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2498,
+   "lemma": "ἰουδαΐζω",
+   "headword_ocr": "Ἰουδαΐζω",
+   "current_text": "᾿Ιουδαΐζω, I live as a Jew (in religion, ceremonially).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2499,
+   "lemma": "Ἰουδαϊκός",
+   "headword_ocr": "Ἰουϑαϊκός",
+   "current_text": "᾿Ιουϑαϊκός, Jewish, Judaic.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2500,
+   "lemma": "Ἰουδαϊκῶς",
+   "headword_ocr": "Ἰουδαϊκῶς",
+   "current_text": "᾿Ιουδαϊκῶς, in the manner of Jews (religiously, cere monially).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2502,
+   "lemma": "Ἰουδαϊσμός",
+   "headword_ocr": "Ἰουδαΐσμός",
+   "current_text": "᾿Ιουδαΐσμός, the Jewish religion, Judaism. Loos",
+   "nt_count": 2
+  }
+ ],
+ "124": [
+  {
+   "entry_id": 2504,
+   "lemma": "Ἰουλία",
+   "headword_ocr": "",
+   "current_text": "“lovkia, Julia, a Roman Christian, probably a slave or freedwoman of the Imperial household.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2505,
+   "lemma": "Ἰούλιος",
+   "headword_ocr": "Ἰούλιος",
+   "current_text": "Ἰούλιος, Julius, a Roman centurion on special service.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2506,
+   "lemma": "Ἰουνία",
+   "headword_ocr": "Ἰουνία",
+   "current_text": "᾿Ιουνία, Junia, a Roman Christian.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2507,
+   "lemma": "Ἰοῦστος",
+   "headword_ocr": "Ἰοῦστος",
+   "current_text": "Ἰοῦστος, Justus, (a) a surname of Joseph Barsabbas, one of the two nominated to fill Judas’ place as apostle, Ac.iz3; (Ὁ) Titius Justus, a Corinthian Christian, Ac. xviit 7; (0) surname of Jesus, a Christian with St. Paul in Rome.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2508,
+   "lemma": "ἱππεύς",
+   "headword_ocr": "ἱππεύς",
+   "current_text": "ἱππεύς, a horse-soldier, a mounted soldier, a cavalryman.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2509,
+   "lemma": "ἱππικόν",
+   "headword_ocr": "ἱππικός",
+   "current_text": "ἱππικός, adj. used as collective subst. cavalry.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2511,
+   "lemma": "ἶρις",
+   "headword_ocr": "ἴρις",
+   "current_text": "ἴρις, a rainbow.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2513,
+   "lemma": "ἰσάγγελος",
+   "headword_ocr": "ἰσάγγελος",
+   "current_text": "ἰσάγγελος, like the angels. :",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2514,
+   "lemma": "Ἰσκαριώθ",
+   "headword_ocr": "Ἰσκαριώθ",
+   "current_text": "᾿Ισκαριώθ, Jscariof, the surname of Judas the Betrayer, which would seem to indicate the place from which",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2516,
+   "lemma": "Ἰσκαριώτης",
+   "headword_ocr": "Ισκαριώτης",
+   "current_text": "Ισκαριώτης, the graccized form of Ἰσκαριώθ, Zscariot (2.2 in John vig, xii 4, Xiv 22 ἀπὸ Καρυώτου, from Karyoles),",
+   "nt_count": 8
+  },
+  {
+   "entry_id": 2517,
+   "lemma": "ἴσος",
+   "headword_ocr": "ἴσος",
+   "current_text": "ἴσος (ἴσος), equal, equivalent, identical: τὰ ἴσα, the equivalent, Lk.vi34; ἴσα, adverbially, on an equolity, Phil. ii 6 (if text be sound),",
+   "nt_count": 8
+  }
+ ],
+ "125": [
+  {
+   "entry_id": 2518,
+   "lemma": "ἰσότης",
+   "headword_ocr": "ἰσότης",
+   "current_text": "ἰσότης, equality ; equality of treatment, fairness,",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2519,
+   "lemma": "ἰσότιμος",
+   "headword_ocr": "ἰσότιμος",
+   "current_text": "ἰσότιμος, equally privileged, equal.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2520,
+   "lemma": "ἰσόψυχος",
+   "headword_ocr": "ἰσόψυχος",
+   "current_text": "ἰσόψυχος, ltkeminded.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2522,
+   "lemma": "Ἰσραηλίτης",
+   "headword_ocr": "Ἰσραηλείτης",
+   "current_text": "᾿Ισραηλείτης (᾿Ιστραηλείτης), an Lsraelite, one of the chosen people Israel, a Jew.",
+   "nt_count": 9
+  },
+  {
+   "entry_id": 2523,
+   "lemma": "Ἰσσαχάρ",
+   "headword_ocr": "Ἰ᾿Ισσαχάρ",
+   "current_text": "Ἰ᾿Ισσαχάρ (Hebr.), Zssackar, one of the sons of Jacob and founder of a tribe of Israel.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2525,
+   "lemma": "ἱστορέω",
+   "headword_ocr": "ἱστορέω",
+   "current_text": "ἱστορέω, J υἱοί, see (some person or object of importance) (rendered ‘inspicio’ in one inscription).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2529,
+   "lemma": "ἴσως",
+   "headword_ocr": "ἴσως",
+   "current_text": "ἴσως, perhaps (οἴ. Eng. likely).",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2530,
+   "lemma": "Ἰταλία",
+   "headword_ocr": "Ἰταλία",
+   "current_text": "Ἰταλία, Lialy.",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2531,
+   "lemma": "Ἰταλικός",
+   "headword_ocr": "Ἰταλικός",
+   "current_text": "᾿Ιταλικός, Jralze, the name of a cohort forming part of the Syrian army.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2532,
+   "lemma": "Ἰτουραῖος",
+   "headword_ocr": "Ἰτουραῖος",
+   "current_text": "᾿Ιτουραῖος, Jiuracan, an adjective applied to a district (χώρα), also called Trachonitic, about 6o miles E. of the Seca of Galilee, and partly inhabited by the nomad tribe called Ituracans (Ἰτουραΐοι).",
+   "nt_count": 1
+  }
+ ],
+ "126": [
+  {
+   "entry_id": 2533,
+   "lemma": "ἰχθύδιον",
+   "headword_ocr": "ἰχθύδιον",
+   "current_text": "ἰχθύδιον, a lille fish.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2535,
+   "lemma": "ἴχνος",
+   "headword_ocr": "ἴχνος",
+   "current_text": "ἴχνος (uestigium), a track, foolstep.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2536,
+   "lemma": "Ἰωαθάμ",
+   "headword_ocr": "Ἰωάθαμ",
+   "current_text": "Ἰωάθαμ (Hebr.), Joatham, son of Ozias and father of Achaz.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2538,
+   "lemma": "Ἰωανάν",
+   "headword_ocr": "Ἰωανάν",
+   "current_text": "Ἰωανάν (Hebr.), Joanan, Johanan, one of the ancestors of Jesus.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2540,
+   "lemma": "Ἰώβ",
+   "headword_ocr": "Ἰώβ",
+   "current_text": "᾿Ιώβ (Hebr.), Job, the hero of the Old Testament book of that name.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2541,
+   "lemma": "Ἰωβήδ",
+   "headword_ocr": "Ἰ᾿Ἰωβήδ",
+   "current_text": "Ἰ᾿Ἰωβήδ (Ὠβήδ) (Ilebr.), Jobed, Obed, son of Boaz and Rath, father of Jesse, and grandfather of David.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2542,
+   "lemma": "Ἰωδά",
+   "headword_ocr": "Ἰωδά",
+   "current_text": "᾿Ιωδά (FHebr.), Jfodak, an ancestor of Jesus.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2545,
+   "lemma": "Ἰωνᾶς",
+   "headword_ocr": "Ἰωνᾶς",
+   "current_text": "᾿Ιωνᾶς (Hebr.), Jonah, the Old Testament prophet.",
+   "nt_count": 9
+  },
+  {
+   "entry_id": 2546,
+   "lemma": "Ἰωράμ",
+   "headword_ocr": "Ἰωράμ",
+   "current_text": "Ἰωράμ (Hebr.), Joram, son of Jehoshaphat and father of",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2547,
+   "lemma": "Ἰωρίμ",
+   "headword_ocr": "Ἰωρείμ",
+   "current_text": "᾿Ιωρείμ, (Hebr.), /orzm, an ancestor of Jesus.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2548,
+   "lemma": "Ἰωσαφάτ",
+   "headword_ocr": "ὠσαφάτ",
+   "current_text": "᾿ωσαφάτ (Hebr.), Jehoshaphal, king of Judah, son of Asaph, father of Joram, an ancestor of Jesus.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2549,
+   "lemma": "Ἰωσίας",
+   "headword_ocr": "Ἰωσείας",
+   "current_text": "᾿Ιωσείας (Hebr.), Josiah, king of Judah, son of Amos and father of Jechoniah.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2550,
+   "lemma": "Ἰωσῆς",
+   "headword_ocr": "Ἰωσῆς",
+   "current_text": "᾿Ιωσῆς (Hebr.), foses, son of Mary, sister of Mary, the mother of Jesus ; see",
+   "nt_count": 3
+  }
+ ],
+ "127": [
+  {
+   "entry_id": 2553,
+   "lemma": "Ἰωσήχ",
+   "headword_ocr": "Ἰωσήχ",
+   "current_text": "Ἰωσήχ (Hebr.), Josech, an ancestor of Jesus.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2554,
+   "lemma": "ἰῶτα",
+   "headword_ocr": "ἰῶτα",
+   "current_text": "ἰῶτα, yod, the Hebrew or rather Aramaic letter which was smallest of all.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2556,
+   "lemma": "καθά",
+   "headword_ocr": "καθά",
+   "current_text": "καθά (i.e. καθ᾽ & according lo which things), as.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2557,
+   "lemma": "καθαίρεσις",
+   "headword_ocr": "καθαίρεσις",
+   "current_text": "καθαίρεσις (destructio), ‘aking down, rasing, destroying.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2558,
+   "lemma": "καθαιρέω",
+   "headword_ocr": "καθαιρέω",
+   "current_text": "καθαιρέω, (a) .7 lake down, pull down; (Ὁ) I depose, Lk. 152, cf. 2 Cor. x 4, ¢ gen. I diminish aught from, Ac. xix 27; (0) I destroy, Ac. xiii το.",
+   "nt_count": 9
+  },
+  {
+   "entry_id": 2559,
+   "lemma": "καθαίρω",
+   "headword_ocr": "καθαίρω",
+   "current_text": "καθαίρω, I cleanse, purify.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2561,
+   "lemma": "καθάπτω",
+   "headword_ocr": "καθάπτω",
+   "current_text": "καθάπτω, I lay hold of, I fasten on to, of a snake with short teeth harmless to the skin.",
+   "nt_count": 1
+  }
+ ],
+ "128": [
+  {
+   "entry_id": 2565,
+   "lemma": "καθαρότης",
+   "headword_ocr": "καθαρότης",
+   "current_text": "καθαρότης, cleanness.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2566,
+   "lemma": "καθέδρα",
+   "headword_ocr": "καθέδρα",
+   "current_text": "καθέδρα, a seal, chair.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2567,
+   "lemma": "καθέζομαι",
+   "headword_ocr": "καθέξομαι",
+   "current_text": "καθέξομαι, I am sitting, I sit, I am sealed.",
+   "nt_count": 7
+  },
+  {
+   "entry_id": 2568,
+   "lemma": "καθεξῆς",
+   "headword_ocr": "καθεξῆς",
+   "current_text": "καθεξῆς (deinceps), in order, in succession: ἐν τῷ καθεξῆς (sc. χρόνῳ), in the time immediately after, just after, Lk. viii 1; of καθεξῆς, those who followed, Ac. iii 24.",
+   "nt_count": 5
+  },
+  {
+   "entry_id": 2570,
+   "lemma": "καθηγητής",
+   "headword_ocr": "καθηγητής",
+   "current_text": "καθηγητής, a leader, a teacher.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2571,
+   "lemma": "καθήκω",
+   "headword_ocr": "καθήκω",
+   "current_text": "καθήκω, impers. καθήκει, ΖΓ os filling: τὰ μὴ καθήκοντα (a technical phrase of the Stoic philosophy), what is unfitting.",
+   "nt_count": 2
+  },
+  {
+   "entry_id": 2573,
+   "lemma": "καθημερινός",
+   "headword_ocr": "καθημερινός",
+   "current_text": "καθημερινός, daily.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2575,
+   "lemma": "καθίημι",
+   "headword_ocr": "καθίημι",
+   "current_text": "καθίημι, 1 Let down,",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2577,
+   "lemma": "καθό",
+   "headword_ocr": "καθό",
+   "current_text": "καθό (i.e. καθ᾽ 8, according io which thing), as, according as.",
+   "nt_count": 4
+  },
+  {
+   "entry_id": 2578,
+   "lemma": "καθόλου",
+   "headword_ocr": "καθόλου",
+   "current_text": "καθόλου (i. e. καθ᾽ ὅλου), af all.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2579,
+   "lemma": "καθοπλίζω",
+   "headword_ocr": "καθοπλίξω",
+   "current_text": "καθοπλίξω, tr. I arm completely, I arm cap-a-pie.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2580,
+   "lemma": "καθοράω",
+   "headword_ocr": "καθοράω",
+   "current_text": "καθοράω, I see clearly.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2581,
+   "lemma": "καθότι",
+   "headword_ocr": "καθότι",
+   "current_text": "καθότι (i. ¢. καθ᾽ 8, τε [neut, of doris], of. καθό, καθά), (a) wn proportion as, according as, Ac.ii 45, ἵν 35; (b) because, Lk. 1}, xix 9, Ac. 1i 24, xvii 31.",
+   "nt_count": 6
+  },
+  {
+   "entry_id": 2583,
+   "lemma": "καθώσπερ",
+   "headword_ocr": "καθώσπερ",
+   "current_text": "καθώσπερ, according to the very manner in which, even as.",
+   "nt_count": 1
+  },
+  {
+   "entry_id": 2585,
+   "lemma": "Καϊάφας",
+   "headword_ocr": "Καϊάφας",
+   "current_text": "Καϊάφας (Καϊαφᾶς) (Old Latin and Sahidic Kaigas), Caiaphas, Jewish high priest.",
+   "nt_count": 9
+  },
+  {
+   "entry_id": 2586,
+   "lemma": "Κάϊν",
+   "headword_ocr": "",
+   "current_text": "Katy (Hebr.), Cain, son of Adam and Eve and brother of Abel.",
+   "nt_count": 3
+  },
+  {
+   "entry_id": 2587,
+   "lemma": "Καϊνάμ",
+   "headword_ocr": "Καϊνάμ",
+   "current_text": "Καϊνάμ (Kaivdv) (Hebe), Canam, one of the ancestors of Jesus. ᾿",
+   "nt_count": 2
+  }
+ ]
+}

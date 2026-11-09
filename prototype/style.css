@@ -389,3 +389,17 @@ main:has(> .card) .choices, main:has(> .card) .actions { margin-top: 12px; }
   main:has(> .card) .card.intro .greek { margin: 4px 0 10px; }
   main:has(> .card) .card.intro .intro-foot { margin-top: 14px; }
 }
+
+/* Brush-up (opens once every word is mastered). */
+.brush { max-width: 520px; margin: 0 auto; }
+.brush-intro { color: var(--muted); margin: 0 0 18px; }
+.brush-opt { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 16px 18px; margin-bottom: 12px; }
+.brush-opt h2 { font: 600 19px/1.3 var(--greek); color: var(--accent); margin: 0 0 4px; }
+.brush-opt p { margin: 0 0 12px; font-size: 15px; }
+.brush-opt .primary { width: 100%; }
+.brush-opt .brush-note { margin: 8px 0 0; font-size: 13px; color: var(--muted); text-align: center; }
+/* Speed round: the minute runs down in a thin bar above the card. */
+.speed-clock { height: 6px; border-radius: 3px; background: var(--line); overflow: hidden; margin: 0 0 12px; }
+.speed-clock i { display: block; height: 100%; background: var(--accent); animation: speed-clock linear forwards; }
+@keyframes speed-clock { from { width: var(--from); } to { width: 0; } }
+.speed-card { justify-content: center; }

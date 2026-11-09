@@ -105,6 +105,16 @@ function load() {
   // date, since: session the word entered the active set, retired: true while out on spot-check rotation}.
   s.tally = s.tally || {};
   s.studyMs = s.studyMs || 0;
+  // Brush-up (unlocked once every word is mastered; David, 2026-11-09): unlocked = the day it opened;
+  // preview = shown early for trying it out (About: tap the version line 5 times); miss[key] = misses in
+  // brush-up and speed rounds, which bring a word up sooner; best = speed-round record; daily = day of
+  // the last daily brush-up; beyond = Souter's rarer words, with their own cards and tallies.
+  s.brush = { unlocked: null, preview: false, miss: {}, best: 0, daily: null, ...s.brush };
+  s.brush.beyond = { cards: {}, tally: {}, sessions: 0, ...s.brush.beyond };
+  for (const c of Object.values(s.brush.beyond.cards)) {
+    c.due = new Date(c.due);
+    if (c.last_review) c.last_review = new Date(c.last_review);
+  }
   for (const c of Object.values(s.cards)) {
     c.due = new Date(c.due);
     if (c.last_review) c.last_review = new Date(c.last_review);
@@ -216,6 +226,7 @@ const meaningWords = s => s.toLowerCase().replace(/[^a-z]+/g, " ").trim().split(
 
 // Metzger gives no part of speech; a rough kind from his grammatical note, for plausible wrong answers.
 function kindOf(w) {
+  if (w.beyond && /^\p{Lu}/u.test(w.id)) return "name"; // Beyond Metzger: names against names
   if (/(^|[\s,])(ὁ|ἡ|τό)(\s|,|$)/.test(w.gr)) return "noun";
   if (w.gr.startsWith("-")) return "adjective";
   if (/(ω|ομαι|μι|μαι)$/.test(w.id)) return "verb";
@@ -226,13 +237,14 @@ function kindOf(w) {
 function makeChoices(key) {
   const id = idOf(key);
   const w = byId[id];
-  const at = words.indexOf(w);
+  const pool = w.beyond ? beyondWords : words; // wrong answers from the same list
+  const at = pool.indexOf(w);
   const kind = kindOf(w);
   const used = new Set(meaningWords(w.g));
   const clash = x => (w.f != null && x.f === w.f) || meaningWords(x.g).some(t => used.has(t));
   const wrong = [];
   for (const [test, near] of [[x => kindOf(x) === kind, 150], [x => kindOf(x) === kind, Infinity], [() => true, Infinity]]) {
-    for (const x of shuffle(words.filter((x, i) => x !== w && test(x) && Math.abs(i - at) <= near))) {
+    for (const x of shuffle(pool.filter((x, i) => x !== w && test(x) && Math.abs(i - at) <= near))) {
       if (wrong.length === CHOICES - 1) break;
       if (clash(x) || wrong.includes(x)) continue;
       wrong.push(x);
@@ -314,6 +326,9 @@ function fillLogo(level) {
 
 function renderHome() {
   session = null;
+  // Every word mastered: brush-up opens, for good (David, 2026-11-09).
+  if (!state.brush.unlocked && words.length && learnedIds().length >= words.length) { state.brush.unlocked = today(); save(); }
+  const brush = !!(state.brush.unlocked || state.brush.preview);
   const plan = sessionPlan();
   const review = plan.review.length;
   const fresh = plan.newIds.length;
@@ -326,7 +341,7 @@ function renderHome() {
       ${logoHtml()}
       <h1 class="home-title">Master New Testament Vocabulary<small>one word at a time</small></h1>
       <p class="home-verse" lang="grc">ἀσπάζομαι ὑμᾶς ἐγὼ <b>Τέρτιος</b> ὁ γράψας τὴν ἐπιστολὴν ἐν κυρίῳ.<cite>Rom. 16:22</cite></p>
-      <button class="primary" id="start">${paused
+      <button class="primary" id="start">${brush ? "brush up" : paused
         ? `resume session ${paused.number} · ${paused.passed.length} of ${paused.total} done`
         : `start session ${plan.number}`}</button>
       <p class="home-why" id="why" hidden></p>
@@ -339,12 +354,221 @@ function renderHome() {
   const logoTry = parseFloat(new URLSearchParams(location.search).get("logo"));
   fillLogo(Number.isFinite(logoTry) ? logoTry : Math.min(1, learnedIds().length / words.length));
   // Nothing to start (David, 2026-11-09): say why only when the learner presses the button.
-  document.getElementById("start").onclick = paused ? resumeSession : review + fresh ? startSession : () => {
+  document.getElementById("start").onclick = brush ? renderBrush : paused ? resumeSession : review + fresh ? startSession : () => {
     const why = document.getElementById("why");
     why.innerHTML = caughtUpWhy();
     why.hidden = false;
   };
 }
+
+// ---------- Brush-up (David, 2026-11-09) ----------
+// Hidden until every one of Metzger's words is mastered; then Home's button reads "brush up" and opens
+// this page. Three things to do:
+// - Daily brush-up: BRUSH_DAILY mastered words, those due for review first, then those longest unseen or
+//   most often missed (in brush-up or speed rounds). Mastery is unaffected; a miss comes back a few cards
+//   later and brings the word up sooner next time.
+// - Speed round: as many words as possible in a minute, multiple choice; a personal best is kept.
+// - Beyond Metzger: Souter's entries for the words Metzger leaves out (fewer than ten occurrences, proper
+//   names included), commonest first, learned with the same sessions and mastery rules as Metzger's words,
+//   on their own cards (state.brush.beyond).
+const BRUSH_DAILY = 20;
+const SPEED_MS = 60000;
+let beyondWords = [], beyondLoad = null, speed = null;
+
+const store = () => session?.brush === "beyond" ? state.brush.beyond : state;
+
+function loadBeyond() {
+  beyondLoad = beyondLoad || fetch("data/beyond.json").then(r => r.json()).then(d => {
+    beyondWords = d.words.map(x => ({ id: x.l, l: x.l, c: x.c, g: x.g, s: x.s, gr: "", d: "", beyond: true }));
+    for (const w of beyondWords) if (!byId[w.id]) byId[w.id] = w;
+  }).catch(() => { beyondLoad = null; });
+  return beyondLoad;
+}
+const beyondLearned = () => Object.values(state.brush.beyond.tally).filter(t => t.correct >= SESSIONS_TO_LEARN).length;
+
+function renderBrush() {
+  session = null;
+  stopSpeed();
+  const b = state.brush;
+  app.innerHTML = `
+    <section class="brush">
+      <h1 class="tools-title">Brush up</h1>
+      <p class="brush-intro">${b.unlocked ? `You have mastered all ${words.length.toLocaleString()} of Metzger's words. Keep them fresh, and go beyond them.`
+        : "A preview: this page opens once all of Metzger's words are mastered."}</p>
+      <div class="brush-opt">
+        <h2>Daily brush-up</h2>
+        <p>${BRUSH_DAILY} of your words: those due for review first, then those longest unseen or most often missed.</p>
+        <button class="primary" id="b-daily">${b.daily === today() ? "brush up again" : "start"}</button>
+        ${b.daily === today() ? `<p class="brush-note">Done today.</p>` : ""}
+      </div>
+      <div class="brush-opt">
+        <h2>Speed round</h2>
+        <p>As many words as you can in one minute.${b.best ? ` Your best: ${b.best}.` : ""}</p>
+        <button class="primary" id="b-speed">start</button>
+      </div>
+      <div class="brush-opt">
+        <h2>Beyond Metzger</h2>
+        <p>Souter's entries for the words Metzger leaves out, those occurring fewer than ten times in the New Testament,
+          proper names included, commonest first.</p>
+        <button class="primary" id="b-beyond" disabled>loading…</button>
+        <p class="brush-note" id="b-beyond-n"></p>
+      </div>
+    </section>`;
+  document.getElementById("b-daily").onclick = startDaily;
+  document.getElementById("b-speed").onclick = startSpeed;
+  loadBeyond().then(() => {
+    const btn = document.getElementById("b-beyond");
+    if (!btn) return;
+    if (!beyondWords.length) { btn.textContent = "coming soon"; return; }
+    const n = b.beyond.sessions;
+    btn.disabled = false;
+    btn.textContent = n ? `session ${n + 1}` : "start";
+    btn.onclick = startBeyond;
+    document.getElementById("b-beyond-n").textContent = n
+      ? `${beyondLearned().toLocaleString()} of ${beyondWords.length.toLocaleString()} words learned.`
+      : `${beyondWords.length.toLocaleString()} words.`;
+  });
+}
+
+function startDaily() {
+  const now = new Date();
+  const pool = tracks().flatMap(rev => seenIds(rev));
+  let pick;
+  if (pool.length) {
+    const due = shuffle(pool.filter(k => state.cards[k].due <= now));
+    // The rest by weighted draw: weight grows with days since last seen and with past misses.
+    const rest = pool.filter(k => state.cards[k].due > now).map(k => {
+      const c = state.cards[k];
+      const weight = Math.max(.5, (now - (c.last_review || now)) / 864e5) * (1 + 2 * (state.brush.miss[k] || 0));
+      return [k, -Math.log(Math.random()) / weight];
+    }).sort((a, b) => a[1] - b[1]).map(x => x[0]);
+    pick = [...due, ...rest].slice(0, BRUSH_DAILY);
+  } else {
+    pick = shuffle(words.slice(0, 300).map(w => w.id)).slice(0, BRUSH_DAILY); // preview with nothing studied yet
+  }
+  session = { brush: "daily", number: state.sessions, phase: "review", queue: shuffle(pick), fresh: [],
+    passed: new Set(), missed: new Set(), answers: 0, total: pick.length };
+  nextCard();
+}
+
+function beyondPlan(now = new Date()) {
+  const b = state.brush.beyond;
+  const seen = Object.keys(b.cards).filter(k => byId[k]?.beyond);
+  const active = seen.filter(k => !b.tally[k]?.retired);
+  const due = seen.filter(k => b.tally[k]?.retired && b.cards[k].due <= now);
+  // New words wait while the words being learned fill the active set.
+  const count = active.length >= activeLimit() ? 0 : b.sessions === 0 ? FIRST_SESSION_NEW : newPerSession();
+  const fresh = beyondWords.filter(w => !b.cards[w.id]).slice(0, count).map(w => w.id);
+  return { number: b.sessions + 1, review: [...active, ...due], fresh };
+}
+
+async function startBeyond() {
+  await loadBeyond();
+  if (!beyondWords.length) return;
+  const p = beyondPlan();
+  session = { brush: "beyond", number: p.number, phase: "review", queue: shuffle(p.review), fresh: p.fresh,
+    passed: new Set(), missed: new Set(), answers: 0, total: p.review.length + p.fresh.length };
+  if (!session.queue.length) startNewPhase();
+  nextCard();
+}
+
+function finishBrush() {
+  const s = session;
+  session = null;
+  let more = "";
+  if (s.brush === "daily") state.brush.daily = today();
+  else {
+    const b = state.brush.beyond;
+    b.sessions = s.number;
+    // Learned words leave the active set and return on their review dates.
+    for (const t of Object.values(b.tally)) if (t.correct >= SESSIONS_TO_LEARN) t.retired = true;
+    more = ` You have learned ${beyondLearned().toLocaleString()} of Souter's ${beyondWords.length.toLocaleString()} rarer words.`;
+  }
+  save();
+  app.innerHTML = `
+    <div class="done">
+      <h2>${s.brush === "daily" ? "Brush-up complete" : `Beyond Metzger: session ${s.number} complete`}</h2>
+      <p>${!s.total ? "Nothing was due." : s.missed.size
+          ? `${s.total - s.missed.size} of ${s.total} words correct on the first try;
+             ${s.missed.size === 1 ? "1 word needed" : `${s.missed.size} words needed`} another try.`
+          : `All ${s.total} words correct on the first try.`}${more}</p>
+      <button class="primary" id="to-brush">Back to brush-up</button>
+    </div>`;
+  document.getElementById("to-brush").onclick = renderBrush;
+}
+
+// Speed round: a minute's clock runs down above the card; a right answer moves straight on, a wrong one
+// shows the right answer for a moment. Misses count toward the daily brush-up's choice of words.
+function speedPool() {
+  const l = learnedIds();
+  return l.length >= 10 ? l : words.slice(0, 300).map(w => w.id); // preview with few words mastered
+}
+function startSpeed() {
+  stopSpeed();
+  speed = { deck: shuffle(speedPool()), n: 0, right: 0, wrong: 0, end: Date.now() + SPEED_MS };
+  speed.timer = setTimeout(finishSpeed, SPEED_MS);
+  renderSpeed();
+}
+function stopSpeed() {
+  if (speed) clearTimeout(speed.timer);
+  speed = null;
+}
+function renderSpeed() {
+  const id = speed.deck[speed.n % speed.deck.length];
+  speed.id = id;
+  speed.choices = makeChoices(id);
+  speed.answered = false;
+  const left = Math.max(0, speed.end - Date.now());
+  app.innerHTML = `
+    <div class="progress"><span>Speed round</span><span>${speed.right} right</span></div>
+    <div class="speed-clock" role="timer" aria-label="${Math.ceil(left / 1000)} seconds left"><i style="--from:${left / SPEED_MS * 100}%;animation-duration:${left}ms"></i></div>
+    <article class="card speed-card"><div class="greek">${greekHtml(byId[id])}</div></article>
+    <div id="controls"><div class="choices">${speed.choices.map((c, i) =>
+      `<button class="choice" data-i="${i}"><small class="note">${i + 1}</small><span>${esc(c.english)}</span></button>`).join("")}</div></div>`;
+  for (const b of app.querySelectorAll(".choice")) b.onclick = () => chooseSpeed(+b.dataset.i);
+}
+function chooseSpeed(i) {
+  if (!speed || speed.answered) return;
+  speed.answered = true;
+  const right = speed.choices[i].right;
+  app.querySelectorAll(".choice").forEach((b, j) => {
+    b.disabled = true;
+    if (speed.choices[j].right) b.classList.add("right");
+    else if (j === i) b.classList.add("wrong");
+  });
+  if (right) speed.right++;
+  else { speed.wrong++; state.brush.miss[speed.id] = (state.brush.miss[speed.id] || 0) + 1; }
+  const s = speed;
+  setTimeout(() => {
+    if (speed !== s) return;
+    s.n++;
+    if (Date.now() >= s.end) finishSpeed(); else renderSpeed();
+  }, right ? 250 : 1000);
+}
+function finishSpeed() {
+  if (!speed) return;
+  const s = speed;
+  stopSpeed();
+  const best = s.right > state.brush.best;
+  if (best) state.brush.best = s.right;
+  save();
+  app.innerHTML = `
+    <div class="done">
+      <h2>Time</h2>
+      <p>${s.right} right${s.wrong ? ` and ${s.wrong} wrong` : ""} in one minute.
+        ${best && s.right ? "A new best." : `Your best: ${state.brush.best}.`}</p>
+      <div class="row" style="justify-content:center">
+        <button class="primary" id="speed-again">Go again</button>
+        <button class="quiet" id="to-brush">Back to brush-up</button>
+      </div>
+    </div>`;
+  document.getElementById("speed-again").onclick = startSpeed;
+  document.getElementById("to-brush").onclick = renderBrush;
+}
+document.addEventListener("keydown", e => {
+  if (!speed || e.target.closest?.("input, select, textarea")) return;
+  if (/^[1-9]$/.test(e.key) && +e.key <= speed.choices.length) chooseSpeed(+e.key - 1);
+});
 
 function progressText() {
   const days = streak();
@@ -614,7 +838,7 @@ function renderIntro(id) {
   session.choices = null;
   const w = byId[id];
   app.innerHTML = `
-    <div class="progress"><span>New words</span><span>${session.passed.size} of ${session.total} correct</span></div>
+    <div class="progress"><span>${phaseLabel()}</span><span>${session.passed.size} of ${session.total} correct</span></div>
     ${introHtml(w, id)}
     <div class="actions single"><button class="primary" id="continue">Continue</button></div>`;
   document.getElementById("lexlink").onclick = () => openWord(id);
@@ -670,16 +894,21 @@ document.addEventListener("click", e => {
   if (b) playWord(b);
 });
 
+// Where the learner is, for the line above the card.
+const phaseLabel = () => session.brush === "daily" ? "Brush-up"
+  : session.brush === "beyond" ? `Beyond Metzger · ${session.phase === "review" ? "review" : "new words"}`
+  : session.phase === "review" ? "Review" : "New words";
+
 function renderCard() {
   const key = session.current;
   const rev = isRev(key);
   const w = byId[idOf(key)];
-  const isNew = !state.cards[key];
-  const spot = state.tally[key]?.retired;
+  const isNew = !store().cards[key];
+  const spot = store().tally[key]?.retired;
   const choice = !!session.choices;
-  const badge = spot ? "spot check" : isNew && !rev ? "new word" : "";
+  const badge = session.brush === "daily" ? "" : spot ? "spot check" : isNew && !rev ? "new word" : "";
   app.innerHTML = `
-    <div class="progress"><span>${session.phase === "review" ? "Review" : "New words"}</span><span>${session.passed.size} of ${session.total} correct</span></div>
+    <div class="progress"><span>${phaseLabel()}</span><span>${session.passed.size} of ${session.total} correct</span></div>
     <article class="card">
       ${rev ? "" : audioButton(w.id)}
       <div class="meta">${[rev ? '<span class="flag">English → Greek</span>' : "", badge ? `<span class="flag">${badge}</span>` : ""].filter(Boolean).join(" · ")}</div>
@@ -763,10 +992,24 @@ function choose(i) {
 function answer(right) {
   const id = session.current;
   const now = new Date();
-  const wasNew = !state.cards[id];
-  const t = state.tally[id] || (state.tally[id] = { correct: 0, last: 0, since: session.number, retired: false });
+  const st = store();
+  if (session.brush === "daily") {
+    // Daily brush-up leaves mastery as it is: it moves the word's next review and keeps count of misses.
+    if (st.cards[id]) st.cards[id] = scheduler.next(st.cards[id], now, right ? Rating.Good : Rating.Again).card;
+    if (right) {
+      if (!session.missed.has(id) && state.brush.miss[id]) state.brush.miss[id]--;
+      session.passed.add(id);
+    } else {
+      session.missed.add(id);
+      state.brush.miss[id] = (state.brush.miss[id] || 0) + 1;
+      session.queue.splice(Math.min(REQUEUE_GAP, session.queue.length), 0, id);
+    }
+    return answered();
+  }
+  const wasNew = !st.cards[id];
+  const t = st.tally[id] || (st.tally[id] = { correct: 0, last: 0, since: session.number, retired: false });
   if (wasNew) t.since = session.number;
-  state.cards[id] = scheduler.next(state.cards[id] || createEmptyCard(now), now, right ? Rating.Good : Rating.Again).card;
+  st.cards[id] = scheduler.next(st.cards[id] || createEmptyCard(now), now, right ? Rating.Good : Rating.Again).card;
   if (right) {
     // Counts toward mastery only if right on the first try this session, not in the session that
     // introduced the word, and not already counted today.
@@ -781,6 +1024,9 @@ function answer(right) {
     if (t.retired) { t.retired = false; t.since = session.number; }
     session.queue.splice(Math.min(REQUEUE_GAP, session.queue.length), 0, id);
   }
+  answered();
+}
+function answered() {
   if (!state.studyDays.includes(today())) state.studyDays.push(today());
   if (session.shownAt) state.studyMs += Math.min(Date.now() - session.shownAt, 120000);
   session.answers++;
@@ -790,7 +1036,7 @@ function answer(right) {
 
 // Pause and resume: leaving a session keeps it; Home offers to resume it the same day.
 function keepSession() {
-  if (!session) return;
+  if (!session || session.brush) return; // brush-up sessions are short and are not kept
   state.paused = {
     day: today(), number: session.number, phase: session.phase, queue: session.queue, fresh: session.fresh,
     passed: [...session.passed], missed: [...session.missed], answers: session.answers, total: session.total,
@@ -810,6 +1056,7 @@ function resumeSession() {
 }
 
 function finishSession() {
+  if (session.brush) return finishBrush();
   state.sessions = session.number;
   delete state.pending;
   delete state.paused;
@@ -984,7 +1231,7 @@ function openWord(form) {
     ${famHtml}
     ${w.m && w.mg ? `<p class="lex-meta">Moss, <i>First Greek Reader</i>: ${esc(w.mg)}</p>` : ""}
     ${w.s ? `<h3 class="lex-sub">Souter</h3><div class="lex-body souter" lang="grc">${esc(w.s)}</div>` : ""}
-    <p class="lex-source">Metzger, <i>Lexical Aids</i> (1946)${w.s ? "; Souter, <i>Pocket Lexicon</i> (1916)" : ""}</p>`);
+    <p class="lex-source">${w.beyond ? "Souter, <i>Pocket Lexicon</i> (1916)" : `Metzger, <i>Lexical Aids</i> (1946)${w.s ? "; Souter, <i>Pocket Lexicon</i> (1916)" : ""}`}</p>`);
 }
 
 // ---------- Readings (Nunn 1920, Appendix II) ----------
@@ -1221,7 +1468,7 @@ function renderAbout() {
       <h1>About</h1>
       <p><b class="about-name">Tertius: The NT Greek Vocab Trainer.</b> The name comes from the scribe to whom Paul dictated his letter to the Romans,
         and who added his own greeting to it (Rom. 16:22). The logo is an open book bearing his initial, Τ.</p>
-      <p class="version">Version ${esc(APP_VERSION)}${meta.built ? ` · word data built ${esc(meta.built)}` : ""}</p>
+      <p class="version">Version ${esc(APP_VERSION)}${meta.built ? ` · word data built ${esc(meta.built)}` : ""}${state.brush.preview ? " · brush-up preview" : ""}</p>
 
       <h2>How sessions work</h2>
       <p>Each training session starts with the words learned so far. Once those are answered correctly, new words are added:
@@ -1292,6 +1539,18 @@ function renderAbout() {
           Harold North Fowler, Plato, Loeb Classical Library (1914); and H. W. and F. G. Fowler, <i>The Works of Lucian of Samosata</i> (1905).</dd>
       </dl>
     </section>`;
+  // Tapping the version line five times shows brush-up before mastery, for trying it out (David, 2026-11-09).
+  const ver = app.querySelector(".version");
+  let taps = 0, tapReset = 0;
+  if (ver) ver.onclick = () => {
+    clearTimeout(tapReset);
+    tapReset = setTimeout(() => { taps = 0; }, 1500);
+    if (++taps < 5) return;
+    taps = 0;
+    state.brush.preview = !state.brush.preview;
+    save();
+    renderAbout();
+  };
 }
 
 // ---------- events ----------
@@ -1309,6 +1568,7 @@ document.addEventListener("click", e => {
   setTab(go);
   reading = null;
   acc = null;
+  stopSpeed();
   if (go === "home") renderHome();
   else if (go === "about") renderAbout();
   else if (go === "settings") renderSettings();
