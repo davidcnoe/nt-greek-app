@@ -1,4 +1,4 @@
-"""Build prototype/data/accents.json: accents (and breathings) that change meaning in the NT.
+"""Build prototype/data/accents.json: diacriticals (accents and breathings) that change meaning in the NT.
 
 Usage: python scripts/build_accents.py [MORPHGNT_DIR]   (default /home/claude/morphgnt)
 

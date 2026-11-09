@@ -691,7 +691,7 @@ async function renderTools() {
   acc = null;
   app.innerHTML = `<h1 class="tools-title">Tools</h1>${lexiconHtml()}
     <section class="about dialect-page tool" id="tool-accents">
-      <h2>Accents that change meaning</h2>
+      <h2>Diacriticals that change meaning</h2>
       <p class="lex-source">Words spelled alike except for an accent or breathing. Each card shows a verse of the
         New Testament: choose what the underlined word means. (An acute on the last syllable is written as a grave
         when another word follows: <span lang="grc">ἀλλά, ἀλλὰ</span>.)</p>
@@ -941,7 +941,7 @@ function openReadingWord(surface, raw) {
 
 // ---------- About ----------
 
-// ---------- Accents that change meaning (Tools) ----------
+// ---------- Diacriticals that change meaning (Tools) ----------
 // Sets of words spelled alike but for accent or breathing (data/accents.json, built from MorphGNT by
 // scripts/build_accents.py). The quiz shows a real NT verse with one member underlined; the choices are
 // the meanings of the set's members. 20 cards; every set and member comes up, rare ones included.
@@ -992,7 +992,7 @@ function renderAccentCard() {
   acc.answered = false;
   acc.choices = q.set.members.filter(m => m.ex.length);
   app.innerHTML = `
-    <div class="progress"><span>Accents · ${acc.n + 1} of ${acc.deck.length}</span><span>${acc.right} correct</span></div>
+    <div class="progress"><span>Diacriticals · ${acc.n + 1} of ${acc.deck.length}</span><span>${acc.right} correct</span></div>
     <article class="card acc-card">
       <div class="meta">What does the underlined word mean here?</div>
       <p class="passage acc-verse" lang="grc">${verseHtml(q.ex)}</p>
