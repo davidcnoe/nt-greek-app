@@ -242,7 +242,8 @@ function unitLabel(w) {
   const u = unitOf[w.id];
   if (!u) return "";
   if (u.kind === "family") return u.title.replace(/\s*\((?:\d+|\d+ of \d+)\)$/, "");
-  return `occurs ${u.subtitle}`;
+  // Metzger's frequency band, short (David, 2026-11-09): "more than 500 times" → "500×", "101 to 120 times" → "101–120×".
+  return u.subtitle.replace(/^more than (\d+) times$/, "$1×").replace(/^(\d+) (?:to|or) (\d+) times$/, "$1–$2×").replace(/^(\d+) times$/, "$1×");
 }
 
 // ---------- screens ----------
@@ -650,8 +651,7 @@ function showBack() {
       ${isRev(session.current) ? `<p class="english answer-greek">${greekHtml(w)}</p>` : `<p class="english">${esc(w.g)}</p>`}
       ${w.d ? `<p class="cf">Cf. ${esc(w.d)}</p>` : ""}
       ${moss ? `<p class="moss-gloss"><b>Moss:</b> ${esc(w.mg)}</p>` : ""}
-      <div class="count">${times(w.c)} in the New Testament${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""}</div>
-      <button class="quiet translate" id="lexlink">Lexicon entry</button>
+      <div class="count">${w.c.toLocaleString()}× in NT${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""} · <button class="link" id="lexlink">Lexicon</button></div>
     </div>`;
   document.getElementById("lexlink").onclick = () => openWord(id);
   if (isRev(session.current)) {

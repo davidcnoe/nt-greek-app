@@ -265,6 +265,7 @@ button.link { background: none; border: 0; padding: 0; color: var(--accent); fon
 .answer .moss-gloss { font-size: 14px; color: var(--accent); margin: 0 auto 10px; max-width: 34em; }
 .answer .moss-gloss b { font-weight: 600; }
 .count { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.count .link { font-weight: 600; text-decoration: none; }
 .translate { margin-top: 14px; padding: 6px 14px; font-size: 13px; }
 /* Lexicon entries: Metzger first, then Souter. */
 .lex-head .forms { font-weight: 400; font-size: .7em; color: var(--muted); }
