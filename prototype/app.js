@@ -885,7 +885,8 @@ async function renderReading(slug) {
   if (!r) return renderTools();
   reading = r;
   noteNo = Object.fromEntries(Object.keys(r.notes).map((id, i) => [id, i + 1]));
-  const en = (await loadTranslations())[slug];
+  const tr = (await loadTranslations())[slug];
+  const en = tr?.paras?.some(Boolean) ? tr : null;
   const words = [];
   const body = r.paras.map((para, pi) => {
     if (para.h) return `<h3 class="sub">${esc(para.h)}</h3>`;

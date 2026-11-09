@@ -2,7 +2,7 @@
 // Own files are network-first, so edits show up whenever the server is reachable and the
 // cached copy is used when it isn't. Google Fonts are cache-first (they never change).
 // Paths are relative, so the app also works from a subfolder. Bump VERSION when the file list changes.
-const VERSION = "ntgreek-v4";
+const VERSION = "ntgreek-v5";
 const FONTS = "ntgreek-fonts-v1";
 const SHELL = [
   "./",
@@ -13,6 +13,7 @@ const SHELL = [
   "data/lexicon.json",
   "data/readings.json",
   "data/accents.json",
+  "data/translations.json",
 ];
 
 self.addEventListener("install", e => {
