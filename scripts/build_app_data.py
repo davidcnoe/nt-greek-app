@@ -28,6 +28,12 @@ from datetime import date
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 
 
+
+# Moss's vocabulary cites the page of the Reader where a sense first occurs ("account, 147, mention, 144");
+# those page numbers mean nothing in the app, so they are dropped.
+def moss_clean(t: str) -> str:
+    return re.sub(r",\s*\d{2,3}(?=\s*(?:[,.;]|$))", "", t).strip()
+
 def souter_first(text: str) -> str:
     # First clause after the headword, without parenthetical etymology; short.
     t = re.sub(r"^[^,]*,\s*", "", text, count=1)
@@ -64,7 +70,7 @@ def main() -> None:
             words[form] = w = {
                 "l": lemma, "c": r["nt_count"], "r": r["nt_rank"], "g": gloss, "gs": "Metzger",
                 "gr": grammar, "d": deriv, "t": tier, "f": fam,
-                "m": bool(r["moss"]), "mg": r["moss"]["meaning"] if r["moss"] else "",
+                "m": bool(r["moss"]), "mg": moss_clean(r["moss"]["meaning"]) if r["moss"] else "",
                 "s": r["souter"]["text"] if r["souter"] else "",
             }
         else:

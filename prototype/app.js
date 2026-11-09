@@ -505,7 +505,56 @@ function startNewPhase() {
   session.queue = [...intros, ...shuffle(session.fresh)];
 }
 
-// Not graded: the word and its meaning, then Continue.
+// Not graded: the word and its meaning, then Continue. INTRO_STYLE picks the layout under trial
+// (David, 2026-11-09: "needs redesign"); ?intro=A|B|C overrides it for side-by-side testing.
+const INTRO_STYLE = new URLSearchParams(location.search).get("intro") || "A";
+function introParts(w, id) {
+  const u = unitOf[w.id];
+  return {
+    family: u && u.kind === "family" ? unitLabel(w) : "",
+    count: `${times(w.c)} in the New Testament${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""}`,
+    short: `${w.c.toLocaleString()}× in the NT`,
+    gloss: esc(w.g),
+    cf: w.d ? `Cf. ${esc(w.d)}` : "",
+    moss: mossOn() && w.m && w.mg && w.mg !== w.g ? esc(w.mg) : "",
+  };
+}
+function introHtml(w, id) {
+  const p = introParts(w, id);
+  if (INTRO_STYLE === "B") return `
+    <article class="card intro intro-b">
+      <header class="intro-band">
+        <span class="pill">New word</span>
+        <div class="greek">${greekHtml(w)}</div>
+        <span class="intro-freq">${p.count}</span>
+      </header>
+      <div class="intro-body">
+        <p class="intro-gloss">${p.gloss}</p>
+        ${p.cf ? `<p class="intro-cf">${p.cf}</p>` : ""}
+        ${p.moss ? `<p class="intro-moss"><span class="tag">MossMethod</span>${p.moss}</p>` : ""}
+        ${p.family ? `<p class="intro-family">${esc(p.family)}</p>` : ""}
+        <button class="link intro-lex" id="lexlink">Lexicon entry ›</button>
+      </div>
+    </article>`;
+  if (INTRO_STYLE === "C") return `
+    <article class="card intro intro-c">
+      <div class="greek">${greekHtml(w)}</div>
+      <p class="intro-gloss">${p.gloss}</p>
+      ${p.cf ? `<p class="intro-cf">${p.cf}</p>` : ""}
+      <p class="intro-foot">${[p.short, p.moss ? `Moss: ${p.moss}` : "", p.family ? esc(p.family) : ""].filter(Boolean).join(" · ")}
+        · <button class="link" id="lexlink">Lexicon ›</button></p>
+    </article>`;
+  return `
+    <article class="card intro intro-a">
+      <div class="intro-top"><span class="pill">New word</span><span class="intro-freq">${p.short}</span></div>
+      <div class="greek">${greekHtml(w)}</div>
+      <p class="intro-gloss">${p.gloss}</p>
+      ${p.cf ? `<p class="intro-cf">${p.cf}</p>` : ""}
+      ${p.moss ? `<p class="intro-moss"><span class="tag">MossMethod</span>${p.moss}</p>` : ""}
+      ${p.family ? `<p class="intro-family">${esc(p.family)}</p>` : ""}
+      <button class="link intro-lex" id="lexlink">Lexicon entry ›</button>
+    </article>`;
+}
 function renderIntro(id) {
   session.info = true;
   session.current = id;
@@ -513,13 +562,9 @@ function renderIntro(id) {
   const w = byId[id];
   app.innerHTML = `
     <div class="progress"><span>New words</span><span>${session.passed.size} of ${session.total} correct</span></div>
-    <article class="card">
-      <div class="meta">${esc(unitLabel(w))} · <span class="flag">meet the word</span></div>
-      <div class="greek">${greekHtml(w)}</div>
-      <div id="back"></div>
-    </article>
+    ${introHtml(w, id)}
     <div class="actions single"><button class="primary" id="continue">Continue</button></div>`;
-  showBack();
+  document.getElementById("lexlink").onclick = () => openWord(id);
   document.getElementById("continue").onclick = nextCard;
   document.getElementById("continue").focus();
 }
