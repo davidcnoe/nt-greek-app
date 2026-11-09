@@ -1,0 +1,282 @@
+:root {
+  /* Palette: a MossMethod variation on Telamon's palette v3 (David, 2026-11-09; MossMethod_Colors.pdf):
+     Moss Blue #245B8F, Dark Blue #103166, Dark Gray #474448, LPD Gold #D58936, LPD Red #701811. */
+  --bg: #fbf9f5;
+  --surface: #ffffff;
+  --ink: #1c1a1d;
+  --muted: #474448;
+  --line: #e5ded2;
+  --accent: #245b8f;
+  --accent-soft: #e3ecf5;
+  --on-accent: #ffffff;
+  --brand: #103166;
+  --target: #103166;
+  --meter: #d58936;
+  --track: #efe7da;
+  --good: #245b8f;
+  --again: #701811;
+  --hard: #7a430e;
+  --easy: #34506c;
+  --greek: "Vollkorn", "Palatino Linotype", "Gentium Plus", serif;
+  --ui: "Inter", system-ui, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #10151f; --surface: #182131; --ink: #f3ede2; --muted: #b8b2a7; --line: #2c3646;
+    --accent: #8fb4dc; --accent-soft: #1c2d44; --on-accent: #10151f; --brand: #c1e1e5; --target: #c1e1e5;
+    --meter: #d58936; --track: #2c3646;
+    --good: #8fb4dc; --again: #f08a7a; --hard: #e9a55a; --easy: #a9c1d9;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #10151f; --surface: #182131; --ink: #f3ede2; --muted: #b8b2a7; --line: #2c3646;
+  --accent: #8fb4dc; --accent-soft: #1c2d44; --on-accent: #10151f; --brand: #c1e1e5; --target: #c1e1e5;
+  --meter: #d58936; --track: #2c3646;
+  --good: #8fb4dc; --again: #f08a7a; --hard: #e9a55a; --easy: #a9c1d9;
+}
+
+* { box-sizing: border-box; }
+/* Notes for David (key hints, list numbers ...) appear only with ?notes=1. */
+html:not(.notes) .note { display: none !important; }
+body {
+  margin: 0; min-height: 100vh; display: flex; flex-direction: column;
+  background: var(--bg); color: var(--ink); font: 16px/1.5 var(--ui);
+}
+button { font: inherit; color: inherit; cursor: pointer; }
+
+/* Header with the name, kept at the top while the page scrolls. */
+.bar { position: sticky; top: 0; z-index: 5; display: flex; align-items: center; gap: 10px;
+       padding: calc(14px + env(safe-area-inset-top)) 16px 14px; background: var(--bg); border-bottom: 1px solid var(--line); }
+/* The app's name: heavy Vollkorn in the Moss header navy, so it reads as a mark rather than a label. */
+.brand { background: none; border: 0; padding: 0; font: 800 24px/1 var(--greek); color: var(--brand);
+         letter-spacing: .02em; }
+.tag { font-size: 12px; color: var(--muted); border: 1px solid var(--line); border-radius: 99px; padding: 1px 8px; }
+
+main { flex: 1; width: 100%; max-width: 720px; margin: 0 auto; padding: 24px 16px calc(100px + env(safe-area-inset-bottom)); }
+.loading { color: var(--muted); }
+
+/* Home */
+/* Home: a narrow centred column; title at the top (no art for now); progress, Start and the tagline
+   at the foot of the screen. */
+.home { max-width: 320px; margin: 0 auto; padding: 0 8px; display: flex; flex-direction: column;
+        min-height: calc(100dvh - 210px - env(safe-area-inset-bottom)); }
+/* David, 2026-11-03: the tag phrases more prominent, the button smaller. */
+.home-title { font: 500 24px/1.25 var(--greek); text-wrap: balance; /* longer than Telamon's: may take two lines */ color: var(--accent); text-align: center; margin: 0 0 22px; }
+.home-title small { display: block; font-size: 18px; font-weight: 400; font-style: italic; color: var(--muted); margin-top: 4px; }
+/* The title stays at the top; Start, progress and the tagline sit together at the foot,
+   and the space above them stretches. */
+.home-progress { display: flex; justify-content: space-between; font-size: 12px; margin: 20px 0 5px; }.home-progress span + span { color: var(--muted); }
+.home .meter { height: 4px; }
+.home .primary { align-self: center; margin-top: auto; padding: 8px 22px; font-size: 13px; }
+.home-tagline { margin: 18px 0 0; font-size: 13px; line-height: 1.5; color: var(--muted);
+                text-align: justify; hyphens: auto; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 12px; margin-bottom: 20px; }
+.stat { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; }
+.stat .n { font: 600 26px/1.1 var(--ui); font-variant-numeric: tabular-nums; }
+.stat .l { font-size: 13px; color: var(--muted); }
+.coverage { background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin-bottom: 20px; }
+.coverage .big { font: 600 34px/1 var(--ui); color: var(--accent); font-variant-numeric: tabular-nums; }
+.coverage p { margin: 6px 0 10px; color: var(--muted); font-size: 14px; }
+/* Settings → Progress: "214 of 1,823 words mastered" with its bar, then the figures. */
+.progress-card .big { margin-bottom: 12px; }
+.progress-card .big small { font: 500 15px var(--ui); color: var(--muted); }
+.settings-page .stats { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 480px) { .settings-page .stats { grid-template-columns: repeat(2, 1fr); } }
+.meter { height: 10px; background: var(--track); border-radius: 99px; overflow: hidden; }
+.meter > i { display: block; height: 100%; background: var(--meter); border-radius: 99px; transition: width .4s; }
+.primary { background: var(--accent); color: var(--on-accent); border: 0; border-radius: 10px; padding: 12px 22px; font-weight: 600; }
+.primary:disabled { opacity: .45; cursor: default; }
+/* Timed advance: the Continue button fills from left to right as the time runs out. */
+.primary.counting { background-image: linear-gradient(rgba(255, 255, 255, .22), rgba(255, 255, 255, .22));
+                    background-repeat: no-repeat; background-size: 0% 100%; animation: advance-fill var(--advance-ms) linear forwards; }
+@keyframes advance-fill { to { background-size: 100% 100%; } }
+.settings-page h3.sub, .about h3.sub { font: 600 15px var(--ui); margin: 18px 0 4px; }
+.settings-page .hint { font-size: 13px; margin: 0 0 8px; max-width: 480px; } /* same width as the options below */
+.quiet { background: none; border: 1px solid var(--line); border-radius: 10px; padding: 10px 16px; color: var(--muted); }
+.row { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; }
+
+/* Review */
+.progress { display: flex; justify-content: space-between; font-size: 13px; color: var(--muted); margin-bottom: 12px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 16px; padding: 28px 22px; min-height: 300px;
+        display: flex; flex-direction: column; align-items: center; text-align: center; }
+/* A card's contents never grow past its padding. */
+.card > * { min-width: 0; max-width: 100%; }
+.card > #back { align-self: stretch; } /* the answer always spans the card */
+.card .meta { font-size: 12px; color: var(--muted); letter-spacing: .02em; }
+.card .greek { font: 400 44px/1.25 var(--greek); margin: 26px 0 8px; }
+.card .greek .forms { font-size: 24px; color: var(--muted); white-space: nowrap; }
+.card { position: relative; }
+.card .prompt-en { font: 600 30px/1.3 var(--ui); margin: 26px 0 8px; }
+.card .prompt-en .hint-en { font-weight: 400; font-size: 20px; color: var(--muted); }
+.choice.greek-choice { font: 21px/1.3 var(--greek); }
+.choice .forms, .answer-greek .forms { color: var(--muted); font-size: .8em; }
+.answer .english.answer-greek { font: 400 28px/1.3 var(--greek); }
+/* "new word", "spot check", "meet the word": plain accent-coloured words in the part-of-speech line. */
+.card .meta .flag { color: var(--accent); font-weight: 600; }
+.answer { width: 100%; border-top: 1px solid var(--line); margin-top: 22px; padding-top: 20px; }
+.answer .english { font: 600 22px/1.35 var(--ui); margin: 0 0 18px; }
+.actions { margin-top: 18px; display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.actions.single { grid-template-columns: 1fr; }
+.actions.two { grid-template-columns: 1fr 1fr; }
+.choices { margin-top: 18px; display: grid; gap: 8px; }
+.choice { display: flex; align-items: center; gap: 12px; text-align: left; border: 1px solid var(--line);
+          background: var(--surface); border-radius: 10px; padding: 12px 14px; font-size: 16px; }
+.choice small { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.choice:hover:not(:disabled) { border-color: var(--muted); }
+.choice:disabled { cursor: default; }
+/* After answering: the right choice filled and ticked, a wrong pick tinted and crossed, the rest faded. */
+/* Tinted, not filled, so the correct answer never looks like the filled Continue button below it. */
+.choice.right { border: 2px solid var(--good); color: var(--good); font-weight: 600;
+                background: color-mix(in srgb, var(--good) 14%, var(--surface)); }
+.choice.right::after { content: "✓"; margin-left: auto; font-size: 20px; }
+.choice.wrong { border: 2px solid var(--again); color: var(--again); background: color-mix(in srgb, var(--again) 12%, var(--surface)); }
+.choice.wrong::after { content: "✗"; margin-left: auto; font-size: 20px; }
+.choice:disabled:not(.right):not(.wrong) { opacity: .5; }
+.verdict { font: 600 18px var(--ui); margin: 0 0 10px; }
+.verdict.right { color: var(--good); }
+.verdict.wrong { color: var(--again); }
+.grade { border: 1px solid var(--line); background: var(--surface); border-radius: 10px; padding: 10px 4px; }
+.grade b { display: block; font-weight: 600; }
+.grade b.mark { font-size: 26px; line-height: 1.1; }
+.grade small { color: var(--muted); font-size: 12px; font-variant-numeric: tabular-nums; }
+.grade.again b { color: var(--again); } .grade.hard b { color: var(--hard); }
+.grade.good b { color: var(--good); } .grade.easy b { color: var(--easy); }
+.grade:hover, .quiet:hover { border-color: var(--muted); }
+.keys { text-align: center; font-size: 12px; color: var(--muted); margin-top: 10px; }
+.done { text-align: center; padding: 40px 0; }
+.done h2 { font: 600 24px var(--greek); }
+
+
+/* Bottom bar: 1 Home, 2 Tools, 3 Settings, 4 About, fixed at the foot of the screen. */
+.tabs { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; display: grid; grid-template-columns: repeat(4, 1fr);
+        background: var(--surface); border-top: 1px solid var(--line);
+        padding: 6px max(8px, calc((100% - 720px) / 2)) calc(6px + env(safe-area-inset-bottom)); }
+.tabs button { display: flex; flex-direction: column; align-items: center; gap: 2px; background: none; border: 0;
+               border-radius: 10px; padding: 6px 4px; color: var(--muted); font-size: 12px; font-weight: 500; }
+.tabs svg { width: 24px; height: 24px; fill: none; stroke: currentColor; stroke-width: 1.8;
+            stroke-linecap: round; stroke-linejoin: round; }
+.tabs button { min-height: 56px; justify-content: center; } /* Telamon's height: icon, 2px gap, 12px label */
+.tabs .num { display: block; width: 24px; height: 24px; font: 600 22px/24px var(--ui); text-align: center;
+             font-variant-numeric: tabular-nums; } /* the numeral stands where Telamon has its icon */
+.tabs button:hover { color: var(--accent); }
+.tabs button[aria-current="page"] { color: var(--accent); background: var(--accent-soft); font-weight: 600; }
+
+
+/* Lexica */
+.lexica input[type=search] { width: 100%; font: 18px var(--greek); padding: 10px 12px; border: 1px solid var(--line);
+                             border-radius: 10px; background: var(--surface); color: var(--ink); margin-top: 8px; }
+.lexica input[type=search]:focus { outline: 2px solid var(--accent); outline-offset: 1px; }
+.letters { display: flex; flex-wrap: wrap; gap: 4px; margin: 12px 0 8px; }
+.letters button { font: 17px var(--greek); width: 34px; height: 34px; border: 1px solid var(--line); border-radius: 8px;
+                  background: var(--surface); color: var(--ink); }
+.letters button.wide { width: auto; padding: 0 12px; font: 14px var(--ui); }
+.lex-source { font-size: 13px; color: var(--muted); margin: 0; }
+.lex-list { list-style: none; margin: 8px 0 0; padding: 0; }
+.lex-list button { display: block; width: 100%; text-align: left; background: none; border: 0; border-bottom: 1px solid var(--line);
+                   padding: 10px 2px; }
+.lex-list b { font: 600 18px var(--greek); margin-right: 8px; }
+.lex-list .snip { font-size: 15px; color: var(--ink); }
+.lex-list .snip .en { font-size: 14px; }
+.lex-list .snip .cite, .lex-list .snip .abbr { font-size: 12px; }
+.lex-list .snip .sense { font-size: 13px; }
+.lex-more { color: var(--muted); font-size: 14px; }
+dialog#entry { width: min(640px, calc(100vw - 32px)); max-height: 85vh; border: 1px solid var(--line); border-radius: 16px;
+               background: var(--surface); color: var(--ink); padding: 0; }
+dialog#entry::backdrop { background: rgba(0, 0, 0, .35); }
+.entry-inner { padding: 20px 22px; }
+.lex-head { font: 600 26px var(--greek); margin: 0 0 8px; }
+.lex-body { font: 17px/1.6 var(--greek); }
+.lex-body .en { color: var(--accent); font-family: var(--ui); font-size: 16px; }
+.lex-body .sense { font-family: var(--ui); color: var(--target); }
+.lex-body .cite, .lex-body .abbr { color: var(--muted); font-size: 14px; font-family: var(--ui); }
+.entry-inner .lex-source { margin-top: 14px; }
+.entry-inner .quiet { margin-top: 12px; }
+
+/* Settings */
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.settings-page fieldset { border: 0; margin: 0; padding: 0; display: grid; gap: 8px; max-width: 480px; }
+/* A setting that belongs to the one above it (Timed advance, under Answer mode). */
+.settings-page .subsection { margin: 4px 0 0 18px; padding-left: 16px; border-left: 2px solid var(--line); }
+.settings-page .subsection > fieldset:first-child { margin-top: 10px; } /* no heading above it (Minuscule / Majuscule) */
+.option { display: flex; gap: 12px; align-items: flex-start; background: var(--surface); border: 1px solid var(--line);
+          border-radius: 10px; padding: 12px 14px; cursor: pointer; }
+.option:has(input:checked) { border-color: var(--accent); }
+.option input { margin-top: 3px; accent-color: var(--accent); }
+.option b { display: block; font-weight: 600; color: var(--ink); font-size: 15px; }
+.option small { display: block; color: var(--muted); font-size: 13px; margin-top: 2px; }
+.quiet.danger { color: var(--again); border-color: var(--again); }
+/* Each setting is one row (name, current choice, chevron) that opens to its options; one open at
+   a time. Slides open where the browser can animate to height:auto (Chrome/Edge 131+); elsewhere
+   it simply opens. */
+.settings-page .sets { max-width: 480px; margin-top: 14px; border-top: 1px solid var(--line); interpolate-size: allow-keywords; }
+.set { border-bottom: 1px solid var(--line); }
+.set summary { display: flex; align-items: baseline; gap: 12px; padding: 13px 2px; cursor: pointer; list-style: none; }
+.set summary::-webkit-details-marker { display: none; }
+.set .set-name { font: 600 17px var(--greek); color: var(--ink); }
+.set .set-value { margin-left: auto; font-size: 14px; color: var(--muted); text-align: right; }
+.set .set-chev { color: var(--muted); font-size: 20px; line-height: 1; transition: transform .2s; }
+.set[open] .set-chev { transform: rotate(90deg); }
+.set[open] .set-value { color: var(--accent); }
+.set .set-body { padding: 0 0 16px; }
+.set::details-content { block-size: 0; overflow: hidden; transition: block-size .25s ease, content-visibility .25s allow-discrete; }
+.set[open]::details-content { block-size: auto; }
+@media (prefers-reduced-motion: reduce) { .set::details-content, .set .set-chev { transition: none; } }
+
+/* About */
+.about h1 { font: 600 28px/1.2 var(--greek); margin: 0 0 4px; }
+/* Tools page: one title, then the Lexicon and Readings as sections. */
+.tools-title { font: 600 28px/1.2 var(--greek); margin: 0 0 4px; }
+.about.tool > h2 { font: 600 23px/1.2 var(--greek); margin: 22px 0 4px; }
+.tool + .tool { border-top: 1px solid var(--line); margin-top: 30px; }
+.about h2 { font: 600 18px var(--greek); margin: 26px 0 8px; }
+.about p, .about dd { color: var(--muted); font-size: 15px; margin: 0 0 8px; }
+.about .version { font-variant-numeric: tabular-nums; }
+.about dl { margin: 0; }
+.about dt { font-weight: 600; font-size: 14px; margin-top: 14px; }
+.about dd { margin-left: 0; }
+.about a { color: var(--accent); }
+.about + .quiet { margin-top: 24px; }
+
+@media (max-width: 480px) {
+  /* Narrow side margins on phones, as Telamon. */
+  main { padding-left: 8px; padding-right: 8px; }
+  .card { padding-left: 10px; padding-right: 10px; }
+  .card .greek { font-size: 36px; }
+}
+
+button.link { background: none; border: 0; padding: 0; color: var(--accent); font: inherit; text-decoration: underline; cursor: pointer; }
+
+/* ---------- NT Greek additions (in Telamon's idiom) ---------- */
+/* The answer: Metzger's gloss, then his English derivative, Moss's gloss, the NT count. */
+.answer .cf { font: italic 16px/1.55 var(--greek); color: var(--muted); margin: -8px auto 10px; max-width: 34em; }
+.answer .moss-gloss { font-size: 14px; color: var(--accent); margin: 0 auto 10px; max-width: 34em; }
+.answer .moss-gloss b { font-weight: 600; }
+.count { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.translate { margin-top: 14px; padding: 6px 14px; font-size: 13px; }
+/* Lexicon entries: Metzger first, then Souter. */
+.lex-head .forms { font-weight: 400; font-size: .7em; color: var(--muted); }
+.lex-gloss { font: 600 18px/1.4 var(--ui); margin: 0 0 6px; }
+.lex-meta { font-size: 13px; color: var(--muted); margin: 0 0 4px; }
+.lex-meta [lang=grc] { font-family: var(--greek); font-size: 15px; color: var(--ink); }
+.lex-sub { font: 600 15px var(--ui); margin: 16px 0 4px; }
+.lex-body.souter { font: 16px/1.55 var(--greek); color: var(--ink); }
+.lex-list .snip.en-snip { font: 14px var(--ui); color: var(--accent); }
+.lex-note { font-size: 14px; color: var(--muted); margin: 10px 0 0; }
+.lex-note b { color: var(--accent); }
+.lex-note [lang=grc], .lex-body [lang=grc] { font-family: var(--greek); }
+dialog#entry .quiet.go { margin-right: 8px; }
+/* Readings (Tools): Nunn's passages, easiest first. */
+.read-list .snip { display: block; font-size: 13px; color: var(--muted); margin-top: 2px; }
+.read-list .meter { height: 4px; margin-top: 8px; }
+.read-head { font-size: 13px; color: var(--muted); margin: 0 0 6px; }
+.reading .intro { font-size: 14px; }
+.legend { display: flex; flex-wrap: wrap; gap: 4px 14px; font-size: 13px; font-weight: 600; margin: 10px 0 18px; }
+.legend .known { color: var(--ink); } .legend .learning { color: var(--accent); } .legend .out { color: var(--muted); font-weight: 400; }
+.reading h3.sub { font: 600 18px var(--greek); color: var(--ink); margin: 22px 0 6px; }
+.reading-text { font: 20px/1.7 var(--greek); color: var(--ink); margin: 0 0 14px; }
+.reading-text .w { cursor: pointer; border-radius: 4px; }
+.reading-text .w:hover, .reading-text .w.sel { background: var(--accent-soft); }
+.reading-text .w.learning { color: var(--accent); }
+.reading-text .w.out { color: var(--muted); }
+.reading-text .nn { font: 600 12px var(--ui); color: var(--accent); cursor: pointer; vertical-align: super;
+                    line-height: 0; padding: 0 2px; }
