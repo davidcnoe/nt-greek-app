@@ -1,4 +1,4 @@
-# Survey of four public-domain N.T. Greek grammars for the NT Greek app
+# Survey of four public-domain N.T. Greek grammars for Tertius
 
 Surveyed 8 November 2026. Source PDFs are in `Greek Lexica, Grammars, etc/` (user uploads). All five PDFs are pre-1929 printings and US public domain. "PDF p." means the page index in the PDF file; "p." alone means the printed page number.
 

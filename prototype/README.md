@@ -1,4 +1,4 @@
-# NT Greek (working name): web prototype
+# Tertius: The NT Greek Vocab Trainer (working name): web prototype
 
 A working prototype of the New Testament vocabulary app, built to look and work like Telamon (the Homer
 trainer): the same pages, layout, type and memory system, ported from Telamon's prototype, in a
@@ -6,7 +6,7 @@ MossMethod variation of its palette. Vanilla JS, no build step.
 
 ## Run it
 
-From the `nt-greek-app` folder:
+From the `tertius` folder:
 
 ```
 python -m http.server 8642 --directory prototype

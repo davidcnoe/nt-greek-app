@@ -1,4 +1,4 @@
-// NT Greek prototype: Metzger's New Testament vocabulary in Telamon's session-based memory system.
+// Tertius prototype: Metzger's New Testament vocabulary in Telamon's session-based memory system.
 // A port of Telamon's prototype (the Homer trainer): same pages, layout and memory system; the Homer-only
 // parts (passages, audio, dialect, verb forms, translations, Hecatomb, the gem) are left out.
 // Progress lives in this browser's localStorage; the real app will keep it in SQLite.
@@ -271,7 +271,7 @@ function renderHome() {
 function progressText() {
   const days = streak();
   return [
-    "My NT Greek progress (New Testament vocabulary)",
+    "My Tertius progress (NT Greek vocabulary)",
     `${learnedIds().length} words mastered, ${pct(coverage())}% of the words in the New Testament`,
     `${state.sessions} session${state.sessions === 1 ? "" : "s"}${days ? `, ${days}-day streak` : ""}`,
   ].join("\n");
@@ -280,7 +280,7 @@ function progressText() {
 async function shareProgress(button) {
   const text = progressText();
   try {
-    if (navigator.share) return await navigator.share({ title: "My NT Greek progress", text });
+    if (navigator.share) return await navigator.share({ title: "My Tertius progress", text });
     await navigator.clipboard.writeText(text);
     button.textContent = "Copied to clipboard";
   } catch (e) {
@@ -1074,7 +1074,7 @@ function renderAbout() {
   app.innerHTML = `
     <section class="about">
       <h1>About</h1>
-      <p><b>NT Greek: The New Testament Vocabulary Trainer.</b> The name is a working title.</p>
+      <p><b>Tertius: The NT Greek Vocab Trainer.</b> The name is a working title. Tertius was the scribe who wrote out Paul's letter to the Romans (Rom. 16:22).</p>
       <p class="version">Version ${esc(APP_VERSION)}${meta.built ? ` · word data built ${esc(meta.built)}` : ""}</p>
 
       <h2>How sessions work</h2>

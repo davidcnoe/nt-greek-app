@@ -1,4 +1,4 @@
-# NT Greek App
+# Tertius: The NT Greek Vocab Trainer
 
 Data and code for a New Testament Greek vocabulary app: words taught by root family, with Souter's *Pocket Lexicon* built in.
 

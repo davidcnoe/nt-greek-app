@@ -1,4 +1,4 @@
-# NT Greek trainer (Expo app)
+# Tertius: The NT Greek Vocab Trainer (Expo app)
 
 A Telamon-style vocabulary trainer built on Metzger's *Lexical Aids* (1946), Souter's *Pocket Lexicon* (1917), and the MossMethod list.
 

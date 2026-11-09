@@ -246,7 +246,7 @@ dialog#entry::backdrop { background: rgba(0, 0, 0, .35); }
 
 button.link { background: none; border: 0; padding: 0; color: var(--accent); font: inherit; text-decoration: underline; cursor: pointer; }
 
-/* ---------- NT Greek additions (in Telamon's idiom) ---------- */
+/* ---------- Tertius additions (in Telamon's idiom) ---------- */
 /* The answer: Metzger's gloss, then his English derivative, Moss's gloss, the NT count. */
 .answer .cf { font: italic 16px/1.55 var(--greek); color: var(--muted); margin: -8px auto 10px; max-width: 34em; }
 .answer .moss-gloss { font-size: 14px; color: var(--accent); margin: 0 auto 10px; max-width: 34em; }

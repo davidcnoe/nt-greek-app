@@ -45,7 +45,7 @@ export default function Layout() {
         <Stack
           screenOptions={{
             headerStyle: { backgroundColor: C.bg },
-            headerTitle: 'NT Greek',
+            headerTitle: 'Tertius',
             headerTitleStyle: { color: C.ink },
             headerBackVisible: false,
             headerLeft: () => null,
