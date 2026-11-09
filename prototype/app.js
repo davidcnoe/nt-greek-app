@@ -1090,7 +1090,7 @@ function renderAbout() {
   app.innerHTML = `
     <section class="about">
       <h1>About</h1>
-      <p><b>Tertius: The NT Greek Vocab Trainer.</b> The name comes from the scribe to whom Paul dictated his letter to the Romans,
+      <p><b class="about-name">Tertius: The NT Greek Vocab Trainer.</b> The name comes from the scribe to whom Paul dictated his letter to the Romans,
         and who added his own greeting to it (Rom. 16:22). The logo is an open book bearing his initial, Τ.</p>
       <p class="version">Version ${esc(APP_VERSION)}${meta.built ? ` · word data built ${esc(meta.built)}` : ""}</p>
 

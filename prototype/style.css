@@ -333,3 +333,6 @@ dialog#entry .quiet.go { margin-right: 8px; }
 .card.intro .intro-cf { font: italic 16px/1.5 var(--greek); color: var(--muted); margin: 0 0 6px; }
 .card.intro .intro-foot { font-size: 12.5px; color: var(--muted); margin: 26px 0 0; line-height: 1.6; text-wrap: balance; }
 .card.intro .intro-foot .link { font-size: inherit; font-weight: 600; text-decoration: none; }
+
+/* About: the app's name in the theme colour (David, 2026-11-09). */
+.about-name { color: var(--accent); }
