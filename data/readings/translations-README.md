@@ -32,3 +32,9 @@ The Perseus Lake and Fowler-Lucian files are OCR and contain scanning errors. I 
 - Polycarp 15.2: "as bread that is being baked, or"; 16.1: "a dove, and"
 - Plato and Ignatius: abridged as in Nunn (see the passages above).
 - Ignatius 7: the date sentence and the final "Amen." are left out because Nunn's Greek lacks them.
+
+## Carpus (added from David's copy of the PDF)
+
+E. C. E. Owen, *Some Authentic Acts of the Early Martyrs* (Oxford: Clarendon Press, 1927), pp. 42–45, transcribed from the page images of the scan David supplied (the PDF's text layer has OCR errors, e.g. "4" for an opening quotation mark). Owen §§ 1–6, 9, 12–23, 36, 38–39, 41, with "…" where Nunn omits §§ 7–8, 10–11, 24–35 (Papylus), 37, and 40. Owen's spaces before ? and ! are closed up, and the missing closing quotation mark after "Carpus." (§ 3) is supplied.
+
+Check: Nunn's abridged Greek speaks of Carpus alone, while Owen's English (from the full text) mentions Papylus: "Carpus and Papylus" (§ 1), "their exceeding patience … they both hasted" (§ 36), and "being nailed after him" (§ 38).
