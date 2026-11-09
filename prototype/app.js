@@ -73,6 +73,14 @@ function autoAdvance(button, right) {
 const scheduler = fsrs(generatorParameters({ enable_fuzz: true, request_retention: 0.9 }));
 
 const app = document.getElementById("app");
+// The header's and the bottom bar's heights, for the session screen's fit-to-screen layout (style.css).
+const measureBars = () => {
+  const root = document.documentElement.style;
+  root.setProperty("--bar-h", `${document.querySelector("header.bar")?.offsetHeight || 53}px`);
+  root.setProperty("--tabs-h", `${document.querySelector("nav.tabs")?.offsetHeight || 72}px`);
+};
+measureBars();
+addEventListener("resize", measureBars);
 // words: Metzger's words in path order, each {id: Metzger's form, ...lexicon fields}.
 let words = [], byId = {}, families = {}, unitOf = {}, meta = {}, state, session = null;
 let maxCoverage = 1;
@@ -663,6 +671,13 @@ function showBack() {
   }
 }
 
+// If the answer will not fit in the card on a short screen, the card scrolls inside itself to show the
+// answer from its top; the buttons below stay put (David, 2026-11-09).
+function showAnswerInCard() {
+  const card = app.querySelector(".card"), ans = card?.querySelector(".answer");
+  if (ans && card.scrollHeight > card.clientHeight) card.scrollTop = ans.offsetTop - 8;
+}
+
 function reveal() {
   if (session.revealed || session.choices) return;
   session.revealed = true;
@@ -672,6 +687,7 @@ function reveal() {
       <button class="grade again" data-right="0" aria-label="Incorrect"><b class="mark">✗</b><small class="note">2</small></button>
     </div>`;
   for (const b of document.querySelectorAll(".grade")) b.onclick = () => { answer(b.dataset.right === "1"); nextCard(); };
+  showAnswerInCard();
 }
 
 function choose(i) {
@@ -692,6 +708,7 @@ function choose(i) {
   document.getElementById("continue").onclick = nextCard;
   document.getElementById("continue").focus();
   autoAdvance(document.getElementById("continue"), right);
+  showAnswerInCard();
 }
 
 function answer(right) {

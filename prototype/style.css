@@ -355,3 +355,32 @@ dialog#entry .quiet.go { margin-right: 8px; }
 .answer .cf, .answer .moss-gloss { font-size: 13px; color: var(--muted); }
 .answer .moss-gloss b { font: 600 10px/1 var(--ui); letter-spacing: .06em; text-transform: uppercase; color: var(--accent);
   border: 1px solid var(--accent); border-radius: 4px; padding: 2px 4px; margin-right: 4px; }
+
+/* Session screens fit the screen, so Show answer, ✓/✗, the choices, and Continue never need scrolling
+   (David, 2026-11-09, after καί with Moss's long gloss pushed Continue off the screen). The screen is a
+   column the height of the window less the header and the bottom bar; the buttons keep their size and
+   the card takes what is left. An unusually long answer scrolls inside the card. --bar-h and --tabs-h
+   are measured in app.js. On a tall screen the column stops at 860 px so the card does not balloon. */
+main:has(> .card) { flex: none; display: flex; flex-direction: column; overflow: hidden;
+  height: min(calc(100dvh - var(--bar-h, 53px)), 860px);
+  padding-top: 16px; padding-bottom: calc(var(--tabs-h, 72px) + 12px); }
+main:has(> .card) > * { flex: none; }
+main:has(> .card) > .card { flex: 1 1 auto; min-height: 0; overflow-y: auto; overscroll-behavior: contain;
+  justify-content: safe center; }
+main:has(> .card) .choices, main:has(> .card) .actions { margin-top: 12px; }
+/* On a short screen the session screen tightens its spacing before the card has to scroll. */
+@media (max-height: 860px) {
+  main:has(> .card) { padding-top: 10px; }
+  main:has(> .card) .progress { margin-bottom: 8px; }
+  main:has(> .card) > .card { padding-top: 16px; padding-bottom: 16px; }
+  main:has(> .card) .card .greek { margin: 12px 0 4px; }
+  main:has(> .card) .card .prompt-en { margin: 12px 0 4px; }
+  main:has(> .card) .answer { margin-top: 12px; padding-top: 12px; }
+  main:has(> .card) .answer .english { margin-bottom: 10px; }
+  main:has(> .card) .verdict { margin-bottom: 4px; }
+  main:has(> .card) .choices { gap: 6px; margin-top: 8px; }
+  main:has(> .card) .choice { padding: 9px 14px; }
+  main:has(> .card) .actions { margin-top: 8px; }
+  main:has(> .card) .card.intro .greek { margin: 4px 0 10px; }
+  main:has(> .card) .card.intro .intro-foot { margin-top: 14px; }
+}
