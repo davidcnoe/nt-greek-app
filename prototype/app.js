@@ -247,7 +247,7 @@ function unitLabel(w) {
 
 // ---------- screens ----------
 
-// Why there is nothing to start: said on Home under the disabled button, with the way out.
+// Why there is nothing to start: shown on Home under the button once it is pressed, with the way out.
 function caughtUpWhy() {
   if (state.settings.direction === "eg" && !learnedIds().length)
     return `English → Greek practises only words you have mastered, and none is mastered yet. Choose Greek → English or Both in <a href="#" data-go="settings">Settings → Direction</a> to keep learning.`;
@@ -270,17 +270,22 @@ function renderHome() {
       <img class="home-logo" src="icons/mark.svg" alt="Tertius" width="132" height="116">
       <h1 class="home-title">Master New Testament Vocabulary<small>one word at a time</small></h1>
       <p class="home-verse" lang="grc">ἀσπάζομαι ὑμᾶς ἐγὼ <b>Τέρτιος</b> ὁ γράψας τὴν ἐπιστολὴν ἐν κυρίῳ.<cite>Rom. 16:22</cite></p>
-      <button class="primary" id="start" ${paused || review + fresh ? "" : "disabled"}>${paused
+      <button class="primary" id="start">${paused
         ? `resume session ${paused.number} · ${paused.passed.length} of ${paused.total} done`
-        : review + fresh ? `start session ${plan.number}` : "all caught up"}</button>
-      ${!paused && !review && !fresh ? `<p class="home-why">${caughtUpWhy()}</p>` : ""}
+        : `start session ${plan.number}`}</button>
+      <p class="home-why" id="why" hidden></p>
       <div class="home-progress"><span>${pct(cov)}%</span><span>${learnedIds().length} mastered</span></div>
       <div class="meter" role="img" aria-label="${pct(cov)} percent of the words in the New Testament mastered${fam ? `, another ${pct(fam)} percent familiar from MossMethod` : ""}; the bar is full at ${pct(maxCoverage)} percent, all ${words.length.toLocaleString()} words">
         <i style="width:${w(cov)}%"></i>${fam ? `<i class="fam" style="width:${Math.min(100 - w(cov), w(fam))}%"></i>` : ""}</div>
       ${fam ? `<p class="home-fam">+ ${pct(fam)}% familiar from MossMethod</p>` : ""}
       <p class="home-tagline">Metzger's New Testament vocabulary, most frequent first, with root families and Souter's lexicon. <a class="home-from" href="https://latinperdiem.com/" target="_blank" rel="noopener">From LatinPerDiem, LLC.</a></p>
     </section>`;
-  document.getElementById("start").onclick = paused ? resumeSession : startSession;
+  // Nothing to start (David, 2026-11-09): say why only when the learner presses the button.
+  document.getElementById("start").onclick = paused ? resumeSession : review + fresh ? startSession : () => {
+    const why = document.getElementById("why");
+    why.innerHTML = caughtUpWhy();
+    why.hidden = false;
+  };
 }
 
 function progressText() {
