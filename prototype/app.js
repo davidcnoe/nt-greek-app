@@ -511,14 +511,14 @@ function introHtml(w, id) {
   const u = unitOf[w.id];
   const family = u && u.kind === "family" ? esc(unitLabel(w)) : "";
   const moss = mossOn() && w.m && w.mg && w.mg !== w.g ? `Moss: ${esc(w.mg)}` : "";
-  const count = `${w.c.toLocaleString()}× in the NT${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""}`;
+  const count = `${w.c.toLocaleString()}× in NT${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""}`;
   return `
     <article class="card intro">
       <div class="greek">${greekHtml(w)}</div>
       <p class="intro-gloss">${esc(w.g)}</p>
       ${w.d ? `<p class="intro-cf">Cf. ${esc(w.d)}</p>` : ""}
       <p class="intro-foot">${[count, moss, family].filter(Boolean).join(" · ")}
-        · <button class="link" id="lexlink">Lexicon ›</button></p>
+        · <button class="link" id="lexlink">Lexicon</button></p>
     </article>`;
 }
 function renderIntro(id) {
