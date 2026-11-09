@@ -256,6 +256,7 @@ function renderHome() {
   const cov = coverage();
   app.innerHTML = `
     <section class="home">
+      <img class="home-logo" src="icons/mark.svg" alt="Tertius" width="132" height="116">
       <h1 class="home-title">Master New Testament Vocabulary<small>one word at a time</small></h1>
       <button class="primary" id="start" ${paused || review + fresh ? "" : "disabled"}>${paused
         ? `resume session ${paused.number} · ${paused.passed.length} of ${paused.total} done`

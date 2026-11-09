@@ -57,11 +57,12 @@ main { flex: 1; width: 100%; max-width: 720px; margin: 0 auto; padding: 24px 16p
 .loading { color: var(--muted); }
 
 /* Home */
-/* Home: a narrow centred column; title at the top (no art for now); progress, Start and the tagline
+/* Home: a narrow centred column; logo and title at the top; progress, Start and the tagline
    at the foot of the screen. */
 .home { max-width: 320px; margin: 0 auto; padding: 0 8px; display: flex; flex-direction: column;
         min-height: calc(100dvh - 210px - env(safe-area-inset-bottom)); }
 /* David, 2026-11-03: the tag phrases more prominent, the button smaller. */
+.home-logo { display: block; width: 132px; height: auto; margin: 4px auto 18px; }
 .home-title { font: 500 24px/1.25 var(--greek); text-wrap: balance; /* longer than Telamon's: may take two lines */ color: var(--accent); text-align: center; margin: 0 0 22px; }
 .home-title small { display: block; font-size: 18px; font-weight: 400; font-style: italic; color: var(--muted); margin-top: 4px; }
 /* The title stays at the top; Start, progress and the tagline sit together at the foot,
