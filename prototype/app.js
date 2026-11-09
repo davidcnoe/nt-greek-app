@@ -1132,7 +1132,7 @@ function renderAbout() {
         · ${link("https://latinperdiem.com/latin-courses/#greek-course", "Learn about Modules II–IV")}</p>
 
       <h2>Credits</h2>
-      <p>By LatinPerDiem, LLC.</p>
+      <p>By ${link("https://latinperdiem.com/", "LatinPerDiem, LLC")}.</p>
       <p>Scheduling: ${link("https://github.com/open-spaced-repetition/ts-fsrs", "ts-fsrs")} 5.4.2, MIT License.
         Fonts: Vollkorn (Friedrich Althausen) and Inter (Rasmus Andersson), SIL Open Font License.</p>
 
