@@ -92,7 +92,7 @@ function load() {
   s.studyDays = s.studyDays || [];
   s.sessions = s.sessions ?? 0;
   // moss: "studied" = the learner has done MossMethod (the Expo app's mossGraduate).
-  s.settings = { mode: "recall", direction: "ge", pace: "standard", theme: "system", advance: "standard", moss: "no", ...s.settings };
+  s.settings = { mode: "recall", direction: "ge", pace: "standard", theme: "system", labels: "en", labelCase: "normal", advance: "standard", moss: "no", ...s.settings };
   // tally[id]: {correct: sessions in a row counted toward mastery, last: last such session, day: its
   // date, since: session the word entered the active set, retired: true while out on spot-check rotation}.
   s.tally = s.tally || {};
@@ -323,10 +323,30 @@ function progressHtml() {
     </div>`;
 }
 
+// Bottom-bar labels in English, Latin or Greek, as in Telamon (David's picks there, 2026-10-31 and 11-03).
+const TAB_LABELS = {
+  en: { home: "Home", tools: "Tools", settings: "Settings", about: "About" },
+  la: { home: "Sedes", tools: "Opera", settings: "Mea", about: "Nuntia" },
+  gr: { home: "Οἶκος", tools: "Τέχναι", settings: "Τάξις", about: "Μήνυμα" },
+};
+const TAB_LANG = { en: "en", la: "la", gr: "grc" };
+// Majuscule: Greek capitals drop accents and breathings, as in inscriptions (ΟΙΚΟΣ).
+const capitals = s => s.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toUpperCase().normalize("NFC");
+function applyTabLabels() {
+  const which = TAB_LABELS[state?.settings.labels] ? state.settings.labels : "en";
+  const caps = state?.settings.labelCase === "caps";
+  for (const b of document.querySelectorAll(".tabs button")) {
+    const span = b.querySelector("span");
+    if (span) span.textContent = caps ? capitals(TAB_LABELS[which][b.dataset.go]) : TAB_LABELS[which][b.dataset.go];
+    b.lang = TAB_LANG[which];
+  }
+}
+
 function applyTheme() {
   const t = state?.settings.theme;
   if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
   else delete document.documentElement.dataset.theme;
+  applyTabLabels();
 }
 
 function renderSettings() {
@@ -391,6 +411,21 @@ function renderSettings() {
         ${option("theme", "light", "Light", "")}
         ${option("theme", "dark", "Dark", "")}
       </fieldset>`)}
+
+      ${section("Button labels", `
+      <fieldset>
+        <legend class="sr-only">Button labels</legend>
+        ${option("labels", "en", "English", "Home, Tools, Settings, About")}
+        ${option("labels", "la", "Latin", "Sedes, Opera, Mea, Nuntia")}
+        ${option("labels", "gr", "Greek", '<span lang="grc">Οἶκος, Τέχναι, Τάξις, Μήνυμα</span>')}
+      </fieldset>
+      <div class="subsection">
+        <fieldset>
+          <legend class="sr-only">Letters</legend>
+          ${option("labelCase", "normal", "Minuscule", 'Home, Sedes, <span lang="grc">Οἶκος</span>')}
+          ${option("labelCase", "caps", "Majuscule", 'HOME, SEDES, <span lang="grc">ΟΙΚΟΣ</span>')}
+        </fieldset>
+      </div>`)}
 
       ${section("MossMethod", `
       <p class="hint">${mossCount} of Metzger's words are in the vocabulary of Moss's <i>First Greek Reader</i>, the reader MossMethod uses.</p>
