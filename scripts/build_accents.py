@@ -47,7 +47,8 @@ SETS = [
      ]},
     {"id": "ou", "title": "οὐ and οὗ", "note": "οὐ, not, has a smooth breathing and no accent; οὗ, of whom or where, has a rough breathing and a circumflex.",
      "members": [
-         {"g": "οὐ", "m": "not", "t": lambda t: t["norm"] == N("οὐ") and t["lemma"] == N("οὐ")},
+         # Only bare οὐ: οὐκ and οὐχ can never be the relative, so they would give the answer away.
+         {"g": "οὐ", "m": "not", "t": lambda t: t["word"] == N("οὐ") and t["lemma"] == N("οὐ")},
          {"g": "οὗ", "m": "of whom, of which; where", "t": lambda t: t["norm"] == N("οὗ")},
      ]},
     {"id": "en", "title": "ἐν and ἕν", "note": "The preposition ἐν is a proclitic with a smooth breathing; ἕν, one, has a rough breathing and an accent.",
@@ -72,7 +73,8 @@ SETS = [
      ]},
     {"id": "alla", "title": "ἀλλά and ἄλλα", "note": "The conjunction is accented on the last syllable; ἄλλα, other things, on the first.",
      "members": [
-         {"g": "ἀλλά", "m": "but", "t": lambda t: t["norm"] == N("ἀλλά") and t["pos"] == "C-"},
+         # Elided ἀλλ’ has lost the accented syllable, so it is left out.
+         {"g": "ἀλλά", "m": "but", "t": lambda t: t["norm"] == N("ἀλλά") and t["pos"] == "C-" and not t["word"].endswith("’")},
          {"g": "ἄλλα", "m": "other things", "t": lambda t: t["norm"] == N("ἄλλα") and t["lemma"] == N("ἄλλος")},
      ]},
     {"id": "aute", "title": "αὐτή and αὕτη", "note": "αὐτή, from αὐτός, has a smooth breathing on the diphthong; αὕτη, this, a rough breathing.",
