@@ -54,6 +54,9 @@ def main() -> None:
                     (ROOT / "data/nt/lemmas.tsv").read_text(encoding="utf-8").splitlines()[1:])
 
     by_lemma = {r["lemma"]: r for r in lex}
+    # Souter as proofread against the page images (data/souter/proof/, 2026-11-09): replaces the OCR text,
+    # including five links corrected by hand (οὐ, ὁ, ὦ, εὐθύς, μήν).
+    proof = json.loads((ROOT / "data/souter/proofread.json").read_text(encoding="utf-8"))
     part1 = json.loads((ROOT / "data/metzger/part1.json").read_text(encoding="utf-8"))
 
     # Cards are keyed by Metzger's own form (ἐρῶ, εἶδον, ὄψομαι stay distinct from λέγω, ὁράω);
@@ -71,7 +74,7 @@ def main() -> None:
                 "l": lemma, "c": r["nt_count"], "r": r["nt_rank"], "g": gloss, "gs": "Metzger",
                 "gr": grammar, "d": deriv, "t": tier, "f": fam,
                 "m": bool(r["moss"]), "mg": moss_clean(r["moss"]["meaning"]) if r["moss"] else "",
-                "s": r["souter"]["text"] if r["souter"] else "",
+                "s": proof[lemma]["text"] if lemma in proof else (r["souter"]["text"] if r["souter"] else ""),
             }
         else:
             w["gr"] = w["gr"] or grammar

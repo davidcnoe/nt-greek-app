@@ -900,7 +900,7 @@ function openWord(form) {
     ${famHtml}
     ${w.m && w.mg ? `<p class="lex-meta">Moss, <i>First Greek Reader</i>: ${esc(w.mg)}</p>` : ""}
     ${w.s ? `<h3 class="lex-sub">Souter</h3><div class="lex-body souter" lang="grc">${esc(w.s)}</div>` : ""}
-    <p class="lex-source">Metzger, <i>Lexical Aids</i> (1946)${w.s ? "; Souter, <i>Pocket Lexicon</i> (1916), machine-read and still being proofread" : ""}</p>`);
+    <p class="lex-source">Metzger, <i>Lexical Aids</i> (1946)${w.s ? "; Souter, <i>Pocket Lexicon</i> (1916)" : ""}</p>`);
 }
 
 // ---------- Readings (Nunn 1920, Appendix II) ----------
@@ -1193,7 +1193,7 @@ function renderAbout() {
         <dd>Bruce M. Metzger, <i>Lexical Aids for Students of New Testament Greek</i> (Princeton, 1946). Public domain.</dd>
         <dt>Lexicon</dt>
         <dd>Alexander Souter, <i>A Pocket Lexicon to the Greek New Testament</i> (Oxford, 1916). Public domain.
-          The text is machine-read from the 1917 printing and is still being proofread.</dd>
+          The text is transcribed from the 1917 printing and checked, entry by entry, against the printed page.</dd>
         <dt>MossMethod meanings</dt>
         <dd>Charles Melville Moss, <i>A First Greek Reader, with Notes and Vocabulary</i>, revised edition (Boston, 1893), Vocabulary. Public domain.</dd>
         <dt>New Testament text and word counts</dt>
