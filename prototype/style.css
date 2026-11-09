@@ -63,6 +63,9 @@ main { flex: 1; width: 100%; max-width: 720px; margin: 0 auto; padding: 24px 16p
         min-height: calc(100dvh - 210px - env(safe-area-inset-bottom)); }
 /* David, 2026-11-03: the tag phrases more prominent, the button smaller. */
 .home-logo { display: block; width: 132px; height: auto; margin: 4px auto 18px; }
+.home-verse { font: 400 16px/1.45 var(--greek); text-align: center; text-wrap: balance; color: var(--ink); margin: 0 0 20px; }
+.home-verse b { font-weight: 600; color: var(--accent); }
+.home-verse cite { display: block; font: 400 12px/1.4 var(--ui); font-style: normal; color: var(--muted); margin-top: 4px; }
 .home-title { font: 500 24px/1.25 var(--greek); text-wrap: balance; /* longer than Telamon's: may take two lines */ color: var(--accent); text-align: center; margin: 0 0 22px; }
 .home-title small { display: block; font-size: 18px; font-weight: 400; font-style: italic; color: var(--muted); margin-top: 4px; }
 /* The title stays at the top; Start, progress and the tagline sit together at the foot,
