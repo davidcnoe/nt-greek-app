@@ -1076,7 +1076,8 @@ function renderAbout() {
   app.innerHTML = `
     <section class="about">
       <h1>About</h1>
-      <p><b>Tertius: The NT Greek Vocab Trainer.</b> The name is a working title. Tertius was the scribe who wrote out Paul's letter to the Romans (Rom. 16:22).</p>
+      <p><b>Tertius: The NT Greek Vocab Trainer.</b> The name is that of the scribe who wrote out Paul's letter to the Romans
+        and added his own greeting to it (Rom. 16:22, on the Home screen). The logo is an open book bearing his initial, Τ.</p>
       <p class="version">Version ${esc(APP_VERSION)}${meta.built ? ` · word data built ${esc(meta.built)}` : ""}</p>
 
       <h2>How sessions work</h2>
@@ -1120,11 +1121,12 @@ function renderAbout() {
         · ${link("https://latinperdiem.com/latin-courses/#greek-course", "Learn about Modules II–IV")}</p>
 
       <h2>Credits</h2>
+      <p>By LatinPerDiem, LLC.</p>
       <p>Scheduling: ${link("https://github.com/open-spaced-repetition/ts-fsrs", "ts-fsrs")} 5.4.2, MIT License.
         Fonts: Vollkorn (Friedrich Althausen) and Inter (Rasmus Andersson), SIL Open Font License.</p>
 
       <h2>Privacy</h2>
-      <p>Your progress stays on this device; the app has no accounts, advertising or tracking.</p>
+      <p>Your progress stays on this device; Tertius has no accounts, advertising, or tracking.</p>
 
       <h2>Sources</h2>
       <dl>
@@ -1135,11 +1137,16 @@ function renderAbout() {
           The text is machine-read from the 1917 printing and is still being proofread.</dd>
         <dt>MossMethod meanings</dt>
         <dd>Charles Melville Moss, <i>A First Greek Reader, with Notes and Vocabulary</i>, revised edition (Boston, 1893), Vocabulary. Public domain.</dd>
-        <dt>Word counts</dt>
-        <dd>${link("https://github.com/morphgnt/sblgnt", "MorphGNT")} SBLGNT, licensed ${cc}; the counts drawn from it are
-          shared under the same license.</dd>
+        <dt>New Testament text and word counts</dt>
+        <dd>The SBL Greek New Testament as published by ${link("https://github.com/morphgnt/sblgnt", "MorphGNT")}, licensed ${cc}:
+          the source of the word counts, the verses in Tools → Diacriticals that change meaning, and Rom. 16:22 on the Home screen.
+          The counts drawn from it are shared under the same license.</dd>
         <dt>Readings</dt>
         <dd>H. P. V. Nunn, <i>A Short Syntax of New Testament Greek</i> (Cambridge, 1920), Appendix II: texts and notes. Public domain.</dd>
+        <dt>English translations of the readings</dt>
+        <dd>Public-domain translations, named under each reading: Kirsopp Lake, <i>The Apostolic Fathers</i>, Loeb Classical Library (1912–13);
+          Marcus Dods and others in <i>The Ante-Nicene Fathers</i>, vol. 1 (1885); E. C. E. Owen, <i>Some Authentic Acts of the Early Martyrs</i> (1927);
+          Harold North Fowler, Plato, Loeb Classical Library (1914); and H. W. and F. G. Fowler, <i>The Works of Lucian of Samosata</i> (1905).</dd>
       </dl>
     </section>`;
 }
