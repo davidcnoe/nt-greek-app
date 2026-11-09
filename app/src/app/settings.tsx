@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Switch, Text, View } from 'react-native';
 import { Button, Screen } from '../components/ui';
-import { META, WORDS } from '../data';
+import { WORDS } from '../data';
 import { useProgress } from '../progress';
 import { C, S } from '../theme';
 
@@ -26,13 +26,6 @@ export default function Settings() {
         </Text>
       </View>
 
-      <View style={S.card}>
-        <Text style={S.h2}>Sources</Text>
-        {META.sources.map((s) => (
-          <Text key={s} style={S.small}>• {s}</Text>
-        ))}
-        <Text style={S.small}>Glosses and English derivatives are Metzger's (1946). Data built {META.built}.</Text>
-      </View>
 
       <Button
         ghost

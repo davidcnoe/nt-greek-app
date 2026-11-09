@@ -23,7 +23,7 @@ export default function WordScreen() {
   const card = p.cards[form];
   return (
     <Screen>
-      <Stack.Screen options={{ title: form }} />
+      
       <View style={S.card}>
         <Headword form={form} size={34} />
         <Text style={[S.body, { fontSize: 20 }]}>{w.g}</Text>

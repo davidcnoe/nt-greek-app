@@ -42,7 +42,7 @@ export default function UnitScreen() {
   if (phase === 'study') {
     return (
       <Screen>
-        <Stack.Screen options={{ title: unit.title }} />
+        
         <View style={S.card}>
           <Text style={S.h1}>{unit.title}</Text>
           {fam?.root ? (

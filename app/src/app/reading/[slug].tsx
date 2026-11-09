@@ -26,7 +26,7 @@ export default function ReadingScreen() {
 
   return (
     <View style={S.screen}>
-      <Stack.Screen options={{ title: r.title }} />
+      
       <ScrollView contentContainerStyle={[S.wrap, { paddingBottom: sel ? 260 : 40 }]}>
         <View style={{ gap: 6 }}>
           <Text style={S.small}>{`${r.author}${r.date ? ` · ${r.date}` : ''} · Nunn, pp. ${r.pages[0]}–${r.pages[1]}`}</Text>
