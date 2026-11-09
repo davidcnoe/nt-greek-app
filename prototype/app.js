@@ -844,10 +844,15 @@ function openWord(form) {
 
 // ---------- Readings (Nunn 1920, Appendix II) ----------
 
-let readings = null, reading = null, noteNo = {};
+let readings = null, reading = null, noteNo = {}, translations = null;
 async function loadReadings() {
   if (!readings) readings = await fetch("data/readings.json").then(r => r.json());
   return readings;
+}
+// Public-domain English translations, paragraph by paragraph (data/translations.json); optional.
+async function loadTranslations() {
+  if (!translations) translations = await fetch("data/translations.json").then(r => r.ok ? r.json() : {}).catch(() => ({}));
+  return translations;
 }
 // Every word token of a reading, as its app key (Metzger form), "~lemma" or "".
 const tokenKeys = r => r.paras.flatMap(p => p.p ? p.p.filter(Array.isArray).map(x => x[1].replace(/^\?/, "")) : []);
@@ -880,9 +885,11 @@ async function renderReading(slug) {
   if (!r) return renderTools();
   reading = r;
   noteNo = Object.fromEntries(Object.keys(r.notes).map((id, i) => [id, i + 1]));
+  const en = (await loadTranslations())[slug];
   const words = [];
-  const body = r.paras.map(para => {
+  const body = r.paras.map((para, pi) => {
     if (para.h) return `<h3 class="sub">${esc(para.h)}</h3>`;
+    const english = en?.paras?.[pi] ? `<p class="murray reading-en" hidden>${esc(en.paras[pi])}</p>` : "";
     return `<p class="reading-text" lang="grc">${para.p.map(x => {
       if (typeof x === "string") return esc(x);
       if (!Array.isArray(x)) return `<span class="nn" role="button" data-note="${esc(x.n)}">${noteNo[x.n]}</span>`;
@@ -891,18 +898,29 @@ async function renderReading(slug) {
       const cls = !byId[key] ? "out" : isLearned(key) ? "" : "learning";
       words.push([surface, raw]);
       return `<span class="w ${cls}" data-i="${words.length - 1}">${esc(surface)}</span>`;
-    }).join("")}</p>`;
+    }).join("")}</p>${english}`;
   }).join("");
+  // The English button, as on Telamon's cards: shows the translation under each paragraph.
+  const credit = en ? `${esc(en.translator)}, <i>${esc(en.title)}</i> (${esc(en.year)})` : "";
   app.innerHTML = `
     <section class="about reading">
       <p class="read-head">${esc(r.author)}${r.date ? ` · ${esc(r.date)}` : ""} · Nunn, pp. ${r.pages[0]}–${r.pages[1]}</p>
       <h1 class="tools-title">${esc(r.title)}</h1>
       ${r.intro.map(t => `<p class="intro">${esc(t)}</p>`).join("")}
+      ${en ? `<button class="quiet translate" id="read-en" aria-pressed="false">English</button>` : ""}
       <p class="legend">Colour key: <span class="known">mastered</span> · <span class="learning">in your course, not yet mastered</span> · <span class="out">not in Metzger's list</span>. Tap any word for its meaning.</p>
       ${body}
+      ${en ? `<p class="lex-source reading-en" hidden>English: ${credit}.</p>` : ""}
       <p class="lex-source">Text and notes: H. P. V. Nunn, <i>A Short Syntax of New Testament Greek</i> (1920). Numbers in the notes refer to sections of his Syntax.</p>
     </section>`;
   scrollTo(0, 0);
+  const enButton = document.getElementById("read-en");
+  if (enButton) enButton.onclick = () => {
+    const on = enButton.getAttribute("aria-pressed") !== "true";
+    enButton.setAttribute("aria-pressed", String(on));
+    enButton.textContent = on ? "Hide English" : "English";
+    for (const el of app.querySelectorAll(".reading-en")) el.hidden = !on;
+  };
   app.querySelector(".reading").onclick = e => {
     const n = e.target.closest("[data-note]");
     if (n) return openNote(n.dataset.note);

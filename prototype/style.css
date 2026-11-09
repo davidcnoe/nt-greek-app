@@ -307,3 +307,9 @@ dialog#entry .quiet.go { margin-right: 8px; }
 .dia-list summary { cursor: pointer; font: 600 17px var(--greek); }
 .dia-list .dia-card { padding: 12px 0 4px; }
 .answer [lang="grc"], .dia-pairs [lang="grc"] { font-family: var(--greek); }
+
+/* English under each paragraph of a reading (the English button), in Telamon's Murray style. */
+.murray { font: italic 16px/1.55 var(--greek); color: var(--muted); margin: 12px auto 0; max-width: 34em; }
+.reading .reading-en.murray { margin: -4px 0 18px; max-width: none; }
+.reading .translate { margin: 4px 0 0; }
+.reading .translate[aria-pressed="true"] { color: var(--accent); border-color: var(--accent); }

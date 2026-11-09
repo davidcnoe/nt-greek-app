@@ -36,6 +36,11 @@ def souter_first(text: str) -> str:
     return t[:80]
 
 
+def tidy(s: str) -> str:
+    """No space before , ; : . ! ? ) and none after (."""
+    return re.sub(r"\(\s+", "(", re.sub(r"\s+([,;:.!?)])", r"\1", s))
+
+
 def main() -> None:
     lex = json.loads((ROOT / "data/app/lexicon.json").read_text(encoding="utf-8"))
     fams = json.loads((ROOT / "data/metzger/families.json").read_text(encoding="utf-8"))
@@ -118,6 +123,11 @@ def main() -> None:
             n += 1
             u["title"] = f"Common words {n}"
 
+    # The sources print a space before , ; : and the like (Moss: "both, and ; 2. often …"); close it up.
+    for w in words.values():
+        for f, v in w.items():
+            if isinstance(v, str):
+                w[f] = tidy(v)
     out = ROOT / "app/assets/data/lexicon.json"
     out.parent.mkdir(parents=True, exist_ok=True)
     data = {"meta": {"nt_tokens": nt_tokens, "built": date.today().isoformat(),

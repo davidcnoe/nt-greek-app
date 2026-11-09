@@ -122,7 +122,7 @@ def main() -> None:
             "heading": sec["heading"], "intro": sec["intro"], "pages": [sec["pages"][0], sec["pages"][-1]],
             "words": toks, "taught": round(taught / toks, 3),
             "paras": paras,
-            "notes": {o["id"]: o["text"] for o in sec["notes"]},
+            "notes": {o["id"]: re.sub(r"\s+([,;:.!?)])", r"\1", o["text"]) for o in sec["notes"]},
         })
     out.sort(key=lambda r: -r["taught"])
     (APP / "readings.json").write_text(json.dumps(out, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
