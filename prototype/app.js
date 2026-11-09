@@ -505,54 +505,20 @@ function startNewPhase() {
   session.queue = [...intros, ...shuffle(session.fresh)];
 }
 
-// Not graded: the word and its meaning, then Continue. INTRO_STYLE picks the layout under trial
-// (David, 2026-11-09: "needs redesign"); ?intro=A|B|C overrides it for side-by-side testing.
-const INTRO_STYLE = new URLSearchParams(location.search).get("intro") || "A";
-function introParts(w, id) {
-  const u = unitOf[w.id];
-  return {
-    family: u && u.kind === "family" ? unitLabel(w) : "",
-    count: `${times(w.c)} in the New Testament${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""}`,
-    short: `${w.c.toLocaleString()}× in the NT`,
-    gloss: esc(w.g),
-    cf: w.d ? `Cf. ${esc(w.d)}` : "",
-    moss: mossOn() && w.m && w.mg && w.mg !== w.g ? esc(w.mg) : "",
-  };
-}
+// Not graded: the word and its meaning, then Continue. David chose the minimal layout (2026-11-09):
+// the Greek and its meaning stand alone; count, Moss's meaning, family, and the lexicon link share one small line.
 function introHtml(w, id) {
-  const p = introParts(w, id);
-  if (INTRO_STYLE === "B") return `
-    <article class="card intro intro-b">
-      <header class="intro-band">
-        <span class="pill">New word</span>
-        <div class="greek">${greekHtml(w)}</div>
-        <span class="intro-freq">${p.count}</span>
-      </header>
-      <div class="intro-body">
-        <p class="intro-gloss">${p.gloss}</p>
-        ${p.cf ? `<p class="intro-cf">${p.cf}</p>` : ""}
-        ${p.moss ? `<p class="intro-moss"><span class="tag">MossMethod</span>${p.moss}</p>` : ""}
-        ${p.family ? `<p class="intro-family">${esc(p.family)}</p>` : ""}
-        <button class="link intro-lex" id="lexlink">Lexicon entry ›</button>
-      </div>
-    </article>`;
-  if (INTRO_STYLE === "C") return `
-    <article class="card intro intro-c">
-      <div class="greek">${greekHtml(w)}</div>
-      <p class="intro-gloss">${p.gloss}</p>
-      ${p.cf ? `<p class="intro-cf">${p.cf}</p>` : ""}
-      <p class="intro-foot">${[p.short, p.moss ? `Moss: ${p.moss}` : "", p.family ? esc(p.family) : ""].filter(Boolean).join(" · ")}
-        · <button class="link" id="lexlink">Lexicon ›</button></p>
-    </article>`;
+  const u = unitOf[w.id];
+  const family = u && u.kind === "family" ? esc(unitLabel(w)) : "";
+  const moss = mossOn() && w.m && w.mg && w.mg !== w.g ? `Moss: ${esc(w.mg)}` : "";
+  const count = `${w.c.toLocaleString()}× in the NT${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""}`;
   return `
-    <article class="card intro intro-a">
-      <div class="intro-top"><span class="pill">New word</span><span class="intro-freq">${p.short}</span></div>
+    <article class="card intro">
       <div class="greek">${greekHtml(w)}</div>
-      <p class="intro-gloss">${p.gloss}</p>
-      ${p.cf ? `<p class="intro-cf">${p.cf}</p>` : ""}
-      ${p.moss ? `<p class="intro-moss"><span class="tag">MossMethod</span>${p.moss}</p>` : ""}
-      ${p.family ? `<p class="intro-family">${esc(p.family)}</p>` : ""}
-      <button class="link intro-lex" id="lexlink">Lexicon entry ›</button>
+      <p class="intro-gloss">${esc(w.g)}</p>
+      ${w.d ? `<p class="intro-cf">Cf. ${esc(w.d)}</p>` : ""}
+      <p class="intro-foot">${[count, moss, family].filter(Boolean).join(" · ")}
+        · <button class="link" id="lexlink">Lexicon ›</button></p>
     </article>`;
 }
 function renderIntro(id) {
