@@ -25,6 +25,8 @@ ROOT = pathlib.Path(__file__).resolve().parent.parent
 SRC = ROOT / "data" / "readings" / "nunn-appendix-ii" / "readings.json"
 APP = ROOT / "app" / "assets" / "data"
 MORPHGNT = pathlib.Path("/home/claude/morphgnt")
+# Kept in data/readings but left out of the app at David's request (apocryphal).
+EXCLUDE = {"gospel-of-peter"}
 TOKEN = re.compile(r"(\[\^[^\]]+\])|([Ͱ-Ͽἀ-῿]+(?:['’᾽](?![Ͱ-Ͽἀ-῿]))?)")
 
 
@@ -78,7 +80,7 @@ def main() -> None:
 
     out = []
     for sec in json.loads(SRC.read_text(encoding="utf-8")):
-        if sec["slug"] == "preface":
+        if sec["slug"] == "preface" or sec["slug"] in EXCLUDE:
             continue
         paras, toks, taught = [], 0, 0
         for p in sec["paras"]:

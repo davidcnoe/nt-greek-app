@@ -19,7 +19,7 @@ export default function ReadingsScreen() {
       <View style={S.card}>
         <Text style={S.h2}>Beyond the New Testament</Text>
         <Text style={S.body}>
-          Twelve passages of early Christian Greek chosen by H. P. V. Nunn (1920), with his notes. They are listed
+          Passages of early Christian Greek chosen by H. P. V. Nunn (1920), with his notes. They are listed
           from easiest to hardest, by how many of their words this app teaches.
         </Text>
       </View>
