@@ -1107,15 +1107,15 @@ function renderAbout() {
 
       <h2>MossMethod for Greek</h2>
       <p>The meanings marked MossMethod come from the vocabulary of Moss's <i>First Greek Reader</i>, the book behind
-        ${link("http://www.mossmethod.com/", "MossMethod for Greek")}, Dr. David Noe's online course from LatinPerDiem.
+        ${link("https://latinperdiem.com/latin-courses/#greek-course", "MossMethod for Greek")}, Dr. David Noe's online course from LatinPerDiem.
         Turn pleasant reading into real fluency: begin reading connected Greek prose on Day 1, and never look back.</p>
       <p><b>Why MossMethod works.</b> The Moss Method is a tried-and-true approach that most contemporary textbooks ignore:
         you start with real, connected Greek prose from day one instead of isolated grammar rules. Skills emerge naturally
         through the text itself.</p>
       <p><b>Module I</b> includes 40 video lessons, 40 homework assignments, quizzes, a midterm and final, Greek Quick Sheets,
-        and bonus skill training. 1-year access · Self-paced · Taught by Dr. David Noe.</p>
+        and bonus skill training. 1-year access · Self-paced.</p>
       <p class="about-links">${link("https://latinperdiem.com/product/mossmethod-for-greek-module-i/", "Enroll in Module I: $399")}
-        · ${link("http://www.mossmethod.com/", "Learn about Modules II–IV")}</p>
+        · ${link("https://latinperdiem.com/latin-courses/#greek-course", "Learn about Modules II–IV")}</p>
 
       <h2>Credits</h2>
       <p>Scheduling: ${link("https://github.com/open-spaced-repetition/ts-fsrs", "ts-fsrs")} 5.4.2, MIT License.
