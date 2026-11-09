@@ -64,6 +64,11 @@ main { flex: 1; width: 100%; max-width: 720px; margin: 0 auto; padding: 24px 16p
 /* David, 2026-11-09 (A/B choices): logo 132 px; title on one line; the verse below it, 16 px,
    with Τέρτιος in the title's blue; tagline justified. */
 .home-logo { display: block; width: 132px; height: auto; margin: 8px auto 18px; }
+/* The logo's colours before they fill in (David, 2026-11-09, after Telamon's gem). */
+:root { --logo-base: color-mix(in srgb, var(--muted) 28%, var(--bg)); --logo-tau: color-mix(in srgb, var(--muted) 70%, var(--bg));
+        --logo-guide: color-mix(in srgb, var(--muted) 45%, transparent); }
+.logo-fill { transform-box: fill-box; transform-origin: bottom; transform: scaleY(0); transition: transform 1.6s ease-out; }
+.logo-ink { stroke-dasharray: 1 1; stroke-dashoffset: 1; transition: stroke-dashoffset 1.6s ease-out; }
 .home-title { font: 500 min(19px, 5.2vw)/1.25 var(--greek); white-space: nowrap; color: var(--accent); text-align: center; margin: 0; }
 .home-title small { display: block; font-size: 15px; font-weight: 400; font-style: italic; color: var(--muted); margin-top: 4px; }
 .home-verse { font: 400 16px/1.45 var(--greek); text-align: center; text-wrap: balance; color: var(--ink); margin: 30px 6px 0; }

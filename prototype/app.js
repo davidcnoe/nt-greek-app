@@ -265,6 +265,53 @@ function caughtUpWhy() {
   return "Every word is mastered, and no spot check is due yet. Come back later.";
 }
 
+// ---------- The home logo fills as words are mastered (David, 2026-11-09, after Telamon's gem) ----------
+// It starts grey. The book turns blue from its foot upward; then Tertius writes the four lines on the
+// right-hand page, word by word, left to right; last, his gold initial Τ fills from its foot.
+// Level = words mastered out of all of Metzger's words, as in Telamon. ?logo=0.5 shows any level.
+let markSvg = "", logoShown = null;
+const LOGO_STAGES = { book: [0, .4], writing: [.4, .8], tau: [.8, 1] };
+function logoHtml() {
+  const paths = [...markSvg.matchAll(/<path d="([^"]+)"([^>]*)\/>/g)].map(m => ({ d: m[1], a: m[2] }));
+  if (paths.length < 5) return `<img class="home-logo" src="icons/mark.svg" alt="Tertius" width="132" height="116">`;
+  const [shadow, book, gutter, tau, ...ink] = paths;
+  // The words of writing, in reading order, each with its share of the writing stage by length.
+  const span = d => { const n = d.match(/-?\d+(\.\d+)?/g).map(Number), xs = n.filter((_, i) => i % 2 === 0), ys = n.filter((_, i) => i % 2);
+    return { w: Math.max(...xs) - Math.min(...xs), x: Math.min(...xs), y: Math.min(...ys) }; };
+  const strokes = ink.map(p => ({ ...p, ...span(p.d) })).sort((a, b) => Math.round(a.y / 8) - Math.round(b.y / 8) || a.x - b.x); // by line, then left to right
+  const total = strokes.reduce((t, k) => t + k.w, 0), [w0, w1] = LOGO_STAGES.writing;
+  let at = w0;
+  const words = strokes.map(k => { const from = at; at += (w1 - w0) * k.w / total;
+    return `<path d="${k.d}" fill="none" stroke="var(--logo-guide)" stroke-width="2.2" stroke-linecap="round"/>
+      <path class="logo-ink" data-from="${from}" data-to="${at}" pathLength="1" d="${k.d}" fill="none" stroke="#F3EDE2"
+        stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>`; }).join("");
+  // Each fill is a rectangle over its part's own height, grown from its foot.
+  const rise = (stage, colour, top, bottom) => `<rect class="logo-fill" data-from="${LOGO_STAGES[stage][0]}"
+      data-to="${LOGO_STAGES[stage][1]}" x="38" y="${top}" width="166" height="${bottom - top}" fill="${colour}"/>`;
+  return `<svg class="home-logo" viewBox="38 54 166 146" width="132" height="116" role="img"
+    aria-label="Tertius: an open book bearing his initial; it colours in as you master words">
+    <defs><clipPath id="lg-book"><path d="${book.d}"/></clipPath><clipPath id="lg-tau"><path d="${tau.d}"/></clipPath></defs>
+    <path d="${shadow.d}"${shadow.a}/>
+    <path d="${book.d}" fill="var(--logo-base)"/>
+    <g clip-path="url(#lg-book)">${rise("book", "#103166", 61, 187)}</g>
+    <path d="${gutter.d}"${gutter.a}/>
+    <path d="${tau.d}" fill="var(--logo-tau)"/>
+    <g clip-path="url(#lg-tau)">${rise("tau", "#D58936", 93, 154)}</g>
+    ${words}</svg>`;
+}
+// Sets each part to its level; drawn first at the last level shown, so a rise after a session animates.
+function fillLogo(level) {
+  const part = (el, l) => Math.max(0, Math.min(1, (l - el.dataset.from) / (el.dataset.to - el.dataset.from)));
+  const set = l => {
+    app.querySelectorAll(".logo-fill").forEach(r => { r.style.transform = `scaleY(${part(r, l)})`; });
+    // An unwritten word is hidden outright, or its round pen-cap would show as a dot.
+    app.querySelectorAll(".logo-ink").forEach(k => { const p = part(k, l); k.style.strokeDashoffset = 1 - p; k.style.opacity = p ? 1 : 0; });
+  };
+  set(logoShown ?? level);
+  requestAnimationFrame(() => requestAnimationFrame(() => set(level)));
+  logoShown = level;
+}
+
 function renderHome() {
   session = null;
   const plan = sessionPlan();
@@ -276,7 +323,7 @@ function renderHome() {
   const w = x => Math.min(100, x * 100 / maxCoverage);
   app.innerHTML = `
     <section class="home">
-      <img class="home-logo" src="icons/mark.svg" alt="Tertius" width="132" height="116">
+      ${logoHtml()}
       <h1 class="home-title">Master New Testament Vocabulary<small>one word at a time</small></h1>
       <p class="home-verse" lang="grc">ἀσπάζομαι ὑμᾶς ἐγὼ <b>Τέρτιος</b> ὁ γράψας τὴν ἐπιστολὴν ἐν κυρίῳ.<cite>Rom. 16:22</cite></p>
       <button class="primary" id="start">${paused
@@ -289,6 +336,8 @@ function renderHome() {
       ${fam ? `<p class="home-fam">+ ${pct(fam)}% familiar from MossMethod</p>` : ""}
       <p class="home-tagline">Metzger's New Testament vocabulary, most frequent first, with root families and Souter's lexicon. <a class="home-from" href="https://latinperdiem.com/" target="_blank" rel="noopener">From LatinPerDiem, LLC.</a></p>
     </section>`;
+  const logoTry = parseFloat(new URLSearchParams(location.search).get("logo"));
+  fillLogo(Number.isFinite(logoTry) ? logoTry : Math.min(1, learnedIds().length / words.length));
   // Nothing to start (David, 2026-11-09): say why only when the learner presses the button.
   document.getElementById("start").onclick = paused ? resumeSession : review + fresh ? startSession : () => {
     const why = document.getElementById("why");
@@ -1296,6 +1345,7 @@ navigator.storage?.persist?.().catch(() => {});
     const [lex, audio] = await Promise.all([
       fetch("data/lexicon.json").then(r => r.json()),
       fetch("data/audio.json").then(r => r.ok ? r.json() : {}).catch(() => ({})),
+      fetch("icons/mark.svg").then(r => r.text()).then(t => { markSvg = t; }).catch(() => {}),
     ]);
     recorded = audio;
     meta = lex.meta;
