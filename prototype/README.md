@@ -22,7 +22,7 @@ All paths are relative, so the folder also works when served from a subfolder (e
   (frequency lists interleaved with root families), each word once, where it first appears.
 - Telamon's session-based memory system, unchanged (see the comment at the top of `app.js`): every word in
   the active set answered right once per session before new words; a "meet the word" card for each new word;
-  mastered = right on the first try in 3 sessions on 3 different days, not counting the introducing session;
+  mastered = right on the first try in 5 sessions on 5 different days, not counting the introducing session;
   past the active limit, mastered words become FSRS-timed spot checks (`vendor/ts-fsrs-5.4.2`, MIT);
   pause and resume the same day; a summary at the end of each session.
 - Cards: the Greek headword with Metzger's genitive and article (or adjective endings); the label line gives

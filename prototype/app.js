@@ -18,7 +18,7 @@ if (new URLSearchParams(location.search).get("notes") === "1") document.document
 // - Every session first reviews every word in the active set (shuffled). Each must be answered
 //   right once; a miss sends the word back a few cards later. Only then do the new words appear,
 //   and they too must each be answered right once.
-// - A word is mastered once it has been answered right on the first try in 3 sessions in a row, on 3
+// - A word is mastered once it has been answered right on the first try in 5 sessions in a row, on 5
 //   different days, not counting the session that introduced it; a miss starts the count again.
 // - When the active set grows past its limit, its longest-held mastered words retire from it and come
 //   back as spot checks on a timed rotation (FSRS due dates). A missed spot check puts the word back in
@@ -35,7 +35,7 @@ const PACE = {
 };
 const newPerSession = () => (PACE[state.settings.pace] || PACE.standard).n;
 const sessionsToFinish = n => 2 + Math.ceil((words.length - FIRST_SESSION_NEW) / n) + SESSIONS_TO_LEARN;
-const SESSIONS_TO_LEARN = 3;
+const SESSIONS_TO_LEARN = 5;
 const ACTIVE_LIMIT = 25;
 const activeLimit = () => Math.max(ACTIVE_LIMIT, (SESSIONS_TO_LEARN + 1) * newPerSession() + 1);
 const REQUEUE_GAP = 3; // a missed word comes back after this many other cards
