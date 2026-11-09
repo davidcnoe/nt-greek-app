@@ -1,0 +1,1004 @@
+{
+ "58": [
+  {
+   "entry_id": 1014,
+   "lemma": "βλέπω",
+   "headword_ocr": "βλέπω",
+   "current_text": "βλέπω (primarily physical), I look, see ; βλέποντες βλέψετε, Hebraistic ; βλέπειν ἀπό, 10 look away from, 10 beware 67; βλέπειν μὴ, 10 lake care lest; βλέπειν πῶς, to take care how: almost I find, Rom. vii 23 (cf. 21)."
+  },
+  {
+   "entry_id": 1037,
+   "lemma": "βούλομαι",
+   "headword_ocr": "βούλομαι",
+   "current_text": "βούλομαι, I well."
+  },
+  {
+   "entry_id": 1011,
+   "lemma": "βλασφημία",
+   "headword_ocr": "βλασφημία",
+   "current_text": "βλασφημία, abusive or scurrilous language."
+  },
+  {
+   "entry_id": 1017,
+   "lemma": "βοάω",
+   "headword_ocr": "βοάω",
+   "current_text": "βοάω, I shout, call aloud."
+  },
+  {
+   "entry_id": 1035,
+   "lemma": "βουλή",
+   "headword_ocr": "βουλή",
+   "current_text": "βουλή, counsel, deliberate wisdom."
+  }
+ ],
+ "59": [
+  {
+   "entry_id": 1056,
+   "lemma": "βρῶμα",
+   "headword_ocr": "βρῶμα",
+   "current_text": "βρῶμα, food."
+  },
+  {
+   "entry_id": 1050,
+   "lemma": "βροντή",
+   "headword_ocr": "βροντή",
+   "current_text": "βροντή, Humder."
+  },
+  {
+   "entry_id": 1058,
+   "lemma": "βρῶσις",
+   "headword_ocr": "βρῶσις",
+   "current_text": "βρῶσις, (a) (abstr) eating ; (b) food ; a meal, Heb. xii 16; (c) rust."
+  }
+ ],
+ "61": [
+  {
+   "entry_id": 1088,
+   "lemma": "γάρ",
+   "headword_ocr": "",
+   "current_text": "ydp, for (conj.)."
+  },
+  {
+   "entry_id": 1099,
+   "lemma": "γενεά",
+   "headword_ocr": "γενεά",
+   "current_text": "γενεά, a generation © in combination with another γενεά, or with αἰών, practically indicates infinity of time."
+  },
+  {
+   "entry_id": 1084,
+   "lemma": "γαμέω",
+   "headword_ocr": "γαμέω",
+   "current_text": "γαμέω, I marry, used of either sex."
+  },
+  {
+   "entry_id": 1090,
+   "lemma": "γέ",
+   "headword_ocr": "",
+   "current_text": "ve, an enclitic, emphasizing particle (quidem), a/ last, indeed, really, but generally too subtle to be represented in English."
+  },
+  {
+   "entry_id": 1087,
+   "lemma": "γάμος",
+   "headword_ocr": "γάμος",
+   "current_text": "γάμος, a marriage, wedding, wedding-cerenony 1: γάμον (plu), a wedding-fiast."
+  },
+  {
+   "entry_id": 1092,
+   "lemma": "γέεννα",
+   "headword_ocr": "",
+   "current_text": "véevva (Aram.), gekenna, and originally gé ben hinnom name of a valley or cavity near Jerusalem, Jer. vii 31, 2 Kings xxiii 10, a place underneath the earth, a place of punishment (retributive or purificatory) for evil."
+  },
+  {
+   "entry_id": 1098,
+   "lemma": "γέμω",
+   "headword_ocr": "γέμω",
+   "current_text": "γέμω, I am full of."
+  }
+ ],
+ "62": [
+  {
+   "entry_id": 1122,
+   "lemma": "γίνομαι",
+   "headword_ocr": "γίνομαι",
+   "current_text": "γίνομαι, I come into being, an born, John viii 58, Gal.iv 4, &e.: I become, come about, happen. (In aorist ἐγένετο over-used by Luke, to give Hebraistic colouring, in various constructions: (1) ἐγένετο ἦλθεν, (2) ἐγένετο καὶ ἦλθεν, (3) ἐγένετο ἐλθεῖν (the latest of the three and non-Hebraistic).)"
+  },
+  {
+   "entry_id": 1119,
+   "lemma": "γῆ",
+   "headword_ocr": "γῆ",
+   "current_text": "γῆ; the earth, soil, land."
+  },
+  {
+   "entry_id": 1106,
+   "lemma": "γεννάω",
+   "headword_ocr": "γεννάω",
+   "current_text": "γεννάω, I beget (of the male), more rarely (0. Β΄. 11.113), (of the female) 2) bring forth."
+  },
+  {
+   "entry_id": 1110,
+   "lemma": "γένος",
+   "headword_ocr": "γένος",
+   "current_text": "γένος, (a) race; (Ὁ) ἀνά."
+  },
+  {
+   "entry_id": 1118,
+   "lemma": "γεωργός",
+   "headword_ocr": "γεωργός",
+   "current_text": "γεωργός, a worker of the soil, husbandman, farmer, farmlabourer."
+  },
+  {
+   "entry_id": 1115,
+   "lemma": "γεύομαι",
+   "headword_ocr": "γεύομαι",
+   "current_text": "γεύομαι, (a) I taste; (b) I experience."
+  },
+  {
+   "entry_id": 1103,
+   "lemma": "γένεσις",
+   "headword_ocr": "γένεσις",
+   "current_text": "γένεσις, birth, creation, beginning."
+  },
+  {
+   "entry_id": 1105,
+   "lemma": "γένημα",
+   "headword_ocr": "γένημα",
+   "current_text": "γένημα (from γίνομαι), of vegetable, never of animal, products (contrast γέννημα), frut, crop, produce of the earth,"
+  }
+ ],
+ "63": [
+  {
+   "entry_id": 1123,
+   "lemma": "γινώσκω",
+   "headword_ocr": "γινώσκω",
+   "current_text": "γινώσκω, I am taking tn knowledge, come to know, learn: aor. I ascertained, realized, but not in John ΧΥ 2g, 2 Tim, ii το."
+  },
+  {
+   "entry_id": 1126,
+   "lemma": "γλῶσσα",
+   "headword_ocr": "γλῶσσα",
+   "current_text": "γλῶσσα, (a) tongue, especially as an organ of speech; (b) longue, language ; (0) also, usually in the plural, for the unintelligible sounds uttered in spiritual ecstasy."
+  },
+  {
+   "entry_id": 1134,
+   "lemma": "γνῶσις",
+   "headword_ocr": "γνῶσις",
+   "current_text": "γνῶσις, knowledge."
+  },
+  {
+   "entry_id": 1133,
+   "lemma": "γνωρίζω",
+   "headword_ocr": "γνωρίζω",
+   "current_text": "γνωρίζω, I make known."
+  },
+  {
+   "entry_id": 1144,
+   "lemma": "γονεύς",
+   "headword_ocr": "γονεύς",
+   "current_text": "γονεύς, a parcul."
+  },
+  {
+   "entry_id": 1136,
+   "lemma": "γνωστός",
+   "headword_ocr": "γνωστός",
+   "current_text": "γνωστός, knoren I subst. an acquaintance."
+  },
+  {
+   "entry_id": 1145,
+   "lemma": "γόνυ",
+   "headword_ocr": "γόνυ",
+   "current_text": "γόνυ, a kiee,"
+  },
+  {
+   "entry_id": 1132,
+   "lemma": "γνώμη",
+   "headword_ocr": "γνώμη",
+   "current_text": "γνώμη, opinion, counsel,"
+  }
+ ],
+ "64": [
+  {
+   "entry_id": 1161,
+   "lemma": "γυνή",
+   "headword_ocr": "γυνή",
+   "current_text": "γυνή, a (married) woman, a wife: 80. even in Mt ve8: voc. γύναι, Lk. xxii 57, John ii 4, my lady."
+  },
+  {
+   "entry_id": 1151,
+   "lemma": "γράφω",
+   "headword_ocr": "γράφω",
+   "current_text": "γράφω, I write: γέγραπται, τί is writen, τί stands wrillen (in the scriptures of the Old Testament: so in ordinary life, a formula introducing an unalterable agreement): = προγράφω, Rom. xv 4."
+  },
+  {
+   "entry_id": 1148,
+   "lemma": "γραμματεύς",
+   "headword_ocr": "γραμματεύς",
+   "current_text": "γραμματεύς, (a) in Jerusalem, a scribe, one learned in the Jewish Law, a religious teacher; (0) at Iphesus, the Town-clerk, the secretary of the εἰν, Ac. xix 35."
+  },
+  {
+   "entry_id": 1150,
+   "lemma": "γραφή",
+   "headword_ocr": "γραφή",
+   "current_text": "γραφή, (2) a writing ; (Ὁ) a passage of scripture: plur. αἱ γραφαί, the scriptures (of the Old Testament, and in z Det.iii 16 also of the New)."
+  },
+  {
+   "entry_id": 1153,
+   "lemma": "γρηγορέω",
+   "headword_ocr": "γρηγορέω",
+   "current_text": "γρηγορέω (uigilo), (a) I am awake (in the night), ταχεῖ; (b) I am watchful, on the alert."
+  },
+  {
+   "entry_id": 1157,
+   "lemma": "γυμνός",
+   "headword_ocr": "γυμνός",
+   "current_text": "γυμνός, rarely siark-naked, generally wearing only the under-garmenl (χιτών), see γυμνυτεύω ; γυμνὸς κόκκος, a simple seed, a seed per sc."
+  },
+  {
+   "entry_id": 1147,
+   "lemma": "γράμμα",
+   "headword_ocr": "γράμμα",
+   "current_text": "γράμμα (littera), a letter of the alphabet ; collectively, written (revelation), Rom. ii 27: γράμματα (litterae), writings, (a) a written document, Lk. xvi6, 7; a letter, an epistle, Ac. xxviii 2x; (b) writings, literature, Johnv 47, vii 15, Ac. xxvi2g, 2 Tim. fii 15."
+  }
+ ],
+ "65": [
+  {
+   "entry_id": 1165,
+   "lemma": "δαιμόνιον",
+   "headword_ocr": "δαιμόνιον",
+   "current_text": "δαιμόνιον, an evil-spirit, demon."
+  },
+  {
+   "entry_id": 1164,
+   "lemma": "δαιμονίζομαι",
+   "headword_ocr": "δαιμονίζομαι",
+   "current_text": "δαιμονίζομαι, I am under the power of an evil-spirit or demon."
+  },
+  {
+   "entry_id": 1169,
+   "lemma": "δάκρυον",
+   "headword_ocr": "δάκρυ",
+   "current_text": "δάκρυ, δάκρυον, a lear."
+  }
+ ],
+ "66": [
+  {
+   "entry_id": 1187,
+   "lemma": "δέ",
+   "headword_ocr": "δέ",
+   "current_text": "δέ (autem), a weak adversalive particle, generally placed second in its clause, μέ, on the other hand: and. See μέν."
+  },
+  {
+   "entry_id": 1192,
+   "lemma": "δείκνυμι",
+   "headword_ocr": "δείκνυμι",
+   "current_text": "δείκνυμι, δεικνύω, I point out, show."
+  },
+  {
+   "entry_id": 1202,
+   "lemma": "δέκα",
+   "headword_ocr": "δέκα",
+   "current_text": "δέκα, len."
+  },
+  {
+   "entry_id": 1211,
+   "lemma": "δένδρον",
+   "headword_ocr": "δένδρον",
+   "current_text": "δένδρον, a free."
+  },
+  {
+   "entry_id": 1188,
+   "lemma": "δέησις",
+   "headword_ocr": "δέησις",
+   "current_text": "δέησις, a requesting, a begging, request."
+  },
+  {
+   "entry_id": 1199,
+   "lemma": "δεῖπνον",
+   "headword_ocr": "δεῖπνον",
+   "current_text": "δεῖπνον, a dinner, an afternoon Or evening meal."
+  },
+  {
+   "entry_id": 1205,
+   "lemma": "δεκατέσσαρες",
+   "headword_ocr": "δεκατέσσαρες",
+   "current_text": "δεκατέσσαρες, fouriecn."
+  }
+ ],
+ "67": [
+  {
+   "entry_id": 1236,
+   "lemma": "δέω",
+   "headword_ocr": "δέω",
+   "current_text": "δέω, I bind. όο"
+  },
+  {
+   "entry_id": 1235,
+   "lemma": "δέχομαι",
+   "headword_ocr": "δέχομαι",
+   "current_text": "δέχομαι, I receive, welcome."
+  },
+  {
+   "entry_id": 1213,
+   "lemma": "δεξιός",
+   "headword_ocr": "δεξιός",
+   "current_text": "δεξιός, on the right hand, right hand, right."
+  },
+  {
+   "entry_id": 1234,
+   "lemma": "δεύτερος",
+   "headword_ocr": "δεύτερος",
+   "current_text": "δεύτερος, second: (rd) δεύτερον is used adverbially, in the second place, for the second time."
+  },
+  {
+   "entry_id": 1224,
+   "lemma": "δέσμιος",
+   "headword_ocr": "δέσμιας",
+   "current_text": "δέσμιας, bound, captive, in chains ; sometimes substantivally prasoner, captive."
+  },
+  {
+   "entry_id": 1221,
+   "lemma": "δέρω",
+   "headword_ocr": "δέρω",
+   "current_text": "δέρω, I flay, flog, beat."
+  },
+  {
+   "entry_id": 1225,
+   "lemma": "δεσμός",
+   "headword_ocr": "δεσμός",
+   "current_text": "δεσμός, plur. sometimes δεσμά, a loud, chain; in Ac. xxiii 29, xxvi 31 (= uincula), the reference is to the form of ‘capital’ punishment involving loss of freedom and work in chains in the quarries."
+  },
+  {
+   "entry_id": 1214,
+   "lemma": "δέομαι",
+   "headword_ocr": "δέομαι",
+   "current_text": "δέομαι, I request, beg."
+  },
+  {
+   "entry_id": 1231,
+   "lemma": "δεῦτε",
+   "headword_ocr": "δεῦτε",
+   "current_text": "δεῦτε (plur. of δεῦρον, come hither, come, hither, an exclamatory word."
+  },
+  {
+   "entry_id": 1229,
+   "lemma": "δεσπότης",
+   "headword_ocr": "δεσπότης",
+   "current_text": "δεσπότης, ὦ master, particularly a master and owner of slaves, lord."
+  }
+ ],
+ "68": [
+  {
+   "entry_id": 1250,
+   "lemma": "διά",
+   "headword_ocr": "διά",
+   "current_text": "διά, (4) c. gen. Through : throughout (διὰ παντός, always) ; by the instrumentality of: denoting mediate and not original authorship, e.g. Mt.i22, Johnig, 1 Cor. viii 6; (b) ὦ acc. Through, Lk. xvii 11 (6); on account of, by reason of, for the sake of, because of."
+  },
+  {
+   "entry_id": 1255,
+   "lemma": "διάβολος",
+   "headword_ocr": "διάβολος",
+   "current_text": "διάβολος (adj. used oftener as noun), slanderous (τ Tim. iif zr, 2 Tim. iii 3, Tit. 3}; almost always ὁ ΔιάBoos, the Slanderer (par excellence), fhe Devil."
+  },
+  {
+   "entry_id": 1247,
+   "lemma": "δηνάριον",
+   "headword_ocr": "δηνάριον",
+   "current_text": "δηνάριον, a denarius, a small Roman silver coin, weighing in Nero's time 53 grs. Its value and purchasing power varied from time to time,"
+  }
+ ],
+ "69": [
+  {
+   "entry_id": 1274,
+   "lemma": "διακονέω",
+   "headword_ocr": "διακονέω",
+   "current_text": "διακονέω (ministro), I wail af fable (pardcularly of a slave who pours out wine to the guests); 2) serve (generally). :"
+  },
+  {
+   "entry_id": 1275,
+   "lemma": "διακονία",
+   "headword_ocr": "διακονία",
+   "current_text": "διακονία (ministerium), wailing af fable; in a wider sense, service, ministration."
+  },
+  {
+   "entry_id": 1268,
+   "lemma": "διαθήκη",
+   "headword_ocr": "διαθήκη",
+   "current_text": "διαθήκη, (4) = συνθήκη, a covenant between two parties ; (0) (the ordinary, everyday scnse [found a countless number of times in papyri|) a well, testament, Gal. iii 15, 17, Heb.ix 16. See my Tex/ and Canon, p. 157, n. 2."
+  },
+  {
+   "entry_id": 1276,
+   "lemma": "διάκονος",
+   "headword_ocr": "διάκονος",
+   "current_text": "διάκονος (minister), a wader, servant: then of any one who performs any service, an administrator, δὲς."
+  },
+  {
+   "entry_id": 1279,
+   "lemma": "διακρίνω",
+   "headword_ocr": "διακρίνω",
+   "current_text": "διακρίνω, I separate, distinguish, discern onc thing from: another ; διακρίνομαι, I doubt, hesitate, waver."
+  }
+ ],
+ "70": [
+  {
+   "entry_id": 1288,
+   "lemma": "διαλογίζομαι",
+   "headword_ocr": "διαλογίξομαι",
+   "current_text": "διαλογίξομαι, I reason (with), debate (with), consider."
+  },
+  {
+   "entry_id": 1291,
+   "lemma": "διαμαρτύρομαι",
+   "headword_ocr": "διαμαρτύρομαι",
+   "current_text": "διαμαρτύρομαι, I give solemn evidence, I testify (declare) solemnly."
+  },
+  {
+   "entry_id": 1289,
+   "lemma": "διαλογισμός",
+   "headword_ocr": "διαλογισμός",
+   "current_text": "διαλογισμός, a calculation, reasoning, thought, movement of thought, deliberation, plotting."
+  },
+  {
+   "entry_id": 1283,
+   "lemma": "διαλέγομαι",
+   "headword_ocr": "διαλέγομαι",
+   "current_text": "διαλέγομαι, I converse, Nk. ix 34 ; elsewhere, I address, preach, lecture."
+  },
+  {
+   "entry_id": 1299,
+   "lemma": "διάνοια",
+   "headword_ocr": "διάνοια",
+   "current_text": "διάνοια (process of reasoning in Plato), understanding, intellect, nund."
+  },
+  {
+   "entry_id": 1294,
+   "lemma": "διαμερίζω",
+   "headword_ocr": "διαμερίξω",
+   "current_text": "διαμερίξω, I divide up into parts, break wp; I distribute."
+  },
+  {
+   "entry_id": 1285,
+   "lemma": "διάλεκτος",
+   "headword_ocr": "διάλεκτος",
+   "current_text": "διάλεκτος, language, speech."
+  },
+  {
+   "entry_id": 1305,
+   "lemma": "διαπεράω",
+   "headword_ocr": "διαπεράω",
+   "current_text": "διαπεράω, I cross over."
+  },
+  {
+   "entry_id": 1293,
+   "lemma": "διαμένω",
+   "headword_ocr": "διαμένω",
+   "current_text": "διαμένω, I remain throughout."
+  },
+  {
+   "entry_id": 1308,
+   "lemma": "διαπορεύομαι",
+   "headword_ocr": "διαπορεύομοαι",
+   "current_text": "διαπορεύομοαι, I journey through ( past)."
+  }
+ ],
+ "71": [
+  {
+   "entry_id": 1328,
+   "lemma": "διατάσσω",
+   "headword_ocr": "διατάσσω",
+   "current_text": "διατάσσω, I command."
+  },
+  {
+   "entry_id": 1337,
+   "lemma": "διαφέρω",
+   "headword_ocr": "διαφέρω",
+   "current_text": "διαφέρω, (a) tr. I carry through, hither and thither ; (Ὁ) intr, I am different, I differ, sometimes c. gen.: hence c. gen. I surpass, I excel."
+  },
+  {
+   "entry_id": 1333,
+   "lemma": "διατρίβω",
+   "headword_ocr": "ϑιατρίβω",
+   "current_text": "ϑιατρίβω, I larry, continue, stay in a place."
+  },
+  {
+   "entry_id": 1320,
+   "lemma": "διαστέλλομαι",
+   "headword_ocr": "διαστέλλομαι",
+   "current_text": "διαστέλλομαι, I give a commission (instructions), I order."
+  },
+  {
+   "entry_id": 1324,
+   "lemma": "διασῴζω",
+   "headword_ocr": "διασῴζω",
+   "current_text": "διασῴζω, I save (rescue) through (some danger): δίιασ. πρός (Ac. xxill 34), 4 bring safely to, 80 διεσώθησαν εἰς (τ Pet. iii 20), escaped into."
+  },
+  {
+   "entry_id": 1332,
+   "lemma": "διατίθεμαι",
+   "headword_ocr": "διατίθεμαι",
+   "current_text": "διατίθεμαι, (a) I appoint, make (of a covenant); (Ὁ) I make (a will) (regular in papyri), Heb. ix τό, 17."
+  }
+ ],
+ "72": [
+  {
+   "entry_id": 1355,
+   "lemma": "δίδωμι",
+   "headword_ocr": "δίδωμι",
+   "current_text": "δίδωμι, I offer, give; elliptically used Rev. ii 23: (Hebraistic = τίθημι), I put, place, Rev, iii 8."
+  },
+  {
+   "entry_id": 1351,
+   "lemma": "διδάσκω",
+   "headword_ocr": "διδάσκω",
+   "current_text": "διδάσκω, I teach."
+  },
+  {
+   "entry_id": 1350,
+   "lemma": "διδάσκαλος",
+   "headword_ocr": "διδάσκαλος",
+   "current_text": "διδάσκαλος, Teacher."
+  },
+  {
+   "entry_id": 1361,
+   "lemma": "διέρχομαι",
+   "headword_ocr": "διέρχομαι",
+   "current_text": "διέρχομαι, I go (come, journey) all the way through: in Ac. seems frequently to imply, I iinerate, evangelize as I go."
+  },
+  {
+   "entry_id": 1352,
+   "lemma": "διδαχή",
+   "headword_ocr": "διδαχή",
+   "current_text": "διδαχή, leaching."
+  },
+  {
+   "entry_id": 1349,
+   "lemma": "διδασκαλία",
+   "headword_ocr": "διδασκαλία",
+   "current_text": "διδασκαλία, leaching."
+  }
+ ],
+ "73": [
+  {
+   "entry_id": 1374,
+   "lemma": "δικαιοσύνη",
+   "headword_ocr": "δικαιοσύνη",
+   "current_text": "δικαιοσύνη (usually if not always in Jewish atmosphere), Justice, jusiness: righteousness (οἵ, δίκαιος) : δικαιοσύνη θεοῦ strictly, righteotisness of which God is the source or author, but practically, a divine righteousness and equivalent to βεσιλεία τοῦ θεοῦ."
+  },
+  {
+   "entry_id": 1373,
+   "lemma": "δίκαιος",
+   "headword_ocr": "ϑίκαιος",
+   "current_text": "ϑίκαιος, just; especially, just in the eyes of God, righteous : of δίκαιοι in Mt, he elect (a Jewish idea): κρίνω τὸ δίκαιον, I give just judgement, Lk. xii 57."
+  },
+  {
+   "entry_id": 1383,
+   "lemma": "διό",
+   "headword_ocr": "διό",
+   "current_text": "διό (ΞΞ δι’ ὅ, on account of which thing), wherefore,"
+  },
+  {
+   "entry_id": 1375,
+   "lemma": "δικαιόω",
+   "headword_ocr": "ϑικαιόω",
+   "current_text": "ϑικαιόω, I make δίκαιυς (righteous), I defend the cause of, plead for the righteousness (innocence) of, I acquit, Justify ; hence, I regard as δίκαιος (righteous)."
+  },
+  {
+   "entry_id": 1381,
+   "lemma": "δίκτυον",
+   "headword_ocr": "δίκτυον",
+   "current_text": "δίκτυον, a nel."
+  },
+  {
+   "entry_id": 1376,
+   "lemma": "δικαίωμα",
+   "headword_ocr": "δικαίωμα",
+   "current_text": "δικαίωμα, (az argument, a piece jushificalive, hence) a thing pronounced (by God) to be δίκαιος (just, the right); or the restoration of a criminal, a [resh chance given him; a righteous deed (e.g. Rom. v 18)."
+  },
+  {
+   "entry_id": 1377,
+   "lemma": "δικαίως",
+   "headword_ocr": "δικαίως",
+   "current_text": "δικαίως, justly, righteously."
+  }
+ ],
+ "74": [
+  {
+   "entry_id": 1413,
+   "lemma": "δοκέω",
+   "headword_ocr": "δοκέω",
+   "current_text": "δοκέω (uideor), I seem, am thought ; δοκεῖ impers. ¢. dat. (placet), seems good, it is resolved by."
+  },
+  {
+   "entry_id": 1410,
+   "lemma": "διώκω",
+   "headword_ocr": "διώκω",
+   "current_text": "διώκω, I pursue; hence, I persecute."
+  },
+  {
+   "entry_id": 1392,
+   "lemma": "διότι",
+   "headword_ocr": "διότι",
+   "current_text": "διότι (= διὰ ὅ τι), wherefore; = ὅτε Rom, viii 21 (v.1.)."
+  },
+  {
+   "entry_id": 1414,
+   "lemma": "δοκιμάζω",
+   "headword_ocr": "δοκιμάζω",
+   "current_text": "δοκιμάζω, I put to the test, I prove, examine : in Rom. ii 18, Phil. i 10 either I distinguish by testing, or, 64 F 2 more probably, I approve after testing: I think fil, Rom.i28."
+  },
+  {
+   "entry_id": 1405,
+   "lemma": "διψάω",
+   "headword_ocr": "διψάω",
+   "current_text": "διψάω, I thirst,"
+  },
+  {
+   "entry_id": 1408,
+   "lemma": "διωγμός",
+   "headword_ocr": "διωγμός",
+   "current_text": "διωγμός, persecution."
+  },
+  {
+   "entry_id": 1411,
+   "lemma": "δόγμα",
+   "headword_ocr": "δόγμα",
+   "current_text": "δόγμα, a decree."
+  }
+ ],
+ "75": [
+  {
+   "entry_id": 1425,
+   "lemma": "δόξα",
+   "headword_ocr": "δόξα",
+   "current_text": "δόξα, glory, an especially divine quality, the unspoken manifestation of God; in James ii I it is in apposition to Ἰησοῦ Χριστοῦ, and is personified (cf. 1 Cor. ii 8, Ac. vii 2, and the Shckinah of Targums and postcanonical Jewish wrilings)."
+  },
+  {
+   "entry_id": 1434,
+   "lemma": "δοῦλος",
+   "headword_ocr": "δοῦλος",
+   "current_text": "δοῦλος, (a) (as adj.) enslaved, sulject; (Ὁ) {as noun) a (male) slave."
+  },
+  {
+   "entry_id": 1426,
+   "lemma": "δοξάζω",
+   "headword_ocr": "δοξάζω",
+   "current_text": "δοξάζω, L glorify, bestow glory on : τὸν θεόν, I acknowledge the glory of God."
+  },
+  {
+   "entry_id": 1432,
+   "lemma": "δουλεύω",
+   "headword_ocr": "δουλεύω",
+   "current_text": "δουλεύω, I serve as a slave, I am a slave."
+  },
+  {
+   "entry_id": 1437,
+   "lemma": "δράκων",
+   "headword_ocr": "δράκων",
+   "current_text": "δράκων, a serpen."
+  },
+  {
+   "entry_id": 1422,
+   "lemma": "δόλος",
+   "headword_ocr": "δόλος",
+   "current_text": "δόλος, deceit, guile, treachery."
+  },
+  {
+   "entry_id": 1416,
+   "lemma": "δοκιμή",
+   "headword_ocr": "ϑοκιμή",
+   "current_text": "ϑοκιμή, approvedness ; hence, character."
+  },
+  {
+   "entry_id": 1435,
+   "lemma": "δουλόω",
+   "headword_ocr": "δουλόω",
+   "current_text": "δουλόω, I enslave."
+  },
+  {
+   "entry_id": 1418,
+   "lemma": "δόκιμος",
+   "headword_ocr": "δόκιμος",
+   "current_text": "δόκιμος, approved."
+  },
+  {
+   "entry_id": 1431,
+   "lemma": "δουλεία",
+   "headword_ocr": "δουλεία",
+   "current_text": "δουλεία, slavery."
+  }
+ ],
+ "76": [
+  {
+   "entry_id": 1443,
+   "lemma": "δύναμαι",
+   "headword_ocr": "δύναμαι",
+   "current_text": "δύναμαι, (a) .7 am powerful, I have (the) power ; (b) I am able, I can."
+  },
+  {
+   "entry_id": 1450,
+   "lemma": "δύο",
+   "headword_ocr": "δύο",
+   "current_text": "δύο, fzw0: δυὸ δυό, two by hwo; ἀνὰ (κατὰ) δύο, two by πο: ἀνὰ δύο δύο in some MSS of Luke x 3 is a mistaken fusion of the two phrases."
+  },
+  {
+   "entry_id": 1444,
+   "lemma": "δύναμις",
+   "headword_ocr": "δύναμις",
+   "current_text": "δύναμις, (a) physical power, force, might; (b) in plu, powerful deeds, deeds showing (physical) power, marvellous works. ὁ"
+  },
+  {
+   "entry_id": 1460,
+   "lemma": "δώδεκα",
+   "headword_ocr": "δώδεκα",
+   "current_text": "δώδεκα, 7welve: of δώδεκα, the usual way in which 7% Twelve disciples of Jesus are referred (o."
+  },
+  {
+   "entry_id": 1448,
+   "lemma": "δυνατός",
+   "headword_ocr": "δυνατός",
+   "current_text": "δυνατός, (a) of persons, powerful, able; (Ὁ) of things, possible."
+  },
+  {
+   "entry_id": 1464,
+   "lemma": "δωρεά",
+   "headword_ocr": "δωρεά",
+   "current_text": "δωρεά, a (free) gift, a gift (without repayment)."
+  }
+ ],
+ "77": [
+  {
+   "entry_id": 1472,
+   "lemma": "ἑαυτοῦ",
+   "headword_ocr": "ἑαυτοῦ",
+   "current_text": "ἑαυτοῦ, &c., self, selves; for all three persons, singular (not first person) and plural, according to context, ourselves ; yourself, yourselves ; himself; herself, itself, themselves."
+  },
+  {
+   "entry_id": 1470,
+   "lemma": "ἐάν",
+   "headword_ocr": "ἐάν",
+   "current_text": "ἐάν, (a) introducing a clause, τς with subjunctive, but τ Thess. ii 8, 1 John v 15 have the indicative; (0) (an usage beginning about 133 8.0.) within a clause, modifying, generalizing, ὅς, ὅστις, ὅσος, ὅσάκις, ὅπου, of, exactly as ἄν does in Attic Greek: thus ὅς = who, ὅς ἐάν, whosoever, &c."
+  },
+  {
+   "entry_id": 1481,
+   "lemma": "ἐγγίζω",
+   "headword_ocr": "ἐγγίξω",
+   "current_text": "ἐγγίξω, I come near, approach."
+  },
+  {
+   "entry_id": 1484,
+   "lemma": "ἐγγύς",
+   "headword_ocr": "ἐγγύς",
+   "current_text": "ἐγγύς, near."
+  },
+  {
+   "entry_id": 1468,
+   "lemma": "δῶρον",
+   "headword_ocr": "δῶρον",
+   "current_text": "δῶρον, a gift."
+  },
+  {
+   "entry_id": 1473,
+   "lemma": "ἐάω",
+   "headword_ocr": "ἐάω",
+   "current_text": "ἐάω, I allow, permit, leave."
+  },
+  {
+   "entry_id": 1465,
+   "lemma": "δωρεάν",
+   "headword_ocr": "ϑωρεάν",
+   "current_text": "ϑωρεάν (acc, of δωρεά used as adv., cf. grass abl. plur. of gratia), as a free gift, without payment, freely, gral."
+  }
+ ],
+ "78": [
+  {
+   "entry_id": 1497,
+   "lemma": "ἐγώ",
+   "headword_ocr": "ἐγώ",
+   "current_text": "ἐγώ, 1: τί ἐμοὶ (ἡμῖν) καὶ ool; quid mihi (nobis) tecum ? What have 1 (we) to do with thee?, but in Jobnii4 ὁμοὶ καὶ σοί may be simply equal (0 ἡμῖν ; τὸ (τὰ) κατ’ ἐμέ, so far as Lam concerned: in letters ἡμεῖς often alternates with éyé without real difference of meaning."
+  },
+  {
+   "entry_id": 1485,
+   "lemma": "ἐγείρω",
+   "headword_ocr": "ἐγείρω",
+   "current_text": "ἐγείρω, (a) I wake, arouse; (Ὁ) I raise up; intr. in imperative, ἔγειρε, ἐγείρεσθε, wake up: passive sometimes = I rise, e.g. Mk. xvi 6."
+  },
+  {
+   "entry_id": 1488,
+   "lemma": "ἐγκαλέω",
+   "headword_ocr": "ἐγκαλέω",
+   "current_text": "ἐγκαλέω, I bring a charge against."
+  }
+ ],
+ "79": [
+  {
+   "entry_id": 1511,
+   "lemma": "εἰ",
+   "headword_ocr": "εἰ",
+   "current_text": "εἰ, z/: but in strong statements, approaching oaths in character, and as the first word in an interrogative clause, it is probably a mere graphic equivalent, first appearing second century ».c., of 7 [and should be written εἶδ, and in the former case = verily, indeed, assuredly (sometimes negative [Semitic], assuredly ποῖ, Mk. viii 12, Heb. iii 11), while in the latter it is merely a particle asking a question. [The Latin translators, however, rendered interrogative εἶ by sz.] εἰ μὴ (nisi); but only, c.g. Lk.iv 26 f,, John xv 4, Ac. xxvii 22, Rev.xxizy; in Mk.vi 8 probably due to a misreading of an Aramaic word = and not: εἰ δὲ μή, εἰ δὲ μήγε (Aramaism?), (alioqui, si minus, sin autem, &c.), otherwise: εἴπερ (= εἴ wep) a more emphatic εἰ, if indeed."
+  },
+  {
+   "entry_id": 1509,
+   "lemma": "ἔθνος",
+   "headword_ocr": "ἔθνος",
+   "current_text": "ἔθνος (originally, a rustic or village people as opposed to those dwelling in organized cities or πόλεις), a race, people (usually outside the privileged Jewish people, buat also sometimes in the singular for it) (sometimes = the inhabitants of a Roman province): τὰ ἔθνη (gentes), The nations outside Judaism, 226 Gentiles."
+  },
+  {
+   "entry_id": 1510,
+   "lemma": "ἔθος",
+   "headword_ocr": "ἔθος",
+   "current_text": "ἔθος, a custom."
+  },
+  {
+   "entry_id": 1519,
+   "lemma": "εἴδωλον",
+   "headword_ocr": "εἴδωλον",
+   "current_text": "εἴδωλον (simulacrum), an image of a god."
+  },
+  {
+   "entry_id": 1521,
+   "lemma": "εἴκοσι(ν)",
+   "headword_ocr": "εἴκοσι",
+   "current_text": "εἴκοσι, twenty."
+  },
+  {
+   "entry_id": 1518,
+   "lemma": "εἰδωλολάτρης",
+   "headword_ocr": "εἰδωλολάτρης",
+   "current_text": "εἰδωλολάτρης, a server (worshipper) of an image (of a god)."
+  },
+  {
+   "entry_id": 1514,
+   "lemma": "εἶδος",
+   "headword_ocr": "εἶδος",
+   "current_text": "εἶδος, visible form, shape, appearance, outward show ; in 1 Thess. v 22 = kind, species, class."
+  }
+ ],
+ "80": [
+  {
+   "entry_id": 1527,
+   "lemma": "εἰμί",
+   "headword_ocr": "εἰμί",
+   "current_text": "εἰμί, I am, exist. Note periphrasis with participles, the special frequency of which in the imperfect is due to the Aramaic basis of the language. ὁ ἢν ungrammatically, in Rev., where an aor. pepl. would be expected.’"
+  },
+  {
+   "entry_id": 1537,
+   "lemma": "εἰς",
+   "headword_ocr": "",
+   "current_text": "els, (2) into; #ll; for; (Ὁ) εἰς τά c. infin. generally final, but also expressing tendency, result, e.g. Rom. xii 3, 2 Cor. viii 6, Gal. iii 17, content of command or cntreaty, e.g. 1 Thess.ii 12, or simply = explanatory infinitive, 1 Thess.ivg; (Ὁ) encroaches on ἐν and = zn, e.g. Johnii8, Ac.viitz, 2 Cor.xiro, 1 John v8: ds ἑκατόν, &c., a hundredfold."
+  },
+  {
+   "entry_id": 1538,
+   "lemma": "εἷς",
+   "headword_ocr": "εἷς",
+   "current_text": "εἷς, one; καθ᾽ εἷς, each single one, one by ome: sometimes no whit different from τις (Mk. xiv 10), and sometimes too = πρῶτος, first. ᾿"
+  },
+  {
+   "entry_id": 1543,
+   "lemma": "εἰσέρχομαι",
+   "headword_ocr": "εἰσέρχομαι",
+   "current_text": "εἰσέρχομαι, I go in."
+  },
+  {
+   "entry_id": 1533,
+   "lemma": "εἰρήνη",
+   "headword_ocr": "εἰρήνη",
+   "current_text": "εἰρήνη, peace, undisturbedness: invocation of peace a common Jewish farewell (Mk. v 34, &c.), in the Hebraistic sense of #he health (welfare) of an individual."
+  },
+  {
+   "entry_id": 1523,
+   "lemma": "εἰκών",
+   "headword_ocr": "εἰκών",
+   "current_text": "εἰκών (Imago), ὄπαρε, likeness, bist."
+  },
+  {
+   "entry_id": 1539,
+   "lemma": "εἰσάγω",
+   "headword_ocr": "εἰσάγω",
+   "current_text": "εἰσάγω, I lead in, bring in."
+  },
+  {
+   "entry_id": 1540,
+   "lemma": "εἰσακούω",
+   "headword_ocr": "εἰσακούω",
+   "current_text": "εἰσακούω, I hear."
+  }
+ ],
+ "81": [
+  {
+   "entry_id": 1555,
+   "lemma": "ἐκ",
+   "headword_ocr": "ἐκ",
+   "current_text": "ἐκ, ἐξ, from out, out from among, from, suggesting from the interior outwards; ἐξ Ἑβραίων, descended ΩΣ Hebrews, Phil. iii 5: with gen. of price, Mt. xx 2, Ac. i18; in partitive phrase, as subject of sentence, John xvi 17; οἵ, the periphrasis of ἐξ ἐριθείας, Rom. 1i 8."
+  },
+  {
+   "entry_id": 1563,
+   "lemma": "ἐκβάλλω",
+   "headword_ocr": "ἐκβάλλω",
+   "current_text": "ἐκβάλλω, I throw (cast, pul) out; I banish, Gal, iv 30, 3 John το; I bring forth, I produce, Mt. xii 35."
+  },
+  {
+   "entry_id": 1556,
+   "lemma": "ἕκαστος",
+   "headword_ocr": "ἕκαστος",
+   "current_text": "ἕκαστος (quisque), cack (of more than two); εἷς ἕκαστος, each individual ; plur. ἕκαστοι, &c., each class, group."
+  },
+  {
+   "entry_id": 1547,
+   "lemma": "εἰσπορεύομαι",
+   "headword_ocr": "εἰσπορεύομαι",
+   "current_text": "εἰσπορεύομαι, I journey im(1o), I go in(io)."
+  },
+  {
+   "entry_id": 1561,
+   "lemma": "ἑκατοντάρχης",
+   "headword_ocr": "ἑκατοντάρχης",
+   "current_text": "ἑκατοντάρχης (-os) (centurio, see κεντουρίων), a centurion of the Roman army."
+  },
+  {
+   "entry_id": 1558,
+   "lemma": "ἑκατόν",
+   "headword_ocr": "ἑκατόν",
+   "current_text": "ἑκατόν, a hundred; εἰς ἑκατόν, see εἷς,"
+  },
+  {
+   "entry_id": 1550,
+   "lemma": "εἶτα",
+   "headword_ocr": "εἶτα",
+   "current_text": "εἶτα, then, thereafter, next (marking a fresh stage)."
+  },
+  {
+   "entry_id": 1549,
+   "lemma": "εἰσφέρω",
+   "headword_ocr": "εἰσφέρω",
+   "current_text": "εἰσφέρω, .7 carry (bring) in."
+  },
+  {
+   "entry_id": 1568,
+   "lemma": "ἐκδέχομαι",
+   "headword_ocr": "ἐκδέχομαι",
+   "current_text": "ἐκδέχομαι, I wail for, expect."
+  }
+ ],
+ "82": [
+  {
+   "entry_id": 1582,
+   "lemma": "ἐκεῖνος",
+   "headword_ocr": "ἐκεῖνος",
+   "current_text": "ἐκεῖνος (ile), That, yonder (of what is distant, or great): in 1 John usually = Christ."
+  },
+  {
+   "entry_id": 1595,
+   "lemma": "ἐκκλησία",
+   "headword_ocr": "ἐκκλησία",
+   "current_text": "ἐκκλησία, (literally, a calling out; then) an assembly, meeting of assembly, Ac. xix 39 ; (a) ἃ communiily, congregation, church, society (first used in LXX for ke congregation of Israel), the assembly of Christians in ore city or community ; in Mt. xvi 18, xviii 17 the body of Palestinian adherents of the Messiah is intended; (by much more rarely, in a devcloped sense, especially with é\\y, the Church (the whole body of Christians in the world)."
+  },
+  {
+   "entry_id": 1580,
+   "lemma": "ἐκεῖ",
+   "headword_ocr": "ἐκεῖ",
+   "current_text": "ἐκεῖ (illic), (2) there, yonder ; (Ὁ) thither, there."
+  },
+  {
+   "entry_id": 1581,
+   "lemma": "ἐκεῖθεν",
+   "headword_ocr": "ἐκεῖθεν",
+   "current_text": "ἐκεῖθεν (illinc), thence, from that place."
+  },
+  {
+   "entry_id": 1574,
+   "lemma": "ἐκδίκησις",
+   "headword_ocr": "ἐκδίκησις",
+   "current_text": "ἐκδίκησις, (2) defence, avenging, vindication, vengeance ; (Ὁ) full (complete) punishment, 2 Thess. 1 8, τ Pet, i 14."
+  },
+  {
+   "entry_id": 1584,
+   "lemma": "ἐκζητέω",
+   "headword_ocr": "ἐκζητέω",
+   "current_text": "ἐκζητέω (cxquiro), I seck out."
+  },
+  {
+   "entry_id": 1573,
+   "lemma": "ἐκδικέω",
+   "headword_ocr": "ἐκδικέω",
+   "current_text": "ἐκδικέω, I give justice over, defend, avenge, vindicate."
+  }
+ ]
+}

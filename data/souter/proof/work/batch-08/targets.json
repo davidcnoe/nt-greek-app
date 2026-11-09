@@ -1,0 +1,716 @@
+{
+ "179": [
+  {
+   "entry_id": 3614,
+   "lemma": "οἶδα",
+   "headword_ocr": "οἶδα",
+   "current_text": "οἶδα, (a) (scio), I know a fact: perhaps, I remember, 1Cor.i16, 2Cor. xii 3; c infin. 7 Fnow how to; (0) (noui), I know (am acquainted wilh) a person."
+  },
+  {
+   "entry_id": 3621,
+   "lemma": "οἰκία",
+   "headword_ocr": "οἰκία",
+   "current_text": "οἰκία, a house (strictly zhe whole house, sce οἶκος) : of Heaven, Johnxiv 2; also met. properly, belongings, Mk. xii 40 and parallels; household, John iv 53; of the body, 2 Cor. v 1, 2."
+  },
+  {
+   "entry_id": 3625,
+   "lemma": "οἰκοδομέω",
+   "headword_ocr": "οἰκοδομέω",
+   "current_text": "οἰκοδομέω, I build (a house); hence met."
+  },
+  {
+   "entry_id": 3626,
+   "lemma": "οἰκοδομή",
+   "headword_ocr": "οἰκοδομή",
+   "current_text": "οἰκοδομή, (a) abstract, building, the operation (process) of building, sometimes transitional, without being strictly concrete, 1 Cor. iii 9, 2 Cor. v 1, Eph.iizr, ἵν τς, τό, 29 (here perhaps = improvement) ; met, pbuilding, edification; (b) concrete, a building, Mk. xiii 1, 2, Mt. xxiv 1."
+  },
+  {
+   "entry_id": 3611,
+   "lemma": "ὅθεν",
+   "headword_ocr": "ὅθεν",
+   "current_text": "ὅθεν (unde), (a) local, whence, from which Place; (b) inferential, wherefore."
+  },
+  {
+   "entry_id": 3624,
+   "lemma": "οἰκοδεσπότης",
+   "headword_ocr": "οἰκοδεσπότης",
+   "current_text": "οἰκοδεσπότης, a master of a house, a head of a house (possibly a play upon words with Βεεζεβούλ)."
+  },
+  {
+   "entry_id": 3630,
+   "lemma": "οἰκονόμος",
+   "headword_ocr": "οἰκονόμος",
+   "current_text": "οἰκονόμος (dispensator), (2) a steward (commonly οἰος a superior slave of tried character, who looked after the accounts of a household; hence met. 1 Cor. iv 1, 2, Tit. 17, 1 Pet. iv 10; (b) apparently, City Steward or Treasurer, Rom. xvi 23; (0) perhaps not to be separated from (a), (curator) a guardian, α legal guardian, Gal. iv 2. In any case he manages the property of the ‘infant’ till the age of 25, perhaps."
+  },
+  {
+   "entry_id": 3618,
+   "lemma": "οἰκέω",
+   "headword_ocr": "οἰκέω",
+   "current_text": "οἰκέω, I dwell, lit. and met. ; ¢. acc. I inhabit."
+  },
+  {
+   "entry_id": 3629,
+   "lemma": "οἰκονομία",
+   "headword_ocr": "οἰκονομία",
+   "current_text": "οἰκονομία, household management, stewardship, the office of a steward ; hence met. of any position of trust or the duties of that position, provision, arrangement, dispensation (even God being sometimes regarded as steward)."
+  }
+ ],
+ "180": [
+  {
+   "entry_id": 3631,
+   "lemma": "οἶκος",
+   "headword_ocr": "οἶκος",
+   "current_text": "οἶκος (strictly a sef of rooms, see οἰκία), (a) a house, the material building ; οἶκος τοῦ θεοῦ, the Temple at Jerusalem, Mk.ii 26, &c. (referred to in Mt. xxiii 38) ; hence met. 5 (b) a household, family; ofcos Ἰσραὴλ, ᾿Ιακώβ, Δαυείδ (Hebraic, note the omission of the article)."
+  },
+  {
+   "entry_id": 3640,
+   "lemma": "οἶνος",
+   "headword_ocr": "οἶνος",
+   "current_text": "οἶνος, wize; met. Rev. (except vi 6, xviii 13), where"
+  },
+  {
+   "entry_id": 3632,
+   "lemma": "οἰκουμένη",
+   "headword_ocr": "οἰκουμένη",
+   "current_text": "οἰκουμένη (properly present pcpl. pass. of οἰκέω, with γῇ understood, the land thal is being inhabited, the land in a stale of habitation), the inhabited world, that is, the Roman world (orbis terrarum), for all outside it was regarded as of no account."
+  },
+  {
+   "entry_id": 3644,
+   "lemma": "οἷος",
+   "headword_ocr": "οἷος",
+   "current_text": "οἷος (qualis), properly correlative to τοιοῦτος, the combined expression meaning of suck a kind as, 1 Cor. xv 48; by itself, both rel. and indirect interrog., suck as, of what kind (character): οὐχ οἷον δὲ ὅτι, Rom. ix 6, is equivalent to a strong negative, not of course (lit. Ζῇ is not so that)."
+  }
+ ],
+ "181": [
+  {
+   "entry_id": 3663,
+   "lemma": "ὅλος",
+   "headword_ocr": "ὅλος",
+   "current_text": "ὅλος (totus), whole, all: δ ὅλου, throughout, for its whole extent, quite, entiyely, John xix 23."
+  },
+  {
+   "entry_id": 3653,
+   "lemma": "ὀλίγος",
+   "headword_ocr": "ὀλίγος",
+   "current_text": "ὀλίγος (ὀλίγος), (a) especially in the plural, ere; (b) in the singular, small; hence, of time, shor# of degree, lLght, slight, little: πρὸς ὀλίγον, to a slight degree, 1 Tim. iv 8, for a short lime, Jamesiv 14; ἐν ὀλίγῳ, in brief compass, in brief, in few words, briefly (cf. 1 Pet, v 12), Eph. iii 3, Ac. xxvi 28 (perhaps = 2.1 very short time); ὀλίγον (acc. neut.), adverbially, of space, a litle, Mk.119, Lk. v3, of time, for a short (litle) Time, Mk, vi 31, τ Pet. i 6 (but more probably, Ὁ a little amount), v 10, Rev, xvii ro."
+  },
+  {
+   "entry_id": 3652,
+   "lemma": "ὀλιγόπιστος",
+   "headword_ocr": "ὀλιγόπιστος",
+   "current_text": "ὀλιγόπιστος, of litle faith (belief)."
+  }
+ ],
+ "182": [
+  {
+   "entry_id": 3678,
+   "lemma": "ὅμοιος",
+   "headword_ocr": "ὅμοιος",
+   "current_text": "ὅμοιος, like."
+  },
+  {
+   "entry_id": 3682,
+   "lemma": "ὁμοίως",
+   "headword_ocr": "ὁμοίως",
+   "current_text": "ὁμοίως, in a similar way, sondarly, in the same way."
+  },
+  {
+   "entry_id": 3674,
+   "lemma": "ὀμνύω",
+   "headword_ocr": "ὄμνυμι",
+   "current_text": "ὄμνυμι, ὀμνύω, I swear, I lake an oath: sometimes with cognate acc. or with dat.: with acc., or with «ard c. gen, of the power invoked or appealed to, fy, James v 12, Heb. vig, 16,"
+  },
+  {
+   "entry_id": 3684,
+   "lemma": "ὁμολογέω",
+   "headword_ocr": "ὁμολογέω",
+   "current_text": "ὁμολογέω (originally, I agree with the statement of another), (a) I promise, Mt xivy, Ac.viiry; (b) I confess (confiteor); (0) I publicly declare (profiteor), οὗ 1 Jobnii 23, iv 3, sometimes with the Aramaic and Syriac construction, é c. dat. equivalent to an acc., Mt. x 32, Lk. xii 8, of confessing allegiance to Jesus before an earthly law-court: ¢. cognale acc. 1 Tim. vi 12; (4) a Hebraism, I praise, celebrate, Heb. xiii 15 (cf. ἐξομολογέομαι)."
+  },
+  {
+   "entry_id": 3680,
+   "lemma": "ὁμοιόω",
+   "headword_ocr": "ὁμοιόω",
+   "current_text": "ὁμοιόω, I make like, ltkens I compare."
+  },
+  {
+   "entry_id": 3675,
+   "lemma": "ὁμοθυμαδόν",
+   "headword_ocr": "ὁμοθυμαδόν",
+   "current_text": "ὁμοθυμαδόν, with one mind, with one accord."
+  },
+  {
+   "entry_id": 3681,
+   "lemma": "ὁμοίωμα",
+   "headword_ocr": "ὁμοίωμα",
+   "current_text": "ὁμοίωμα (originally, a hing made like something else), Likeness, or rather form. (In fact ὁμοίωμα (concrete) differs from ὁμοιότης (abstract) much as simulacrum differs from similitudo.)"
+  },
+  {
+   "entry_id": 3685,
+   "lemma": "ὁμολογία",
+   "headword_ocr": "ὁμολογία",
+   "current_text": "ὁμολογία, a confession (the act rather than the contents or substance) of faith in Christ: 1 Tim. vi 12 refers either to that at baptism or to that at ordination: 1 Tim. νἱ 13 is referred by Pelagius to John xviii 37, not inappropriately."
+  }
+ ],
+ "183": [
+  {
+   "entry_id": 3700,
+   "lemma": "ὄνομα",
+   "headword_ocr": "ὄνομα",
+   "current_text": "ὄνομα, (a) a name; but as, according to Hebrew notions, the name is something inseparable from the person to whom it belongs, something of his essence, and therefore in the case of the God specially sacred, it is often used Hebraistically in the sense of (b) person, personality, power, authority, character (cf. Ac.i1p, Rev.iii 4, xi 13); in some passages it is in consequence best left untranslated altogether: εἰς τὸ ὄνομά τινος is a vernacular phrase, however (see [d]); (c) a πε of rank (dignity), Eph.iz1, Philiig; (d) (nomen, ratio), account, reason, pretext, Mk. ix 41, 1 Pet.iv16; similarly εἰς ὄνομα, Mt x 41, 42 = qua, as; (e) reputation, Rev. iii 1."
+  },
+  {
+   "entry_id": 3693,
+   "lemma": "ὀνειδίζω",
+   "headword_ocr": "",
+   "current_text": "dveld bw, I reproach."
+  },
+  {
+   "entry_id": 3701,
+   "lemma": "ὀνομάζω",
+   "headword_ocr": "ὀνομάξω",
+   "current_text": "ὀνομάξω, I name, give a name to."
+  }
+ ],
+ "184": [
+  {
+   "entry_id": 3722,
+   "lemma": "ὁράω",
+   "headword_ocr": "ὁράω",
+   "current_text": "ὁράω, I see; hence, like γεύω, widened in sense to mean, I experience (Lk. iii 6, &c.): dpa (ὅρατε) μή͵ 1423 . Τ 7 7 N (uide, videte ne), see that you do ποῦ. . ., beware of doing so and so; deware lest."
+  },
+  {
+   "entry_id": 3713,
+   "lemma": "ὅπου",
+   "headword_ocr": "",
+   "current_text": "Sr tare, also whither; ὅπου ἄν (ἐάν), wheresoever, also whithersoever."
+  },
+  {
+   "entry_id": 3718,
+   "lemma": "ὅπως",
+   "headword_ocr": "ὅπως",
+   "current_text": "ὅπως, with the subjunctive, with or without ἄν, iz order that; that (especially after éporde)."
+  },
+  {
+   "entry_id": 3708,
+   "lemma": "ὀπίσω",
+   "headword_ocr": "ὀπίσω",
+   "current_text": "ὀπίσω, adv. and prep. behind; after: es τὰ ὀπίσω (Mk. xiii 16) = ὀπίσω (Mt. xxiv 18), cf. Lk. ix 62."
+  },
+  {
+   "entry_id": 3719,
+   "lemma": "ὅραμα",
+   "headword_ocr": "ὅραμα",
+   "current_text": "ὅραμα (literally, something seen), a sight, a vision."
+  },
+  {
+   "entry_id": 3703,
+   "lemma": "ὄντως",
+   "headword_ocr": "ὄντως",
+   "current_text": "ὄντως, really, actually."
+  }
+ ],
+ "185": [
+  {
+   "entry_id": 3723,
+   "lemma": "ὀργή",
+   "headword_ocr": "ὀργή",
+   "current_text": "ὀργή. anger, wralk, passion; the settled feeling of anger (cf Eph. iv 31), particularly, τοῦ θεοῦ, of God, the hostility to sin: ἡ μέλλουσα (ἐρχομένη) ὀργή also refers to the divine wrath, and has a definite eschatological reference ; occasionally also without epithet, of the divine wrath, e.g. Rom. iii g, ν 9, ix 22, xiii g, τ Thess. ii 16."
+  }
+ ],
+ "186": [
+  {
+   "entry_id": 3754,
+   "lemma": "ὅς",
+   "headword_ocr": "ὅς",
+   "current_text": "ὅς. ἥ- ὅ, definite relative pronoun, who, which; ὃς ἄν (ἐάν) with subjunctive, whosoever; ὅς is sometimes equal to the classical ὅστις, Mt. x 26, xxiv 2, Lk. xii 2, Ac.xix 35, &c.; it is frequently attracted into the casc of its antecedent, the latter being sometimes omitted; sometimes the attraction is inverse, that is, the antecedent is attracted into the case of the relative, e.g. Mt. xxi 42, Lk. xii 48, Ac.x 36, 1 Cor.x 16; sometimes the demonstrative pronoun is pleonasticaily added in the relative clause, a colloquial Greek use, the frequency of which is probably suggested by Semitic usage, e.g. Mk.i7, vil 25 (ef. xiii 19), Lk. iii 16, Johni 27, Ac. xv 17, 1 Pet. ii 24 (v.1), Rev.iii 8, vii 2,9, xiii 8, 12, xx 8 (either a Hebrew or an Aramaic source is generally presumed); ὃς μὲν, ες ὃς δέ, the one... the οἰζοῦ, or one... 179 N 2"
+  },
+  {
+   "entry_id": 3750,
+   "lemma": "ὄρος",
+   "headword_ocr": "ὄρος",
+   "current_text": "ὄρος, a mountain."
+  },
+  {
+   "entry_id": 3739,
+   "lemma": "ὅριον",
+   "headword_ocr": "ὅριον",
+   "current_text": "ὅριον ; plur. ὅρια (fines), Territory, district."
+  },
+  {
+   "entry_id": 3741,
+   "lemma": "ὅρκος",
+   "headword_ocr": "ὅρκος",
+   "current_text": "ὅρκος, an oath (see ὀμνύω)."
+  }
+ ],
+ "187": [
+  {
+   "entry_id": 3764,
+   "lemma": "ὅστις",
+   "headword_ocr": "ὅστις",
+   "current_text": "ὅστις (rare except in the nominative), either generic, who, as other like persons, which, as other like things, or essential, w/o, by his (her) very nature, which, by"
+  },
+  {
+   "entry_id": 3762,
+   "lemma": "ὅσος",
+   "headword_ocr": "ὅσος",
+   "current_text": "ὅσος ἐάν (dv) generalizes, (quantuscumque) ow great soever, plur. as many soever as: ὅσοι = πάντες of (quot, later Latin quanti), Tow many, as may as: ἐφ᾽ ὅσον, as long as, e.g. Mt. ix 15; to the degree that, inasmuch as, e.g. Mt. xxv 40, Rom.xi 13 : καθ᾽ ὅσον, in proportion as, Heb. iii 3, vii 20, ix 27 : ὅσον ὅσον, a {716 (cf. English so 50)."
+  }
+ ],
+ "188": [
+  {
+   "entry_id": 3771,
+   "lemma": "ὁ",
+   "headword_ocr": "ὅ",
+   "current_text": "ὅ,τι, short for τί ὅ,τι (= τὶ γέγονεν ὅτι, John xiv 22),"
+  },
+  {
+   "entry_id": 3778,
+   "lemma": "ὅτι",
+   "headword_ocr": "ὅτι",
+   "current_text": "ὅτι (a development of ὅ,τι, neuter of ὅστις, which see), most often, either because, for, or, after a verb or other"
+  },
+  {
+   "entry_id": 3776,
+   "lemma": "ὅταν",
+   "headword_ocr": "ὅταν",
+   "current_text": "ὅταν, whensoecver, whenever, as often as, followed by the indic., in casc of repeated events in the past (thus it is incorrectly used =zo/ex in Rev. viii 1, &c.), but also like ἐάν with pres. and fut. indic., usually with variations in the reading, Mk. xi 25, xiii 7, Lk. xi 2, xiii 28, John vil 2%: followed by subjunctive, where frequency in the future is referred to, the subjunctive present being strictly equivalent to the Latin pres. subjunctive or fut. indicative (conative, continuous, or iterative), while the subjunctive aorist (punctiliar) corresponds to the fut. perf. indic. In Mk. xi τὸ perhaps when."
+  },
+  {
+   "entry_id": 3777,
+   "lemma": "ὅτε",
+   "headword_ocr": "ὅτε",
+   "current_text": "ὅτε, when, af which time, used especially with all tenses of the indicative: only once with subjunctive, Ze time when, Lk. xiii 35 (v. 1)."
+  }
+ ],
+ "189": [
+  {
+   "entry_id": 3794,
+   "lemma": "οὐαί",
+   "headword_ocr": "οὐαί",
+   "current_text": "οὐαί (uae), adv., zoe, c. dat. or acc., sometimes in Rev. made a noun ἡ οὐαί (=? ἡ κραυγὴ ofa); expresses rather a statement than a wish or imprecation, dusress comes (will come) upon."
+  },
+  {
+   "entry_id": 3791,
+   "lemma": "οὗ",
+   "headword_ocr": "οὗ",
+   "current_text": "οὗ, relative adverb, where; also whither."
+  }
+ ],
+ "190": [
+  {
+   "entry_id": 3803,
+   "lemma": "οὖν",
+   "headword_ocr": "οὖν",
+   "current_text": "οὖν, adv. or conjunction, properly in causal connexion, therefore, but also freely of a mere temporal connexion, continuing a narrative, ben, for example, in the combined expression μὲν οὖν (see under μέν) ; it sometimes indicates the return to the narrative after some digression, Johniv 45, vi 24, 1 Cor. viii 4, Xi 20: dpa οὖν is a strengthened οὖν."
+  },
+  {
+   "entry_id": 3808,
+   "lemma": "οὐρανός",
+   "headword_ocr": "οὐρανός",
+   "current_text": "οὐρανός (caelum), the sky, the heaven: as later Jewish cosmology conceived of a series of heavens one above the other (sometimes three, sometimes seven), the plur. {caeli) is sometimes used, where we should use the singular, and numbers are even attached to individual strata (c. g. 2 Cor. xii 2). Ileaven was conceived as the special realm and abode of the Deity, hence the word is constantly used in connexion with Him, and almost as equivalent to the divine name; οἵ, the practical equivalence of ἡ βασιλεία τῶν οὐρανῶν, the kingdom (rule) from heaven, of divine origin, a phrase which may be in origin purely eschatological (so Mt.) with ἡ βασιλεία τοῦ θεοῦ, God Himself being the ruler, Mt. xii 28, xix 24 (v. 1), xxi 31, 43, Mk, Lk,, Paul."
+  },
+  {
+   "entry_id": 3797,
+   "lemma": "οὐδείς",
+   "headword_ocr": "οὐδείς",
+   "current_text": "οὐδείς (οὐθείς), adj. and noun, zo; no one (masc. fem.) nothing (neut.)."
+  },
+  {
+   "entry_id": 3796,
+   "lemma": "οὐδέ",
+   "headword_ocr": "οὐδέ",
+   "current_text": "οὐδέ, 7207... ΕΠ ΕΣ, nor . . . αὐ all; nol even."
+  },
+  {
+   "entry_id": 3801,
+   "lemma": "οὐκέτι",
+   "headword_ocr": "οὐκέτι",
+   "current_text": "οὐκέτι, no longer, no more."
+  },
+  {
+   "entry_id": 3804,
+   "lemma": "οὔπω",
+   "headword_ocr": "οὕπω",
+   "current_text": "οὕπω, ποΐ yet."
+  },
+  {
+   "entry_id": 3798,
+   "lemma": "οὐδέποτε",
+   "headword_ocr": "οὐδέποτε",
+   "current_text": "οὐδέποτε, not αἱ any time, never."
+  }
+ ],
+ "191": [
+  {
+   "entry_id": 3814,
+   "lemma": "οὗτος",
+   "headword_ocr": "οὗτος",
+   "current_text": "οὗτος--αὕτη- τοῦτο, demonstrative adj. and pron, his; he, her, it: αὕτη (Hcebraistic) = τοῦτο, Mt. xxi 42: τοῦτ᾽ ἔστιν (id est, Fr. ¢a veut dire, Germ, das heist), which means, meaning, actually, in readtly (cl. 1 Pet. iil 20): ἐκ τούτου, for this reason, John vi 66 (possibly, from that time onwards), xix 12, by this mark, by thes means, 1 Johniv 6 ; ἐν τούτῳ, for this reason, John xvi go, Ac. xxiv 16, ὧν this mark, by this means, 1 John iii 1g ; ἐπὶ τούτῳ, meantime, John iv 27; τούτου χάριν, on this account; κατὰ ταῦτα, in the same way, Lk.vi 23 v.1, xvii 30 ν, 1.; καὶ τοῦτο (idque), and that foo; especially; καὶ ταῦτα, and indeed. A special sense = as 2} 7s called, Heb. ΣΧ ΤΙ,"
+  },
+  {
+   "entry_id": 3815,
+   "lemma": "οὕτω(ς)",
+   "headword_ocr": "οὕτως",
+   "current_text": "οὕτως (sic), ἡ this way (manner), thus, so, under these circumstances ; used sometimes with εἶναι, γίνεσθαι; where a part of τοιοῦτος would be expected (cf. ἔχω), Mt, 118, xix ro, &c."
+  },
+  {
+   "entry_id": 3813,
+   "lemma": "οὔτε",
+   "headword_ocr": "οὔτε",
+   "current_text": "οὔτε; οὔτε... οὔτε, neither .. . nor; ob ...ovre. .. οὔτε, not... nether... nor; sometimes the other clause is positive, e.g. Johniv rr, 3 John ro."
+  },
+  {
+   "entry_id": 3816,
+   "lemma": "οὐχί",
+   "headword_ocr": "οὐχί",
+   "current_text": "οὐχί, a more emphatic form of οὐ (οὐκ, οὐχ), nos; no, no! so; also = nonne, in a question, expecting a positive answer. ᾿"
+  },
+  {
+   "entry_id": 3811,
+   "lemma": "οὖς",
+   "headword_ocr": "οὖς",
+   "current_text": "οὖς, an ear."
+  },
+  {
+   "entry_id": 3820,
+   "lemma": "ὀφείλω",
+   "headword_ocr": "ὀφείλω",
+   "current_text": "ὀφείλω (debeo), I owe: c. infin. I ought."
+  }
+ ],
+ "192": [
+  {
+   "entry_id": 3830,
+   "lemma": "ὄχλος",
+   "headword_ocr": "ὄχλος",
+   "current_text": "ὄχλος (turba, plebs), a crowd of men, a mob, a multitude : the plur. much affected by Matthew (Semilism I does mot differ in meaning from the singular (cf. iv 28)."
+  },
+  {
+   "entry_id": 3824,
+   "lemma": "ὀφθαλμός",
+   "headword_ocr": "ὀφθαλμός",
+   "current_text": "ὀφθαλμός, (a) an eye: (b) ὀφθαλμὸς πονηρός (a Semitic idiom), envy, 11] well, Mt. xx 15, Mk.vii22; (c) met. ‘the mind's eye’ (Shakespeare), Eph. i18."
+  },
+  {
+   "entry_id": 3834,
+   "lemma": "ὀψία",
+   "headword_ocr": "ὀψία",
+   "current_text": "ὀψία, of a period never carlier than sunset; early eventng."
+  },
+  {
+   "entry_id": 3825,
+   "lemma": "ὄφις",
+   "headword_ocr": "ὄφις",
+   "current_text": "ὄφις, a serpent."
+  }
+ ],
+ "193": [
+  {
+   "entry_id": 3852,
+   "lemma": "παιδίον",
+   "headword_ocr": "παιδίον",
+   "current_text": "παιδίον, (2) a με boy, a child (from birth onwards); hence affectionately, of those grown up; (b) (compare the usc of δον in parts of Africa) a slave, Lk. xi 7 (according to an interpretation in Augustine),"
+  },
+  {
+   "entry_id": 3855,
+   "lemma": "παῖς",
+   "headword_ocr": "παῖς",
+   "current_text": "παῖς, (a) a male child, a boy; (b) (cf. παιδίον) a male slave, a servant ; thus a servant of God, especially as a title of the Messiah (from Isa. xli-lifi} Ac. iv 27, 30; (c) a female child, a girl, Tk. viii 51, 54."
+  },
+  {
+   "entry_id": 3858,
+   "lemma": "παλαιός",
+   "headword_ocr": "παλαιός",
+   "current_text": "παλαιός, old; ὁ παλαιὸς ἄνθρωπος (perhaps Hebraism), one’s former character (personality). The word and its derivatives bear a derogatory sense. :"
+  },
+  {
+   "entry_id": 3842,
+   "lemma": "πάθημα",
+   "headword_ocr": "πάθημα",
+   "current_text": "πάθημα, properly colourless, an experience : but most commonly, an evil experience, evil treatment, suffering, 8. 8. τὰ εἰς Χριστὸν παθήματα, the sufferings destined Jor Messtak, 1 Ῥεῖ 11."
+  },
+  {
+   "entry_id": 3853,
+   "lemma": "παιδίσκη",
+   "headword_ocr": "παιδίσκη",
+   "current_text": "παιδίσκη, a female slave, a maidservant, a maid."
+  },
+  {
+   "entry_id": 3849,
+   "lemma": "παιδεύω",
+   "headword_ocr": "παιδεύω",
+   "current_text": "παιδεύω, (a) I discipline, educate, train ; (b) more severely, I chastise."
+  },
+  {
+   "entry_id": 3847,
+   "lemma": "παιδεία",
+   "headword_ocr": "παιδεία",
+   "current_text": "παιδεία, discipline."
+  }
+ ],
+ "194": [
+  {
+   "entry_id": 3862,
+   "lemma": "πάλιν",
+   "headword_ocr": "πάλιν",
+   "current_text": "πάλιν (ilerum, rursus), again, properly of a return over the same course in the reverse direction (rursus), but also used of a repetition of the same journey in the same direction (iterum); it may also be used of any number of times ; in Mk, xv 13 perhaps an unsuitable mistranslation of an Aramaic word of much wider signification, further, thereupon; εἰς τὸ πάλιν = πάλιν, 2 Cor. xiii 2."
+  },
+  {
+   "entry_id": 3874,
+   "lemma": "πανταχοῦ",
+   "headword_ocr": "πανταχοῦ",
+   "current_text": "πανταχοῦ, everywhere."
+  },
+  {
+   "entry_id": 3870,
+   "lemma": "πανουργία",
+   "headword_ocr": "πανουργία",
+   "current_text": "πανουργία, (a) cleverness, usually with the idea that it is evil; (b) cunning, craftiness, Lk. xx 23."
+  }
+ ],
+ "195": [
+  {
+   "entry_id": 3881,
+   "lemma": "παρά",
+   "headword_ocr": "παρά",
+   "current_text": "παρά, (a) ¢. acc. fy, beside, mear, without difference between ‘ where?’ (properly παρὰ rin) and ‘whither? not with persons: (not tn accordance with, opp. κατά) against, contrary to, Rom. i 26, xi 24, 2 Cor. viii 3 (over); differently from, Gal. i8 (cf. 1 Cor. ii 11); more than, sometimes with comparative, Lk. xiii 2, 4, Rom.1iz25, xii 3, xivg; less, 2 Cor Xi 24; οὐ παρὰ τοῦτο κτὰ,, this is no reason that de., 1 Cor. xii 15; (b) c. gen. from the side of, from, only with persons; οἱ παρ᾽ αὐτοῦ, his family, his relations, Mk.iii 21 (in papyri generally = Ais agents, his representatives), τὰ παρ᾽ ἑαυτῆς, her money, her wealth, Mk, v 26, cf. Lk. x 7, Phil.iv18; (0) c. dat. by, beside, answering the question ‘ where?’, with the exception of Johnxix 25 only of persons, not of immediate proximity, but én the house of any one (apud, Fr. chez), Lk. xix 7, John i 39, Ac. x 6, among a people, Rev.ii 13; in the eyes of, e.g. παρὰ τῷ θεῷ, in the Judgement of, Rom, xii 16, &c."
+  },
+  {
+   "entry_id": 3888,
+   "lemma": "παραβολή",
+   "headword_ocr": "παραβολή",
+   "current_text": "παραβολή, a similitude, allegory, parable, emblematic allusion: in Heb. xi 19 ἐν = as."
+  },
+  {
+   "entry_id": 3879,
+   "lemma": "πάντοτε",
+   "headword_ocr": "πάντοτε",
+   "current_text": "πάντοτε, af all times, always."
+  },
+  {
+   "entry_id": 3878,
+   "lemma": "παντοκράτωρ",
+   "headword_ocr": "παντοκράτωρ",
+   "current_text": "παντοκράτωρ, ruler of all, rider of the universe; the LXX introduced κύριος (θεὸς) παντοκράτωρ as a translation of Lord of Hosts."
+  },
+  {
+   "entry_id": 3880,
+   "lemma": "πάντως",
+   "headword_ocr": "πάντως",
+   "current_text": "πάντως, entirely ; in any case; (after a negative) af all; assuredly, to be sure."
+  },
+  {
+   "entry_id": 3884,
+   "lemma": "παράβασις",
+   "headword_ocr": "παράβασις",
+   "current_text": "παράβασις, fransgression; a transgression."
+  },
+  {
+   "entry_id": 3885,
+   "lemma": "παραβάτης",
+   "headword_ocr": "παραβάτης",
+   "current_text": "παραβάτης (lit. an overstepper), a lransgressor, a lawbreaker."
+  }
+ ],
+ "196": [
+  {
+   "entry_id": 3896,
+   "lemma": "παραδίδωμι",
+   "headword_ocr": "παραδίδωμι",
+   "current_text": "παραδίδωμι, 2 hand over, I pledge 5 I hand down, deliver; I betray."
+  },
+  {
+   "entry_id": 3891,
+   "lemma": "παραγίνομαι",
+   "headword_ocr": "παραγίνομαι",
+   "current_text": "παραγίνομαι, (a) I come on the scene, I appear, I come; (0) with words expressing destination, I present myself at, I arrive af, I reach."
+  },
+  {
+   "entry_id": 3890,
+   "lemma": "παραγγέλλω",
+   "headword_ocr": "παραγγέλλω",
+   "current_text": "παραγγέλλω, I command, I charge; παραγγελίᾳ παραγγέλNew (Hebraism), τ charge strictly, Ac.v28."
+  },
+  {
+   "entry_id": 3898,
+   "lemma": "παράδοσις",
+   "headword_ocr": "παράδοσις",
+   "current_text": "παράδοσις, originally abstract, handing over, generally concrete, that which τς handed down, a lradifion (whether of written or of oral teaching)."
+  },
+  {
+   "entry_id": 3904,
+   "lemma": "παραιτέομαι",
+   "headword_ocr": "παραυτέομαι",
+   "current_text": "παραυτέομαι, (a) I beg from another, Mk. xv 6 (v.1.), Heb. xii 19 (cf. (bY); (b) (deprecor), I leg off from, I seek 10 turn away (from myself) ὧν entrealy ; hence, I grve an excuse, I excuse myself, I beg fo be excused, Lk. xiv 18, 19, Heb. xii 25; I decline, refuse, object fo, Ac. xxv 11, 1 Tim. iv 7, v 11, 2 Tim. ii 23, Tit. iii το."
+  },
+  {
+   "entry_id": 3892,
+   "lemma": "παράγω",
+   "headword_ocr": "παράγω",
+   "current_text": "παράγω, (a) 17 pass ὄν, Mt.xx 30, Mk.xvzr, ὅς. ; (b) I vanish, disappear, 1 Cor. vii 31, in which sense the passive is used, 1 John ii 8, 1% (the verb being originally transitive); (0) I depart, Mt. ix g, 27 (the text is doubtful in both passages, and therefore this meaning is questionable); (d) almost. I walk, Mk. i 16, ii 14, xv 21 {2"
+  },
+  {
+   "entry_id": 3895,
+   "lemma": "παραδέχομαι",
+   "headword_ocr": "παραδέχομαι",
+   "current_text": "παραδέχομαι, J γεεεῖσε (welcome) favourably."
+  },
+  {
+   "entry_id": 3889,
+   "lemma": "παραγγελία",
+   "headword_ocr": "παραγγελία",
+   "current_text": "παραγγελία, a command, an injunction; a precept, rule of living, 1 Thess. iv 5."
+  }
+ ],
+ "197": [
+  {
+   "entry_id": 3906,
+   "lemma": "παρακαλέω",
+   "headword_ocr": "παρακαλέω",
+   "current_text": "παρακαλέω, (a) I ask, beseech; (Ὁ) I exhort; (0) I comfort."
+  },
+  {
+   "entry_id": 3915,
+   "lemma": "παραλαμβάνω",
+   "headword_ocr": "παραλαμβάνω",
+   "current_text": "παραλαμβάνω, I fake from, I recetve from, or, I fake to, {recede (apparently not used of money, sec ἀπέχω) ; I lake with me."
+  },
+  {
+   "entry_id": 3909,
+   "lemma": "παράκλησις",
+   "headword_ocr": "παράκλησις",
+   "current_text": "παράκλησις, an appeal, which according to circumstances may be either hortatory, ex/orfation, or consolatory, consolation: in ἘΚ, ἢ 25 it seems to have a quasitechnical sense, with reference to the coming of the Messiah."
+  },
+  {
+   "entry_id": 3910,
+   "lemma": "παράκλητος",
+   "headword_ocr": "παράκλητος",
+   "current_text": "παράκλητος (aduocatus), (originally passive in sense, one called in for support, one summoned as support, but this idea drops into the background: in the technical legal sense it never occurs, but in writings prior to the N.T. has the general sense, ome who speaks in favour of another, an intercessor, helper: it tends thus to have an active sense, and was borrowed by Hebrew and Aramaic) helper; consoler (corresponding to the name Menahem given to the Messiah)."
+  }
+ ],
+ "198": [
+  {
+   "entry_id": 3935,
+   "lemma": "παράπτωμα",
+   "headword_ocr": "παράπτωμα",
+   "current_text": "παράπτωμα (delictum), a falling away, a lapse, a slip, a false step, a trespass."
+  },
+  {
+   "entry_id": 3920,
+   "lemma": "παραλυτικός",
+   "headword_ocr": "παραλυτικός",
+   "current_text": "παραλυτικός, a paralytic, a more colloquial word than παραλελυμένος, the medical term (cf. Lk. v 24)."
+  },
+  {
+   "entry_id": 3934,
+   "lemma": "παραπορεύομαι",
+   "headword_ocr": "παραπορεύομαι",
+   "current_text": "παραπορεύομαι, I go past, Mk. xi 50, xv 29 (= Mt. xxvii 39): I go, apparently a colloquial or incorrect use, Mk.ii 23 (ν.1.), ix 30 (v.1)."
+  }
+ ],
+ "199": [
+  {
+   "entry_id": 3954,
+   "lemma": "πάρειμι",
+   "headword_ocr": "πάρειμι",
+   "current_text": "πάρειμι, am present; I have come, arrived (hence with εἰς, πρός)."
+  },
+  {
+   "entry_id": 3943,
+   "lemma": "παρατίθημι",
+   "headword_ocr": "παρατίθημι",
+   "current_text": "παρατίθημι, (a) (adpono) I sef (especially a meal) before, 4 serve; (Ὁ) (depono) act, and mid., I deposit with, I entrust το."
+  },
+  {
+   "entry_id": 3951,
+   "lemma": "παραχρῆμα",
+   "headword_ocr": "παραχρῆμα",
+   "current_text": "παραχρῆμα, zmmediately."
+  },
+  {
+   "entry_id": 3962,
+   "lemma": "παρεμβολή",
+   "headword_ocr": "παρεμβολή",
+   "current_text": "παρεμβολή (castra), ὦ camp, either a fixed camp (stativa castra), occupied possibly for centuries, a fort, castle, like that at Jerusalem, or a marchingcamp, according to context; hence, the army occupying such, Heb. xi 34."
+  }
+ ],
+ "200": [
+  {
+   "entry_id": 3973,
+   "lemma": "παρίστημι",
+   "headword_ocr": "παριστάνω",
+   "current_text": "παριστάνω, Taplomp, (2) in the transitive tenses, I cause 20 come to and stand beside I bring 3 I present, offer, commend; I introduce (one person to another); I prove by argument, Ac. xxiv 13; (b)in the intransitive tenses, I come up to and stand by, sometimes with the idea of thus providing support (cf. 2 Tim. iv 17)."
+  },
+  {
+   "entry_id": 3965,
+   "lemma": "παρέρχομαι",
+   "headword_ocr": "παρέρχομαι",
+   "current_text": "παρέρχομαι, tr. and intr, I pass by, I pass: sometimes practically, I pass out of sight, I disappear: c. acc. (cf. παραβαίνω) I transgress: intr. I approach, come up to, Lk.xii 37, xvii 7, [Ac.] xxiv 7."
+  },
+  {
+   "entry_id": 3967,
+   "lemma": "παρέχω",
+   "headword_ocr": "παρέχω",
+   "current_text": "παρέχω, act. and mid. I offer, provide, confer, afford, σίρε, bring, show, cause: κόπους (κόπον) τινὶ παρέχειν; to cause one rouble."
+  },
+  {
+   "entry_id": 3970,
+   "lemma": "παρθένος",
+   "headword_ocr": "παρθένος",
+   "current_text": "παρθένος, a matden, a virgin; hence (Rev. xiv 4), extended to men who have not known women: in 1 Cor. vii 25-38, the word must have its usual sense, and refer to women living in merely spiritual wedlock with men. In Mtiz23 παρθένος is an inaccurate translation (due to LXX) of a Heb. word in Isa. vii 14 meaning a female adolescent, a young woman of - marriageable age, whether married or not, rightly translated by Theodotion and Aquila νεᾶνις,"
+  }
+ ],
+ "201": [
+  {
+   "entry_id": 3991,
+   "lemma": "παρρησία",
+   "headword_ocr": "παρρησία",
+   "current_text": "παρρησία, boldness, freedom, liberty, shown especially 771 speech; ἐν παρρησίᾳ, μετὰ παρρησίας, guile openly (opposite to ‘secretly ᾽)."
+  },
+  {
+   "entry_id": 3989,
+   "lemma": "παρουσία",
+   "headword_ocr": "παρουσία",
+   "current_text": "παρουσία (in ordinary Greek = presence ; arrival; also, technical term with reference to Zhe visit of a king or some other official, a royal visit), (a) presence, as opposed to ‘absence’, 1 Cor.xvity, 2 Cor. νἱ] 6, 7 (cf. x 10), Phil.i26, ii12; (Ὁ) a technical eschatological term, representing a word used by Jesus Himself, the presence, coming, arrival, advent of the glorified Messiah, to be followed by a permanent residence with His people (so, in 2 Thess. 11 g, of that of the Lawless One)."
+  },
+  {
+   "entry_id": 3992,
+   "lemma": "παρρησιάζομαι",
+   "headword_ocr": "παρρησιάζομαι",
+   "current_text": "παρρησιάζομαι, I speak boldly, I am bold of speech."
+  }
+ ],
+ "202": [
+  {
+   "entry_id": 3993,
+   "lemma": "πᾶς",
+   "headword_ocr": "πᾶς",
+   "current_text": "πᾶς, adj. in the sing. without the article, every, every kind of 3 inthe sing. with the article preceding or following, The whole, all the ; in the plur, without the article, αὐ: in the plur. with the article following, αὐ /4¢: pronoun masc. every one, neut. everything ; πάντες, all, everybody, πάντα, all things; ob πᾶς, &c., not all, i.e. only some, e.g. Mt xix 11, John xiii 10, Rom. x τύ, but also (like πᾶς kh. + . . οὐ) Hebraistically, especially when words intervene between οὐ and πᾶς, &c. (translation Greek), = none, no, Mt xxiv 22, Mk. xiii 20, Lk.i37, Ac. xx 25, Rom, {ii 20, Gal. ii 16, 2 Pet.i 20, 1 Johnii zx, Rev. vii 16, xxi 27, xxii 3: πάντες οὐ = οὗ πάντες, τ Cor, Xv 51: διὰ παντός (* semper’, ‘omne tempus’, ‘per omnia’, Ambr, expos. ps. cxvii 5.22, 6 30), continually, continuously, always : κατὰ πάντα, in everything, in every respect, Ac.iii 22, xvii 22, &c."
+  },
+  {
+   "entry_id": 4000,
+   "lemma": "πατήρ",
+   "headword_ocr": "πατήρ",
+   "current_text": "πατήρ, (4) father in the strict sense, ¢.g. Mt. 22; (0) any male ancestor, e.g. Muiiig; (ὁ) The Father, used of God as the creator of all beings (cf. Eph.iii 14,15), the fountain and origin of all life, and, among other beings, of our Lord Jesus Christ, who is in a special sense ὁ vids, 22 Son, of the Father (cf. especially Jobn). He is sometimes spoken of as the Heavenly Father, the Father in the 195 02 Heavens (e.g. Mt.v16), as distinguished from earthly fathers. Other epithets, such as τῆς δόξης, τῶν οἰκτιρμῶν, τῶν φώτων, arc attached to the Name, some of them under the influence of IHebrew, expressing not only that He is the author of these signs or qualities, but that they bear a likeness to Him; thus πατὴρ τῆς δόξης = glorious Father."
+  },
+  {
+   "entry_id": 3995,
+   "lemma": "πάσχω",
+   "headword_ocr": "πάσχω",
+   "current_text": "πάσχω, I am acted upon in a certain way, I experience certain treatment, e.g. Mt. xvii 15 (v.1.): hence (by a development from the original use), I experience 1] treatment, &c., I suffer, e.g. Mt. xvii 12."
+  },
+  {
+   "entry_id": 3994,
+   "lemma": "πάσχα",
+   "headword_ocr": "πάσχα",
+   "current_text": "πάσχα (Hebrew, Aramaic), 276. feast of passover, the paschal meal, which took place on the night of full moon after the spring equinox, that is the night between 14th and 15th Nisan. On the afternoon of 14th Nisan before sunset the paschal lamb, also called τὸ πάσχα (so met.,, 1 Cor. ν 7), was sacrificed."
+  },
+  {
+   "entry_id": 3998,
+   "lemma": "πατάσσω",
+   "headword_ocr": "πατάσσω",
+   "current_text": "πατάσσω, I s/rike (as, with a sword)."
+  }
+ ]
+}
