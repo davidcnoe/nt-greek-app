@@ -361,6 +361,9 @@ function applyTabLabels() {
     if (span) span.textContent = caps ? capitals(TAB_LABELS[which][b.dataset.go]) : TAB_LABELS[which][b.dataset.go];
     b.lang = TAB_LANG[which];
   }
+  // Greek labels also put the app's name in Greek at the top (David, 2026-11-09).
+  const brand = document.querySelector("header .brand, .brand");
+  if (brand) { brand.textContent = which === "gr" ? "Τέρτιος" : "Tertius"; brand.lang = which === "gr" ? "grc" : "en"; }
 }
 
 function applyTheme() {
