@@ -899,10 +899,7 @@ function renderAbout() {
   app.innerHTML = `
     <section class="about">
       <h1>About</h1>
-      <p><b>NT Greek</b> (a working name) teaches the vocabulary of the Greek New Testament: the
-        ${words.length.toLocaleString()} words of Bruce Metzger's <i>Lexical Aids</i>, which together make up about ${pct(maxCoverage)}%
-        of the words in the New Testament, each with Souter's <i>Pocket Lexicon</i> entry, and readings from early
-        Christian Greek to try them on.</p>
+      <p><b>NT Greek: The New Testament Vocabulary Trainer.</b> The name is a working title.</p>
       <p class="version">Version ${esc(APP_VERSION)}${meta.built ? ` · word data built ${esc(meta.built)}` : ""}</p>
 
       <h2>How sessions work</h2>
