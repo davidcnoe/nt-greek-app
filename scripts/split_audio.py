@@ -55,6 +55,7 @@ GAIN_OVERRIDES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__
 ONSET_OVERRIDES = os.path.join(os.path.dirname(GAIN_OVERRIDES), "onset_overrides.csv")
 # David's by-ear tightening of a clip that holds several forms (οὐ, οὐκ, οὐχ): id, ratio, note.
 # Each pause of at least 0.15 s between the forms is cut to `ratio` of its length (cut from its middle).
+# `ratio` may list one value per pause, separated by ";" (the last value serves any further pauses).
 GAP_OVERRIDES = os.path.join(os.path.dirname(GAIN_OVERRIDES), "gap_overrides.csv")
 # by-ear fixes per take: kind "skip" sets aside the sound starting nearest `at` seconds (a misreading
 # David said again), kind "missing" says the word `id` was not said at all (record it again), kind
@@ -295,7 +296,7 @@ def limit(y, rate, ceiling):
     return y * smooth
 
 
-def tighten(y, rate, ratio):
+def tighten(y, rate, ratios):
     """Shorten the pauses inside a clip to `ratio` of their length, each cut from its middle with a
     10 ms crossfade, so the forms keep their own onsets and releases."""
     f = int(rate * 0.01)
@@ -307,6 +308,7 @@ def tighten(y, rate, ratio):
     cuts = []
     for a, b in zip(on[:-1], on[1:]):
         if b - a - 1 >= 15:  # a pause of at least 0.15 s between voiced frames
+            ratio = ratios[min(len(cuts), len(ratios) - 1)]
             gap = (b - a - 1) * f
             drop = int(gap * (1 - ratio))
             mid = (a + 1) * f + gap // 2
@@ -504,7 +506,7 @@ def main():
         extra = {r["id"]: float(r["db"]) for r in csv.DictReader(open(GAIN_OVERRIDES, encoding="utf-8-sig"))}
     gaps = {}
     if os.path.exists(GAP_OVERRIDES):
-        gaps = {r["id"]: float(r["ratio"]) for r in csv.DictReader(open(GAP_OVERRIDES, encoding="utf-8-sig"))}
+        gaps = {r["id"]: [float(v) for v in r["ratio"].split(";")] for r in csv.DictReader(open(GAP_OVERRIDES, encoding="utf-8-sig"))}
     lead = {r["id"]: float(r["at"]) for r in fixes if r["kind"] == "lead"}
     made = {}
     for i, (s, e, name) in enumerate(spans):
