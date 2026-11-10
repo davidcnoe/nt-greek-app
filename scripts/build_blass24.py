@@ -54,8 +54,11 @@ def entries():
             out.append({"head": h.group(1), "text": p, "p": page})
         else:
             out[-1]["text"] += " " + p
-            if page != out[-1]["p"].split("–")[0]:
-                out[-1]["p"] = out[-1]["p"].split("–")[0] + "–" + page
+        for inner in re.finditer(r"\*\[p\. (\d+)\]\*", p):  # a page break inside the paragraph
+            page = inner.group(1)
+        first = out[-1]["p"].split("–")[0]
+        if page != first:
+            out[-1]["p"] = first + "–" + page
     return out
 
 
