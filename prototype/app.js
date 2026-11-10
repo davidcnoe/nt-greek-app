@@ -1227,7 +1227,24 @@ function openDialog(html) {
   dlg.scrollTop = 0;
 }
 
-// A word's full entry: Metzger (gloss, derivative, count, root family), Moss, then Souter.
+// Blass, Grammar of N.T. Greek (1898), § 24 Table of noteworthy verbs (data/blass24.json,
+// scripts/build_blass24.py): {e: entries, l: {lemma: [entry index]}}. Loaded in the background.
+let blass24 = null;
+function loadBlass24() {
+  return fetch("data/blass24.json").then(r => r.ok ? r.json() : null).then(d => { blass24 = d; }).catch(() => {});
+}
+function blassHtml(w) {
+  const ix = blass24?.l?.[w.l];
+  if (!ix?.length) return "";
+  return `<details class="lex-blass"><summary>Blass § 24: noteworthy N.T. forms</summary>${ix.map(i => {
+    const e = blass24.e[i];
+    const at = Math.max(0, e.t.indexOf(e.h));
+    return `<div class="lex-body blass" lang="grc">${esc(e.t.slice(0, at))}<b>${esc(e.h)}</b>${esc(e.t.slice(at + e.h.length))}
+      <span class="lex-page">(p. ${esc(e.p)})</span></div>`;
+  }).join("")}</details>`;
+}
+
+// A word's full entry: Metzger (gloss, derivative, count, root family), Moss, Blass § 24, then Souter.
 function openWord(form) {
   const w = byId[form];
   if (!w) return;
@@ -1242,8 +1259,9 @@ function openWord(form) {
     <p class="lex-meta">${times(w.c)} in the New Testament${w.l !== w.id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""}${w.t ? ` · Metzger: ${esc(w.t.replace("Words Occurring ", "").toLowerCase())}` : ""}</p>
     ${famHtml}
     ${w.m && w.mg ? `<p class="lex-meta">Moss, <i>First Greek Reader</i>: ${esc(w.mg)}</p>` : ""}
+    ${blassHtml(w)}
     ${w.s ? `<h3 class="lex-sub">Souter</h3><div class="lex-body souter" lang="grc">${esc(w.s)}</div>` : ""}
-    <p class="lex-source">${w.beyond ? "Souter, <i>Pocket Lexicon</i> (1916)" : `Metzger, <i>Lexical Aids</i> (1946)${w.s ? "; Souter, <i>Pocket Lexicon</i> (1916)" : ""}`}</p>`);
+    <p class="lex-source">${w.beyond ? "Souter, <i>Pocket Lexicon</i> (1916)" : `Metzger, <i>Lexical Aids</i> (1946)${w.s ? "; Souter, <i>Pocket Lexicon</i> (1916)" : ""}`}${blass24?.l?.[w.l] ? "; Blass, <i>Grammar of N.T. Greek</i> (1898)" : ""}</p>`);
 }
 
 // ---------- Readings (Nunn 1920, Appendix II) ----------
@@ -1537,6 +1555,9 @@ function renderAbout() {
         <dt>Lexicon</dt>
         <dd>Alexander Souter, <i>A Pocket Lexicon to the Greek New Testament</i> (Oxford, 1916). Public domain.
           The text is transcribed from the 1917 printing and checked, entry by entry, against the printed page.</dd>
+        <dt>Noteworthy verb forms</dt>
+        <dd>Friedrich Blass, <i>Grammar of New Testament Greek</i>, translated by Henry St. John Thackeray (London, 1898), § 24, Table of noteworthy verbs. Public domain.
+          Shown on the lexicon entries of the verbs it covers.</dd>
         <dt>MossMethod meanings</dt>
         <dd>Charles Melville Moss, <i>A First Greek Reader, with Notes and Vocabulary</i>, revised edition (Boston, 1893), Vocabulary. Public domain.</dd>
         <dt>New Testament text and word counts</dt>
@@ -1628,6 +1649,7 @@ navigator.storage?.persist?.().catch(() => {});
       fetch("icons/mark.svg").then(r => r.text()).then(t => { markSvg = t; }).catch(() => {}),
     ]);
     recorded = audio;
+    loadBlass24();
     meta = lex.meta;
     for (const f of lex.families) families[f.id] = f;
     // The path: units in order, each word once, where it first appears.

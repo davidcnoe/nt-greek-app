@@ -279,6 +279,10 @@ button.link { background: none; border: 0; padding: 0; color: var(--accent); fon
 .lex-meta [lang=grc] { font-family: var(--greek); font-size: 15px; color: var(--ink); }
 .lex-sub { font: 600 15px var(--ui); margin: 16px 0 4px; }
 .lex-body.souter { font: 16px/1.55 var(--greek); color: var(--ink); }
+.lex-blass { margin: 14px 0 4px; }
+.lex-blass summary { font: 600 15px var(--ui); cursor: pointer; }
+.lex-body.blass { font: 15px/1.55 var(--greek); color: var(--ink); margin: 6px 0 10px; }
+.lex-page { font: 12px var(--ui); color: var(--muted); }
 .lex-list .snip.en-snip { font: 14px var(--ui); color: var(--accent); }
 .lex-note { font-size: 14px; color: var(--muted); margin: 10px 0 0; }
 .lex-note b { color: var(--accent); }
