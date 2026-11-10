@@ -5,6 +5,11 @@
 import { fsrs, generatorParameters, createEmptyCard, Rating } from "./vendor/ts-fsrs-5.4.2/index.mjs";
 
 const APP_VERSION = "0.1.0 (prototype)";
+// Inside the store app (David, 2026-11-09: the app wraps this page): the iOS/Android app shows this page
+// in a web view, built into one offline file by app/scripts/build-embed.mjs, which sets window.__TERTIUS.
+// It keeps progress in the device's own storage as well (see save), opens outside links in the phone's
+// browser, and plays audio from files it ships.
+const EMBED = window.__TERTIUS || null;
 // ?profile=name keeps a separate set of progress (for testing without touching real progress).
 const PROFILE = new URLSearchParams(location.search).get("profile");
 const STORE = "ntgreek:progress-v1" + (PROFILE ? `-${PROFILE}` : "");
@@ -123,7 +128,9 @@ function load() {
 }
 
 function save() {
-  try { localStorage.setItem(STORE, JSON.stringify(state)); } catch { /* storage full or blocked */ }
+  const json = JSON.stringify(state);
+  try { localStorage.setItem(STORE, json); } catch { /* storage full or blocked */ }
+  EMBED?.save?.(STORE, json); // the store app keeps its own copy, which survives the web view's storage
 }
 
 // ---------- the memory system ----------
@@ -652,7 +659,11 @@ function applyTheme() {
   if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
   else delete document.documentElement.dataset.theme;
   applyTabLabels();
+  // The store app sets its status bar (clock, battery) to suit the page's light or dark theme.
+  const dark = t === "dark" || (t !== "light" && matchMedia("(prefers-color-scheme: dark)").matches);
+  EMBED?.theme?.(dark ? "dark" : "light");
 }
+matchMedia("(prefers-color-scheme: dark)").addEventListener?.("change", () => { if (state) applyTheme(); });
 
 function renderSettings() {
   session = null;
@@ -781,6 +792,7 @@ function renderSettings() {
     if (confirm("Erase all progress on this device? This can't be undone.")) {
       const keep = state.settings;
       localStorage.removeItem(STORE);
+      EMBED?.save?.(STORE, null);
       state = load();
       state.settings = keep;
       save();
@@ -882,7 +894,7 @@ function playWord(btn) {
   const key = recorded[btn.dataset.audio];
   if (!key) return; // dummy until the word is recorded
   if (player) { player.pause(); document.querySelector(".play.playing")?.classList.remove("playing"); }
-  player = new Audio(`audio/${key}.mp3`);
+  player = new Audio(EMBED?.audioUrl?.(key) || `audio/${key}.mp3`);
   btn.classList.add("playing");
   const done = () => btn.classList.remove("playing");
   player.onended = done;
@@ -1597,7 +1609,15 @@ document.addEventListener("keydown", e => {
 
 // ---------- boot ----------
 
-if ("serviceWorker" in navigator) navigator.serviceWorker.register("sw.js").catch(() => {});
+// In the store app, outside links open in the phone's browser rather than inside the app.
+if (EMBED?.openUrl) document.addEventListener("click", e => {
+  const a = e.target.closest?.("a[href^='http']");
+  if (!a) return;
+  e.preventDefault();
+  EMBED.openUrl(a.href);
+}, true);
+
+if ("serviceWorker" in navigator && !EMBED) navigator.serviceWorker.register("sw.js").catch(() => {});
 navigator.storage?.persist?.().catch(() => {});
 
 (async () => {
