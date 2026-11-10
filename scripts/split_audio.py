@@ -53,6 +53,9 @@ MID_SKIP = 15     # most a sound between two words may cost to set aside (a word
 GAIN_OVERRIDES = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "audio", "gain_overrides.csv")
 # clips whose start reaches back over a quiet initial fricative (see hiss_edges)
 ONSET_OVERRIDES = os.path.join(os.path.dirname(GAIN_OVERRIDES), "onset_overrides.csv")
+# David's by-ear tightening of a clip that holds several forms (οὐ, οὐκ, οὐχ): id, ratio, note.
+# Each pause of at least 0.15 s between the forms is cut to `ratio` of its length (cut from its middle).
+GAP_OVERRIDES = os.path.join(os.path.dirname(GAIN_OVERRIDES), "gap_overrides.csv")
 # by-ear fixes per take: kind "skip" sets aside the sound starting nearest `at` seconds (a misreading
 # David said again), kind "missing" says the word `id` was not said at all (record it again), kind
 # "redo" marks a clip David wants recorded again (cut as usual; audio_bundle.py leaves it out of the app),
@@ -292,6 +295,36 @@ def limit(y, rate, ceiling):
     return y * smooth
 
 
+def tighten(y, rate, ratio):
+    """Shorten the pauses inside a clip to `ratio` of their length, each cut from its middle with a
+    10 ms crossfade, so the forms keep their own onsets and releases."""
+    f = int(rate * 0.01)
+    n = len(y) // f
+    db = 20 * np.log10(np.sqrt((y[:n * f].reshape(n, f) ** 2).mean(1)) + 1e-9)
+    on = np.flatnonzero(db > db.max() - 35)
+    if len(on) < 2:
+        return y
+    cuts = []
+    for a, b in zip(on[:-1], on[1:]):
+        if b - a - 1 >= 15:  # a pause of at least 0.15 s between voiced frames
+            gap = (b - a - 1) * f
+            drop = int(gap * (1 - ratio))
+            mid = (a + 1) * f + gap // 2
+            cuts.append((mid - drop // 2, mid - drop // 2 + drop))
+    fade = int(rate * 0.01)
+    out, prev = [], 0
+    for c0, c1 in cuts:
+        out.append(y[prev:c0])
+        prev = c1
+    out.append(y[prev:])
+    z = out[0]
+    for seg in out[1:]:
+        k = min(fade, len(z), len(seg))
+        w = np.linspace(0, 1, k)
+        z = np.concatenate([z[:len(z) - k], z[len(z) - k:] * (1 - w) + seg[:k] * w, seg[k:]])
+    return z
+
+
 def write_mp3(path, y, rate):
     import lameenc
     enc = lameenc.Encoder()
@@ -469,10 +502,15 @@ def main():
     extra = {}
     if os.path.exists(GAIN_OVERRIDES):
         extra = {r["id"]: float(r["db"]) for r in csv.DictReader(open(GAIN_OVERRIDES, encoding="utf-8-sig"))}
+    gaps = {}
+    if os.path.exists(GAP_OVERRIDES):
+        gaps = {r["id"]: float(r["ratio"]) for r in csv.DictReader(open(GAP_OVERRIDES, encoding="utf-8-sig"))}
     lead = {r["id"]: float(r["at"]) for r in fixes if r["kind"] == "lead"}
     made = {}
     for i, (s, e, name) in enumerate(spans):
         y = clip(x, rate, [(a, b) for a, b, _ in spans], i, lead.get(name, PAD_IN))
+        if name in gaps:
+            y = tighten(y, rate, gaps[name])
         if name in extra:
             # the full by-ear gain; where that would pass PEAK_DB, only the peaks are turned down
             y = y * 10 ** (extra[name] / 20)
