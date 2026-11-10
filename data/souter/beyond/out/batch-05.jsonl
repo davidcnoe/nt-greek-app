@@ -76,7 +76,7 @@
 {"entry_id": 1024, "lemma": "βολή", "page": 58, "text": "βολή, a casting, throw: in acc. as measure of distance.", "gloss": "a casting, throw", "status": "ok", "note": ""}
 {"entry_id": 1025, "lemma": "βολίζω", "page": 58, "text": "βολίζω, I cast the line (for sounding), I sound.", "gloss": "I cast the line (for sounding), I sound", "status": "ok", "note": ""}
 {"entry_id": 1026, "lemma": "Βόος", "page": 58, "text": "Βοός, Βοές (Hebr.), Boos or Boes (Boaz), son of Salmon (Sala) and Rahab, husband of Ruth, father of Iobed.", "gloss": "Boos or Boes (Boaz), son of Salmon (Sala) and Rahab", "status": "ok", "note": ""}
-{"entry_id": 1027, "lemma": "βόρβορος", "page": 58, "text": "βόρβορος, a miry dungeon. hole.", "gloss": "a miry dungeon", "status": "doubt", "note": "The mark between \"dungeon\" and \"hole\" looks like a full stop on the image (possibly a broken hyphen, \"dungeon-hole\"); transcribed as a full stop."}
+{"entry_id": 1027, "lemma": "βόρβορος", "page": 58, "text": "βόρβορος, a miry dungeon. hole.", "gloss": "a miry dungeon", "status": "ok", "note": "The mark between \"dungeon\" and \"hole\" looks like a full stop on the image (possibly a broken hyphen, \"dungeon-hole\"); transcribed as a full stop. | approved by David, 2026-11-09"}
 {"entry_id": 1028, "lemma": "βορρᾶς", "page": 58, "text": "βορρᾶς, the north wind, hence the north.", "gloss": "the north wind", "status": "ok", "note": ""}
 {"entry_id": 1029, "lemma": "βόσκω", "page": 58, "text": "βόσκω, I feed.", "gloss": "I feed", "status": "ok", "note": ""}
 {"entry_id": 1030, "lemma": "Βοσόρ", "page": 58, "text": "Βοσόρ, Bosor, father of Balaam: but see Βεώρ.", "gloss": "Bosor, father of Balaam", "status": "ok", "note": ""}

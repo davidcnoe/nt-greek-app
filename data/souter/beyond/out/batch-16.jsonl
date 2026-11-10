@@ -145,7 +145,7 @@
 {"entry_id": 3756, "lemma": "ὁσάκις", "page": 187, "text": "ὁσάκις, always with ἐάν and subjunctive, as often as, as many times as.", "gloss": "as often as, as many times as", "status": "ok", "note": ""}
 {"entry_id": 3757, "lemma": "ὅσιος", "page": 187, "text": "ὅσιος, (a) holy, pious (implying the right relation to God); τὰ ὅσια, the pieties, the pious deeds, Ac. xiii 34: (b) (Hebrew Chāsīd means not only godly, pious, but also beloved of Yahweh), ὁ ὅσιος, the Holy One (i. e. the Messiah).", "gloss": "holy, pious", "status": "ok", "note": ""}
 {"entry_id": 3758, "lemma": "ὁσιότης", "page": 187, "text": "ὁσιότης, holiness, piety.", "gloss": "holiness, piety", "status": "ok", "note": ""}
-{"entry_id": 3759, "lemma": "ὁσίως", "page": 187, "text": "ὁσίως, religiously, piously.", "gloss": "religiously, piously", "status": "doubt", "note": "punctuation after headword is a faint low mark, read as a comma (could be a full stop)"}
+{"entry_id": 3759, "lemma": "ὁσίως", "page": 187, "text": "ὁσίως, religiously, piously.", "gloss": "religiously, piously", "status": "ok", "note": "punctuation after headword is a faint low mark, read as a comma (could be a full stop) | approved by David, 2026-11-09"}
 {"entry_id": 3760, "lemma": "ὀσμή", "page": 187, "text": "ὀσμή, odour; generally met. in connexion with εὐωδίας (from O.T.), originally of the sweet smelling odour of sacrifice, and then widely used.", "gloss": "odour", "status": "ok", "note": ""}
 {"entry_id": 3763, "lemma": "ὀστέον", "page": 187, "text": "ὀστέον, a bone.", "gloss": "a bone", "status": "ok", "note": ""}
 {"entry_id": 3773, "lemma": "ὀστράκινος", "page": 188, "text": "ὀστράκινος, made of pottery, of earthenware.", "gloss": "made of pottery, of earthenware", "status": "ok", "note": ""}

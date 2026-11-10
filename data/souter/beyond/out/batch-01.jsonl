@@ -42,7 +42,7 @@
 {"entry_id": 61, "lemma": "ἄγνωστος", "page": 11, "text": "ἄγνωστος, unknown, unknowable.", "gloss": "unknown, unknowable", "status": "ok", "note": ""}
 {"entry_id": 64, "lemma": "ἀγοραῖος", "page": 11, "text": "ἀγοραῖος, (a) a lounger in the market-place, perhaps with the idea of agitator, Ac. xvii 5; (b) ἀγοραῖοι (understand ἡμέραι), market days; or (understand σύνοδοι, conuentus) assizes.", "gloss": "a lounger in the market-place", "status": "ok", "note": ""}
 {"entry_id": 65, "lemma": "ἄγρα", "page": 11, "text": "ἄγρα, catching, a catch.", "gloss": "catching, a catch", "status": "ok", "note": ""}
-{"entry_id": 66, "lemma": "ἀγράμματος", "page": 12, "text": "ἀγράμματος, unlettered, illiterate, uneducated, perhaps with the narrower idea, unacquainted with Rabbinic teaching.", "gloss": "unlettered, illiterate, uneducated", "status": "doubt", "note": "'illiterate' is partly blotted on the image; reading inferred"}
+{"entry_id": 66, "lemma": "ἀγράμματος", "page": 12, "text": "ἀγράμματος, unlettered, illiterate, uneducated, perhaps with the narrower idea, unacquainted with Rabbinic teaching.", "gloss": "unlettered, illiterate, uneducated", "status": "ok", "note": "'illiterate' is partly blotted on the image; reading inferred | approved by David, 2026-11-09"}
 {"entry_id": 67, "lemma": "ἀγραυλέω", "page": 12, "text": "ἀγραυλέω, I spend the night in the open, bivouac.", "gloss": "I spend the night in the open, bivouac", "status": "ok", "note": ""}
 {"entry_id": 68, "lemma": "ἀγρεύω", "page": 12, "text": "ἀγρεύω, I catch, capture.", "gloss": "I catch, capture", "status": "ok", "note": ""}
 {"entry_id": 69, "lemma": "ἀγριέλαιος", "page": 12, "text": "ἀγριέλαιος, a wild olive.", "gloss": "a wild olive", "status": "ok", "note": ""}
@@ -85,7 +85,7 @@
 {"entry_id": 119, "lemma": "ἀθέτησις", "page": 14, "text": "ἀθέτησις, annulment.", "gloss": "annulment", "status": "ok", "note": ""}
 {"entry_id": 120, "lemma": "Ἀθῆναι", "page": 14, "text": "Ἀθῆναι, Athens, the intellectual capital of Greece.", "gloss": "Athens, the intellectual capital of Greece", "status": "ok", "note": ""}
 {"entry_id": 121, "lemma": "Ἀθηναῖος", "page": 15, "text": "Ἀθηναῖος, Athenian, belonging to Athens.", "gloss": "Athenian, belonging to Athens", "status": "ok", "note": ""}
-{"entry_id": 122, "lemma": "ἀθλέω", "page": 15, "text": "ἄθλέω, I engage, compete, in an (athletic) contest.", "gloss": "I engage, compete, in an (athletic) contest", "status": "doubt", "note": "headword alpha appears to carry breathing plus acute (ἄθλέω) as well as the acute on έ; possibly a print blemish for ἀθλέω"}
+{"entry_id": 122, "lemma": "ἀθλέω", "page": 15, "text": "ἀθλέω, I engage, compete, in an (athletic) contest.", "gloss": "I engage, compete, in an (athletic) contest", "status": "ok", "note": "David, 2026-11-09: headword is ἀθλέω"}
 {"entry_id": 123, "lemma": "ἄθλησις", "page": 15, "text": "ἄθλησις, a struggling (as in an athletic contest).", "gloss": "a struggling (as in an athletic contest)", "status": "ok", "note": ""}
 {"entry_id": 124, "lemma": "ἀθροίζω", "page": 15, "text": "ἀθροίζω, I gather together, collect.", "gloss": "I gather together, collect", "status": "ok", "note": ""}
 {"entry_id": 125, "lemma": "ἀθυμέω", "page": 15, "text": "ἀθυμέω, I lose heart, am despondent.", "gloss": "I lose heart, am despondent", "status": "ok", "note": ""}
@@ -156,7 +156,7 @@
 {"entry_id": 208, "lemma": "ἀκροθίνιον", "page": 18, "text": "ἀκροθίνιον (lit. top of a heap), spoil, treasure (taken in war).", "gloss": "spoil, treasure (taken in war)", "status": "ok", "note": ""}
 {"entry_id": 209, "lemma": "ἄκρον", "page": 18, "text": "ἄκρον (neut. of adj. ἄκρος), edge, tip.", "gloss": "edge, tip", "status": "ok", "note": ""}
 {"entry_id": 210, "lemma": "Ἀκύλας", "page": 18, "text": "Ἀκύλας, the Greek way of writing the Latin Aquila, a male proper name; the husband of Priscilla (Prisca), and a Jew, of a family belonging to (Sinope in?) Pontus.", "gloss": "the Greek way of writing the Latin Aquila", "status": "ok", "note": ""}
-{"entry_id": 211, "lemma": "ἀκυρόω", "page": 18, "text": "ακυρόω, I annul, make of no effect, cancel.", "gloss": "I annul, make of no effect, cancel", "status": "doubt", "note": "no breathing visible on the headword's initial alpha (printed ακυρόω)"}
+{"entry_id": 211, "lemma": "ἀκυρόω", "page": 18, "text": "ακυρόω, I annul, make of no effect, cancel.", "gloss": "I annul, make of no effect, cancel", "status": "ok", "note": "no breathing visible on the headword's initial alpha (printed ακυρόω) | approved by David, 2026-11-09"}
 {"entry_id": 212, "lemma": "ἀκωλύτως", "page": 18, "text": "ἀκωλύτως (characteristic of legal documents), without let or hindrance.", "gloss": "without let or hindrance", "status": "ok", "note": ""}
 {"entry_id": 213, "lemma": "ἄκων", "page": 18, "text": "ἄκων, unwilling, generally used where English would express by an adverb, unwillingly (cf. inuitus).", "gloss": "unwilling", "status": "ok", "note": ""}
 {"entry_id": 214, "lemma": "ἀλάβαστρος", "page": 18, "text": "ἀλάβαστρος, an alabaster phial or bottle.", "gloss": "an alabaster phial or bottle", "status": "ok", "note": ""}

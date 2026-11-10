@@ -34,7 +34,7 @@
 {"entry_id": 1910, "lemma": "Ἐπαίνετος", "page": 96, "text": "Ἐπαίνετος, Epaenetus, a Christian in Rome.", "gloss": "Epaenetus, a Christian in Rome", "status": "ok", "note": ""}
 {"entry_id": 1911, "lemma": "ἐπαινέω", "page": 96, "text": "ἐπαινέω, I praise, commend.", "gloss": "I praise, commend", "status": "ok", "note": ""}
 {"entry_id": 1915, "lemma": "ἐπαιτέω", "page": 96, "text": "ἐπαιτέω, I beg, am a beggar.", "gloss": "I beg, am a beggar", "status": "ok", "note": ""}
-{"entry_id": 1916, "lemma": "ἐπακολουθέω", "page": 96, "text": "ἐπακολουθέω, I follow close after, I accompany, dog; I promote, 1 Tim. v 10; hence I endorse [Mk.] xvi 20.", "gloss": "I follow close after, I accompany, dog", "status": "doubt", "note": "final punctuation after \"xvi 20\" is faint: looks like a comma, transcribed as a full stop"}
+{"entry_id": 1916, "lemma": "ἐπακολουθέω", "page": 96, "text": "ἐπακολουθέω, I follow close after, I accompany, dog; I promote, 1 Tim. v 10; hence I endorse [Mk.] xvi 20.", "gloss": "I follow close after, I accompany, dog", "status": "ok", "note": "final punctuation after \"xvi 20\" is faint: looks like a comma, transcribed as a full stop | approved by David, 2026-11-09"}
 {"entry_id": 1917, "lemma": "ἐπακούω", "page": 96, "text": "ἐπακούω, I listen to, hear.", "gloss": "I listen to, hear", "status": "ok", "note": ""}
 {"entry_id": 1918, "lemma": "ἐπακροάομαι", "page": 96, "text": "ἐπακροάομαι, I listen to, hearken to.", "gloss": "I listen to, hearken to", "status": "ok", "note": ""}
 {"entry_id": 1919, "lemma": "ἐπάν", "page": 96, "text": "ἐπάν, whensoever.", "gloss": "whensoever", "status": "ok", "note": ""}
@@ -53,7 +53,7 @@
 {"entry_id": 1936, "lemma": "ἐπαφρίζω", "page": 97, "text": "ἐπαφρίζω, I foam out (a metaphor from the seaweed and refuse borne on the crest of waves).", "gloss": "I foam out", "status": "ok", "note": ""}
 {"entry_id": 1938, "lemma": "ἐπεγείρω", "page": 97, "text": "ἐπεγείρω, I arouse, stimulate.", "gloss": "I arouse, stimulate", "status": "ok", "note": ""}
 {"entry_id": 1941, "lemma": "ἐπειδήπερ", "page": 97, "text": "ἐπειδήπερ, since.", "gloss": "since", "status": "ok", "note": ""}
-{"entry_id": 1943, "lemma": "ἔπειμι", "page": 97, "text": "ἔπειμι, in the participle ἐπιοῦσα, coming on, next: τῇ ἐπιούσῃ (understand ἡμέρᾳ), next day.", "gloss": "coming on, next", "status": "doubt", "note": "iota subscripts under η in τῇ ἐπιούσῃ not distinguishable on the image (italic η); assumed present"}
+{"entry_id": 1943, "lemma": "ἔπειμι", "page": 97, "text": "ἔπειμι, in the participle ἐπιοῦσα, coming on, next: τῇ ἐπιούσῃ (understand ἡμέρᾳ), next day.", "gloss": "coming on, next", "status": "ok", "note": "iota subscripts under η in τῇ ἐπιούσῃ not distinguishable on the image (italic η); assumed present | approved by David, 2026-11-09"}
 {"entry_id": 1944, "lemma": "ἐπεισαγωγή", "page": 97, "text": "ἐπεισαγωγή, bringing in, introduction, importation.", "gloss": "bringing in, introduction, importation", "status": "ok", "note": ""}
 {"entry_id": 1945, "lemma": "ἐπεισέρχομαι", "page": 97, "text": "ἐπεισέρχομαι, I come (in) upon.", "gloss": "I come (in) upon", "status": "ok", "note": ""}
 {"entry_id": 1947, "lemma": "ἐπέκεινα", "page": 97, "text": "ἐπέκεινα, beyond.", "gloss": "beyond", "status": "ok", "note": ""}

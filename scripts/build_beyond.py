@@ -49,10 +49,13 @@ for lemma, rs in rows.items():
         first["text"] = " ".join(u["text"] for u in uniq)
     done[lemma] = first
 
+# The word as shown, where David corrects MorphGNT's form (2026-11-09).
+SHOWN = {"Ἁρέτας": "Ἀρέτας"}
+
 words = sorted(done.values(), key=lambda r: (-count[r["entry_id"]], order[r["entry_id"]]))
 out = {
     "meta": {"count": len(words), "source": "Souter, A Pocket Lexicon to the Greek New Testament (1916), proofread against the 1917 printing"},
-    "words": [{"l": r["lemma"], "c": count[r["entry_id"]], "g": r["gloss"].strip().rstrip("."), "s": r["text"]} for r in words],
+    "words": [{"l": SHOWN.get(r["lemma"], r["lemma"]), "c": count[r["entry_id"]], "g": r["gloss"].strip().rstrip("."), "s": r["text"]} for r in words],
 }
 dest = os.path.join(ROOT, "prototype", "data", "beyond.json")
 with open(dest, "w", encoding="utf-8") as f:
