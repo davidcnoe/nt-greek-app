@@ -67,6 +67,8 @@ def main() -> None:
             fam: int | None) -> None:
         if not lemma or lemma not in by_lemma:
             return
+        # Metzger sometimes writes "cf." before his derivative; the app already prints "Cf.".
+        deriv = re.sub(r"^\s*cf\.\s*", "", deriv or "", flags=re.I)
         r = by_lemma[lemma]
         w = words.get(form)
         if w is None:

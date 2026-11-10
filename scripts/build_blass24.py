@@ -4,7 +4,7 @@ Usage: python scripts/build_blass24.py
 
 Reads data/grammars/blass-noteworthy-verbs.md, splits it into Blass's entries, links each to the
 SBLGNT lemmas it covers (M below, checked against data/nt/lemmas.tsv), and writes
-prototype/data/blass24.json: {"e": [{"h": headword, "t": text, "p": "52"}], "l": {lemma: [entry index]}}.
+prototype/data/blass24.json: {"e": [{"h": headword, "t": text, "p": "52" or "54–55"}], "l": {lemma: [entry index]}}.
 Bump VERSION in prototype/sw.js afterwards.
 """
 import json
@@ -54,6 +54,8 @@ def entries():
             out.append({"head": h.group(1), "text": p, "p": page})
         else:
             out[-1]["text"] += " " + p
+            if page != out[-1]["p"].split("–")[0]:
+                out[-1]["p"] = out[-1]["p"].split("–")[0] + "–" + page
     return out
 
 

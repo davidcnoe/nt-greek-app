@@ -1240,7 +1240,7 @@ function blassHtml(w) {
     const e = blass24.e[i];
     const at = Math.max(0, e.t.indexOf(e.h));
     return `<div class="lex-body blass" lang="grc">${esc(e.t.slice(0, at))}<b>${esc(e.h)}</b>${esc(e.t.slice(at + e.h.length))}
-      <span class="lex-page">(p. ${esc(e.p)})</span></div>`;
+      <span class="lex-page">(${e.p.includes("–") ? "pp." : "p."} ${esc(e.p)})</span></div>`;
   }).join("")}</details>`;
 }
 
