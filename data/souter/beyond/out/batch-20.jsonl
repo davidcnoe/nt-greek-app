@@ -41,7 +41,7 @@
 {"entry_id": 4640, "lemma": "σάρδιον", "page": 238, "text": "σάρδιον, sardius, sard, a quartz of a deep red colour.", "gloss": "sardius, sard, a quartz of a deep red colour", "status": "ok", "note": ""}
 {"entry_id": 4641, "lemma": "σαρδόνυξ", "page": 238, "text": "σαρδόνυξ, sardonyx.", "gloss": "sardonyx", "status": "ok", "note": ""}
 {"entry_id": 4642, "lemma": "Σάρεπτα", "page": 238, "text": "Σάρεπτα, Sarepta, a town in the district of Sidon in Phoenicia.", "gloss": "Sarepta, a town in the district of Sidon in Phoenicia", "status": "ok", "note": ""}
-{"entry_id": 4643, "lemma": "σαρκικός", "page": 238, "text": "σαρκικός (carnalis), generally ethical, belonging to σάρξ (which see), belonging to the natural life of man as a creature of flesh, with the characteristics of σάρξ, fleshly, unspiritual, carnal.", "gloss": "belonging to σάρξ", "status": "ok", "note": ""}
+{"entry_id": 4643, "lemma": "σαρκικός", "page": 238, "text": "σαρκικός (carnalis), generally ethical, belonging to σάρξ (which see), belonging to the natural life of man as a creature of flesh, with the characteristics of σάρξ, fleshly, unspiritual, carnal.", "gloss": "fleshly, unspiritual, carnal", "status": "ok", "note": "gloss chosen by David, 2026-11-11"}
 {"entry_id": 4644, "lemma": "σάρκινος", "page": 238, "text": "σάρκινος (carneus), material, made of flesh, consisting of flesh.", "gloss": "material, made of flesh, consisting of flesh", "status": "ok", "note": ""}
 {"entry_id": 4663, "lemma": "σαρόω", "page": 239, "text": "σαρόω, I sweep.", "gloss": "I sweep", "status": "ok", "note": ""}
 {"entry_id": 4664, "lemma": "Σάρρα", "page": 239, "text": "Σάρρα (Hebr.), Sarah, wife of Abraham.", "gloss": "Sarah, wife of Abraham", "status": "ok", "note": ""}
@@ -91,7 +91,7 @@
 {"entry_id": 4717, "lemma": "σιρικός", "page": 242, "text": "σιρικός (an inexact spelling of σηρικός, adj. formed from Σῆρες, the Chinese, from whose country silk was obtained), silken; silk fabrics (or garments).", "gloss": "silken", "status": "ok", "note": ""}
 {"entry_id": 4719, "lemma": "σιτευτός", "page": 242, "text": "σιτευτός (altilis), fed up (with grain), fattened.", "gloss": "fed up (with grain), fattened", "status": "ok", "note": ""}
 {"entry_id": 4720, "lemma": "σιτίον", "page": 242, "text": "σιτίον, food made of corn, bread.", "gloss": "food made of corn, bread", "status": "ok", "note": ""}
-{"entry_id": 4721, "lemma": "σιτιστός", "page": 242, "text": "σιτιστός, the same in meaning as the much commoner σιτευτός.", "gloss": "the same in meaning as the much commoner σιτευτός", "status": "ok", "note": ""}
+{"entry_id": 4721, "lemma": "σιτιστός", "page": 242, "text": "σιτιστός, the same in meaning as the much commoner σιτευτός.", "gloss": "the same in meaning as the much commoner σιτευτός", "status": "ok", "note": "left out of the quiz by David, 2026-11-11", "quiz": false}
 {"entry_id": 4722, "lemma": "σιτομέτριον", "page": 242, "text": "σιτομέτριον, measure of corn, portion of corn, allowance of corn.", "gloss": "measure of corn, portion of corn, allowance of corn", "status": "ok", "note": ""}
 {"entry_id": 4724, "lemma": "Σιών", "page": 242, "text": "Σιών, Sion, Zion, the mountain on which the Davidic citadel of Jerusalem was built, and thus the centre of the life of the people Israel.", "gloss": "Sion, Zion", "status": "ok", "note": ""}
 {"entry_id": 4728, "lemma": "σκάπτω", "page": 243, "text": "σκάπτω, I dig.", "gloss": "I dig", "status": "ok", "note": ""}
@@ -106,12 +106,12 @@
 {"entry_id": 4741, "lemma": "σκήνωμα", "page": 244, "text": "σκήνωμα, a tent, really a humble word for the permanent building aimed at, Ac. vii 46: of the body as the temporary abode of the soul.", "gloss": "a tent", "status": "ok", "note": ""}
 {"entry_id": 4743, "lemma": "σκιρτάω", "page": 244, "text": "σκιρτάω, I leap, bound, jump.", "gloss": "I leap, bound, jump", "status": "ok", "note": ""}
 {"entry_id": 4744, "lemma": "σκληροκαρδία", "page": 244, "text": "σκληροκαρδία (Hebraistic, from σκληρός and καρδία, as the seat of the will), stiffness, stubbornness, unyieldingness, obduracy.", "gloss": "stiffness, stubbornness, unyieldingness, obduracy", "status": "ok", "note": ""}
-{"entry_id": 4745, "lemma": "σκληρός", "page": 244, "text": "σκληρός (properly hard), (a) strong, James iii 4; (b) met. harsh, rough; almost = dangerous, Ac. xxvi 14.", "gloss": "strong", "status": "ok", "note": ""}
+{"entry_id": 4745, "lemma": "σκληρός", "page": 244, "text": "σκληρός (properly hard), (a) strong, James iii 4; (b) met. harsh, rough; almost = dangerous, Ac. xxvi 14.", "gloss": "strong; harsh, rough", "status": "ok", "note": "gloss chosen by David, 2026-11-11"}
 {"entry_id": 4746, "lemma": "σκληρότης", "page": 244, "text": "σκληρότης, obstinacy.", "gloss": "obstinacy", "status": "ok", "note": ""}
 {"entry_id": 4747, "lemma": "σκληροτράχηλος", "page": 244, "text": "σκληροτράχηλος, stiff-necked, stubborn.", "gloss": "stiff-necked, stubborn", "status": "ok", "note": ""}
 {"entry_id": 4748, "lemma": "σκληρύνω", "page": 244, "text": "σκληρύνω, I make unyielding.", "gloss": "I make unyielding", "status": "ok", "note": ""}
 {"entry_id": 4749, "lemma": "σκολιός", "page": 244, "text": "σκολιός, crooked: hence met. perverse, of turning off from the truth, crooked in nature.", "gloss": "crooked", "status": "ok", "note": ""}
-{"entry_id": 4750, "lemma": "σκόλοψ", "page": 244, "text": "σκόλοψ, originally a stake; but commonly in N.T. times a thorn; a splinter: met. referring to some physical trouble.", "gloss": "a stake", "status": "ok", "note": ""}
+{"entry_id": 4750, "lemma": "σκόλοψ", "page": 244, "text": "σκόλοψ, originally a stake; but commonly in N.T. times a thorn; a splinter: met. referring to some physical trouble.", "gloss": "a thorn; a splinter", "status": "ok", "note": "gloss chosen by David, 2026-11-11"}
 {"entry_id": 4751, "lemma": "σκοπέω", "page": 244, "text": "σκοπέω, I look upon, I gaze upon, watch.", "gloss": "I look upon, I gaze upon, watch", "status": "ok", "note": ""}
 {"entry_id": 4752, "lemma": "σκοπός", "page": 244, "text": "σκοπός, a mark to be aimed at (e.g. by an archer).", "gloss": "a mark to be aimed at", "status": "ok", "note": ""}
 {"entry_id": 4753, "lemma": "σκορπίζω", "page": 244, "text": "σκορπίζω, I scatter.", "gloss": "I scatter", "status": "ok", "note": ""}
@@ -142,7 +142,7 @@
 {"entry_id": 4786, "lemma": "σπεῖρα", "page": 246, "text": "σπεῖρα, a cohort, that is about 600 infantry, under the command of a tribune.", "gloss": "a cohort, that is about 600 infantry", "status": "ok", "note": ""}
 {"entry_id": 4788, "lemma": "σπεκουλάτωρ", "page": 246, "text": "σπεκουλάτωρ (Latin), a scout; a courier: also an executioner.", "gloss": "a scout", "status": "ok", "note": ""}
 {"entry_id": 4789, "lemma": "σπένδομαι", "page": 246, "text": "σπένδω, I pour out an offering of wine to a god: hence pass. met. of the outpouring of one’s life blood in service and suffering.", "gloss": "I pour out an offering of wine to a god", "status": "ok", "note": ""}
-{"entry_id": 4791, "lemma": "σπερμολόγος", "page": 246, "text": "σπερμολόγος (from σπέρμα and λέγω: a slang term in Ac.), used properly of a bird picking up seeds; hence a parasite, hanger on: also of one who picks up scraps of information and retails them at secondhand, an ignorant plagiarist.", "gloss": "used properly of a bird picking up seeds", "status": "ok", "note": ""}
+{"entry_id": 4791, "lemma": "σπερμολόγος", "page": 246, "text": "σπερμολόγος (from σπέρμα and λέγω: a slang term in Ac.), used properly of a bird picking up seeds; hence a parasite, hanger on: also of one who picks up scraps of information and retails them at secondhand, an ignorant plagiarist.", "gloss": "a parasite, hanger on", "status": "ok", "note": "gloss chosen by David, 2026-11-11"}
 {"entry_id": 4792, "lemma": "σπεύδω", "page": 246, "text": "σπεύδω, I hasten, hurry.", "gloss": "I hasten, hurry", "status": "ok", "note": ""}
 {"entry_id": 4793, "lemma": "σπήλαιον", "page": 246, "text": "σπήλαιον, a cave (especially as inhabited).", "gloss": "a cave", "status": "ok", "note": ""}
 {"entry_id": 4794, "lemma": "σπιλάς", "page": 246, "text": "σπιλάς, adjectivally used with ἄνεμος understood, a dirty, foul (lit.), miry wind, perhaps of its effect on the water.", "gloss": "a dirty, foul (lit.), miry wind", "status": "ok", "note": ""}

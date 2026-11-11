@@ -11,7 +11,7 @@
 {"entry_id": 15, "lemma": "ἀγαθοεργέω", "page": 8, "text": "ἀγαθοεργέω (ἀγαθουργέω), I work that which is good, I perform good deeds.", "gloss": "I work that which is good, I perform good deeds", "status": "ok", "note": ""}
 {"entry_id": 17, "lemma": "ἀγαθοποιΐα", "page": 9, "text": "ἀγαθοποιία, the doing of that which is good.", "gloss": "the doing of that which is good", "status": "ok", "note": "headword printed ἀγαθοποιία (no diaeresis)"}
 {"entry_id": 18, "lemma": "ἀγαθοποιός", "page": 9, "text": "ἀγαθοποιός (adj. as noun), a doer of that which is good (ἀγαθοποιῶν gen. pl. masc., 1 Pet. ii 14) (opp. κακοποιός).", "gloss": "a doer of that which is good", "status": "ok", "note": ""}
-{"entry_id": 21, "lemma": "ἀγαθουργέω", "page": 9, "text": "ἀγαθουργέω (contracted form of ἀγαθοεργέω, which see).", "gloss": "contracted form of ἀγαθοεργέω, which see", "status": "ok", "note": ""}
+{"entry_id": 21, "lemma": "ἀγαθουργέω", "page": 9, "text": "ἀγαθουργέω (contracted form of ἀγαθοεργέω, which see).", "gloss": "contracted form of ἀγαθοεργέω, which see", "status": "ok", "note": "left out of the quiz by David, 2026-11-11", "quiz": false}
 {"entry_id": 22, "lemma": "ἀγαθωσύνη", "page": 9, "text": "ἀγαθωσύνη, (intrinsic) goodness (especially as a personal quality), with stress on the kindly (rather than the righteous) side of goodness.", "gloss": "(intrinsic) goodness", "status": "ok", "note": ""}
 {"entry_id": 23, "lemma": "ἀγαλλίασις", "page": 9, "text": "ἀγαλλίασις, wild joy, ecstatic delight, exultation, exhilaration.", "gloss": "wild joy, ecstatic delight, exultation, exhilaration", "status": "ok", "note": ""}
 {"entry_id": 25, "lemma": "ἄγαμος", "page": 9, "text": "ἄγαμος, unmarried, not married, of a person not in a state of wedlock, whether he or she has formerly been married or not.", "gloss": "unmarried, not married", "status": "ok", "note": ""}
@@ -25,7 +25,7 @@
 {"entry_id": 37, "lemma": "ἄγγος", "page": 10, "text": "ἄγγος, a vessel.", "gloss": "a vessel", "status": "ok", "note": ""}
 {"entry_id": 39, "lemma": "ἀγέλη", "page": 10, "text": "ἀγέλη, a herd.", "gloss": "a herd", "status": "ok", "note": ""}
 {"entry_id": 40, "lemma": "ἀγενεαλόγητος", "page": 10, "text": "ἀγενεαλόγητος, unprovided with a genealogy, whose descent cannot be traced.", "gloss": "unprovided with a genealogy, whose descent cannot be traced", "status": "ok", "note": ""}
-{"entry_id": 41, "lemma": "ἀγενής", "page": 10, "text": "ἀγενής, literally, without γένος (family); hence ignoble.", "gloss": "literally, without γένος (family)", "status": "ok", "note": ""}
+{"entry_id": 41, "lemma": "ἀγενής", "page": 10, "text": "ἀγενής, literally, without γένος (family); hence ignoble.", "gloss": "ignoble", "status": "ok", "note": "gloss chosen by David, 2026-11-11"}
 {"entry_id": 45, "lemma": "ἁγιότης", "page": 11, "text": "ἁγιότης, holiness (see ἅγιος), as an abstract quality.", "gloss": "holiness", "status": "ok", "note": ""}
 {"entry_id": 46, "lemma": "ἁγιωσύνη", "page": 11, "text": "ἁγιωσύνη, the resulting state of the ἅγιος, holy or sanctified state.", "gloss": "the resulting state of the ἅγιος, holy or sanctified state", "status": "ok", "note": ""}
 {"entry_id": 47, "lemma": "ἀγκάλη", "page": 11, "text": "ἀγκάλη, an arm, especially as bent to receive a burden.", "gloss": "an arm, especially as bent to receive a burden", "status": "ok", "note": ""}

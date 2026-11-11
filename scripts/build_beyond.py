@@ -30,6 +30,8 @@ for path in sorted(glob.glob(os.path.join(SOUTER, "beyond", "out", "batch-*.json
         r = json.loads(line)
         if r["status"] in ("wrong_entry", "not_found") and r["entry_id"] not in KEEP_WRONG:
             continue
+        if r.get("quiz") is False:  # left out by David (2026-11-11)
+            continue
         if not r.get("gloss") or not r.get("text") or r["gloss"].lower().startswith(XREF):
             continue
         rows.setdefault(r["lemma"], []).append(r)

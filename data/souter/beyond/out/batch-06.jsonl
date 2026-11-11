@@ -3,7 +3,7 @@
 {"entry_id": 1152, "lemma": "γραώδης", "page": 64, "text": "γραώδης (anilis), belonging to old women, such as old women tell.", "gloss": "belonging to old women, such as old women tell", "status": "ok", "note": ""}
 {"entry_id": 1154, "lemma": "γυμνάζω", "page": 64, "text": "γυμνάζω, I train by physical exercise: hence, train in widest sense; with gen. of sphere, 2 Pet. ii 14.", "gloss": "I train by physical exercise", "status": "ok", "note": ""}
 {"entry_id": 1155, "lemma": "γυμνασία", "page": 64, "text": "γυμνασία (physical) exercise, in a wide sense, ‘escarum, balnearum, uenationum et huius modi’ (Pelagius).", "gloss": "(physical) exercise", "status": "ok", "note": ""}
-{"entry_id": 1156, "lemma": "γυμνιτεύω", "page": 64, "text": "γυμνιτεύω, I am habitually γυμνός, that is, I wear the under-garment (χιτών, tunica) only, it being the regular practice to wear two garments.", "gloss": "I am habitually γυμνός", "status": "ok", "note": ""}
+{"entry_id": 1156, "lemma": "γυμνιτεύω", "page": 64, "text": "γυμνιτεύω, I am habitually γυμνός, that is, I wear the under-garment (χιτών, tunica) only, it being the regular practice to wear two garments.", "gloss": "I wear the under-garment only", "status": "ok", "note": "gloss chosen by David, 2026-11-11"}
 {"entry_id": 1158, "lemma": "γυμνότης", "page": 64, "text": "γυμνότης, nakedness, cf. γυμνός, γυμνιτεύω.", "gloss": "nakedness", "status": "ok", "note": ""}
 {"entry_id": 1159, "lemma": "γυναικάριον", "page": 64, "text": "γυναικάριον (muliercula), a woman with all a woman's weakness, a poor weak woman.", "gloss": "a woman with all a woman's weakness", "status": "ok", "note": ""}
 {"entry_id": 1160, "lemma": "γυναικεῖος", "page": 64, "text": "γυναικεῖος, belonging to woman, of woman.", "gloss": "belonging to woman, of woman", "status": "ok", "note": ""}
@@ -44,7 +44,7 @@
 {"entry_id": 1208, "lemma": "δεκατόω", "page": 66, "text": "δεκατόω, I tithe, I collect tithe from.", "gloss": "I tithe, I collect tithe from", "status": "ok", "note": ""}
 {"entry_id": 1209, "lemma": "δεκτός", "page": 66, "text": "δεκτός, acceptable.", "gloss": "acceptable", "status": "ok", "note": ""}
 {"entry_id": 1210, "lemma": "δελεάζω", "page": 66, "text": "δελεάζω, I allure (by a bait).", "gloss": "I allure (by a bait)", "status": "ok", "note": ""}
-{"entry_id": 1212, "lemma": "δεξιολάβος", "page": 67, "text": "δεξιολάβος, a word of uncertain meaning, indicating some class of soldier (cf. Nestle in Archiv für lateinische Lexikographie, Bd. xii, 581-2).", "gloss": "a word of uncertain meaning, indicating some class of soldier", "status": "ok", "note": ""}
+{"entry_id": 1212, "lemma": "δεξιολάβος", "page": 67, "text": "δεξιολάβος, a word of uncertain meaning, indicating some class of soldier (cf. Nestle in Archiv für lateinische Lexikographie, Bd. xii, 581-2).", "gloss": "some class of soldier", "status": "ok", "note": "gloss chosen by David, 2026-11-11"}
 {"entry_id": 1217, "lemma": "Δερβαῖος", "page": 67, "text": "Δερβαῖος, Derbean, belonging to Derbe.", "gloss": "Derbean, belonging to Derbe", "status": "ok", "note": ""}
 {"entry_id": 1218, "lemma": "Δέρβη", "page": 67, "text": "Δέρβη, Derbe, a town in Lycaonia and in the southern part of the Roman province Galatia.", "gloss": "Derbe, a town in Lycaonia", "status": "ok", "note": ""}
 {"entry_id": 1219, "lemma": "δέρμα", "page": 67, "text": "δέρμα, a hide, skin.", "gloss": "a hide, skin", "status": "ok", "note": ""}
