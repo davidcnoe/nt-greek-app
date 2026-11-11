@@ -943,6 +943,7 @@ function renderCard() {
 
 // The answer: Metzger's gloss, his English derivative ("Cf. …"), Moss's gloss (Settings → MossMethod),
 // the NT count, and the lexicon entry.
+// Beyond Metzger: Souter's full entry shows under the short gloss after every answer (David, 2026-11-11).
 function showBack() {
   const id = idOf(session.current);
   const w = byId[id];
@@ -952,6 +953,7 @@ function showBack() {
       ${isRev(session.current) ? `<p class="english answer-greek">${greekHtml(w)}</p>` : `<p class="english">${esc(w.g)}</p>`}
       ${w.d ? `<p class="cf">Cf. ${esc(w.d)}</p>` : ""}
       ${moss ? `<p class="moss-gloss"><b>Moss</b> ${esc(w.mg)}</p>` : ""}
+      ${w.beyond ? `<p class="souter-entry" lang="grc"><b>Souter</b> ${esc(w.s)}</p>` : ""}
       <div class="count">${w.c.toLocaleString()}× in NT${w.l !== id ? ` (as <span lang="grc">${esc(w.l)}</span>)` : ""} · <button class="link" id="lexlink">Lexicon</button></div>
     </div>`;
   document.getElementById("lexlink").onclick = () => openWord(id);
