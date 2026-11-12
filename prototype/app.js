@@ -890,11 +890,31 @@ function autoplay() {
   const b = state.settings.autoplay === "on" && app.querySelector(".play[data-audio]");
   if (b) playWord(b);
 }
-function playWord(btn) {
+// The clips come in packs of up to 100 (audio/pack_NN.json, {key: base64 mp3}; scripts/audio_bundle.py),
+// loaded when first needed and kept as in-memory URLs; all packs load quietly soon after start.
+const clipUrl = {}, packLoad = {};
+function loadPack(n) {
+  return packLoad[n] = packLoad[n] || fetch(`audio/pack_${String(n).padStart(2, "0")}.json`)
+    .then(r => r.json()).then(d => {
+      for (const [k, b64] of Object.entries(d)) {
+        const bin = atob(b64), bytes = new Uint8Array(bin.length);
+        for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+        clipUrl[k] = URL.createObjectURL(new Blob([bytes], { type: "audio/mpeg" }));
+      }
+    }).catch(() => { delete packLoad[n]; });
+}
+const packOf = key => Math.floor(Number(key.slice(1)) / 100);
+function preloadPacks() {
+  const ns = [...new Set(Object.values(recorded).map(packOf))];
+  (ns.reduce((p, n) => p.then(() => loadPack(n)), Promise.resolve()));
+}
+async function playWord(btn) {
   const key = recorded[btn.dataset.audio];
   if (!key) return; // dummy until the word is recorded
   if (player) { player.pause(); document.querySelector(".play.playing")?.classList.remove("playing"); }
-  player = new Audio(EMBED?.audioUrl?.(key) || `audio/${key}.mp3`);
+  const url = EMBED?.audioUrl?.(key) || clipUrl[key] || (await loadPack(packOf(key)), clipUrl[key]);
+  if (!url) return;
+  player = new Audio(url);
   btn.classList.add("playing");
   const done = () => btn.classList.remove("playing");
   player.onended = done;
@@ -1651,6 +1671,7 @@ navigator.storage?.persist?.().catch(() => {});
       fetch("icons/mark.svg").then(r => r.text()).then(t => { markSvg = t; }).catch(() => {}),
     ]);
     recorded = audio;
+    setTimeout(preloadPacks, 1500);
     loadBlass24();
     meta = lex.meta;
     for (const f of lex.families) families[f.id] = f;

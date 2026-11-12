@@ -44,6 +44,17 @@ def main():
     for f in OUT.glob("*.mp3"):
         if f.stem not in have:
             f.unlink()
+    # Packs: the clips also go out in 13 files of up to 100 (pack_00.json holds T0001–T0099, pack_01 T0100–T0199
+    # …), {key: base64 mp3}, because the preview artifact may hold at most 512 files (2026-11-12). The app
+    # plays from the packs; the single .mp3 files stay in the repo for checking by ear.
+    import base64
+    packs = {}
+    for k in sorted(have):
+        packs.setdefault(int(k[1:]) // 100, {})[k] = base64.b64encode((OUT / f"{k}.mp3").read_bytes()).decode()
+    for f in OUT.glob("pack_*.json"):
+        f.unlink()
+    for n, d in packs.items():
+        (OUT / f"pack_{n:02d}.json").write_text(json.dumps(d, separators=(",", ":")), encoding="utf-8")
     LIST.write_text(json.dumps({word_of[k]: k for k in sorted(have)}, ensure_ascii=False), encoding="utf-8")
     print(f"{len(have)} clips copied; {len(ids) - len(have)} words have none yet")
     owed = sorted({r["id"] for r in rows if r["kind"] in ("redo", "missing") and r["take"] in approved and r["id"] not in have})
