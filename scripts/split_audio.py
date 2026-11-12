@@ -391,7 +391,7 @@ tr.on td {{ background: #e5f4e4; }}
 button {{ font: inherit; padding: 6px 14px; border-radius: 6px; border: 1px solid #1b6b6b; background: #fff; color: #1b6b6b; cursor: pointer; }}
 button.play {{ padding: 4px 10px; }}
 </style></head><body>
-<h1>Tertius audio: clip review</h1>
+<h1>Tertius audio: {html.escape(os.path.splitext(os.path.basename(take))[0].replace("take_", "take "))} clip review</h1>
 <div>From <code>{html.escape(take)}</code>.</div>
 <div class="how"><div class="{'' if ok else 'bad'}">{html.escape(status)}</div><div>{html.escape(level)}</div>
 <div>Press <b>Play all</b> and read along; the row being played is highlighted. Click any row to hear that clip.
@@ -438,8 +438,14 @@ document.getElementById("copy").onclick = () => {{
   const parts = [redo.length && `record again: ${{redo.join("; ")}}`, louder.length && `raise volume: ${{louder.join("; ")}}`,
                  open.length && `not good, no choice made: ${{open.join("; ")}}`].filter(Boolean);
   const txt = `{html.escape(take)}: ` + (parts.length ? `approve all except — ${{parts.join(" — ")}}` : "approve all");
-  navigator.clipboard.writeText(txt).then(() => document.getElementById("msg").textContent = "Copied: " + txt,
-    () => document.getElementById("msg").textContent = txt);
+  const msg = document.getElementById("msg");
+  const fallback = () => {{  // the clipboard is blocked: copy through a selected text box, and show the line
+    const ta = document.createElement("textarea"); ta.value = txt; document.body.appendChild(ta); ta.select();
+    let ok = false; try {{ ok = document.execCommand("copy"); }} catch (e) {{}}
+    ta.remove(); msg.textContent = ok ? "Copied: " + txt : "Copy this line by hand: " + txt;
+  }};
+  if (navigator.clipboard) navigator.clipboard.writeText(txt).then(() => msg.textContent = "Copied: " + txt, fallback);
+  else fallback();
 }};
 document.getElementById("stop").onclick = () => {{ queue = []; audio.pause(); [...t.rows].forEach(r => r.classList.remove("on")); }};
 </script></body></html>
