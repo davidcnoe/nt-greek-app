@@ -390,12 +390,6 @@ tr.on td {{ background: #e5f4e4; }}
 .why {{ display: none; margin-top: 4px; }} .why.show {{ display: block; }} .why .ok {{ color: #a8402a; }}
 button {{ font: inherit; padding: 6px 14px; border-radius: 6px; border: 1px solid #1b6b6b; background: #fff; color: #1b6b6b; cursor: pointer; }}
 button.play {{ padding: 4px 10px; }}
-/* dark mode (David, 2026-11-11) */
-:root {{ color-scheme: dark; }}
-body {{ background: #14171c; color: #e6e2da; }} h1 {{ color: #f1ece2; }} a {{ color: #7cc4c4; }}
-.how {{ background: #232830; color: #e6e2da; }} td {{ border-bottom-color: #333a44; }} tr.on td {{ background: #20402f; }}
-.g {{ color: #f1ece2; }} .e, .t, .n {{ color: #9a9fa8; }} .bad, .why .ok {{ color: #f08a6c; }} .ok {{ color: #7cc4c4; }}
-button {{ background: #1d2229; color: #7cc4c4; border-color: #3f8f8f; }}
 </style></head><body>
 <h1>Tertius audio: clip review</h1>
 <div>From <code>{html.escape(take)}</code>.</div>
