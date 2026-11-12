@@ -386,7 +386,8 @@ tr.on td {{ background: #e5f4e4; }}
 .n {{ width: 32px; color: #888; text-align: right; }}
 .g {{ font: 30px Vollkorn, "GFS Didot", serif; }}
 .e, .t {{ color: #777; font-size: 14px; }}
-.ok {{ font-size: 14px; color: #1b6b6b; white-space: nowrap; }} .ok input {{ width: 18px; height: 18px; vertical-align: -3px; }}
+.ok {{ font-size: 14px; color: #1b6b6b; white-space: nowrap; display: block; }} .ok input {{ width: 18px; height: 18px; vertical-align: -3px; }}
+.why {{ display: none; margin-top: 4px; }} .why.show {{ display: block; }} .why .ok {{ color: #a8402a; }}
 button {{ font: inherit; padding: 6px 14px; border-radius: 6px; border: 1px solid #1b6b6b; background: #fff; color: #1b6b6b; cursor: pointer; }}
 button.play {{ padding: 4px 10px; }}
 </style></head><body>
@@ -394,7 +395,8 @@ button.play {{ padding: 4px 10px; }}
 <div>From <code>{html.escape(take)}</code>.</div>
 <div class="how"><div class="{'' if ok else 'bad'}">{html.escape(status)}</div><div>{html.escape(level)}</div>
 <div>Press <b>Play all</b> and read along; the row being played is highlighted. Click any row to hear that clip.
-Every clip starts ticked as good: untick any to record again, then press <b>Copy decisions</b> and paste the result to Claude.</div></div>
+Every clip starts ticked as good. Untick any that isn't, then tick <b>redo</b> (record it again) or <b>raise volume</b>,
+and press <b>Copy decisions</b> and paste the result to Claude.</div></div>
 <p><button id="all">Play all</button> <button id="stop">Stop</button> <button id="copy">Copy decisions</button> <span id="msg" class="e"></span></p>
 <table id="t"></table>
 <script>
@@ -406,9 +408,18 @@ items.forEach((it, i) => {{
   tr.innerHTML = `<td class="n">${{it.n}}</td><td class="g" lang="grc"></td><td class="e"></td>
     <td class="t">${{it.flag && it.flag !== "aside" ? "<span class=bad>‹?› " + it.flag + "</span><br>" : ""}}${{it.src ? it.at.toFixed(1) + " s · " + it.len.toFixed(2) + " s" : "<span class=bad>no clip</span>"}}</td>
     <td>${{it.src ? '<button class="play">▶</button>' : ""}}</td>
-    <td>${{it.id && it.src ? '<label class="ok"><input type="checkbox" checked> good</label>' : ""}}</td>`;
-  const box = tr.querySelector("input");
-  if (box) {{ box.onclick = e => e.stopPropagation(); tr.querySelector("label").onclick = e => e.stopPropagation(); it.box = box; }}
+    <td>${{it.id && it.src ? `<label class="ok"><input type="checkbox" class="good" checked> good</label>
+      <div class="why"><label class="ok"><input type="checkbox" class="redo"> redo</label>
+      <label class="ok"><input type="checkbox" class="louder"> raise volume</label></div>` : ""}}</td>`;
+  const box = tr.querySelector("input.good");
+  if (box) {{
+    tr.querySelectorAll("label, input").forEach(el => el.onclick = e => e.stopPropagation());
+    const why = tr.querySelector(".why"), redo = tr.querySelector(".redo"), louder = tr.querySelector(".louder");
+    box.onchange = () => {{ why.classList.toggle("show", !box.checked); if (box.checked) redo.checked = louder.checked = false; }};
+    redo.onchange = () => {{ if (redo.checked) louder.checked = false; }};   // one or the other
+    louder.onchange = () => {{ if (louder.checked) redo.checked = false; }};
+    Object.assign(it, {{ box, redo, louder }});
+  }}
   tr.cells[1].textContent = it.greek;
   tr.cells[2].textContent = it.english;
   if (it.src) tr.onclick = () => {{ queue = []; play(i); }};
@@ -421,8 +432,12 @@ function play(i) {{
 audio.onended = () => {{ if (queue.length) setTimeout(() => play(queue.shift()), 400); else [...t.rows].forEach(r => r.classList.remove("on")); }};
 document.getElementById("all").onclick = () => {{ queue = items.map((it, i) => i).filter(i => items[i].src); play(queue.shift()); }};
 document.getElementById("copy").onclick = () => {{
-  const bad = items.filter(it => it.box && !it.box.checked).map(it => `${{it.id}} ${{it.greek}}`);
-  const txt = `{html.escape(take)}: ` + (bad.length ? `approve all except, record again: ${{bad.join("; ")}}` : "approve all");
+  const off = items.filter(it => it.box && !it.box.checked), name = it => `${{it.id}} ${{it.greek}}`;
+  const redo = off.filter(it => it.redo.checked).map(name), louder = off.filter(it => it.louder.checked).map(name);
+  const open = off.filter(it => !it.redo.checked && !it.louder.checked).map(name);
+  const parts = [redo.length && `record again: ${{redo.join("; ")}}`, louder.length && `raise volume: ${{louder.join("; ")}}`,
+                 open.length && `not good, no choice made: ${{open.join("; ")}}`].filter(Boolean);
+  const txt = `{html.escape(take)}: ` + (parts.length ? `approve all except — ${{parts.join(" — ")}}` : "approve all");
   navigator.clipboard.writeText(txt).then(() => document.getElementById("msg").textContent = "Copied: " + txt,
     () => document.getElementById("msg").textContent = txt);
 }};
