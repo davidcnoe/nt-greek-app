@@ -1,0 +1,77 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>Tertius audio: clip review</title>
+<link href="https://fonts.googleapis.com/css2?family=Vollkorn:wght@400;600&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+body { font: 16px/1.5 "Source Sans 3", sans-serif; color: #222; max-width: 760px; margin: 32px auto; padding: 0 16px; }
+h1 { font: 600 26px Vollkorn, serif; margin: 0 0 4px; }
+.how { background: #f4f1ea; border-radius: 8px; padding: 12px 18px; margin: 16px 0 20px; }
+.bad { color: #a8402a; font-weight: 600; }
+table { border-collapse: collapse; width: 100%; }
+td { border-bottom: 1px solid #ddd; padding: 8px; vertical-align: middle; }
+tr.on td { background: #e5f4e4; }
+.n { width: 32px; color: #888; text-align: right; }
+.g { font: 30px Vollkorn, "GFS Didot", serif; }
+.e, .t { color: #777; font-size: 14px; }
+.ok { font-size: 14px; color: #1b6b6b; white-space: nowrap; display: block; } .ok input { width: 18px; height: 18px; vertical-align: -3px; }
+.why { display: none; margin-top: 4px; } .why.show { display: block; } .why .ok { color: #a8402a; }
+button { font: inherit; padding: 6px 14px; border-radius: 6px; border: 1px solid #1b6b6b; background: #fff; color: #1b6b6b; cursor: pointer; }
+button.play { padding: 4px 10px; }
+</style></head><body>
+<h1>Tertius audio: e31349cb-take r2 clip review</h1>
+<div>From <code>e31349cb-take_r2.wav</code>.</div>
+<div class="how"><div class="">4 words matched to the script&#x27;s lines. </div><div>Peak level of the take: -7 dBFS. Each clip is normalized, but a take peaking near −12 dBFS keeps hiss lower.</div>
+<div>Press <b>Play all</b> and read along; the row being played is highlighted. Click any row to hear that clip.
+Every clip starts ticked as good. Untick any that isn't, then tick <b>redo</b> (record it again) or <b>raise volume</b>,
+and press <b>Copy decisions</b> and paste the result to Claude.</div></div>
+<p><button id="all">Play all</button> <button id="stop">Stop</button> <button id="copy">Copy decisions</button> <span id="msg" class="e"></span></p>
+<table id="t"></table>
+<script>
+const items = [{"n": "694", "id": "T0694", "greek": "συνσταυρόω", "english": "I crucify along with", "src": "T0694.mp3", "at": 0.51, "len": 1.45, "flag": ""}, {"n": "700", "id": "T0700", "greek": "θλῖψις", "english": "tribulation", "src": "T0700.mp3", "at": 2.18, "len": 0.99, "flag": ""}, {"n": "976", "id": "T0976", "greek": "εἰκών", "english": "an image", "src": "T0976.mp3", "at": 3.37, "len": 0.94, "flag": ""}, {"n": "1228", "id": "T1228", "greek": "περισσοτέρως", "english": "more abundantly", "src": "T1228.mp3", "at": 4.77, "len": 1.38, "flag": ""}];
+const t = document.getElementById("t"), audio = new Audio();
+let queue = [];
+items.forEach((it, i) => {
+  const tr = t.insertRow();
+  tr.innerHTML = `<td class="n">${it.n}</td><td class="g" lang="grc"></td><td class="e"></td>
+    <td class="t">${it.flag && it.flag !== "aside" ? "<span class=bad>‹?› " + it.flag + "</span><br>" : ""}${it.src ? it.at.toFixed(1) + " s · " + it.len.toFixed(2) + " s" : "<span class=bad>no clip</span>"}</td>
+    <td>${it.src ? '<button class="play">▶</button>' : ""}</td>
+    <td>${it.id && it.src ? `<label class="ok"><input type="checkbox" class="good" checked> good</label>
+      <div class="why"><label class="ok"><input type="checkbox" class="redo"> redo</label>
+      <label class="ok"><input type="checkbox" class="louder"> raise volume</label></div>` : ""}</td>`;
+  const box = tr.querySelector("input.good");
+  if (box) {
+    tr.querySelectorAll("label, input").forEach(el => el.onclick = e => e.stopPropagation());
+    const why = tr.querySelector(".why"), redo = tr.querySelector(".redo"), louder = tr.querySelector(".louder");
+    box.onchange = () => { why.classList.toggle("show", !box.checked); if (box.checked) redo.checked = louder.checked = false; };
+    redo.onchange = () => { if (redo.checked) louder.checked = false; };   // one or the other
+    louder.onchange = () => { if (louder.checked) redo.checked = false; };
+    Object.assign(it, { box, redo, louder });
+  }
+  tr.cells[1].textContent = it.greek;
+  tr.cells[2].textContent = it.english;
+  if (it.src) tr.onclick = () => { queue = []; play(i); };
+});
+function play(i) {
+  [...t.rows].forEach((r, j) => r.classList.toggle("on", j === i));
+  audio.src = items[i].src;
+  audio.play();
+}
+audio.onended = () => { if (queue.length) setTimeout(() => play(queue.shift()), 400); else [...t.rows].forEach(r => r.classList.remove("on")); };
+document.getElementById("all").onclick = () => { queue = items.map((it, i) => i).filter(i => items[i].src); play(queue.shift()); };
+document.getElementById("copy").onclick = () => {
+  const off = items.filter(it => it.box && !it.box.checked), name = it => `${it.id} ${it.greek}`;
+  const redo = off.filter(it => it.redo.checked).map(name), louder = off.filter(it => it.louder.checked).map(name);
+  const open = off.filter(it => !it.redo.checked && !it.louder.checked).map(name);
+  const parts = [redo.length && `record again: ${redo.join("; ")}`, louder.length && `raise volume: ${louder.join("; ")}`,
+                 open.length && `not good, no choice made: ${open.join("; ")}`].filter(Boolean);
+  const txt = `e31349cb-take_r2.wav: ` + (parts.length ? `approve all except — ${parts.join(" — ")}` : "approve all");
+  const msg = document.getElementById("msg");
+  const fallback = () => {  // the clipboard is blocked: copy through a selected text box, and show the line
+    const ta = document.createElement("textarea"); ta.value = txt; document.body.appendChild(ta); ta.select();
+    let ok = false; try { ok = document.execCommand("copy"); } catch (e) {}
+    ta.remove(); msg.textContent = ok ? "Copied: " + txt : "Copy this line by hand: " + txt;
+  };
+  if (navigator.clipboard) navigator.clipboard.writeText(txt).then(() => msg.textContent = "Copied: " + txt, fallback);
+  else fallback();
+};
+document.getElementById("stop").onclick = () => { queue = []; audio.pause(); [...t.rows].forEach(r => r.classList.remove("on")); };
+</script></body></html>
