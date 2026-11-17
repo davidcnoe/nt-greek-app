@@ -3401,19 +3401,26 @@ return f0?f0(u,o):Promise.reject(new Error("offline"));};})();</script>
   }
   var clipUrl = {};
   var packLoad = {};
+  function ingestPack(d) {
+    if (!d) throw new Error("no pack");
+    for (const [k, b64] of Object.entries(d)) {
+      const bin = atob(b64), bytes = new Uint8Array(bin.length);
+      for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+      clipUrl[k] = URL.createObjectURL(new Blob([bytes], { type: "audio/mpeg" }));
+    }
+  }
   function loadPack(n) {
-    return packLoad[n] = packLoad[n] || fetch(`audio/pack_${String(n).padStart(2, "0")}.json`).then((r) => r.json()).then((d) => {
-      for (const [k, b64] of Object.entries(d)) {
-        const bin = atob(b64), bytes = new Uint8Array(bin.length);
-        for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-        clipUrl[k] = URL.createObjectURL(new Blob([bytes], { type: "audio/mpeg" }));
-      }
-    }).catch(() => {
-      delete packLoad[n];
-    });
+    if (!packLoad[n]) {
+      const get = EMBED?.loadPack ? EMBED.loadPack(n) : fetch(`audio/pack_${String(n).padStart(2, "0")}.bin`).then((r) => r.json());
+      packLoad[n] = get.then(ingestPack).catch(() => {
+        delete packLoad[n];
+      });
+    }
+    return packLoad[n];
   }
   var packOf = (key) => Math.floor(Number(key.slice(1)) / 100);
   function preloadPacks() {
+    if (EMBED?.loadPack) return;
     const ns = [...new Set(Object.values(recorded).map(packOf))];
     ns.reduce((p, n) => p.then(() => loadPack(n)), Promise.resolve());
   }

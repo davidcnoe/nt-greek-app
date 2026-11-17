@@ -37,6 +37,8 @@ published, so confirm before the first store build.
 
 ## Still to do
 
-- **Audio**: when the headword recordings exist, ship them with the app and let the page play them through
-  `window.__TERTIUS.audioUrl(key)` (the hook is in place; the files are not yet bundled).
+- **Audio** is bundled: the 13 packs in `../prototype/audio/pack_NN.bin` (JSON text, 100 clips each) are read by `metro.config.js`
+  and listed in `src/embedded/audioPacks.ts`. On a phone the page asks the app for a pack when it first plays one
+  (`window.__TERTIUS.loadPack`), and the app reads the bundled file and hands it back. On the web the page fetches
+  `audio/pack_NN.bin`; `scripts-preview.sh` copies the packs into the export. Not yet tried on a device.
 - Test on a real iPhone and Android phone (development build or TestFlight / internal testing).

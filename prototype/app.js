@@ -890,21 +890,30 @@ function autoplay() {
   const b = state.settings.autoplay === "on" && app.querySelector(".play[data-audio]");
   if (b) playWord(b);
 }
-// The clips come in packs of up to 100 (audio/pack_NN.json, {key: base64 mp3}; scripts/audio_bundle.py),
+// The clips come in packs of up to 100 (audio/pack_NN.bin, {key: base64 mp3}; scripts/audio_bundle.py),
 // loaded when first needed and kept as in-memory URLs; all packs load quietly soon after start.
 const clipUrl = {}, packLoad = {};
+function ingestPack(d) {
+  if (!d) throw new Error("no pack");
+  for (const [k, b64] of Object.entries(d)) {
+    const bin = atob(b64), bytes = new Uint8Array(bin.length);
+    for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+    clipUrl[k] = URL.createObjectURL(new Blob([bytes], { type: "audio/mpeg" }));
+  }
+}
+// In the store app the packs ship inside the app and the app hands them over (EMBED.loadPack); on the web
+// they are fetched.
 function loadPack(n) {
-  return packLoad[n] = packLoad[n] || fetch(`audio/pack_${String(n).padStart(2, "0")}.json`)
-    .then(r => r.json()).then(d => {
-      for (const [k, b64] of Object.entries(d)) {
-        const bin = atob(b64), bytes = new Uint8Array(bin.length);
-        for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
-        clipUrl[k] = URL.createObjectURL(new Blob([bytes], { type: "audio/mpeg" }));
-      }
-    }).catch(() => { delete packLoad[n]; });
+  if (!packLoad[n]) {
+    const get = EMBED?.loadPack ? EMBED.loadPack(n)
+      : fetch(`audio/pack_${String(n).padStart(2, "0")}.bin`).then(r => r.json());
+    packLoad[n] = get.then(ingestPack).catch(() => { delete packLoad[n]; });
+  }
+  return packLoad[n];
 }
 const packOf = key => Math.floor(Number(key.slice(1)) / 100);
 function preloadPacks() {
+  if (EMBED?.loadPack) return;   // the app is offline already; each pack is read when its first word is played
   const ns = [...new Set(Object.values(recorded).map(packOf))];
   (ns.reduce((p, n) => p.then(() => loadPack(n)), Promise.resolve()));
 }

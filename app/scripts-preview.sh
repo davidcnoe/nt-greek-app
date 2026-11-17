@@ -12,6 +12,8 @@ cd "$(dirname "$0")"
 rm -rf dist
 npx expo export --platform web --output-dir dist
 mv dist/_expo dist/expo-static
+# The page fetches its audio packs (audio/pack_NN.bin) on the web; they live in ../prototype/audio.
+mkdir -p dist/audio && cp ../prototype/audio/pack_*.bin dist/audio/
 sed -i 's#src="/_expo/#src="expo-static/#g; s#href="/favicon.ico"#href="favicon.ico"#g' dist/index.html
 sed -i 's#<head>#<head><script>globalThis.__B=location.pathname.replace(/[^/]*$/,"");</script>#' dist/index.html
 find dist/expo-static -name '*.js' -print0 | xargs -0 sed -i \

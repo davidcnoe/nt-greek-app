@@ -9,12 +9,14 @@
 // - Safe areas: the page runs under the status bar and home indicator and pads its own header and bottom
 //   bar by the device's insets, so their colours reach the screen's edges in either theme; it tells the
 //   app its theme so the status bar's clock and icons stay legible.
+import { Asset } from 'expo-asset';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { StatusBar } from 'expo-status-bar';
 import React, { useEffect, useMemo, useRef, useState } from 'react';
 import { Linking, useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { WebView as RNWebView, type WebViewMessageEvent, type WebViewProps } from 'react-native-webview';
+import audioPacks from './audioPacks';
 import page from './page';
 
 // The package's typings default the class's extra props to `undefined`, which leaves no valid props
@@ -28,7 +30,7 @@ const KEY_PREFIX = 'ntgreek:';
 const BASE_URL = 'https://tertius.latinperdiem.com/';
 const BG = { light: '#fbf9f5', dark: '#10151f' };
 
-type Message = { t: 'save'; k: string; v: string | null } | { t: 'open'; u: string } | { t: 'theme'; v: 'light' | 'dark' };
+type Message = { t: 'save'; k: string; v: string | null } | { t: 'pack'; n: number } | { t: 'open'; u: string } | { t: 'theme'; v: 'light' | 'dark' };
 
 export default function TertiusView() {
   const system = useColorScheme() === 'dark' ? 'dark' : 'light';
@@ -55,8 +57,11 @@ function send(m){window.ReactNativeWebView&&window.ReactNativeWebView.postMessag
 window.__TERTIUS={
   save:function(k,v){send({t:'save',k:k,v:v});},
   openUrl:function(u){send({t:'open',u:u});},
-  theme:function(v){send({t:'theme',v:v});}
+  theme:function(v){send({t:'theme',v:v});},
+  loadPack:function(n){return new Promise(function(res){pend[n]=res;send({t:'pack',n:n});});}
 };
+var pend={};
+window.__TERTIUS_pack=function(n,json){var r=pend[n];delete pend[n];if(r)r(json?JSON.parse(json):null);};
 document.documentElement.style.setProperty('--safe-top','${Math.round(insets.top)}px');
 document.documentElement.style.setProperty('--safe-bottom','${Math.round(insets.bottom)}px');
 })();</script>`;
@@ -71,6 +76,21 @@ document.documentElement.style.setProperty('--safe-bottom','${Math.round(insets.
 window.dispatchEvent(new Event('resize'));true;`);
   }, [insets.top, insets.bottom]);
 
+  // Audio: the page asks for a pack of 100 clips when it first plays one; the app reads the bundled file
+  // and hands its text over (null if it can't be read, and the page tries again on the next tap).
+  const sendPack = async (n: number) => {
+    let text: string | null = null;
+    try {
+      const mod = audioPacks[n];
+      if (mod) {
+        const asset = Asset.fromModule(mod);
+        await asset.downloadAsync();
+        text = await (await fetch(asset.localUri ?? asset.uri)).text();
+      }
+    } catch { /* leave null */ }
+    web.current?.injectJavaScript(`window.__TERTIUS_pack(${n},${JSON.stringify(text)});true;`);
+  };
+
   const onMessage = (e: WebViewMessageEvent) => {
     let m: Message;
     try { m = JSON.parse(e.nativeEvent.data); } catch { return; }
@@ -78,6 +98,8 @@ window.dispatchEvent(new Event('resize'));true;`);
       (m.v == null ? AsyncStorage.removeItem(m.k) : AsyncStorage.setItem(m.k, m.v)).catch(() => {});
     } else if (m.t === 'open' && /^https?:\/\//.test(m.u)) {
       Linking.openURL(m.u).catch(() => {});
+    } else if (m.t === 'pack') {
+      sendPack(m.n);
     } else if (m.t === 'theme') {
       setTheme(m.v);
     }
