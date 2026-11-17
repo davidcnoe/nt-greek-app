@@ -3409,9 +3409,16 @@ return f0?f0(u,o):Promise.reject(new Error("offline"));};})();</script>
       clipUrl[k] = URL.createObjectURL(new Blob([bytes], { type: "audio/mpeg" }));
     }
   }
+  function fetchPack(n) {
+    const base = `audio/pack_${String(n).padStart(2, "0")}`;
+    return fetch(base + ".bin").then((r) => {
+      if (!r.ok) throw 0;
+      return r.json();
+    }).catch(() => fetch(base + ".json").then((r) => r.json()));
+  }
   function loadPack(n) {
     if (!packLoad[n]) {
-      const get = EMBED?.loadPack ? EMBED.loadPack(n) : fetch(`audio/pack_${String(n).padStart(2, "0")}.bin`).then((r) => r.json());
+      const get = EMBED?.loadPack ? EMBED.loadPack(n) : fetchPack(n);
       packLoad[n] = get.then(ingestPack).catch(() => {
         delete packLoad[n];
       });

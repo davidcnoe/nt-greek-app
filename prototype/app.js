@@ -903,10 +903,16 @@ function ingestPack(d) {
 }
 // In the store app the packs ship inside the app and the app hands them over (EMBED.loadPack); on the web
 // they are fetched.
+// pack_NN.bin, or pack_NN.json where a host will not serve .bin files (the preview artifact).
+function fetchPack(n) {
+  const base = `audio/pack_${String(n).padStart(2, "0")}`;
+  return fetch(base + ".bin").then(r => { if (!r.ok) throw 0; return r.json(); })
+    .catch(() => fetch(base + ".json").then(r => r.json()));
+}
 function loadPack(n) {
   if (!packLoad[n]) {
     const get = EMBED?.loadPack ? EMBED.loadPack(n)
-      : fetch(`audio/pack_${String(n).padStart(2, "0")}.bin`).then(r => r.json());
+      : fetchPack(n);
     packLoad[n] = get.then(ingestPack).catch(() => { delete packLoad[n]; });
   }
   return packLoad[n];
