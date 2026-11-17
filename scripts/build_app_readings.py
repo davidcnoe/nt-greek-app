@@ -38,6 +38,9 @@ def bare(word: str) -> str:
 
 def main() -> None:
     form_lemma = {}
+    if not any(MORPHGNT.glob("*-morphgnt.txt")):
+        # Without it every NT lemma is lost and the "taught" shares drop (seen 2026-11-17: 0.95 -> 0.86).
+        raise SystemExit(f"MorphGNT not found at {MORPHGNT}: git clone https://github.com/morphgnt/sblgnt.git there first")
     for f in sorted(MORPHGNT.glob("*-morphgnt.txt")):
         for line in f.read_text(encoding="utf-8").splitlines():
             c = line.split()
